@@ -1,0 +1,165 @@
+---
+import { getRelativeLocaleUrl } from 'astro:i18n';
+import { localeLabels, localeMenuOrder, localeTags, type Locale } from '@i18n/index';
+
+interface Props {
+  locale: Locale;
+  /** Route below the locale prefix, so switching keeps the reader in place. */
+  route?: string;
+}
+
+const { locale, route = '' } = Astro.props;
+---
+
+<div class="switch" data-locale-menu>
+  {/*
+    Expanded menu: EN → ZH → JP above the trigger.
+    Desktop: hover / focus-within. Touch: tap trigger to open, outside to close.
+  */}
+  <ul class="switch__list" role="list">
+    {
+      localeMenuOrder.map((code) => {
+        const current = code === locale;
+        return (
+          <li>
+            <a
+              class:list={['switch__option', current && 'is-current']}
+              href={getRelativeLocaleUrl(code, route)}
+              hreflang={localeTags[code]}
+              data-locale-switch={code}
+              aria-current={current ? 'page' : undefined}
+            >
+              {localeLabels[code]}
+            </a>
+          </li>
+        );
+      })
+    }
+  </ul>
+  <button
+    class="switch__current"
+    type="button"
+    data-locale-trigger
+    aria-expanded="false"
+    aria-haspopup="listbox"
+  >
+    {localeLabels[locale]}
+  </button>
+</div>
+
+<script>
+  import { LOCALE_STORAGE_KEY, isLocale } from '@i18n/index';
+
+  const canHover = () => matchMedia('(hover: hover) and (pointer: fine)').matches;
+
+  let abort: AbortController | null = null;
+
+  const bind = () => {
+    abort?.abort();
+    abort = new AbortController();
+    const { signal } = abort;
+
+    document.querySelectorAll<HTMLElement>('[data-locale-menu]').forEach((menu) => {
+      const trigger = menu.querySelector<HTMLButtonElement>('[data-locale-trigger]');
+      if (!trigger) return;
+
+      const setOpen = (open: boolean) => {
+        menu.classList.toggle('is-open', open);
+        trigger.setAttribute('aria-expanded', open ? 'true' : 'false');
+      };
+
+      trigger.addEventListener(
+        'click',
+        (event) => {
+          if (canHover()) return;
+          event.stopPropagation();
+          setOpen(!menu.classList.contains('is-open'));
+        },
+        { signal },
+      );
+
+      menu.querySelectorAll<HTMLAnchorElement>('[data-locale-switch]').forEach((link) => {
+        link.addEventListener(
+          'click',
+          () => {
+            const code = link.dataset.localeSwitch;
+            if (isLocale(code)) localStorage.setItem(LOCALE_STORAGE_KEY, code);
+            setOpen(false);
+          },
+          { signal },
+        );
+      });
+
+      document.addEventListener(
+        'pointerdown',
+        (event) => {
+          const target = event.target;
+          if (!(target instanceof Node) || menu.contains(target)) return;
+          setOpen(false);
+        },
+        { capture: true, signal },
+      );
+    });
+  };
+
+  document.addEventListener('astro:page-load', bind);
+</script>
+
+<style>
+  .switch {
+    position: relative;
+    line-height: var(--leading-flat);
+  }
+
+  .switch__current {
+    display: block;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background: transparent;
+    color: inherit;
+    font: inherit;
+    letter-spacing: inherit;
+    line-height: inherit;
+    cursor: default;
+  }
+
+  .switch__list {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    display: grid;
+    gap: var(--leading-flat);
+    padding-bottom: var(--leading-flat);
+    opacity: 0;
+    visibility: hidden;
+    transition:
+      opacity var(--duration-fast) var(--ease-out),
+      visibility var(--duration-fast);
+  }
+
+  @media (hover: hover) and (pointer: fine) {
+    .switch:hover .switch__list,
+    .switch:focus-within .switch__list {
+      opacity: 1;
+      visibility: visible;
+    }
+  }
+
+  .switch.is-open .switch__list {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .switch__option {
+    display: block;
+    color: inherit;
+    transition: color var(--duration-fast) var(--ease-out);
+  }
+
+  @media (hover: hover) and (pointer: fine) {
+    .switch__option:hover {
+      color: var(--color-fg);
+    }
+  }
+</style>

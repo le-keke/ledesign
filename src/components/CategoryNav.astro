@@ -1,0 +1,83 @@
+---
+import { getDictionary, type Locale } from '@i18n/index';
+
+interface Props {
+  locale: Locale;
+  active?: 'work' | 'research';
+}
+
+const { locale, active = 'work' } = Astro.props;
+const t = getDictionary(locale);
+---
+
+<nav class="nav" aria-label="Categories">
+  <button
+    class="nav__item"
+    type="button"
+    data-category="work"
+    aria-pressed={active === 'work'}
+  >
+    {t.categories.work}
+  </button>
+  {/* Research route arrives with the Research home Figma link. */}
+  <button
+    class="nav__item"
+    type="button"
+    data-category="research"
+    aria-pressed={active === 'research'}
+  >
+    {t.categories.research}
+  </button>
+</nav>
+
+<style>
+  .nav {
+    display: flex;
+    gap: 1.875rem; /* 30px — Figma filter tab gap */
+    line-height: var(--leading-flat);
+  }
+
+  /*
+   * Exclusion sources (parent uses mix-blend-mode: exclusion):
+   * selected #fff → black on white; muted #3f3f3f → soft grey.
+   */
+  .nav__item {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background: transparent;
+    font: inherit;
+    letter-spacing: inherit;
+    line-height: inherit;
+    color: var(--color-exclusion-fg-muted);
+    white-space: nowrap;
+    cursor: default;
+    transition: color var(--duration-fast) var(--ease-out);
+  }
+
+  .nav__item[aria-pressed='true'] {
+    color: var(--color-exclusion-fg);
+  }
+
+  @media (hover: hover) and (pointer: fine) {
+    .nav__item:hover {
+      color: var(--color-exclusion-fg);
+    }
+  }
+
+  .nav__item:focus {
+    outline: none;
+  }
+
+  .nav__item:focus-visible {
+    outline: 1px solid var(--color-exclusion-fg);
+    outline-offset: 2px;
+  }
+
+  /* ≤1240: filters move into the menu panel (design TBD). */
+  @media (max-width: 1240px) {
+    .nav {
+      display: none;
+    }
+  }
+</style>

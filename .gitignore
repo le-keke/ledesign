@@ -1,0 +1,22 @@
+# Local reference sites — do not push; delete after migration
+ledesign/
+lejing/
+
+# Local planning notes — keep offline only
+项目需求.md
+项目执行清单.md
+
+# Dependencies & build
+node_modules/
+dist/
+.astro/
+.vercel/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# OS / editor noise
+.DS_Store
+*.log

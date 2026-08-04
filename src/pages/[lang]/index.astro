@@ -1,0 +1,222 @@
+---
+import { getRelativeLocaleUrl } from 'astro:i18n';
+import BaseLayout from '@layouts/BaseLayout.astro';
+import About from '@components/About.astro';
+import CategoryNav from '@components/CategoryNav.astro';
+import Footer from '@components/Footer.astro';
+import Logo from '@components/Logo.astro';
+import MenuButton from '@components/MenuButton.astro';
+import { locales, type Locale } from '@i18n/index';
+import { projects } from '@data/projects';
+
+export function getStaticPaths() {
+  return locales.map((lang) => ({ params: { lang } }));
+}
+
+const locale = Astro.params.lang as Locale;
+---
+
+<BaseLayout locale={locale}>
+  <div data-home>
+    {/* Scrollable feed — chrome (filter / logo / about / footer) is fixed. */}
+    <div class="screen page" data-feed-scroll>
+      <main class="grid">
+        <div class="grid__main">
+          <div class="grid feed">
+            {
+              projects.map((project) => (
+                <a
+                  class="cover"
+                  href={getRelativeLocaleUrl(locale, `projects/${project.slug}`)}
+                  data-astro-prefetch
+                >
+                  <div class="cover__media" />
+                </a>
+              ))
+            }
+          </div>
+        </div>
+      </main>
+    </div>
+
+    {/*
+      Two fixed layers (same as lejing): exclusion for nav / logo / footer so they
+      stay legible on covers; About stays on a plain layer so it isn’t inverted.
+    */}
+    <div class="chrome chrome--blend page">
+      <div class="grid chrome__grid">
+        <div class="grid__main chrome__nav">
+          <CategoryNav locale={locale} />
+        </div>
+        <div class="grid__info chrome__info">
+          <div class="chrome__logo">
+            <Logo locale={locale} />
+          </div>
+          <div class="chrome__foot">
+            <Footer locale={locale} />
+          </div>
+        </div>
+      </div>
+      {/* Phone: top-right control. Panel design later. */}
+      <div class="chrome__phone-end">
+        <MenuButton />
+      </div>
+    </div>
+
+    <div class="chrome chrome--plain page">
+      <div class="grid chrome__grid">
+        <div class="grid__info chrome__aside">
+          <About locale={locale} />
+        </div>
+      </div>
+    </div>
+  </div>
+</BaseLayout>
+
+<style>
+  .screen {
+    padding-block-start: calc(var(--page-edge-y) + var(--leading-flat) + var(--feed-gap-top));
+    padding-block-end: var(--page-edge-y);
+    min-height: 100svh;
+  }
+
+  .feed {
+    align-content: start;
+    align-items: start;
+    row-gap: var(--grid-gutter);
+  }
+
+  .cover {
+    grid-column: span var(--cover-span);
+    display: block;
+    aspect-ratio: 1;
+  }
+
+  .cover__media {
+    width: 100%;
+    height: 100%;
+    background: rgb(153 153 153 / 0.22);
+  }
+
+  .chrome {
+    position: fixed;
+    inset-block: var(--page-edge-y);
+    inset-inline: 0;
+    z-index: 1;
+    pointer-events: none;
+    overscroll-behavior: none;
+  }
+
+  .chrome__grid {
+    height: 100%;
+    /* Force the single row to fill the chrome height so logo/footer can pin. */
+    grid-template-rows: minmax(0, 1fr);
+    align-items: stretch;
+  }
+
+  .chrome--blend {
+    z-index: 2;
+    mix-blend-mode: exclusion;
+    color: var(--color-exclusion-fg);
+  }
+
+  .chrome--plain {
+    z-index: 1;
+  }
+
+  .chrome__nav,
+  .chrome__logo,
+  .chrome__foot,
+  .chrome__phone-end {
+    pointer-events: auto;
+  }
+
+  .chrome__nav {
+    align-self: start;
+  }
+
+  .chrome__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-self: stretch;
+    height: 100%;
+    min-height: 0;
+  }
+
+  .chrome__logo {
+    flex: 0 0 auto;
+  }
+
+  .chrome__foot {
+    flex: 0 0 auto;
+    margin-block-start: auto;
+  }
+
+  .chrome__foot :global(.footer),
+  .chrome__foot :global(.text-muted) {
+    color: var(--color-exclusion-fg-muted);
+  }
+
+  .chrome__foot :global(.switch__list a:hover) {
+    color: var(--color-exclusion-fg);
+  }
+
+  .chrome__aside {
+    display: flex;
+    align-items: center;
+    align-self: stretch;
+    height: 100%;
+    min-height: 0;
+    pointer-events: none;
+  }
+
+  .chrome__aside :global(.about) {
+    pointer-events: auto;
+  }
+
+  .chrome__phone-end {
+    display: none;
+  }
+
+  /*
+   * ≤1240 (tablet + phone top chrome): logo top-left, menu stub top-right.
+   * Filters / About / (phone Footer) move into the menu panel later.
+   */
+  @media (max-width: 1240px) {
+    .chrome--plain {
+      display: none;
+    }
+
+    .chrome__nav {
+      display: none;
+    }
+
+    .chrome__info {
+      grid-column: 1 / -1;
+      margin-inline-start: 0;
+      align-items: flex-start;
+    }
+
+    .chrome__phone-end {
+      display: block;
+      position: absolute;
+      inset-block-start: 0;
+      inset-inline-end: var(--chrome-margin);
+    }
+
+    .screen {
+      padding-block-start: calc(var(--page-edge-y) + 2rem + var(--feed-gap-top));
+    }
+  }
+
+  @media (max-width: 750px) {
+    .chrome__foot {
+      display: none;
+    }
+
+    .screen {
+      padding-block-end: calc(2 * var(--page-edge-y));
+    }
+  }
+</style>

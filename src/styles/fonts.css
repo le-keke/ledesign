@@ -1,0 +1,6 @@
+/**
+ * Latin subsets only. CJK falls through to system faces in --font-sans.
+ * Font choices may change once LEDESIGN Figma type is confirmed in P1.
+ */
+@import '@fontsource-variable/inter/wght.css';
+@import '@fontsource/aboreto/latin-400.css';

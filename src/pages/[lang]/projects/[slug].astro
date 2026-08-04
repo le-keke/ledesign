@@ -1,0 +1,90 @@
+---
+import { getRelativeLocaleUrl } from 'astro:i18n';
+import BaseLayout from '@layouts/BaseLayout.astro';
+import Footer from '@components/Footer.astro';
+import { getDictionary, locales, type Locale } from '@i18n/index';
+import { projects } from '@data/projects';
+
+export function getStaticPaths() {
+  return locales.flatMap((lang) =>
+    projects
+      .filter((project) => !project.locked)
+      .map((project) => ({
+        params: { lang, slug: project.slug },
+        props: { project },
+      })),
+  );
+}
+
+const locale = Astro.params.lang as Locale;
+const { project } = Astro.props as { project: (typeof projects)[number] };
+const t = getDictionary(locale);
+const title = project.title[locale];
+---
+
+<BaseLayout locale={locale} route={`projects/${project.slug}`} title={title}>
+  <div data-detail>
+    <div class="screen page">
+      <main class="grid">
+        <div class="grid__main">
+          <div class="detail__media" aria-hidden="true"></div>
+        </div>
+        <div class="grid__info detail__info">
+          <p class="detail__title">{title}</p>
+          <p class="text-muted">{project.category}</p>
+          <p>
+            <a href={getRelativeLocaleUrl(locale)}>{t.project.back}</a>
+          </p>
+        </div>
+      </main>
+    </div>
+
+    <div class="chrome page">
+      <div class="grid chrome__grid">
+        <div class="grid__info chrome__foot">
+          <Footer locale={locale} route={`projects/${project.slug}`} />
+        </div>
+      </div>
+    </div>
+  </div>
+</BaseLayout>
+
+<style>
+  .screen {
+    padding-block: var(--page-edge-y);
+    min-height: 100svh;
+  }
+
+  .detail__media {
+    aspect-ratio: 1;
+    background: rgb(153 153 153 / 0.22);
+  }
+
+  .detail__info {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding-block-start: 2rem;
+  }
+
+  .detail__title {
+    font-size: var(--text-title);
+  }
+
+  .chrome {
+    position: fixed;
+    inset-block: var(--page-edge-y);
+    inset-inline: 0;
+    z-index: 2;
+    pointer-events: none;
+  }
+
+  .chrome__grid {
+    height: 100%;
+    align-items: end;
+  }
+
+  .chrome__foot {
+    pointer-events: auto;
+  }
+</style>

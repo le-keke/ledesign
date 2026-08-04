@@ -1,0 +1,27 @@
+---
+import LanguageSwitch from '@components/LanguageSwitch.astro';
+import { getDictionary, type Locale } from '@i18n/index';
+
+interface Props {
+  locale: Locale;
+  route?: string;
+}
+
+const { locale, route = '' } = Astro.props;
+const t = getDictionary(locale);
+---
+
+<footer class="footer text-muted">
+  <LanguageSwitch locale={locale} route={route} />
+  <p>{t.footer.copyright}</p>
+</footer>
+
+<style>
+  .footer {
+    display: flex;
+    align-items: center;
+    gap: 1.25rem; /* 20px */
+    line-height: var(--leading-flat);
+    white-space: nowrap;
+  }
+</style>

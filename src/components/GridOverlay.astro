@@ -1,0 +1,152 @@
+---
+/**
+ * Breakpoint review aid.
+ * Mounted when BaseLayout ENABLE_GRID_OVERLAY is true (dev only).
+ * Press "g" to toggle. Readout is measured from live computed styles.
+ */
+const maxColumns = 12;
+---
+
+<div class="overlay" data-grid-overlay aria-hidden="true">
+  <div class="page overlay__page">
+    <div class="grid overlay__layer">
+      {Array.from({ length: maxColumns }, () => <span class="overlay__col" />)}
+    </div>
+    <div class="grid overlay__layer">
+      <span class="grid__info overlay__info"></span>
+    </div>
+  </div>
+  <p class="overlay__readout" data-grid-readout></p>
+</div>
+
+<script>
+  const round = (value: number) => Number(value.toFixed(2));
+
+  const band = (width: number) => {
+    if (width >= 2560) return '放大已封顶';
+    if (width > 1440) return '等比放大';
+    if (width === 1440) return '1440 · 1:1';
+    if (width > 1240) return '桌面 · 右栏 · 4 排';
+    if (width > 750) return '平板 · 满宽 4 排 · 无右栏';
+    if (width === 390) return '手机锚点 390';
+    return '手机 · 1 排列表';
+  };
+
+  const update = () => {
+    const overlay = document.querySelector<HTMLElement>('[data-grid-overlay]');
+    const readout = overlay?.querySelector<HTMLElement>('[data-grid-readout]');
+    const page = overlay?.querySelector<HTMLElement>('.overlay__page');
+    const layer = overlay?.querySelector<HTMLElement>('.overlay__layer');
+    const column = overlay?.querySelector<HTMLElement>('.overlay__col');
+    const info = overlay?.querySelector<HTMLElement>('.overlay__info');
+    if (!readout || !page || !layer || !column || !info) return;
+
+    const root = getComputedStyle(document.documentElement);
+    const width = window.innerWidth;
+    const columns = root.getPropertyValue('--grid-columns').trim();
+    const mainColumns = Number(root.getPropertyValue('--main-columns').trim());
+    const coverSpan = Number(root.getPropertyValue('--cover-span').trim());
+    const infoStart = root.getPropertyValue('--info-column-start').trim();
+    const gutter = parseFloat(getComputedStyle(layer).columnGap);
+    const margin = parseFloat(getComputedStyle(page).paddingLeft);
+    const columnWidth = column.getBoundingClientRect().width;
+    const infoWidth = info.getBoundingClientRect().width;
+    const rootSize = parseFloat(root.fontSize);
+
+    const coverWidth = coverSpan * columnWidth + (coverSpan - 1) * gutter;
+    const perRow = Math.floor(mainColumns / coverSpan);
+
+    readout.textContent = [
+      `视口 ${width}`,
+      band(width),
+      `${columns} 列 × ${round(columnWidth)}`,
+      `间距 ${round(gutter)}`,
+      `外边距 ${round(margin)}`,
+      `根字号 ${round(rootSize)}`,
+      `封面 跨 ${coverSpan} 列 = ${round(coverWidth)} · ${perRow} 排`,
+      `信息列 ${round(infoWidth)} @ 第 ${infoStart} 列`,
+    ].join('   ·   ');
+  };
+
+  const toggle = (event: KeyboardEvent) => {
+    if (event.key !== 'g' || event.metaKey || event.ctrlKey || event.altKey) return;
+    const target = event.target as HTMLElement | null;
+    if (target?.closest('input, textarea, [contenteditable]')) return;
+    document.querySelector('[data-grid-overlay]')?.classList.toggle('is-visible');
+  };
+
+  document.addEventListener('keydown', toggle);
+  window.addEventListener('resize', update);
+  document.addEventListener('astro:page-load', update);
+  update();
+</script>
+
+<style>
+  .overlay {
+    position: fixed;
+    inset: 0;
+    z-index: 999;
+    display: none;
+    pointer-events: none;
+  }
+
+  .overlay.is-visible {
+    display: block;
+  }
+
+  .overlay__page {
+    display: grid;
+    grid-template-rows: 1fr;
+    height: 100%;
+    background:
+      linear-gradient(rgb(120 120 120 / 0.09), rgb(120 120 120 / 0.09)) left / var(--page-margin)
+        100% no-repeat,
+      linear-gradient(rgb(120 120 120 / 0.09), rgb(120 120 120 / 0.09)) right / var(--page-margin)
+        100% no-repeat;
+  }
+
+  .overlay__layer {
+    grid-area: 1 / 1;
+  }
+
+  .overlay__col {
+    background: rgb(255 0 90 / 0.1);
+  }
+
+  .overlay__info {
+    background: rgb(0 90 255 / 0.06);
+    border-inline: 1px dashed rgb(0 90 255 / 0.5);
+  }
+
+  @media (max-width: 1240px) {
+    .overlay__col:nth-child(n + 5) {
+      display: none;
+    }
+
+    .overlay__info {
+      display: none;
+    }
+  }
+
+  @media (max-width: 750px) {
+    .overlay__col:nth-child(n + 2) {
+      display: none;
+    }
+  }
+
+  .overlay__readout {
+    position: fixed;
+    bottom: 8px;
+    left: 8px;
+    padding: 5px 9px;
+    font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 1.4;
+    letter-spacing: 0;
+    color: #000;
+    white-space: nowrap;
+    background: rgb(255 255 255 / 0.93);
+    border: 1px solid rgb(0 0 0 / 0.15);
+  }
+</style>

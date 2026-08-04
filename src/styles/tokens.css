@@ -1,0 +1,139 @@
+/**
+ * Design tokens — LEDESIGN.
+ *
+ * 1440 frame (home-work): margin 70 · 12 columns · gutter 70.
+ * Column ≈ 44.17px; cover = 2 cols + 1 gutter ≈ 158.33 (Figma covers ≈ 158).
+ * Info column starts at col 10 with one-gutter bleed → left edge ≈ 1028.
+ *
+ * Adaptive skeleton (provisional until phone/menu Figma arrives):
+ *   >1240: desktop chrome (feed + right info), 4 covers / row
+ *   ≤1240 → >750: full-width 4-col feed, no right info, still 4 / row
+ *   ≤750: 1 / row list; phone chrome (logo + menu stub)
+ *
+ * Sizes in rem where 1rem = 16px at the 1440 design width. global.css scales
+ * the root above 1440 and freezes at 2560.
+ */
+
+:root {
+  /* ---------- Palette ---------- */
+  --color-black: #000000;
+  --color-grey: #999999;
+  --color-white: #ffffff;
+
+  --color-bg: var(--color-white);
+  --color-fg: var(--color-black);
+  --color-fg-muted: var(--color-grey);
+
+  /*
+   * Source colours for mix-blend-mode: exclusion on the fixed chrome root.
+   * On white: #fff → #000, #3f3f3f → lighter muted than #999.
+   */
+  --color-exclusion-fg: #ffffff;
+  --color-exclusion-fg-muted: #3f3f3f;
+
+  /* ---------- Type ---------- */
+  /*
+   * Figma body is 10 / 15 leading. Review preferred ~+10% (not Safari’s 115%
+   * first zoom step). Type + text rhythm are ×1.10; grid stays on Figma px.
+   */
+  --font-display: 'Aboreto', 'Times New Roman', serif;
+  --font-sans:
+    'Inter Variable', 'Inter', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'PingFang SC',
+    'Hiragino Sans', 'Microsoft YaHei', sans-serif;
+
+  --text-micro: 0.4434375rem; /* 7.095px ← 6.45 × 1.10 — footnote markers */
+  --text-body: 0.6875rem; /* 11px ← 10 × 1.10 */
+  --text-title: 1rem; /* 16px — display titles, unscaled for now */
+  --text-logo: 1.25rem; /* 20px */
+
+  --leading-flat: 0.6875rem; /* 11px ← 10 × 1.10 — nav / footer / year rows */
+  --leading-body: 1.03125rem; /* 16.5px ← 15 × 1.10 — intro + grey panels */
+  --leading-logo: 1.25rem;
+
+  --tracking-body: 0.0103125rem; /* 0.165px ← 0.15 × 1.10 */
+  --tracking-intro: 0.00825rem; /* 0.132px ← 0.12 × 1.10 */
+
+  /* Gaps in the type rhythm (under intro, year↔copy), also ×1.10 */
+  --text-gap: 0.6875rem; /* 11px ← 10 × 1.10 */
+
+  --weight-light: 300;
+  --weight-regular: 400;
+
+  /* ---------- Layout: page frame ---------- */
+  --page-margin: 4.375rem; /* 70px — feed / content inset */
+  /* Chrome (logo / menu / footer) tracks page-margin unless a band overrides. */
+  --chrome-margin: var(--page-margin);
+  --page-edge-y: 2.5rem; /* 40px — filter / logo / footer vertical edge */
+  --feed-gap-top: 3rem; /* 48px — filter → first cover (98 − 40 − 10) */
+  /* Upscale with viewport from 1440 → 2560, then freeze and centre (lejing rule). */
+  --site-max-width: 2560px;
+
+  /* ---------- Layout: grid (1440) ---------- */
+  --grid-columns: 12;
+  --grid-gutter: 4.375rem; /* 70px */
+
+  /* Feed uses the first 8 columns (4 covers × span 2). */
+  --main-columns: 8;
+
+  /* Info: cols 10–12, left edge one gutter before col 10 (= 1028 @ 1440). */
+  --info-column-start: 10;
+  --info-column-bleed: calc(-1 * var(--grid-gutter));
+
+  --cover-span: 2;
+  --cover-caption-gap: 0.625rem;
+
+  /* ---------- Motion (placeholders) ---------- */
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+  --duration-fast: 200ms;
+  --duration-base: 400ms;
+  --duration-slow: 800ms;
+}
+
+/*
+ * Adaptive skeleton
+ *
+ * >1240: 12 cols · main 8 · cover-span 2 → 4 / row · right info on
+ * ≤1240 → >750: 4 cols · cover-span 1 → 4 / row · no right info
+ *   At 1240: margin 60 · gutter 60 → cover ≈ 235
+ *   Shrink: margin stays 60; columns shrink first; gutter yields near phone
+ * ≤750: 1-col grid → 1 / row · phone chrome (logo + menu stub)
+ */
+
+@media (max-width: 1240px) {
+  :root {
+    --page-margin: 3.75rem; /* 60px */
+    --grid-columns: 4;
+    --main-columns: 4;
+    --cover-span: 1;
+    --info-column-start: 1;
+    --info-column-bleed: 0px;
+
+    /*
+     * Floor before gutter yields. Above ~460 gutter stays 60 and columns shrink;
+     * below that, gutter = min(60, …) so spacing tightens while margin stays 60.
+     */
+    --column-min: 2.5rem; /* 40px */
+    --grid-gutter: min(3.75rem, (100vw - 2 * 3.75rem - 4 * var(--column-min)) / 3);
+  }
+}
+
+@media (max-width: 750px) {
+  :root {
+    /*
+     * Phone list: cap cover so ≤750 doesn’t stay near-full-bleed.
+     * Old site used 90vw (always ~full); we keep 5vw as a floor inset, but
+     * once the viewport is wider, cover maxes at 360 and side margin grows —
+     * so resizing actually changes the composition. Row gap = side margin.
+     */
+    --phone-cover-max: 22.5rem; /* 360px */
+    /* Feed can loosen; chrome stays on the fixed 40 edge. */
+    --page-margin: max(5vw, calc((100vw - var(--phone-cover-max)) / 2));
+    --chrome-margin: 2.5rem; /* 40px — logo / menu / footer */
+    --grid-columns: 1;
+    --main-columns: 1;
+    --cover-span: 1;
+    --grid-gutter: var(--page-margin);
+    --feed-gap-top: 1.5rem; /* room under top bar (logo / menu) */
+  }
+}

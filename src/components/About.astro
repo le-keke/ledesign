@@ -1,0 +1,265 @@
+---
+/**
+ * Home intro + footnote panels (1 CV · 2 speakings · 3 awards).
+ * Interaction matches lejing: desktop hover, touch tap + outside dismiss.
+ */
+import { getDictionary, splitFootnotes, type Locale } from '@i18n/index';
+
+interface Props {
+  locale: Locale;
+}
+
+const { locale } = Astro.props;
+const t = getDictionary(locale);
+const parts = splitFootnotes(t.about.intro);
+const panelIds = ['1', '2', '3'] as const;
+---
+
+{/*
+  Hit zone: 20px padding + matching negative margin so layout/centring stay on
+  the intro, while the pointer can travel intro → grey detail without dismissing.
+*/}
+<div class="about" data-about>
+  <div class="about__stack">
+    <p class="about__intro">
+      {
+        parts.map((part) =>
+          part.type === 'trigger' ? (
+            <button class="about__trigger" type="button" data-about-trigger={part.id}>
+              {t.about.triggers[part.id as '1' | '2' | '3']}
+              {
+                part.id === '2' ? ' ' : null
+              }
+              <span class="about__marker">{part.id}</span>
+            </button>
+          ) : (
+            part.value
+          ),
+        )
+      }
+    </p>
+
+    <div class="about__detail" data-about-detail hidden>
+      {
+        panelIds.map((id) => (
+          <div class="about__panel" data-about-panel={id} hidden>
+            <ul class="about__list">
+              {t.about.panels[id].map((row) => (
+                <li class="about__row">
+                  <span class="about__year">{row.year}</span>
+                  <span class="about__text">{row.text}</span>
+                </li>
+              ))}
+              {
+                id === '1' && (
+                  <>
+                    <li class="about__row about__row--gap">
+                      <span class="about__year">{t.about.contactLabel}</span>
+                      <span class="about__text">
+                        <a class="about__mail" href={`mailto:${t.about.email}`}>
+                          {t.about.email}
+                        </a>
+                      </span>
+                    </li>
+                    <li class="about__row">
+                      <span class="about__year" />
+                      <span class="about__text">{t.about.phone}</span>
+                    </li>
+                  </>
+                )
+              }
+            </ul>
+          </div>
+        ))
+      }
+    </div>
+  </div>
+</div>
+
+<script>
+  const canHover = () => matchMedia('(hover: hover) and (pointer: fine)').matches;
+
+  let abort: AbortController | null = null;
+
+  const bind = () => {
+    abort?.abort();
+    abort = new AbortController();
+    const { signal } = abort;
+
+    const root = document.querySelector<HTMLElement>('[data-about]');
+    if (!root) return;
+
+    const detail = root.querySelector<HTMLElement>('[data-about-detail]');
+    const panels = root.querySelectorAll<HTMLElement>('[data-about-panel]');
+    if (!detail) return;
+
+    let pinned = false;
+
+    const show = (id: string, pin = false) => {
+      detail.hidden = false;
+      panels.forEach((panel) => {
+        panel.hidden = panel.dataset.aboutPanel !== id;
+      });
+      if (pin) pinned = true;
+    };
+
+    const hide = () => {
+      pinned = false;
+      detail.hidden = true;
+      panels.forEach((panel) => {
+        panel.hidden = true;
+      });
+    };
+
+    root.querySelectorAll<HTMLElement>('[data-about-trigger]').forEach((trigger) => {
+      trigger.addEventListener(
+        'pointerenter',
+        () => {
+          if (!canHover()) return;
+          const id = trigger.dataset.aboutTrigger;
+          if (id) show(id);
+        },
+        { signal },
+      );
+
+      trigger.addEventListener(
+        'focus',
+        () => {
+          const id = trigger.dataset.aboutTrigger;
+          if (id) show(id);
+        },
+        { signal },
+      );
+
+      trigger.addEventListener(
+        'click',
+        () => {
+          const id = trigger.dataset.aboutTrigger;
+          if (!id) return;
+          show(id, !canHover());
+        },
+        { signal },
+      );
+    });
+
+    root.addEventListener(
+      'pointerleave',
+      () => {
+        if (canHover() && !pinned) hide();
+      },
+      { signal },
+    );
+
+    root.addEventListener(
+      'focusout',
+      (event) => {
+        const next = event.relatedTarget;
+        if (!(next instanceof Node) || !root.contains(next)) hide();
+      },
+      { signal },
+    );
+
+    document.addEventListener(
+      'pointerdown',
+      (event) => {
+        const target = event.target;
+        if (!(target instanceof Node) || root.contains(target)) return;
+        hide();
+      },
+      { capture: true, signal },
+    );
+  };
+
+  document.addEventListener('astro:page-load', bind);
+</script>
+
+<style>
+  .about {
+    position: relative;
+    margin: -1.25rem; /* 20px */
+    padding: 1.25rem;
+  }
+
+  .about__stack {
+    position: relative;
+  }
+
+  .about__intro {
+    margin: 0;
+    line-height: var(--leading-body);
+    letter-spacing: var(--tracking-intro);
+  }
+
+  .about__trigger {
+    display: inline;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background: transparent;
+    color: inherit;
+    font: inherit;
+    letter-spacing: inherit;
+    line-height: inherit;
+    cursor: default;
+  }
+
+  /* Footnote marker — 6.45px superscript (Figma), not body-size digits. */
+  .about__marker {
+    font-size: var(--text-micro); /* 6.45px */
+    font-weight: inherit;
+    letter-spacing: normal;
+    line-height: 1;
+    position: relative;
+    top: -0.45em;
+    vertical-align: baseline;
+  }
+
+  .about__detail {
+    position: absolute;
+    inset-inline: 0;
+    inset-block-start: calc(100% + var(--text-gap)); /* under intro */
+    color: var(--color-fg-muted);
+    font-size: var(--text-body);
+    line-height: var(--leading-body);
+    letter-spacing: var(--tracking-intro);
+  }
+
+  /*
+   * Year | text-gap | content.
+   * Year column = widest year in THIS panel (max-content), not a fixed set.
+   */
+  .about__list {
+    display: grid;
+    grid-template-columns: max-content minmax(0, 1fr);
+    column-gap: var(--text-gap);
+    row-gap: 0;
+  }
+
+  .about__row {
+    display: contents;
+  }
+
+  .about__year {
+    white-space: nowrap;
+  }
+
+  .about__text {
+    min-width: 0;
+  }
+
+  /* Space before Contact block — same text rhythm */
+  .about__row--gap .about__year,
+  .about__row--gap .about__text {
+    margin-block-start: var(--text-gap);
+  }
+
+  .about__mail {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  .about__mail:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 0.5px;
+  }
+</style>

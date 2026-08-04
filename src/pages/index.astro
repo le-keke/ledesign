@@ -1,0 +1,32 @@
+---
+/**
+ * Bare `/` — pick a locale before entering the site.
+ * Prefers the visitor’s saved choice; otherwise EN (menu / x-default).
+ */
+import { defaultLocale, LOCALE_STORAGE_KEY, locales } from '@i18n/index';
+
+const fallback = `/${defaultLocale}/`;
+const allowed = [...locales];
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Keke LE Design</title>
+    <meta http-equiv="refresh" content={`0;url=${fallback}`} />
+    <script is:inline define:vars={{ LOCALE_STORAGE_KEY, allowed, fallback }}>
+      (() => {
+        try {
+          const saved = localStorage.getItem(LOCALE_STORAGE_KEY);
+          const locale = allowed.includes(saved) ? saved : null;
+          location.replace(locale ? `/${locale}/` : fallback);
+        } catch {
+          location.replace(fallback);
+        }
+      })();
+    </script>
+  </head>
+  <body></body>
+</html>

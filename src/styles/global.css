@@ -1,0 +1,101 @@
+@import './fonts.css';
+@import './tokens.css';
+@import './reset.css';
+@import './transitions.css';
+
+/**
+ * Responsive scaling — same strategy as lejing.
+ * ≤1440: root 16px (rem = design px). >1440: scale with vw. ≥2560: freeze + centre.
+ */
+:root {
+  font-size: 16px;
+}
+
+* {
+  scrollbar-width: none;
+}
+
+*::-webkit-scrollbar {
+  display: none;
+}
+
+@media (min-width: 1440.02px) {
+  :root {
+    font-size: calc(16 / 1440 * 100vw);
+  }
+}
+
+@media (min-width: 2560px) {
+  :root {
+    font-size: calc(16 / 1440 * 2560px);
+  }
+}
+
+body {
+  background: var(--color-bg);
+  color: var(--color-fg);
+  font-family: var(--font-sans);
+  font-size: var(--text-body);
+  font-weight: var(--weight-light);
+  line-height: var(--leading-body);
+  letter-spacing: var(--tracking-body);
+}
+
+/* ---------- Layout primitives ---------- */
+
+.page {
+  width: 100%;
+  max-width: var(--site-max-width);
+  margin-inline: auto;
+  padding-inline: var(--page-margin);
+}
+
+/* Fixed chrome keeps its own inset when the feed margin loosens (phone). */
+.chrome.page {
+  padding-inline: var(--chrome-margin);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(var(--grid-columns), minmax(0, 1fr));
+  column-gap: var(--grid-gutter);
+}
+
+.grid__main {
+  grid-column: 1 / span var(--main-columns);
+}
+
+.grid__main > .grid {
+  --grid-columns: var(--main-columns);
+}
+
+.grid__info {
+  grid-column: var(--info-column-start) / -1;
+  margin-inline-start: var(--info-column-bleed);
+}
+
+/* ---------- Utilities ---------- */
+
+.text-muted {
+  color: var(--color-fg-muted);
+}
+
+.text-micro {
+  font-size: var(--text-micro);
+  line-height: var(--leading-flat);
+}
+
+.text-flat {
+  line-height: var(--leading-flat);
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}

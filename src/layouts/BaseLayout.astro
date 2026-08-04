@@ -1,0 +1,66 @@
+---
+import '@styles/global.css';
+import { ClientRouter } from 'astro:transitions';
+import { getRelativeLocaleUrl } from 'astro:i18n';
+import { getDictionary, localeTags, locales, type Locale } from '@i18n/index';
+
+// P1: grid overlay on by default in dev. Press "g" to toggle.
+const ENABLE_GRID_OVERLAY = true;
+const GridOverlay =
+  import.meta.env.DEV && ENABLE_GRID_OVERLAY
+    ? (await import('@components/GridOverlay.astro')).default
+    : null;
+
+interface Props {
+  locale: Locale;
+  /** Route below the locale prefix, e.g. '' for home or 'projects/slug'. */
+  route?: string;
+  title?: string;
+  description?: string;
+}
+
+const { locale, route = '', title, description } = Astro.props;
+
+const t = getDictionary(locale);
+const pageTitle = title ? `${title} — ${t.meta.title}` : t.meta.title;
+const pageDescription = description ?? t.meta.description;
+const canonical = new URL(getRelativeLocaleUrl(locale, route), Astro.site);
+---
+
+<!doctype html>
+<html lang={localeTags[locale]}>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{pageTitle}</title>
+    <meta name="description" content={pageDescription} />
+    <link rel="canonical" href={canonical} />
+
+    {
+      locales.map((alternate) => (
+        <link
+          rel="alternate"
+          hreflang={localeTags[alternate]}
+          href={new URL(getRelativeLocaleUrl(alternate, route), Astro.site)}
+        />
+      ))
+    }
+    <link
+      rel="alternate"
+      hreflang="x-default"
+      href={new URL(getRelativeLocaleUrl('en', route), Astro.site)}
+    />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content={pageTitle} />
+    <meta property="og:description" content={pageDescription} />
+    <meta property="og:url" content={canonical} />
+
+    <slot name="head" />
+    <ClientRouter />
+  </head>
+  <body>
+    <slot />
+    {GridOverlay && <GridOverlay />}
+  </body>
+</html>
