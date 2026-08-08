@@ -1,1 +1,6 @@
-/* View Transition hooks — filled in during motion / detail work. */
+/* Instant route swaps — no crossfade. */
+::view-transition-old(root),
+::view-transition-new(root) {
+  animation: none;
+  mix-blend-mode: normal;
+}

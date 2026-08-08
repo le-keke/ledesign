@@ -32,7 +32,7 @@ const canonical = new URL(getRelativeLocaleUrl(locale, route), Astro.site);
 ---
 
 <!doctype html>
-<html lang={localeTags[locale]}>
+<html lang={localeTags[locale]} transition:animate="none">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -66,11 +66,16 @@ const canonical = new URL(getRelativeLocaleUrl(locale, route), Astro.site);
     <meta property="og:url" content={canonical} />
 
     <slot name="head" />
-    <ClientRouter />
+    {/* Instant swap (no fade); keep client router so session cache can reuse pages. */}
+    <ClientRouter fallback="swap" />
   </head>
   <body>
     <slot />
     {GridOverlay && <GridOverlay />}
     {DevSettings && <DevSettings />}
+    <script>
+      import { installSessionNavCache } from '../scripts/session-nav-cache';
+      installSessionNavCache();
+    </script>
   </body>
 </html>
