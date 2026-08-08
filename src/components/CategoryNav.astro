@@ -10,7 +10,7 @@ const { locale, active = 'work' } = Astro.props;
 const t = getDictionary(locale);
 ---
 
-<nav class="nav" aria-label="Categories">
+<nav class="nav" aria-label="Categories" data-category-nav>
   <button
     class="nav__item"
     type="button"
@@ -19,7 +19,6 @@ const t = getDictionary(locale);
   >
     {t.categories.work}
   </button>
-  {/* Research route arrives with the Research home Figma link. */}
   <button
     class="nav__item"
     type="button"
@@ -29,6 +28,46 @@ const t = getDictionary(locale);
     {t.categories.research}
   </button>
 </nav>
+
+<script>
+  function setCategory(category: 'work' | 'research') {
+    const home = document.querySelector<HTMLElement>('[data-home]');
+    if (!home) return;
+
+    home.dataset.activeCategory = category;
+
+    document.querySelectorAll<HTMLElement>('[data-feed]').forEach((feed) => {
+      const match = feed.dataset.feed === category;
+      feed.hidden = !match;
+      feed.setAttribute('aria-hidden', match ? 'false' : 'true');
+    });
+
+    document.querySelectorAll<HTMLButtonElement>('[data-category-nav] [data-category]').forEach((btn) => {
+      btn.setAttribute('aria-pressed', String(btn.dataset.category === category));
+    });
+
+    const hash = category === 'research' ? '#research' : '#work';
+    if (location.hash !== hash) {
+      history.replaceState(null, '', hash);
+    }
+  }
+
+  function categoryFromHash(): 'work' | 'research' {
+    return location.hash === '#research' ? 'research' : 'work';
+  }
+
+  document.querySelectorAll<HTMLButtonElement>('[data-category-nav] [data-category]').forEach((btn) => {
+    btn.addEventListener('click', () => {
+      const category = btn.dataset.category;
+      if (category === 'work' || category === 'research') {
+        setCategory(category);
+      }
+    });
+  });
+
+  setCategory(categoryFromHash());
+  window.addEventListener('hashchange', () => setCategory(categoryFromHash()));
+</script>
 
 <style>
   .nav {
@@ -51,7 +90,7 @@ const t = getDictionary(locale);
     line-height: inherit;
     color: var(--color-exclusion-fg-muted);
     white-space: nowrap;
-    cursor: default;
+    cursor: pointer;
     transition: color var(--duration-fast) var(--ease-out);
   }
 

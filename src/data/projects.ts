@@ -1,12 +1,12 @@
 import type { Locale } from '@i18n/index';
 
 import cover360 from '@assets/covers/360.png?url';
-import coverAutomarket from '@assets/covers/automarket.png?url';
+import coverAutomarket from '@assets/covers/automarket.jpg?url';
 import coverAvp from '@assets/covers/avp.gif?url';
 import coverBr from '@assets/covers/br.gif?url';
 import coverDscafe from '@assets/covers/dscafe.png?url';
 import coverFss from '@assets/covers/fss.png?url';
-import coverSgimf from '@assets/covers/sgimf.png?url';
+import coverSgimf from '@assets/covers/sgimf.jpg?url';
 import coverSwap from '@assets/covers/swap.png?url';
 import coverTaoweb from '@assets/covers/taoweb.jpg?url';
 import coverTisland from '@assets/covers/tisland.png?url';

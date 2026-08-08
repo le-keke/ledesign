@@ -17,6 +17,12 @@ export default defineConfig({
   /* `/` is handled by src/pages/index.astro (localStorage → locale). */
   devToolbar: { enabled: false },
   vite: {
+    server: {
+      // Safari/Chrome otherwise keep stale CSS across HMR; force revalidate in dev.
+      headers: {
+        'Cache-Control': 'no-store',
+      },
+    },
     build: {
       // Lightning CSS derives its targets from this. Left unset it emits media
       // query range syntax ("width <= 1067.98px"), which older Safari ignores

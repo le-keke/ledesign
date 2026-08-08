@@ -96,6 +96,20 @@
   --cover-span: 2;
   --cover-caption-gap: 0.625rem;
 
+  /*
+   * Research feed row gap only (Work keeps --grid-gutter 70).
+   * All breakpoints: 0 — covers sit flush; phone uses content-height cards.
+   */
+  --research-row-gap: 0;
+
+  /*
+   * Research cover block padding as a ratio of cover width.
+   * Figma 1440: pad 40 / cell 158 → keeps meta visible when the cell shrinks.
+   */
+  --research-cover-pad: calc(40 / 158 * 100%);
+  /* Phone: hug content — small fixed pad, not a tall empty square. */
+  --research-cover-pad-phone: 0.625rem; /* 10px */
+
   /* ---------- Motion (placeholders) ---------- */
   --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
   --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);

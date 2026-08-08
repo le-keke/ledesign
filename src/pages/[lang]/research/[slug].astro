@@ -3,26 +3,24 @@ import { getRelativeLocaleUrl } from 'astro:i18n';
 import BaseLayout from '@layouts/BaseLayout.astro';
 import Footer from '@components/Footer.astro';
 import { getDictionary, locales, type Locale } from '@i18n/index';
-import { projects } from '@data/projects';
+import { researchItems } from '@data/research';
 
 export function getStaticPaths() {
   return locales.flatMap((lang) =>
-    projects
-      .filter((project) => !project.locked)
-      .map((project) => ({
-        params: { lang, slug: project.slug },
-        props: { project },
-      })),
+    researchItems.map((item) => ({
+      params: { lang, slug: item.slug },
+      props: { item },
+    })),
   );
 }
 
 const locale = Astro.params.lang as Locale;
-const { project } = Astro.props as { project: (typeof projects)[number] };
+const { item } = Astro.props as { item: (typeof researchItems)[number] };
 const t = getDictionary(locale);
-const title = project.title[locale];
+const title = item.title[locale];
 ---
 
-<BaseLayout locale={locale} route={`projects/${project.slug}`} title={title}>
+<BaseLayout locale={locale} route={`research/${item.slug}`} title={title}>
   <div data-detail>
     <div class="screen page">
       <main class="grid">
@@ -31,7 +29,8 @@ const title = project.title[locale];
         </div>
         <div class="grid__info detail__info">
           <p class="detail__title">{title}</p>
-          <p class="text-muted">{project.category}</p>
+          <p class="text-muted">{item.kind[locale]}</p>
+          <p class="text-muted">{item.date}</p>
           <p>
             <a href={getRelativeLocaleUrl(locale)}>{t.project.back}</a>
           </p>
@@ -42,7 +41,7 @@ const title = project.title[locale];
     <div class="chrome page">
       <div class="grid chrome__grid">
         <div class="grid__info chrome__foot">
-          <Footer locale={locale} route={`projects/${project.slug}`} />
+          <Footer locale={locale} route={`research/${item.slug}`} />
         </div>
       </div>
     </div>
@@ -63,28 +62,30 @@ const title = project.title[locale];
   .detail__info {
     display: flex;
     flex-direction: column;
-    gap: 1rem;
-    padding-block-start: 2rem;
+    gap: var(--text-gap);
+    align-self: center;
   }
 
   .detail__title {
-    font-size: var(--text-title);
+    margin: 0;
   }
 
   .chrome {
     position: fixed;
     inset-block: var(--page-edge-y);
     inset-inline: 0;
-    z-index: 2;
+    z-index: 1;
     pointer-events: none;
   }
 
   .chrome__grid {
     height: 100%;
-    align-items: end;
+    grid-template-rows: minmax(0, 1fr);
+    align-items: stretch;
   }
 
   .chrome__foot {
+    align-self: end;
     pointer-events: auto;
   }
 </style>

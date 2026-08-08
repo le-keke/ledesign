@@ -67,6 +67,37 @@ body {
   margin-inline-start: var(--info-column-bleed);
 }
 
+/*
+ * Research row gap — lives in global CSS so Vite HMR updates reliably.
+ * !important beats Astro page-scoped .feed { row-gap: var(--grid-gutter) }.
+ * Work is untouched.
+ */
+.feed[data-feed='research'] {
+  row-gap: var(--research-row-gap) !important;
+}
+
+/*
+ * Research ≤750: hug-height rectangle, no hover image.
+ * Kept here (not page-scoped) so media stays as max-width — Astro scoped CSS
+ * was compiling to `width <= 750px`, which older Safari ignores.
+ */
+@media (max-width: 750px) {
+  .feed[data-feed='research'] .cover--research {
+    aspect-ratio: auto;
+    height: auto;
+    padding-block: var(--research-cover-pad-phone);
+  }
+
+  .feed[data-feed='research'] .cover__hover {
+    display: none !important;
+    opacity: 0 !important;
+  }
+
+  .feed[data-feed='research'] .cover__text {
+    opacity: 1 !important;
+  }
+}
+
 /* ---------- Utilities ---------- */
 
 .text-muted {

@@ -4,11 +4,15 @@ import { ClientRouter } from 'astro:transitions';
 import { getRelativeLocaleUrl } from 'astro:i18n';
 import { getDictionary, localeTags, locales, type Locale } from '@i18n/index';
 
-// P1: grid overlay on by default in dev. Press "g" to toggle.
-const ENABLE_GRID_OVERLAY = true;
+// Dev review tools (grid + settings window). Production builds omit these.
+const ENABLE_DEV_TOOLS = true;
 const GridOverlay =
-  import.meta.env.DEV && ENABLE_GRID_OVERLAY
+  import.meta.env.DEV && ENABLE_DEV_TOOLS
     ? (await import('@components/GridOverlay.astro')).default
+    : null;
+const DevSettings =
+  import.meta.env.DEV && ENABLE_DEV_TOOLS
+    ? (await import('@components/DevSettings.astro')).default
     : null;
 
 interface Props {
@@ -34,6 +38,11 @@ const canonical = new URL(getRelativeLocaleUrl(locale, route), Astro.site);
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{pageTitle}</title>
     <meta name="description" content={pageDescription} />
+    {/* Safari often probes /favicon.ico and caches hard on localhost. */}
+    <link rel="icon" href="/favicon.ico" sizes="any" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon.png" />
     <link rel="canonical" href={canonical} />
 
     {
@@ -62,5 +71,6 @@ const canonical = new URL(getRelativeLocaleUrl(locale, route), Astro.site);
   <body>
     <slot />
     {GridOverlay && <GridOverlay />}
+    {DevSettings && <DevSettings />}
   </body>
 </html>
