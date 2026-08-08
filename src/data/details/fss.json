@@ -1,0 +1,496 @@
+{
+  "slug": "fss",
+  "meta": {
+    "displayTitle": {
+      "en": "Volvo Front Steering System HMI Concept Design",
+      "zh": "Volvo Front Steering System HMI Concept Design",
+      "ja": "Volvo Front Steering System HMI Concept Design"
+    },
+    "summary": {
+      "en": "To re-build a driving experience compatible with the autonomous driving future, the FRONT-STEERING SYSTEM(FSS) can sync life events to a personal vehicle, momently estimate the next destination most seamlessly. A new steering interaction is re-designed under autonomous driving so that people could interact with the FSS more directly regardless of eye distraction. Meanwhile, manual and auto-driving switching is kept for those driving lovers and special cases.",
+      "zh": "To re-build a driving experience compatible with the autonomous driving future, the FRONT-STEERING SYSTEM(FSS) can sync life events to a personal vehicle, momently estimate the next destination most seamlessly. A new steering interaction is re-designed under autonomous driving so that people could interact with the FSS more directly regardless of eye distraction. Meanwhile, manual and auto-driving switching is kept for those driving lovers and special cases.",
+      "ja": "To re-build a driving experience compatible with the autonomous driving future, the FRONT-STEERING SYSTEM(FSS) can sync life events to a personal vehicle, momently estimate the next destination most seamlessly. A new steering interaction is re-designed under autonomous driving so that people could interact with the FSS more directly regardless of eye distraction. Meanwhile, manual and auto-driving switching is kept for those driving lovers and special cases."
+    },
+    "period": {
+      "en": "2016",
+      "zh": "2016",
+      "ja": "2016"
+    },
+    "category": {
+      "en": "HMI Design",
+      "zh": "HMI Design",
+      "ja": "HMI Design"
+    },
+    "designLead": {
+      "en": "Keke LE",
+      "zh": "Keke LE",
+      "ja": "Keke LE"
+    },
+    "team": {
+      "en": "",
+      "zh": "",
+      "ja": ""
+    },
+    "award": {
+      "en": "",
+      "zh": "",
+      "ja": ""
+    },
+    "disclaimer": {
+      "en": "Keke LE Design © All rights reserved.",
+      "zh": "Keke LE Design © All rights reserved.",
+      "ja": "Keke LE Design © All rights reserved."
+    }
+  },
+  "sections": [
+    {
+      "bg": "detail_bg_dark",
+      "blocks": [
+        {
+          "type": "detail_cover",
+          "kind": "image",
+          "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/fss/fss_cover.png",
+          "alt": ""
+        },
+        {
+          "type": "detail_line_image",
+          "spacing": [
+            "spacing_bottom_lg"
+          ],
+          "kind": "image",
+          "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/fss/insight_1.png",
+          "layout": "content"
+        },
+        {
+          "type": "detail_line",
+          "spacing": [
+            "spacing_bottom_lg"
+          ],
+          "aside": {
+            "role": "line_img_annotation",
+            "text": "Status Quo of Targeted Group's Driving Experience ↑"
+          },
+          "text": {
+            "h5": "Fully-Occupied Planning, Navigating, Driving",
+            "paragraphs": [
+              {
+                "body": "In this concept topic for Volvo's autonomous driving experience, people who run tight schedules and are used to acting on them are defined as the target users (elites, professors, executives, etc.). With manual driving, they need to clarify the next destination, simulate the route in their minds and then hold and steer for driving, which make them exhausted for schedules and suffered with poor driving experiences below:",
+                "muted": false
+              },
+              {
+                "type": "list",
+                "ordered": true,
+                "bare": true,
+                "muted": true,
+                "items": [
+                  "Seamed Connection between Driving & Life",
+                  "Physical and Mental Occupied",
+                  "Tangible Scenery Missed",
+                  "Places of Information Missed"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "type": "detail_line_image",
+          "spacing": [
+            "spacing_bottom_md"
+          ],
+          "kind": "image",
+          "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/fss/insight_2.gif",
+          "layout": "content"
+        },
+        {
+          "type": "detail_line",
+          "spacing": [
+            "spacing_bottom_lg"
+          ],
+          "aside": {
+            "role": "line_img_annotation",
+            "text": "Insight ↑"
+          },
+          "text": {
+            "h5": "Fully-Autonomous Connection Between Point A and B",
+            "paragraphs": [
+              {
+                "body": "To connect people's life points in a real seamless way is that the automation of planning besides navigation and driving in driver-car interaction makes personal cars as rather a proactive moving life-assistant beyond an automated transportation tool. \"Personal car is no longer a tool just to transport people from A to B based on a single order before stepped on, but rather a mobility property attached life assistance which always knows the next destination whenever.\"",
+                "muted": false
+              }
+            ]
+          }
+        },
+        {
+          "type": "detail_line_image",
+          "spacing": [
+            "spacing_bottom_md"
+          ],
+          "kind": "image",
+          "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/fss/concept.png",
+          "layout": "content"
+        },
+        {
+          "type": "detail_line",
+          "spacing": [
+            "spacing_bottom_lg"
+          ],
+          "aside": {
+            "role": "line_img_annotation",
+            "text": "Concepts of Front-Steering System ↑"
+          },
+          "text": {
+            "h5": "PV-Assistant System and Front-Steering Interface",
+            "paragraphs": [
+              {
+                "body": "A personal vehicle's assistant system that syncing customised and potential informationized life events, based on that a PV system could momently estimate the next destination in the most seamless way without any mechanical input.",
+                "muted": false
+              },
+              {
+                "body": "Interaction terminal is re-settled and combined with the steering wheel thanks to autonomous driving so that people could interact with assistant system more directly and comfortably in regardless of eye-distraction. Meanwhile manual and auto-driving switching is kept for those driving lovers and special cases.",
+                "muted": false
+              },
+              {
+                "type": "list",
+                "ordered": true,
+                "bare": true,
+                "muted": true,
+                "items": [
+                  "Main features introduction:",
+                  "Schedule Sync",
+                  "Generate route plan based on synced personal schedule information on the tools like calendar app etc.",
+                  "Auto push notification to pick up according to schedule."
+                ]
+              },
+              {
+                "type": "list",
+                "ordered": true,
+                "bare": true,
+                "muted": true,
+                "items": [
+                  "Direct Input",
+                  "Launching after simply destination information input on the FSS in car or FSS App wherever.",
+                  "Any information attached by location property from the third-party platform could be sent directly to the FSS."
+                ]
+              },
+              {
+                "type": "list",
+                "ordered": true,
+                "bare": true,
+                "muted": true,
+                "items": [
+                  "Wander mode",
+                  "Thanks to autonomous driving, car will be moving along certain random routines by path or zone set on the FSS in advanced.",
+                  "Wander has three speed mode: rush, normal and of course leisure."
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "bg": "detail_bg_light",
+      "blocks": [
+        {
+          "type": "detail_line_image",
+          "spacing": [
+            "spacing_top_lg"
+          ],
+          "kind": "image",
+          "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/fss/features_1.png",
+          "layout": "content"
+        },
+        {
+          "type": "detail_line",
+          "spacing": [
+            "spacing_bottom_lg"
+          ],
+          "aside": {
+            "role": "line_img_annotation",
+            "text": "System Equipped Steering Interaction Design ↑"
+          },
+          "text": {
+            "h5": "Direct Front-set Interface and Hold-Touch Mode Switching",
+            "paragraphs": [
+              {
+                "body": "Assistant system directly implanted in the steering wheel, software and hardware integration continues the steering wheel area as the interaction core of the driver control and dialogue car. And considering safety when hosting and takeover under partly-autonoums level, two toggle modes of steering wheel is designed that Hold for driving and Touch for dialogue.",
+                "muted": false
+              },
+              {
+                "type": "list",
+                "ordered": true,
+                "bare": true,
+                "muted": false,
+                "items": [
+                  "Hold Mode",
+                  "During manual driving period, the front-set interface would be moved inside the steering wheel for easy-holding."
+                ]
+              },
+              {
+                "type": "list",
+                "ordered": true,
+                "bare": true,
+                "muted": false,
+                "items": [
+                  "Touch Mode",
+                  "During autonomous driving period, the front-set interface would be moved outside the steering wheel with a certain angel rotation for easy-touching."
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "type": "detail_line_image",
+          "spacing": [],
+          "kind": "image",
+          "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/fss/sketch.png",
+          "layout": "content"
+        },
+        {
+          "type": "detail_line",
+          "spacing": [
+            "spacing_bottom_lg"
+          ],
+          "aside": {
+            "role": "line_img_annotation",
+            "text": "Steering Wheel Sketch and Design ↑"
+          },
+          "text": {
+            "h5": "Split Design with 7\" Screen and Two-Multifunctional Buttons",
+            "paragraphs": [
+              {
+                "body": "Design the steering wheel wity two-mode toggle and front touch screen to express a sense of simplicity, quality and luxury. Half-half seperation design makes mid-screen fixed and independent to steer-rotation while steering wheel hold part moving in and out freely and smoothly. As less buttons as possible makes control behavior simple which Double-holding to switch mode, single-tapping to sign turn.",
+                "muted": false
+              }
+            ]
+          }
+        },
+        {
+          "type": "detail_line_image",
+          "spacing": [],
+          "kind": "image",
+          "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/fss/usingflow.png",
+          "layout": "content"
+        },
+        {
+          "type": "detail_line",
+          "spacing": [
+            "spacing_bottom_lg"
+          ],
+          "aside": {
+            "role": "line_img_annotation",
+            "text": "Features Mapping and Using Flow ↑"
+          },
+          "text": {
+            "h5": "Step-on, Start, Moving, Parking, Get-off",
+            "paragraphs": [
+              {
+                "body": "Designing the complete behavioral path of the driver using the Front-Steering System through the journey from beginning to ending. Car-users comlete tasks below in co-using with FSS App terminal out of car and FSS in car:",
+                "muted": false
+              },
+              {
+                "type": "list",
+                "ordered": true,
+                "bare": true,
+                "muted": false,
+                "items": [
+                  "Account system",
+                  "Personal account, shared account, guest account."
+                ]
+              },
+              {
+                "type": "list",
+                "ordered": true,
+                "bare": true,
+                "muted": false,
+                "items": [
+                  "Schedule sync",
+                  "Auto-operate daily regular journey agenda without destination input one more time."
+                ]
+              },
+              {
+                "type": "list",
+                "ordered": true,
+                "bare": true,
+                "muted": false,
+                "items": [
+                  "Express input",
+                  "Change route anytime with only inputing a new destination."
+                ]
+              },
+              {
+                "type": "list",
+                "ordered": true,
+                "bare": true,
+                "muted": false,
+                "items": [
+                  "LBS",
+                  "Explore service and information with filter and customizing then explore service and information with filter and customizing then set a new destinationset a new destination."
+                ]
+              },
+              {
+                "body": "Car control",
+                "muted": false
+              },
+              {
+                "type": "list",
+                "ordered": true,
+                "bare": true,
+                "muted": false,
+                "items": [
+                  "In-car terminal connected with cell phone",
+                  "Music, movie, social software, weather, etc."
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "bg": "detail_bg_dark",
+      "blocks": [
+        {
+          "type": "detail_line_image",
+          "spacing": [
+            "spacing_top_lg"
+          ],
+          "kind": "image",
+          "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/fss/ia.png",
+          "layout": "content"
+        },
+        {
+          "type": "detail_line",
+          "spacing": [
+            "spacing_bottom_lg"
+          ],
+          "aside": {
+            "role": "line_img_annotation",
+            "text": "Information Architecture of FSS ↑"
+          },
+          "text": {
+            "h5": "Flat Nagivation",
+            "paragraphs": [
+              {
+                "body": "Draw the info-architecture to build mobile terminal and car information linkage including account management, schedule sync, in-car trip intervention, roaming mode and center control. And ensure that the information hierarchy does not exceed three layers.",
+                "muted": false
+              }
+            ]
+          }
+        },
+        {
+          "type": "detail_line_image",
+          "spacing": [],
+          "kind": "image",
+          "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/fss/wireframe.png",
+          "layout": "content"
+        },
+        {
+          "type": "detail_line",
+          "spacing": [
+            "spacing_bottom_lg"
+          ],
+          "aside": {
+            "role": "line_img_annotation",
+            "text": "Wireframe of FSS ↑"
+          },
+          "text": {
+            "h5": "Low-cost Interaction Behavior as Smart Phone",
+            "paragraphs": [
+              {
+                "body": "Visualize the IA into MVP to make interaction effortless and information readable during autonomous driving. And keep the interaction and information consistency between the phone and the car like synced schedule as home page with seconadry function as buttons layouting on top or bottom bar.",
+                "muted": false
+              }
+            ]
+          }
+        },
+        {
+          "type": "detail_line_image",
+          "spacing": [],
+          "kind": "image",
+          "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/fss/gui_1.png",
+          "layout": "content"
+        },
+        {
+          "type": "detail_line",
+          "spacing": [
+            "spacing_bottom_lg"
+          ],
+          "aside": {
+            "role": "line_img_annotation",
+            "text": "GUI of FSS ↑"
+          },
+          "text": {
+            "h5": "Visual Harmony with The Steering Wheel",
+            "paragraphs": [
+              {
+                "body": "Considering the distance between the screen and the driver's eyes, the appropriate font and font size scale is set to ensure the readability of information. At the same time, because the screen is directly in front of the user's line of sight, unlike the central control screen without much interference at the edge of the line of sight, the FSS screen GUI uses darkmode as the main color system to minimize the interference to the driver.",
+                "muted": false
+              },
+              {
+                "type": "links",
+                "links": [
+                  {
+                    "href": "https://vimeo.com/177309410?share=copy",
+                    "label": "Animated Demo →"
+                  }
+                ],
+                "muted": true
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "bg": "detail_bg_grey",
+      "blocks": [
+        {
+          "type": "detail_line_image",
+          "spacing": [
+            "spacing_top_lg"
+          ],
+          "kind": "image",
+          "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/fss/gui_5.png",
+          "layout": "content"
+        },
+        {
+          "type": "detail_line",
+          "spacing": [
+            "spacing_bottom_lg"
+          ],
+          "aside": {
+            "role": "line_img_annotation",
+            "text": "GUI of FSS App ↑"
+          },
+          "text": {
+            "h5": "Consistant Visualisation",
+            "paragraphs": [
+              {
+                "body": "The mobile interface uses a unified set of fonts, color specifications, and icon kit to ensure that the mobile visual experience is consistent with the steering wheel hardware (color, material, and shape) and the system interface it carries.",
+                "muted": false
+              },
+              {
+                "type": "links",
+                "links": [
+                  {
+                    "href": "https://vimeo.com/177309410?share=copy",
+                    "label": "Animated Demo →"
+                  }
+                ],
+                "muted": true
+              }
+            ]
+          }
+        },
+        {
+          "type": "detail_line_image",
+          "spacing": [],
+          "kind": "image",
+          "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/fss/mockup.png",
+          "layout": "content"
+        }
+      ]
+    }
+  ]
+}

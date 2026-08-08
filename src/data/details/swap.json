@@ -1,0 +1,130 @@
+{
+  "slug": "swap",
+  "meta": {
+    "displayTitle": {
+      "en": "Swap Web3 Chatting Brand",
+      "zh": "Swap Web3 Chatting Brand",
+      "ja": "Swap Web3 Chatting Brand"
+    },
+    "summary": {
+      "en": "Swap is a cross-platform chat messaging service designed to make user communication interoperable across different social platforms. Through its browser extension, users can conduct virtual asset and digital currency transactions directly within any Web3 trading platform. The brand identity is inspired by the evolution of communication technologies. From wired to wireless systems, and from telephone lines to internet networks, human information has always been transmitted through continuously evolving \"channels\" or \"pipelines.\" This concept serves as the foundation of the visual language, symbolizing the seamless flow of messages, assets, and value across platforms, networks, and ecosystems.",
+      "zh": "Swap is a cross-platform chat messaging service designed to make user communication interoperable across different social platforms. Through its browser extension, users can conduct virtual asset and digital currency transactions directly within any Web3 trading platform. The brand identity is inspired by the evolution of communication technologies. From wired to wireless systems, and from telephone lines to internet networks, human information has always been transmitted through continuously evolving \"channels\" or \"pipelines.\" This concept serves as the foundation of the visual language, symbolizing the seamless flow of messages, assets, and value across platforms, networks, and ecosystems.",
+      "ja": "Swap is a cross-platform chat messaging service designed to make user communication interoperable across different social platforms. Through its browser extension, users can conduct virtual asset and digital currency transactions directly within any Web3 trading platform. The brand identity is inspired by the evolution of communication technologies. From wired to wireless systems, and from telephone lines to internet networks, human information has always been transmitted through continuously evolving \"channels\" or \"pipelines.\" This concept serves as the foundation of the visual language, symbolizing the seamless flow of messages, assets, and value across platforms, networks, and ecosystems."
+    },
+    "period": {
+      "en": "2022",
+      "zh": "2022",
+      "ja": "2022"
+    },
+    "category": {
+      "en": "Brand Design",
+      "zh": "Brand Design",
+      "ja": "Brand Design"
+    },
+    "designLead": {
+      "en": "Keke LE",
+      "zh": "Keke LE",
+      "ja": "Keke LE"
+    },
+    "team": {
+      "en": "",
+      "zh": "",
+      "ja": ""
+    },
+    "award": {
+      "en": "",
+      "zh": "",
+      "ja": ""
+    },
+    "disclaimer": {
+      "en": "Swap © All rights reserved.",
+      "zh": "Swap © All rights reserved.",
+      "ja": "Swap © All rights reserved."
+    }
+  },
+  "sections": [
+    {
+      "bg": "detail_bg_light",
+      "blocks": [
+        {
+          "type": "detail_cover",
+          "kind": "image",
+          "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/swap/swap_cover.png",
+          "alt": ""
+        },
+        {
+          "type": "detail_line_image_double",
+          "spacing": [],
+          "left": {
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/swap/swap_1.png"
+          },
+          "right": {
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/swap/swap_2.png"
+          }
+        },
+        {
+          "type": "detail_line_image_double",
+          "spacing": [],
+          "left": {
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/swap/swap_3.png"
+          },
+          "right": {
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/swap/swap_4.png"
+          }
+        },
+        {
+          "type": "detail_line_image_double",
+          "spacing": [],
+          "left": {
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/swap/swap_5.png"
+          },
+          "right": {
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/swap/swap_7.png"
+          }
+        },
+        {
+          "type": "detail_line_image_double",
+          "spacing": [],
+          "left": {
+            "kind": "video",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/swap/swap_6.mp4"
+          },
+          "right": {
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/swap/swap_8.png"
+          }
+        },
+        {
+          "type": "detail_line_image_double",
+          "spacing": [],
+          "left": {
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/swap/swap_9.png"
+          },
+          "right": {
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/swap/swap_12.png"
+          }
+        },
+        {
+          "type": "detail_line_image_double",
+          "spacing": [],
+          "left": {
+            "kind": "video",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/swap/swap.mp4"
+          },
+          "right": {
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/swap/teo.jpg"
+          }
+        }
+      ]
+    }
+  ]
+}

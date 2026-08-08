@@ -1,0 +1,172 @@
+{
+  "slug": "dscafe",
+  "meta": {
+    "displayTitle": {
+      "en": "Shanghai DS®CAFE Brand Design",
+      "zh": "Shanghai DS®CAFE Brand Design",
+      "ja": "Shanghai DS®CAFE Brand Design"
+    },
+    "summary": {
+      "en": "Dasheng® Coffee is located in Dasheng Hutong on Huashan Road in Shanghai, taking the name \"Dasheng\" to mean the coffee born in Dasheng Hutong. Dasheng Hutong is one of the few lanes in Shanghai called \"Hutong\", originally established by the Belgian Catholic Church as a property of the Universalist Community in Shanghai, and built between 1912 and 1936 by Father Drummond. The property was named after the \"hutong\" commonly used in the north because the priest was from Beijing.",
+      "zh": "Dasheng® Coffee is located in Dasheng Hutong on Huashan Road in Shanghai, taking the name \"Dasheng\" to mean the coffee born in Dasheng Hutong. Dasheng Hutong is one of the few lanes in Shanghai called \"Hutong\", originally established by the Belgian Catholic Church as a property of the Universalist Community in Shanghai, and built between 1912 and 1936 by Father Drummond. The property was named after the \"hutong\" commonly used in the north because the priest was from Beijing.",
+      "ja": "Dasheng® Coffee is located in Dasheng Hutong on Huashan Road in Shanghai, taking the name \"Dasheng\" to mean the coffee born in Dasheng Hutong. Dasheng Hutong is one of the few lanes in Shanghai called \"Hutong\", originally established by the Belgian Catholic Church as a property of the Universalist Community in Shanghai, and built between 1912 and 1936 by Father Drummond. The property was named after the \"hutong\" commonly used in the north because the priest was from Beijing."
+    },
+    "period": {
+      "en": "2022",
+      "zh": "2022",
+      "ja": "2022"
+    },
+    "category": {
+      "en": "Brand Design",
+      "zh": "Brand Design",
+      "ja": "Brand Design"
+    },
+    "designLead": {
+      "en": "Keke LE",
+      "zh": "Keke LE",
+      "ja": "Keke LE"
+    },
+    "team": {
+      "en": "",
+      "zh": "",
+      "ja": ""
+    },
+    "award": {
+      "en": "",
+      "zh": "",
+      "ja": ""
+    },
+    "disclaimer": {
+      "en": "DS®CAFE © All rights reserved.",
+      "zh": "DS®CAFE © All rights reserved.",
+      "ja": "DS®CAFE © All rights reserved."
+    }
+  },
+  "sections": [
+    {
+      "bg": "detail_bg_light",
+      "blocks": [
+        {
+          "type": "detail_cover",
+          "kind": "video",
+          "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/dscafe/dscafe.mp4",
+          "alt": ""
+        },
+        {
+          "type": "detail_line_image",
+          "spacing": [],
+          "kind": "image",
+          "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/dscafe/p1.png",
+          "layout": "content"
+        },
+        {
+          "type": "detail_line_image",
+          "spacing": [],
+          "kind": "image",
+          "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/dscafe/p2.png",
+          "layout": "content"
+        },
+        {
+          "type": "detail_line",
+          "spacing": [],
+          "aside": {
+            "role": "line_img_annotation",
+            "text": "The pattern of bricks on the facade of Dasheng Hutong ↑"
+          },
+          "text": {
+            "paragraphs": [
+              {
+                "body": "The layout of the nearly 100 French-style houses in rows, the beige brushed cement on the facade, and the red raw bricks laid on the corners and eaves, it is clear that this \"hutong\" still has Art Deco soul inside. So the inheritance and interpretation of its architectural symbols are used in the brand design to reflect the continuation of the century-old lane culture.",
+                "muted": false
+              }
+            ]
+          }
+        },
+        {
+          "type": "detail_line_image",
+          "spacing": [],
+          "kind": "image",
+          "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/dscafe/p3.png",
+          "layout": "content"
+        },
+        {
+          "type": "detail_line_image",
+          "spacing": [],
+          "kind": "image",
+          "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/dscafe/p4.png",
+          "layout": "content"
+        },
+        {
+          "type": "detail_line_image",
+          "spacing": [],
+          "kind": "image",
+          "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/dscafe/p5.png",
+          "layout": "content"
+        },
+        {
+          "type": "detail_line_image",
+          "spacing": [],
+          "kind": "image",
+          "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/dscafe/p6.png",
+          "layout": "content"
+        },
+        {
+          "type": "detail_line_image",
+          "spacing": [],
+          "kind": "image",
+          "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/dscafe/p6-1.png",
+          "layout": "content"
+        },
+        {
+          "type": "detail_line_image",
+          "spacing": [],
+          "kind": "image",
+          "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/dscafe/p7-1.png",
+          "layout": "content"
+        },
+        {
+          "type": "detail_line_image",
+          "spacing": [],
+          "kind": "image",
+          "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/dscafe/p9-1.png",
+          "layout": "content"
+        },
+        {
+          "type": "detail_line_image",
+          "spacing": [],
+          "kind": "image",
+          "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/dscafe/p10.jpg",
+          "layout": "content"
+        },
+        {
+          "type": "detail_line_image",
+          "spacing": [],
+          "kind": "image",
+          "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/dscafe/p11.jpg",
+          "layout": "content"
+        },
+        {
+          "type": "detail_line_image",
+          "spacing": [],
+          "kind": "image",
+          "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/dscafe/p12.jpg",
+          "layout": "content"
+        },
+        {
+          "type": "detail_line_image",
+          "spacing": [],
+          "kind": "image",
+          "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/dscafe/p13.jpg",
+          "layout": "content"
+        },
+        {
+          "type": "detail_line_image",
+          "spacing": [],
+          "kind": "image",
+          "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/dscafe/p14.jpg",
+          "layout": "content"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,176 @@
+{
+  "slug": "sgmc",
+  "meta": {
+    "displayTitle": {
+      "en": "The Belt & Road Sino Germany Music Competition Brand Design",
+      "zh": "The Belt & Road Sino Germany Music Competition Brand Design",
+      "ja": "The Belt & Road Sino Germany Music Competition Brand Design"
+    },
+    "summary": {
+      "en": "The Belt and Road Sino-Germany Music Competition is hosted by Deutsche Philharmonie, co-organized by the 24 National Schools of Music in Germany and Berlin Philharmonic Orchestra. The Belt and Road is the Silk Road Economic Belt of the 21st world, which is like the economic and cultural link between the East and the West that has continued since the ancient times. The design of the brand mark of the event is in the shape of the \"Belt” which stretches through the mountains and deserts, and the \"Road\" which paves the ancient inland road, and symbolizes the softness and rigidity in the playing music. China and Germany look far to the west and east, but are connected into an endless circle by the Belt and Road. This concept was used to design the main visual symbols: the correspondence between Western and Chinese stringed instruments in the west and the east, the mirror typography design, etc., and was integrated into the design of all the materials: posters, invitations, badges, awards, certificates, brochures, environmental visuals for the competition, PC and mobile websites.",
+      "zh": "The Belt and Road Sino-Germany Music Competition is hosted by Deutsche Philharmonie, co-organized by the 24 National Schools of Music in Germany and Berlin Philharmonic Orchestra. The Belt and Road is the Silk Road Economic Belt of the 21st world, which is like the economic and cultural link between the East and the West that has continued since the ancient times. The design of the brand mark of the event is in the shape of the \"Belt” which stretches through the mountains and deserts, and the \"Road\" which paves the ancient inland road, and symbolizes the softness and rigidity in the playing music. China and Germany look far to the west and east, but are connected into an endless circle by the Belt and Road. This concept was used to design the main visual symbols: the correspondence between Western and Chinese stringed instruments in the west and the east, the mirror typography design, etc., and was integrated into the design of all the materials: posters, invitations, badges, awards, certificates, brochures, environmental visuals for the competition, PC and mobile websites.",
+      "ja": "The Belt and Road Sino-Germany Music Competition is hosted by Deutsche Philharmonie, co-organized by the 24 National Schools of Music in Germany and Berlin Philharmonic Orchestra. The Belt and Road is the Silk Road Economic Belt of the 21st world, which is like the economic and cultural link between the East and the West that has continued since the ancient times. The design of the brand mark of the event is in the shape of the \"Belt” which stretches through the mountains and deserts, and the \"Road\" which paves the ancient inland road, and symbolizes the softness and rigidity in the playing music. China and Germany look far to the west and east, but are connected into an endless circle by the Belt and Road. This concept was used to design the main visual symbols: the correspondence between Western and Chinese stringed instruments in the west and the east, the mirror typography design, etc., and was integrated into the design of all the materials: posters, invitations, badges, awards, certificates, brochures, environmental visuals for the competition, PC and mobile websites."
+    },
+    "period": {
+      "en": "2019",
+      "zh": "2019",
+      "ja": "2019"
+    },
+    "category": {
+      "en": "Brand Design",
+      "zh": "Brand Design",
+      "ja": "Brand Design"
+    },
+    "designLead": {
+      "en": "Keke LE",
+      "zh": "Keke LE",
+      "ja": "Keke LE"
+    },
+    "team": {
+      "en": "",
+      "zh": "",
+      "ja": ""
+    },
+    "award": {
+      "en": "",
+      "zh": "",
+      "ja": ""
+    },
+    "disclaimer": {
+      "en": "Deutsche Philharmonie © All rights reserved.",
+      "zh": "Deutsche Philharmonie © All rights reserved.",
+      "ja": "Deutsche Philharmonie © All rights reserved."
+    }
+  },
+  "sections": [
+    {
+      "bg": "detail_bg_light",
+      "blocks": [
+        {
+          "type": "detail_cover",
+          "kind": "video",
+          "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/sgmc/cover.mp4",
+          "alt": ""
+        },
+        {
+          "type": "detail_line_image_double",
+          "spacing": [],
+          "left": {
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/sgmc/concept.png"
+          },
+          "right": {
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/sgmc/logo.png"
+          }
+        },
+        {
+          "type": "detail_line_image",
+          "spacing": [],
+          "kind": "image",
+          "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/sgmc/logo_combine.png",
+          "layout": "content"
+        },
+        {
+          "type": "detail_line_image_double",
+          "spacing": [],
+          "left": {
+            "kind": "video",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/sgmc/connection.mp4"
+          },
+          "right": {
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/sgmc/pattern.png"
+          }
+        },
+        {
+          "type": "detail_line_image",
+          "spacing": [],
+          "kind": "image",
+          "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/sgmc/poster_full.png",
+          "layout": "content"
+        },
+        {
+          "type": "detail_line_image_double",
+          "spacing": [],
+          "left": {
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/sgmc/staff.png"
+          },
+          "right": {
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/sgmc/badge.png"
+          }
+        },
+        {
+          "type": "detail_line_image",
+          "spacing": [],
+          "kind": "image",
+          "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/sgmc/certificate.png",
+          "layout": "content"
+        },
+        {
+          "type": "detail_line_image",
+          "spacing": [],
+          "kind": "image",
+          "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/sgmc/invitation.png",
+          "layout": "content"
+        },
+        {
+          "type": "detail_line_image",
+          "spacing": [],
+          "kind": "image",
+          "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/sgmc/booklet.png",
+          "layout": "content"
+        },
+        {
+          "type": "detail_line_image",
+          "spacing": [],
+          "kind": "image",
+          "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/sgmc/tote.png",
+          "layout": "content"
+        },
+        {
+          "type": "detail_line_image",
+          "spacing": [],
+          "kind": "image",
+          "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/sgmc/pollup.png",
+          "layout": "content"
+        },
+        {
+          "type": "detail_line_image_double",
+          "spacing": [],
+          "left": {
+            "kind": "video",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/sgmc/mobile.mp4"
+          },
+          "right": {
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/sgmc/pc.png"
+          }
+        },
+        {
+          "type": "detail_line_image",
+          "spacing": [],
+          "kind": "image",
+          "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/sgmc/mobile.png",
+          "layout": "content"
+        },
+        {
+          "type": "detail_line_image",
+          "spacing": [],
+          "kind": "image",
+          "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/sgmc/award.png",
+          "layout": "content"
+        },
+        {
+          "type": "detail_line_image",
+          "spacing": [],
+          "kind": "image",
+          "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/sgmc/live.jpg",
+          "layout": "content"
+        }
+      ]
+    }
+  ]
+}

@@ -26,6 +26,21 @@
   color: var(--color-fg);
 }
 
+.detail_bg_grey {
+  background: #f0f0f0;
+  color: var(--color-fg);
+}
+
+.detail_bg_versionai_grey {
+  background: #f5f6f7;
+  color: var(--color-fg);
+}
+
+.detail_bg_tbweb_grey {
+  background: #d9d9d9;
+  color: var(--color-fg);
+}
+
 .detail_container {
   width: 100%;
 }
@@ -92,17 +107,30 @@
 /* ---------- Feed stack ---------- */
 
 .detail_feed {
-  --detail-feed-gap: 3.75rem; /* 60px @1440 — old spacing_bottom_lg */
+  --detail-feed-gap: 3.75rem; /* 60px @1440 — default between modules */
+  /*
+   * Image / double → caption+copy row (↑): a bit tighter than the default.
+   * Was reading large at full 60; keep other module gaps at 60.
+   */
+  --detail-caption-gap: 2.5rem; /* 40px @1440 */
   display: flex;
   flex-direction: column;
   gap: var(--detail-feed-gap);
+}
+
+/* Media → explanation row under it (left ↑ + right prose/list) */
+.detail_feed > .detail_line_image + .detail_line,
+.detail_feed > .detail_line_image_double + .detail_line {
+  margin-top: calc(var(--detail-caption-gap) - var(--detail-feed-gap));
 }
 
 /* ---------- Cover / single media (feed width; old bleed → same) ---------- */
 
 .detail_cover,
 .detail_line_image {
-  margin: 0;
+  /* Don’t zero margin-bottom — spacing_* / caption pull need it */
+  margin-block-start: 0;
+  margin-inline: 0;
   min-width: 0;
 }
 
@@ -124,7 +152,8 @@
   grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
   column-gap: var(--grid-gutter); /* was margin-right: 50px */
   align-items: start;
-  margin: 0;
+  margin-block-start: 0;
+  margin-inline: 0;
 }
 
 .line_double_img_left,
@@ -151,7 +180,8 @@
   column-gap: var(--grid-gutter); /* was flex + margin-right: 50px */
   align-items: start;
   width: 100%;
-  margin: 0;
+  margin-block-start: 0;
+  margin-inline: 0;
 }
 
 .line_annotation,
@@ -159,6 +189,7 @@
 .line_research_img {
   margin: 0;
   min-width: 0;
+  font-size: var(--text-body);
   font-weight: var(--weight-light);
   line-height: var(--leading-body);
   letter-spacing: var(--tracking-body);
@@ -218,10 +249,15 @@
   margin-bottom: 0;
 }
 
-/* Old .line_text_en ol / li — keep structure for all projects */
+/*
+ * Lists flush to feed col 5 — same as Taobao Vision bare captions.
+ * Numbers are inline (::before / in-text), so no padding gutter on the left.
+ */
 .line_text_en .line_list {
   margin: 0 0 0.625rem;
-  padding-left: 1.5rem; /* was 24px */
+  padding-left: 0;
+  list-style: none;
+  counter-reset: line-list;
   font-weight: var(--weight-light);
   line-height: var(--leading-body);
   letter-spacing: var(--tracking-intro);
@@ -235,12 +271,24 @@
 .line_text_en .line_list li {
   margin: 0;
   padding: 0;
+  display: list-item;
 }
 
-/* Captions where “1: …” is already in the string (old <br> lists) */
-.line_text_en .line_list--bare {
-  list-style: none;
-  padding-left: 0;
+.line_text_en ol.line_list:not(.line_list--bare) > li {
+  counter-increment: line-list;
+}
+
+.line_text_en ol.line_list:not(.line_list--bare) > li::before {
+  content: counter(line-list) ". ";
+}
+
+.line_text_en ul.line_list:not(.line_list--bare) > li::before {
+  content: "• ";
+}
+
+/* Taobao Vision: “1: …” already in the string — no extra marker */
+.line_text_en .line_list--bare > li::before {
+  content: none;
 }
 
 .line_text_en .lead {
@@ -248,9 +296,9 @@
   font-weight: var(--weight-light);
 }
 
-/* Old #666 (light) / #999 (dark) → muted token */
+/* Old light secondary #666 · dark secondary #999 (not annotation #999) */
 .line_text_en .is-muted {
-  color: var(--color-fg-muted);
+  color: #666666;
 }
 
 .detail_bg_dark .line_text_en .is-muted,
@@ -278,6 +326,7 @@
 @media (max-width: 750px) {
   .detail_feed {
     --detail-feed-gap: 1.875rem; /* 30px — old spacing_bottom_lg @≤1023 */
+    --detail-caption-gap: 1.25rem; /* 20px — slightly tighter under images */
   }
 
   .spacing_bottom_lg {

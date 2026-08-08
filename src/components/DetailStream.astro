@@ -19,7 +19,7 @@ function isList(p: DetailParagraph): p is Extract<DetailParagraph, { type: 'list
   return 'type' in p && p.type === 'list';
 }
 
-/** Feed gap handles bottom rhythm; only honor old top spacing utilities. */
+/** Feed gap owns bottom rhythm; only honor old top spacing utilities. */
 function spacingClass(spacing?: string[]) {
   return (spacing || []).filter((s) => s.startsWith('spacing_top_')).join(' ');
 }

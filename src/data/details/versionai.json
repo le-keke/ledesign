@@ -1,0 +1,900 @@
+{
+  "slug": "versionai",
+  "meta": {
+    "displayTitle": {
+      "en": "VersionAI Tmall - AI Friendly Design System for GenAI",
+      "zh": "VersionAI Tmall - AI Friendly Design System for GenAI",
+      "ja": "VersionAI Tmall - AI Friendly Design System for GenAI"
+    },
+    "summary": {
+      "en": "Tmall Design is a design system developed specifically for the Tmall shopping app, one of the largest B2C e-commerce platforms in China.\n\nUnlike previous iterations, the version presented on this site is intended not only for human designers and developers, but more importantly for AI models. Its content structure, textual format, and communication logic have been translated to enable AI models to read and apply the specification. With AI assistance, users can reference this knowledge base to generate user interfaces that comply with Tmall's design specification (1), as well as conduct design evaluation and Q&A (2).\n\nBy enabling a more efficient and advanced mode of human-AI collaborative design, the system supports scenarios such as recomposing existing designs, making incremental adjustments, and creating new interfaces step by step.",
+      "zh": "Tmall Design is a design system developed specifically for the Tmall shopping app, one of the largest B2C e-commerce platforms in China.\n\nUnlike previous iterations, the version presented on this site is intended not only for human designers and developers, but more importantly for AI models. Its content structure, textual format, and communication logic have been translated to enable AI models to read and apply the specification. With AI assistance, users can reference this knowledge base to generate user interfaces that comply with Tmall's design specification (1), as well as conduct design evaluation and Q&A (2).\n\nBy enabling a more efficient and advanced mode of human-AI collaborative design, the system supports scenarios such as recomposing existing designs, making incremental adjustments, and creating new interfaces step by step.",
+      "ja": "Tmall Design is a design system developed specifically for the Tmall shopping app, one of the largest B2C e-commerce platforms in China.\n\nUnlike previous iterations, the version presented on this site is intended not only for human designers and developers, but more importantly for AI models. Its content structure, textual format, and communication logic have been translated to enable AI models to read and apply the specification. With AI assistance, users can reference this knowledge base to generate user interfaces that comply with Tmall's design specification (1), as well as conduct design evaluation and Q&A (2).\n\nBy enabling a more efficient and advanced mode of human-AI collaborative design, the system supports scenarios such as recomposing existing designs, making incremental adjustments, and creating new interfaces step by step."
+    },
+    "summaryLink": {
+      "href": "https://tmall-design.com",
+      "label": "tmall-design.com →"
+    },
+    "period": {
+      "en": "2025",
+      "zh": "2025",
+      "ja": "2025"
+    },
+    "category": {
+      "en": "GenAI Research",
+      "zh": "GenAI Research",
+      "ja": "GenAI Research"
+    },
+    "designLead": {
+      "en": "Keke LE",
+      "zh": "Keke LE",
+      "ja": "Keke LE"
+    },
+    "team": {
+      "en": "MPID Multi-platform Innovation Design\nTaobao Design Sub-unit",
+      "zh": "MPID Multi-platform Innovation Design\nTaobao Design Sub-unit",
+      "ja": "MPID Multi-platform Innovation Design\nTaobao Design Sub-unit"
+    },
+    "award": {
+      "en": "",
+      "zh": "",
+      "ja": ""
+    },
+    "disclaimer": {
+      "en": "Alibaba Group © All rights reserved.",
+      "zh": "Alibaba Group © All rights reserved.",
+      "ja": "Alibaba Group © All rights reserved."
+    }
+  },
+  "sections": [
+    {
+      "bg": "detail_bg_light",
+      "blocks": [
+        {
+          "type": "detail_cover",
+          "kind": "image",
+          "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/aigui/versionai_cover.png",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "bg": "detail_bg_light",
+      "blocks": [
+        {
+          "type": "detail_line",
+          "spacing": [
+            "spacing_bottom_lg"
+          ],
+          "aside": {
+            "role": "line_research_img",
+            "media": {
+              "kind": "image",
+              "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/aigui/purpose.png",
+              "spacing": []
+            }
+          },
+          "text": {
+            "h5": "Human-AI Co-design Product Interfaces as An Emerging Mode of Work",
+            "paragraphs": [
+              {
+                "body": "In the daily workflow of design teams, output targets generally fall into three categories: modules, single pages, and multi-page flows. Correspondingly, design approaches can be grouped into three modes: assembling existing components, modifying existing components, and creating new components. Among these, modifications to existing components can be further broken down into information adjustments, layout adjustments, and style adjustments.",
+                "muted": false
+              },
+              {
+                "body": "When mapped to the five major demand scenarios—core user journeys, content discovery channels, interactive products, marketing events, and B-end experience—a year-round analysis reveals a consistent pattern: within core journeys, discovery channels, and B-end experience, design tasks involving assembling or modifying existing components at the module or single-page level account for nearly 48% of all requests.",
+                "muted": false
+              },
+              {
+                "body": "This substantial volume of repetitive and structurally similar design work urgently calls for automated, AI-driven design-generation methods to significantly improve both efficiency and output quality. For enterprise design teams, the primary goal is to generate product interfaces that faithfully adhere to internal design standards, and this requires the same essential task: clarifying and constructing an AI-friendly design-knowledge system that can be connected to design tools or large models.",
+                "muted": false
+              }
+            ]
+          }
+        },
+        {
+          "type": "detail_line_image",
+          "spacing": [],
+          "kind": "video",
+          "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/aigui/intro.mp4",
+          "layout": "content"
+        },
+        {
+          "type": "detail_line",
+          "spacing": [
+            "spacing_bottom_lg"
+          ],
+          "aside": {
+            "role": "line_img_annotation",
+            "text": "The VersionAI Tmall solution presentation for GenUI ↑"
+          },
+          "text": {
+            "h5": "Introducing VersionAI Tmall",
+            "paragraphs": [
+              {
+                "body": "By constructing the Design System Specification Knowledge Base and the Interface Generation Multi-Agents Workflow, an integrated, AI-friendly enterprise design system is formed. The system can be flexibly applied in IDE-based environments and agent-mode design tools via MCP or context injection. This comprehensive set of theory and practice offers broad applicability and can be adopted by enterprise teams across industries. VersionAI Tmall has already been implemented in real-world projects, resulting in significant improvements in interface design efficiency.",
+                "muted": false
+              }
+            ]
+          }
+        },
+        {
+          "type": "detail_line_image",
+          "spacing": [
+            "spacing_bottom_lg"
+          ],
+          "kind": "image",
+          "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/aigui/principle.png",
+          "layout": "content"
+        },
+        {
+          "type": "detail_line",
+          "spacing": [
+            "spacing_bottom_lg"
+          ],
+          "aside": {
+            "role": "line_img_annotation",
+            "text": "Generative UI Agent Structure ↑"
+          },
+          "text": {
+            "h5": "Building Design System Knowledge for AI Understanding and Utilization",
+            "paragraphs": [
+              {
+                "body": "Interface generation is essentially a domain-specific intelligent system composed of multiple task-specific agents, operating within an enterprise-aligned design workflow, and driven by contextual reasoning and retrieval over Design System Specification Knowledge. These agents are organized into four primary task agents: intent recognition, knowledge retrieval, design synthesis and code generation.",
+                "muted": false
+              },
+              {
+                "body": "Design System Specification Knowledge acts as externally retrieved factual knowledge: through a Design-to-Code (D2C) transformation, design assets are converted into rule-based semantic facts, code-level symbolic facts, and the structured mappings between them, forming a structured Design Knowledge Base that the model can read, retrieve, and extract from.",
+                "muted": false
+              }
+            ]
+          }
+        },
+        {
+          "type": "detail_line_image",
+          "spacing": [
+            "spacing_bottom_lg"
+          ],
+          "kind": "image",
+          "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/aigui/wiki.png",
+          "layout": "content"
+        },
+        {
+          "type": "detail_line",
+          "spacing": [
+            "spacing_bottom_lg"
+          ],
+          "aside": {
+            "role": "line_img_annotation",
+            "text": "Structural translation of design system specification knowledge ↑"
+          },
+          "text": {
+            "h5": "Design System Specification Knowledge",
+            "paragraphs": [
+              {
+                "body": "Design System Specification Knowledge is composed of two categories of knowledge objects and three file types. The two categories of knowledge objects are Styles and Cases, where styles are further subdivided into four types: Elements, Layouts, Components, and Assets. Each category of knowledge object is associated with three file types: Semantic rules, Mapping schemas, and Code implementations.",
+                "muted": false
+              },
+              {
+                "body": "Semantic rules consist of textual descriptions covering an object's definition, styles, variables, usage, and constraints. They represent the foundational intellectual property that gives rise to experiential differentiation and are authored in Markdown format. Code implementations translate objects into executable and deployable symbolic facts, using the appropriate programming language as the representation format.",
+                "muted": false
+              },
+              {
+                "body": "Mapping schemas act as the central connective layer between semantic rules and code implementations. Rather than duplicating either, they provide object ID anchoring, constraint definitions, and precise code references. Within the workflow, they guide knowledge retrieval, solution construction, and code generation, enabling large language models to avoid traversing the entire knowledge corpus and reducing computational overhead.",
+                "muted": false
+              }
+            ]
+          }
+        },
+        {
+          "type": "detail_line_image_double",
+          "spacing": [],
+          "left": {
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/aigui/color-1.png"
+          },
+          "right": {
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/aigui/color-2.png"
+          }
+        },
+        {
+          "type": "detail_line_image_double",
+          "spacing": [],
+          "left": {
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/aigui/color-3.png"
+          },
+          "right": {
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/aigui/color-4.png"
+          }
+        },
+        {
+          "type": "detail_line",
+          "spacing": [
+            "spacing_bottom_lg"
+          ],
+          "aside": {
+            "role": "line_img_annotation",
+            "text": "Element interpertation example: Color ↑"
+          },
+          "text": {
+            "paragraphs": [
+              {
+                "type": "list",
+                "ordered": true,
+                "bare": false,
+                "muted": true,
+                "items": [
+                  "Element knowledge is divided into four irreducible units: color, typography, corner radius, and motion, which serve as the foundational dependencies for all design styles.",
+                  "Its semantic rules consist of element definitions, style composition, attribute variables (design tokens), mandatory rules, and functional usage.",
+                  "The mapping schema is composed of ID symbols, semantics (including name, definition, and description), rules_refs, implementations_refs, and constraints (such as usage scenarios, mandatory prohibitions, and other restrictions). This schema is automatically generated by AI in accordance with Schema-based prompting rules.",
+                  "Code implementations take the form of global styles (SCSS); these are automatically reconstructed from design artifacts and generated as code by IDE tooling through calls to the design software's MCP services."
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "type": "detail_line_image_double",
+          "spacing": [],
+          "left": {
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/aigui/comp-1.png"
+          },
+          "right": {
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/aigui/comp-2.png"
+          }
+        },
+        {
+          "type": "detail_line_image_double",
+          "spacing": [],
+          "left": {
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/aigui/comp-3.png"
+          },
+          "right": {
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/aigui/comp-45.png"
+          }
+        },
+        {
+          "type": "detail_line",
+          "spacing": [
+            "spacing_bottom_lg"
+          ],
+          "aside": {
+            "role": "line_img_annotation",
+            "text": "Component interpertation example: Price ↑"
+          },
+          "text": {
+            "paragraphs": [
+              {
+                "type": "list",
+                "ordered": true,
+                "bare": false,
+                "muted": true,
+                "items": [
+                  "Component knowledge is composed of units such as avatars, badges, asset slots, buttons, content streams, countdowns, coupons, filters, beacons, onboarding guides, carousels, inputs, messages, floating windows, dialogs, prices, product cards, progress bars, red packets, selectors, overlays, floating bars, switches, tab bars, tabs, text streams, tooltips, bubbles, and top bars. These components serve as critical reusable units for interface generation.",
+                  "The semantic rules for components consist of component definitions, style composition, attribute variables, component states (interaction and visual), mandatory rules, and functional usage.",
+                  "Building upon the existing mapping schema structure, component mapping schemas additionally introduce a properties schema (props schema), which corresponds to the attributes required by each component in the page-level component structure schema generated during the solution design stage.",
+                  "Code implementations are realized as component structures (TSX) and component styles (SCSS) within a React-based technology stack."
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "type": "detail_line_image_double",
+          "spacing": [],
+          "left": {
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/aigui/asset-1.png"
+          },
+          "right": {
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/aigui/asset-2.png"
+          }
+        },
+        {
+          "type": "detail_line_image_double",
+          "spacing": [],
+          "left": {
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/aigui/assets-3.png"
+          },
+          "right": {
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/aigui/assets-4.png"
+          }
+        },
+        {
+          "type": "detail_line",
+          "spacing": [
+            "spacing_bottom_lg"
+          ],
+          "aside": {
+            "role": "line_img_annotation",
+            "text": "Asset interpertation example: Icon ↑"
+          },
+          "text": {
+            "paragraphs": [
+              {
+                "type": "list",
+                "ordered": true,
+                "bare": false,
+                "muted": true,
+                "items": [
+                  "Asset knowledge consists of units such as images, icons, logos, and tags, serving as the primary material sources for page content population.",
+                  "The semantic rules for assets include asset definitions, attribute variables, mandatory rules, and functional usage.",
+                  "The mapping schema for assets follows the same template as that used for elements. Depending on the specific asset type, asset knowledge may or may not require code implementations. For example, icons do require code implementations, whereas images typically do not.",
+                  "In such cases, the implementations take the form of source asset files (e.g., SVG or PNG) with naming conventions consistent with those defined in the semantic rules."
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "type": "detail_line_image_double",
+          "spacing": [],
+          "left": {
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/aigui/page-1.png"
+          },
+          "right": {
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/aigui/page-2.png"
+          }
+        },
+        {
+          "type": "detail_line",
+          "spacing": [
+            "spacing_bottom_lg"
+          ],
+          "aside": {
+            "role": "line_img_annotation",
+            "text": "Page interpertation example: Shopping Feed Page ↑"
+          },
+          "text": {
+            "paragraphs": [
+              {
+                "type": "list",
+                "ordered": true,
+                "bare": false,
+                "muted": true,
+                "items": [
+                  "Page semantic rules consist of page definition, target users, naming conventions, structural hierarchy, page states (interaction and visual), mandatory rules, and functional usage. Page knowledge does not require code implementations; instead, it is composed by the LLM through combining component, asset, and element code.",
+                  "The mapping schema consists of ID symbols, semantics (name, definition, description), rules, structure, and constraints (usage scenarios, mandatory prohibitions, and others)."
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "type": "detail_line_image",
+          "spacing": [
+            "spacing_bottom_lg"
+          ],
+          "kind": "image",
+          "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/aigui/workflow.png",
+          "layout": "content"
+        },
+        {
+          "type": "detail_line",
+          "spacing": [
+            "spacing_bottom_lg"
+          ],
+          "aside": {
+            "role": "line_img_annotation",
+            "text": "Node orchestration ↑"
+          },
+          "text": {
+            "h5": "Multi-agent Workflow",
+            "paragraphs": [
+              {
+                "body": "Next, the workflow for interface design and generation is engineeried. A multi-agent, upstream-to-downstream collaborative process is, in essence, the definition and configuration of each sub-agent and its chaining logic.",
+                "muted": false
+              },
+              {
+                "body": "In this project, the workflow and agents are built within an IDE-based tool. The base model and memory use default settings; tools are either defaulted or require no configuration; the remaining items are defined explicitly. The prompt Markdown files include (but are not limited to) role definitions, task definitions, built-in workflow steps, input/output requirements, access and routing, and constraints.",
+                "muted": false
+              }
+            ]
+          }
+        },
+        {
+          "type": "detail_line_image_double",
+          "spacing": [],
+          "left": {
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/aigui/agent-1.png"
+          },
+          "right": {
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/aigui/agent-2.png"
+          }
+        },
+        {
+          "type": "detail_line_image_double",
+          "spacing": [],
+          "left": {
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/aigui/agent-3.png"
+          },
+          "right": {
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/aigui/agent-4.png"
+          }
+        },
+        {
+          "type": "detail_line",
+          "spacing": [
+            "spacing_bottom_lg"
+          ],
+          "aside": {
+            "role": "line_img_annotation",
+            "text": "Agent configuration (excerpt) ↑"
+          },
+          "text": {
+            "paragraphs": [
+              {
+                "type": "list",
+                "ordered": true,
+                "bare": false,
+                "muted": true,
+                "items": [
+                  "Agent template: Each agent includes upstream inputs, a base model, memory, system prompts (role and task), a knowledge base (or database), tools (MCP, plugins), and downstream outputs. It is critical to ensure that access paths, object naming, and input/output contracts referenced in sub-agent prompts remain coherent and consistent.",
+                  "The intent recognition agent takes the user's query string as input (e.g., “Generate a new-product shopping-guide channel”). It outputs a knowledge retrieval requirements checklist, such as “requirement type (compositional reuse of existing modules), page type (Shopping Guide page), information structure (product cards), interaction constraints (filterable or not), content requirements (benefit/offer information), etc.”, and routes it to the next agent.",
+                  "The knowledge retrieval agent takes the requirements checklist file as input. It queries, filters, and retrieves the corresponding content from the Design System Specification Knowledge Base, and outputs a knowledge outline—i.e., it fills in the knowledge items referenced in the checklist—then routes to the next agent.",
+                  "The design synthesis agent takes the knowledge outline file as input. It makes design decisions and produces outline instructions for page structure, component types and properties, style elements, interaction patterns, and data/content requirements. It outputs a solution design schema/outline and routes to the next agent."
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "type": "detail_line_image_double",
+          "spacing": [],
+          "left": {
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/aigui/agent-5.png"
+          },
+          "right": {
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/aigui/agent-6.png"
+          }
+        },
+        {
+          "type": "detail_line_image_double",
+          "spacing": [],
+          "left": {
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/aigui/agent-7.png"
+          },
+          "right": {
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/aigui/agent-zip.png"
+          }
+        },
+        {
+          "type": "detail_line",
+          "spacing": [
+            "spacing_bottom_lg"
+          ],
+          "aside": {
+            "role": "line_img_annotation",
+            "text": "Agent configuration (excerpt) ↑"
+          },
+          "text": {
+            "paragraphs": [
+              {
+                "type": "list",
+                "ordered": true,
+                "bare": false,
+                "muted": true,
+                "items": [
+                  "Design synthesis output (excerpt)",
+                  "The code generation agent takes the solution design outline as input. It maps to the outline files in the knowledge base and invokes the corresponding code, producing interface code files as output; users can preview the generated results.",
+                  "Final interface code generation output (excerpt)",
+                  "An integrated system package—combining a Design System Specification Knowledge Base with an interface generation workflow engineering pipeline—completes the construction of AI-friendly enterprise internal interface design knowledge. It can be flexibly applied to IDE-based generation environments and agent-mode environments in design tools, via MCP or via context injection."
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "type": "detail_line_image_double",
+          "spacing": [],
+          "left": {
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/aigui/home_new.png"
+          },
+          "right": {
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/aigui/structure.png"
+          }
+        },
+        {
+          "type": "detail_line_image_double",
+          "spacing": [],
+          "left": {
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/aigui/color.png"
+          },
+          "right": {
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/aigui/switch.png"
+          }
+        },
+        {
+          "type": "detail_line_image_double",
+          "spacing": [],
+          "left": {
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/aigui/rule.png"
+          },
+          "right": {
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/aigui/prompt.png"
+          }
+        },
+        {
+          "type": "detail_line",
+          "spacing": [
+            "spacing_bottom_lg"
+          ],
+          "aside": {
+            "role": "line_img_annotation",
+            "text": "VersionAI Tmall official website ↑"
+          },
+          "text": {
+            "h5": "Interface generation in practice via the VersionAI Tmall website",
+            "paragraphs": [
+              {
+                "body": "VersionAI Tmall is an AI-oriented design specification website. It contains all the design knowledge described above and helps users generate user interfaces that conform to the Tmall design specification, conduct design reviews, and resolve Q&A. The site’s page structure is consistent with the design system knowledge structure, organized as a tree navigation of styles, cases, and their sub-unit knowledge modules.",
+                "muted": false
+              },
+              {
+                "body": "Each knowledge module page can switch between rules for humans and rules for AI, and supports copying or downloading knowledge snippets. A deployment page guides users on how to invoke the specification for interface generation.",
+                "muted": false
+              },
+              {
+                "type": "list",
+                "ordered": true,
+                "bare": false,
+                "muted": true,
+                "items": [
+                  "Website homepage",
+                  "Sidebar consistent with the design system knowledge structure",
+                  "Knowledge modules",
+                  "Switch to AI-facing rules",
+                  "Human-friendly semantic rules",
+                  "AI-friendly semantic rules"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "type": "detail_line_image_double",
+          "spacing": [],
+          "left": {
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/aigui/ide_mcp.png"
+          },
+          "right": {
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/aigui/ide_chatbox.png"
+          }
+        },
+        {
+          "type": "detail_line_image_double",
+          "spacing": [],
+          "left": {
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/aigui/ide_copy.png"
+          },
+          "right": {
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/aigui/ide_injection.png"
+          }
+        },
+        {
+          "type": "detail_line",
+          "spacing": [
+            "spacing_bottom_lg"
+          ],
+          "aside": {
+            "role": "line_img_annotation",
+            "text": "How it works ↑"
+          },
+          "text": {
+            "paragraphs": [
+              {
+                "body": "This website provides two ways for users to invoke the Tmall design specification within AI tools: an MCP Server and context injection. By one-click configuring the MCP server in an IDE tool, the system automatically depends on the Tmall design knowledge base. The MCP-wrapped APIs perform automated processing and return results based on the user’s natural-language instructions; supported capabilities include (but are not limited to) Search and running workflows (runWorkflow).",
+                "muted": false
+              },
+              {
+                "body": "Alternatively, users can click Copy or Download on a specific knowledge module page to obtain a snippet package containing semantic rules, mapping schema, and code implementations, and paste it directly into the instruction input box for local edits and generation.",
+                "muted": false
+              },
+              {
+                "type": "list",
+                "ordered": true,
+                "bare": false,
+                "muted": true,
+                "items": [
+                  "Configure the tmall-design MCP in the IDE",
+                  "Enter interface-generation instructions in natural language",
+                  "Copy or download a knowledge unit",
+                  "Inject the unit into context"
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "bg": "detail_bg_versionai_grey",
+      "blocks": [
+        {
+          "type": "detail_line_image",
+          "spacing": [
+            "spacing_top_xlg",
+            "spacing_bottom_lg"
+          ],
+          "kind": "image",
+          "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/aigui/zip.png",
+          "layout": "content"
+        },
+        {
+          "type": "detail_line",
+          "spacing": [
+            "spacing_bottom_lg"
+          ],
+          "aside": {
+            "role": "line_img_annotation",
+            "text": "Project planning roadmap ↑"
+          },
+          "text": {
+            "h5": "A design engineering project created entirely by designers",
+            "paragraphs": [
+              {
+                "body": "This project also marked our first deep adoption of AI coding tools to realize the translation of Tmall's design knowledge, the packaging of MCP services, and the creation of a brand-new AI-friendly design guideline website. In practice, the work was divided into three separate engineering packages:",
+                "muted": false
+              },
+              {
+                "type": "list",
+                "ordered": true,
+                "bare": false,
+                "muted": true,
+                "items": [
+                  "First, the design knowledge of VersionAI Tmall was reconstructed in Cursor through a Figma MCP-based workflow, restoring the original design language and component behaviors while systematically building a complete structured knowledge base.",
+                  "Second, the VersionAI Tmall package was encapsulated into an MCP service through Cursor, then published to the npm platform with generated invocation instructions for developers and AI workflows.",
+                  "Finally, a completely new design official website was designed in Figma, and again implemented in Cursor via the Figma MCP workflow. The project was then published to GitHub and deployed on Vercel."
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "type": "detail_line_image",
+          "spacing": [
+            "spacing_bottom_lg"
+          ],
+          "kind": "image",
+          "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/aigui/web-design.png",
+          "layout": "content"
+        },
+        {
+          "type": "detail_line",
+          "spacing": [
+            "spacing_bottom_lg"
+          ],
+          "aside": {
+            "role": "line_img_annotation",
+            "text": "Website design ↑"
+          },
+          "text": {
+            "paragraphs": [
+              {
+                "body": "In the age of AI, open access has become more valuable than ever before. If data and knowledge cannot be retrieved, invoked, or learned by AI systems, it is almost like remaining isolated in an era of globalization. Since Tmall has never had an official design guideline website like many of the world’s leading products and platforms, it has now become essential to create one. More importantly, this should be among the first generation of design websites built specifically for AI consumption.",
+                "muted": false
+              },
+              {
+                "lead": "The official website design of the Tmall app also follows its own design philosophy, “White Paper.”",
+                "body": "The system is shaped by the “White Paper” design philosophy, which emphasizes presenting content as if it leaps forth from a blank canvas, removing any elements that may cause distraction or confusion.",
+                "bodyMuted": true
+              }
+            ]
+          }
+        },
+        {
+          "type": "detail_line_image",
+          "spacing": [
+            "spacing_bottom_lg"
+          ],
+          "kind": "image",
+          "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/aigui/responsive.png",
+          "layout": "content"
+        },
+        {
+          "type": "detail_line",
+          "spacing": [
+            "spacing_bottom_lg"
+          ],
+          "aside": {
+            "role": "line_img_annotation",
+            "text": "Responsive layouts ↑"
+          },
+          "text": {
+            "paragraphs": [
+              {
+                "body": "The website structure consists of Home, Deploy, Style, Case, Blog, and About. Each subpage is composed of a sidebar navigation system, a specification operation panel (including rule and prompt switching, as well as copy and download controls for specifications), the main content area, and an index panel. Responsive layouts were also designed and implemented for different device screen sizes.",
+                "muted": false
+              }
+            ]
+          }
+        },
+        {
+          "type": "detail_line_image_double",
+          "spacing": [],
+          "left": {
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/aigui/front-footage.png"
+          },
+          "right": {
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/aigui/up-footage.png"
+          }
+        },
+        {
+          "type": "detail_line_image_double",
+          "spacing": [],
+          "left": {
+            "kind": "video",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/aigui/lift-up-v.mp4"
+          },
+          "right": {
+            "kind": "video",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/aigui/rotation-v.mp4"
+          }
+        },
+        {
+          "type": "detail_line",
+          "spacing": [
+            "spacing_bottom_lg"
+          ],
+          "aside": {
+            "role": "line_img_annotation",
+            "text": "AI-collaborative intro-video design ↑"
+          },
+          "text": {
+            "h5": "Manifesto Video Concept",
+            "paragraphs": [
+              {
+                "body": "From human design to machine generation, from a single subject to dual subjects: the computer screen serves both as the medium for interface design operations and as the surface of presentation — one screen, two sides. Inside the screen is the machine, outside the screen is the human. The machine draws, the human observes. The black-box process of AI-generated interfaces and the human-machine relationship are visualized across the thin boundary of the screen.",
+                "muted": false
+              },
+              {
+                "type": "list",
+                "ordered": true,
+                "bare": false,
+                "muted": true,
+                "items": [
+                  "Designed the foundational mechanical pen form and created a white model in Blender, then used the NanoBanana image model to generate materials and refined visual details in Adobe Photoshop, producing the front-view asset.",
+                  "Rotated the mechanical pen forward along the X-axis in Blender and repeated the same workflow to produce the lifted-view asset.",
+                  "Used the front-view asset and lifted-view asset as the starting and ending keyframes respectively, then generated an animation with the Kling AI video model to create the lifting animation asset.",
+                  "Used the Kling AI video model to generate a 360-degree rotation animation from the lifted-view asset, producing the rotation animation asset."
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "type": "detail_line_image_double",
+          "spacing": [],
+          "left": {
+            "kind": "video",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/aigui/ui3.mp4"
+          },
+          "right": {
+            "kind": "video",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/aigui/uipath.mp4"
+          }
+        },
+        {
+          "type": "detail_line_image_double",
+          "spacing": [],
+          "left": {
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/aigui/draw1.png"
+          },
+          "right": {
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/aigui/draw2.png"
+          }
+        },
+        {
+          "type": "detail_line",
+          "spacing": [
+            "spacing_bottom_lg"
+          ],
+          "aside": {
+            "role": "line_img_annotation",
+            "text": "UI drawing trajectory capture ↑"
+          },
+          "text": {
+            "paragraphs": [
+              {
+                "type": "list",
+                "ordered": true,
+                "bare": false,
+                "muted": true,
+                "items": [
+                  "Selected three representative Tmall UI components in Figma.",
+                  "Created single-line vector paths for each component in Adobe Illustrator.",
+                  "Imported the paths into the iDraw mechanical plotter and executed the trajectory-based drawing process.",
+                  "Used an Apple iPhone to record the complete drawing process from a front-facing perspective aligned with the iDraw mechanical plotter."
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "type": "detail_line_image_double",
+          "spacing": [],
+          "left": {
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/aigui/ae-1.png"
+          },
+          "right": {
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/aigui/ae-2.png"
+          }
+        },
+        {
+          "type": "detail_line_image_double",
+          "spacing": [],
+          "left": {
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/aigui/ae-4.png"
+          },
+          "right": {
+            "kind": "video",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/aigui/4k_30fps_refined.mp4"
+          }
+        },
+        {
+          "type": "detail_line",
+          "spacing": [
+            "spacing_bottom_lg"
+          ],
+          "aside": {
+            "role": "line_img_annotation",
+            "text": "Compositing and post-production ↑"
+          },
+          "text": {
+            "paragraphs": [
+              {
+                "type": "list",
+                "ordered": true,
+                "bare": false,
+                "muted": true,
+                "items": [
+                  "Imported the recorded footage into Adobe After Effects and applied motion tracking to the pen tip. The previously generated front-view asset was bound to the drawing trajectory, the lifted-view asset was used for the pen-down and pen-lift animations of each UI stroke, and the rotation asset was used for large-scale translational movement animations of the mechanical pen.",
+                  "Imported the single-line UI paths into Adobe After Effects, then aligned the keyframes of each Path Trim animation stroke with the motion-tracked trajectory from the previous step.",
+                  "Used Google Gemini to generate expressions for the randomized UI dissolution effect after the drawing sequence was completed.",
+                  "Composited and rendered the final video output."
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

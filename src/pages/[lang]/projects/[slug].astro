@@ -26,15 +26,39 @@ const detail = getProjectDetail(project.slug);
 const title = detail?.meta.displayTitle[locale] ?? project.title[locale];
 const route = `projects/${project.slug}`;
 
+const awardLinks = detail?.meta.awardLinks ?? [];
+
 const metaRows = detail
-  ? [
-      [t.project.period, detail.meta.period[locale]],
-      [t.project.category, detail.meta.category[locale]],
-      [t.project.designLead, detail.meta.designLead[locale]],
-      [t.project.team, detail.meta.team[locale]],
-      [t.project.award, detail.meta.award[locale]],
-    ]
+  ? (
+      [
+        [t.project.period, detail.meta.period[locale]],
+        [t.project.category, detail.meta.category[locale]],
+        [t.project.designLead, detail.meta.designLead[locale]],
+        [t.project.team, detail.meta.team[locale]],
+        /* Linked awards render separately below */
+        ...(awardLinks.length
+          ? []
+          : ([[t.project.award, detail.meta.award[locale]]] as const)),
+      ] as const
+    ).filter(([, value]) => Boolean(value?.trim()))
   : [];
+
+const summaryParagraphs = detail?.meta.summary[locale]
+  ? detail.meta.summary[locale].split(/\n\n+/).map((p) => p.trim()).filter(Boolean)
+  : [];
+const summaryLink = detail?.meta.summaryLink;
+
+/**
+ * Split “(1)” / “(2)” into home-style superscript markers.
+ * Markers sit outside punctuation: “word (1),” → “word,” + ¹ (not inside the comma).
+ */
+function summaryParts(text: string) {
+  const normalized = text.replace(/\s*\((\d+)\)\s*([.,;:!?])/g, '$2($1)');
+  return normalized.split(/(\(\d+\))/g).filter(Boolean).map((part) => {
+    const m = part.match(/^\((\d+)\)$/);
+    return m ? ({ type: 'marker' as const, value: m[1] }) : ({ type: 'text' as const, value: part });
+  });
+}
 ---
 
 <BaseLayout locale={locale} route={route} title={title}>
@@ -75,7 +99,34 @@ const metaRows = detail
                 <div class="meta">
                   <div class="meta__intro">
                     <h1 class="meta__title">{detail.meta.displayTitle[locale]}</h1>
-                    <p class="meta__summary">{detail.meta.summary[locale]}</p>
+                    {
+                      (summaryParagraphs.length > 0 || summaryLink) && (
+                        <div class="meta__summary">
+                          {summaryParagraphs.map((paragraph) => (
+                            <p>
+                              {summaryParts(paragraph).map((part) =>
+                                part.type === 'marker' ? (
+                                  <span class="meta__marker">{part.value}</span>
+                                ) : (
+                                  part.value
+                                ),
+                              )}
+                            </p>
+                          ))}
+                          {summaryLink && (
+                            <p class="meta__summary-link">
+                              <a
+                                href={summaryLink.href}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                              >
+                                {summaryLink.label}
+                              </a>
+                            </p>
+                          )}
+                        </div>
+                      )
+                    }
                   </div>
                   <dl class="meta__list">
                     {metaRows.map(([label, value]) => (
@@ -84,8 +135,25 @@ const metaRows = detail
                         <dd set:html={value.replace(/\n/g, '<br />')} />
                       </div>
                     ))}
+                    {
+                      awardLinks.length > 0 && (
+                        <div class="meta__row">
+                          <dt>{t.project.award}</dt>
+                          <dd class="meta__awards">
+                            {awardLinks.map((link) => (
+                              <a
+                                href={link.href}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                              >
+                                {link.label}
+                              </a>
+                            ))}
+                          </dd>
+                        </div>
+                      )
+                    }
                   </dl>
-                  <p class="meta__disclaimer">{detail.meta.disclaimer[locale]}</p>
                 </div>
               </div>
             )
@@ -196,11 +264,55 @@ const metaRows = detail
   }
 
   .meta__summary {
+    display: flex;
+    flex-direction: column;
+    gap: 0.625rem; /* between summary paragraphs */
     margin: 0;
     font-weight: var(--weight-light);
     line-height: var(--leading-body);
     letter-spacing: var(--tracking-intro);
     color: var(--color-exclusion-fg);
+  }
+
+  .meta__summary p {
+    margin: 0;
+  }
+
+  /* Published URL — own paragraph, extra air under the copy */
+  .meta__summary-link {
+    margin-top: 0.625rem;
+  }
+
+  .meta__summary a,
+  .meta__awards a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  .meta__summary a:hover,
+  .meta__awards a:hover {
+    text-decoration: underline;
+  }
+
+  .meta__awards {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .meta__awards a {
+    display: block;
+  }
+
+  /* Same superscript markers as home About 1 / 2 / 3 */
+  .meta__marker {
+    font-size: var(--text-micro);
+    font-weight: inherit;
+    letter-spacing: normal;
+    line-height: 1;
+    position: relative;
+    top: -0.45em;
+    vertical-align: baseline;
   }
 
   .meta__list {
@@ -229,14 +341,6 @@ const metaRows = detail
 
   .meta__row dd {
     color: var(--color-exclusion-fg);
-  }
-
-  .meta__disclaimer {
-    margin: 0;
-    font-weight: var(--weight-light);
-    line-height: var(--leading-body);
-    letter-spacing: var(--tracking-intro);
-    color: var(--color-exclusion-fg-muted);
   }
 
   @media (max-width: 1240px) {

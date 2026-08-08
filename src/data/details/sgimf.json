@@ -1,0 +1,79 @@
+{
+  "slug": "sgimf",
+  "meta": {
+    "displayTitle": {
+      "en": "The 2020 Sino-Germany International Music Festival and Competition Poster Design",
+      "zh": "The 2020 Sino-Germany International Music Festival and Competition Poster Design",
+      "ja": "The 2020 Sino-Germany International Music Festival and Competition Poster Design"
+    },
+    "summary": {
+      "en": "This event, the 2020 Sino-Germany International Music Festival and Competition, is hosted by Deutsche Philharmonie, co-organized by the 24 National School of Music in Germany and Berlin Philharmonic Orchestra. To convey the cultural integration of China and Germany, as well as their independent confidence, typography design with pure Chinese and German is used in the poster series. Handpicking the slender serif font of these two languages is to express the artistic characteristics of classical music.",
+      "zh": "This event, the 2020 Sino-Germany International Music Festival and Competition, is hosted by Deutsche Philharmonie, co-organized by the 24 National School of Music in Germany and Berlin Philharmonic Orchestra. To convey the cultural integration of China and Germany, as well as their independent confidence, typography design with pure Chinese and German is used in the poster series. Handpicking the slender serif font of these two languages is to express the artistic characteristics of classical music.",
+      "ja": "This event, the 2020 Sino-Germany International Music Festival and Competition, is hosted by Deutsche Philharmonie, co-organized by the 24 National School of Music in Germany and Berlin Philharmonic Orchestra. To convey the cultural integration of China and Germany, as well as their independent confidence, typography design with pure Chinese and German is used in the poster series. Handpicking the slender serif font of these two languages is to express the artistic characteristics of classical music."
+    },
+    "period": {
+      "en": "2020",
+      "zh": "2020",
+      "ja": "2020"
+    },
+    "category": {
+      "en": "Graphic Design",
+      "zh": "Graphic Design",
+      "ja": "Graphic Design"
+    },
+    "designLead": {
+      "en": "Keke LE",
+      "zh": "Keke LE",
+      "ja": "Keke LE"
+    },
+    "team": {
+      "en": "",
+      "zh": "",
+      "ja": ""
+    },
+    "award": {
+      "en": "",
+      "zh": "",
+      "ja": ""
+    },
+    "disclaimer": {
+      "en": "Deutsche Philharmonie © All rights reserved.",
+      "zh": "Deutsche Philharmonie © All rights reserved.",
+      "ja": "Deutsche Philharmonie © All rights reserved."
+    }
+  },
+  "sections": [
+    {
+      "bg": "detail_bg_light",
+      "blocks": [
+        {
+          "type": "detail_cover",
+          "kind": "image",
+          "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/sgimf/sgimf_cover.png",
+          "alt": ""
+        },
+        {
+          "type": "detail_line_image",
+          "spacing": [],
+          "kind": "image",
+          "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/sgimf/sgimf_1.png",
+          "layout": "content"
+        },
+        {
+          "type": "detail_line_image",
+          "spacing": [],
+          "kind": "image",
+          "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/sgimf/sgimf_2.png",
+          "layout": "content"
+        },
+        {
+          "type": "detail_line_image",
+          "spacing": [],
+          "kind": "image",
+          "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/sgimf/sgimf_3.png",
+          "layout": "content"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "slug": "wine",
+  "meta": {
+    "displayTitle": {
+      "en": "DongJiHuang Ice Fruit Wine Package",
+      "zh": "DongJiHuang Ice Fruit Wine Package",
+      "ja": "DongJiHuang Ice Fruit Wine Package"
+    },
+    "summary": {
+      "en": "Dongjihuang Ice Orange Wine is made from fermented tangerines harvested from Changxing Island. The natural curves of the sun-dried tangerine leaves and the shape of the wine drops were applied to the visual graphics of the packaging, and the Chinese and Western characters shape of the product name. The hexagonal cross-section of the bottle was inspired by the cross-section of a tangerine.",
+      "zh": "Dongjihuang Ice Orange Wine is made from fermented tangerines harvested from Changxing Island. The natural curves of the sun-dried tangerine leaves and the shape of the wine drops were applied to the visual graphics of the packaging, and the Chinese and Western characters shape of the product name. The hexagonal cross-section of the bottle was inspired by the cross-section of a tangerine.",
+      "ja": "Dongjihuang Ice Orange Wine is made from fermented tangerines harvested from Changxing Island. The natural curves of the sun-dried tangerine leaves and the shape of the wine drops were applied to the visual graphics of the packaging, and the Chinese and Western characters shape of the product name. The hexagonal cross-section of the bottle was inspired by the cross-section of a tangerine."
+    },
+    "period": {
+      "en": "2014",
+      "zh": "2014",
+      "ja": "2014"
+    },
+    "category": {
+      "en": "Package Design",
+      "zh": "Package Design",
+      "ja": "Package Design"
+    },
+    "designLead": {
+      "en": "Keke LE",
+      "zh": "Keke LE",
+      "ja": "Keke LE"
+    },
+    "team": {
+      "en": "",
+      "zh": "",
+      "ja": ""
+    },
+    "award": {
+      "en": "",
+      "zh": "",
+      "ja": ""
+    },
+    "disclaimer": {
+      "en": "Shanghai YinXing Winery © All rights reserved.",
+      "zh": "Shanghai YinXing Winery © All rights reserved.",
+      "ja": "Shanghai YinXing Winery © All rights reserved."
+    }
+  },
+  "sections": [
+    {
+      "bg": "detail_bg_light",
+      "blocks": [
+        {
+          "type": "detail_cover",
+          "kind": "image",
+          "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/wine/wine_cover.png",
+          "alt": ""
+        },
+        {
+          "type": "detail_line_image",
+          "spacing": [],
+          "kind": "image",
+          "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/wine/wine_cad.png",
+          "layout": "content"
+        },
+        {
+          "type": "detail_line_image",
+          "spacing": [],
+          "kind": "image",
+          "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/wine/wine_cz.png",
+          "layout": "content"
+        },
+        {
+          "type": "detail_line_image",
+          "spacing": [],
+          "kind": "image",
+          "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/wine/wine_en_color.png",
+          "layout": "content"
+        },
+        {
+          "type": "detail_line_image",
+          "spacing": [],
+          "kind": "image",
+          "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/wine/tag_twin.png",
+          "layout": "content"
+        }
+      ]
+    }
+  ]
+}
