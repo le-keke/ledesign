@@ -40,8 +40,8 @@ const { locale } = Astro.props;
 <style>
   .logo {
     display: block;
-    width: 2rem; /* 32px */
-    height: 2rem;
+    width: var(--logo-size); /* 32px @1440; type-scale cap 1.2× */
+    height: var(--logo-size);
     color: inherit; /* exclusion chrome supplies white → reads as black */
   }
 

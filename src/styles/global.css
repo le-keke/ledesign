@@ -4,11 +4,11 @@
 @import './transitions.css';
 
 /**
- * Responsive scaling — same strategy as lejing.
- * ≤1440: root 16px (rem = design px). >1440: scale with vw. ≥2560: freeze + centre.
+ * Root rem follows --scale-layout (covers / gutters / page width → 2560).
+ * Glyph size + logo use --scale-type (same curve, hard cap 1.2×) via tokens.
  */
-:root {
-  font-size: 16px;
+html {
+  font-size: calc(16px * var(--scale-layout));
 }
 
 * {
@@ -17,18 +17,6 @@
 
 *::-webkit-scrollbar {
   display: none;
-}
-
-@media (min-width: 1440.02px) {
-  :root {
-    font-size: calc(16 / 1440 * 100vw);
-  }
-}
-
-@media (min-width: 2560px) {
-  :root {
-    font-size: calc(16 / 1440 * 2560px);
-  }
 }
 
 body {
@@ -59,6 +47,11 @@ body {
   display: grid;
   grid-template-columns: repeat(var(--grid-columns), minmax(0, 1fr));
   column-gap: var(--grid-gutter);
+}
+
+/* Let tracks shrink below replaced-media intrinsic sizes (gif/webm/png). */
+.grid > * {
+  min-width: 0;
 }
 
 .grid__main {

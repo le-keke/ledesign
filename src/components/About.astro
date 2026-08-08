@@ -1,7 +1,8 @@
 ---
 /**
- * Home intro + footnote panels (1 CV · 2 speakings · 3 awards).
- * Interaction matches lejing: desktop hover, touch tap + outside dismiss.
+ * Home intro + footnote panels (1 CV · 2 speaking engagements · 3 awards).
+ * For {2}, only “engagements” (+ marker) is the hover hit; “speaking ” is inert
+ * so scrolling the CV panel is less likely to switch footnotes by accident.
  */
 import { getDictionary, splitFootnotes, type Locale } from '@i18n/index';
 
@@ -23,19 +24,20 @@ const panelIds = ['1', '2', '3'] as const;
   <div class="about__stack">
     <p class="about__intro">
       {
-        parts.map((part) =>
-          part.type === 'trigger' ? (
-            <button class="about__trigger" type="button" data-about-trigger={part.id}>
-              {t.about.triggers[part.id as '1' | '2' | '3']}
-              {
-                part.id === '2' ? ' ' : null
-              }
-              <span class="about__marker">{part.id}</span>
-            </button>
-          ) : (
-            part.value
-          ),
-        )
+        parts.map((part) => {
+          if (part.type !== 'trigger') return part.value;
+          const id = part.id as '1' | '2' | '3';
+          const lead = t.about.triggerLeads[id];
+          return (
+            <>
+              {lead ? <span class="about__lead">{lead}</span> : null}
+              <button class="about__trigger" type="button" data-about-trigger={id}>
+                {t.about.triggers[id]}
+                <span class="about__marker">{id}</span>
+              </button>
+            </>
+          );
+        })
       }
     </p>
 

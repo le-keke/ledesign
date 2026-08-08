@@ -10,11 +10,19 @@
  *   ≤1240 → >750: full-width 4-col feed, no right info, still 4 / row
  *   ≤750: 1 / row list; phone chrome (logo + menu stub)
  *
- * Sizes in rem where 1rem = 16px at the 1440 design width. global.css scales
- * the root above 1440 and freezes at 2560.
+ * Layout sizes in rem (follow --scale-layout up to 2560).
+ * Type / logo use --scale-type (same curve, hard cap 1.2×).
  */
 
 :root {
+  /*
+   * Layout scale → 2560 (≈1.778×). Type/logo scale shares the curve but caps at 1.2×.
+   * Defined here so type tokens can reference them safely.
+   */
+  /* 100vw / 1440px → unitless ratio (bare 1440 is invalid / ignored). */
+  --scale-layout: clamp(1, 100vw / 1440px, 2560 / 1440);
+  --scale-type: min(var(--scale-layout), 1.2);
+
   /* ---------- Palette ---------- */
   --color-black: #000000;
   --color-grey: #999999;
@@ -34,27 +42,33 @@
   /* ---------- Type ---------- */
   /*
    * Figma body is 10 / 15 leading. Review preferred ~+10% (not Safari’s 115%
-   * first zoom step). Type + text rhythm are ×1.10; grid stays on Figma px.
+   * first zoom step). Type + text rhythm are ×1.10 at 1440; above 1440 they
+   * follow --scale-type (≤1.2) while layout rem keeps growing.
    */
   --font-display: 'Aboreto', 'Times New Roman', serif;
   --font-sans:
     'Inter Variable', 'Inter', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'PingFang SC',
     'Hiragino Sans', 'Microsoft YaHei', sans-serif;
 
-  --text-micro: 0.4434375rem; /* 7.095px ← 6.45 × 1.10 — footnote markers */
-  --text-body: 0.6875rem; /* 11px ← 10 × 1.10 */
-  --text-title: 1rem; /* 16px — display titles, unscaled for now */
-  --text-logo: 1.25rem; /* 20px */
+  /* 1rem of “type space” = layout rem × type/layout scale ratio */
+  --type-unit: calc(1rem * var(--scale-type) / var(--scale-layout));
 
-  --leading-flat: 0.6875rem; /* 11px ← 10 × 1.10 — nav / footer / year rows */
-  --leading-body: 1.03125rem; /* 16.5px ← 15 × 1.10 — intro + grey panels */
-  --leading-logo: 1.25rem;
+  --text-micro: calc(0.4434375 * var(--type-unit)); /* 7.095px @1× */
+  --text-body: calc(0.6875 * var(--type-unit)); /* 11px @1× */
+  --text-title: calc(1 * var(--type-unit)); /* 16px @1× */
+  --text-logo: calc(1.25 * var(--type-unit)); /* 20px @1× */
 
-  --tracking-body: 0.0103125rem; /* 0.165px ← 0.15 × 1.10 */
-  --tracking-intro: 0.00825rem; /* 0.132px ← 0.12 × 1.10 */
+  --leading-flat: calc(0.6875 * var(--type-unit));
+  --leading-body: calc(1.03125 * var(--type-unit));
+  --leading-logo: calc(1.25 * var(--type-unit));
 
-  /* Gaps in the type rhythm (under intro, year↔copy), also ×1.10 */
-  --text-gap: 0.6875rem; /* 11px ← 10 × 1.10 */
+  --tracking-body: calc(0.0103125 * var(--type-unit));
+  --tracking-intro: calc(0.00825 * var(--type-unit));
+
+  /* Gaps in the type rhythm (under intro, year↔copy) — track type, not layout */
+  --text-gap: calc(0.6875 * var(--type-unit));
+
+  --logo-size: calc(2 * var(--type-unit)); /* 32px @1× — spinning mark */
 
   --weight-light: 300;
   --weight-regular: 400;

@@ -1,6 +1,21 @@
 import type { Locale } from '@i18n/index';
 
+import cover360 from '@assets/covers/360.png?url';
+import coverAutomarket from '@assets/covers/automarket.png?url';
+import coverAvp from '@assets/covers/avp.gif?url';
+import coverBr from '@assets/covers/br.gif?url';
+import coverDscafe from '@assets/covers/dscafe.png?url';
+import coverFss from '@assets/covers/fss.png?url';
+import coverSgimf from '@assets/covers/sgimf.png?url';
+import coverSwap from '@assets/covers/swap.png?url';
+import coverTaoweb from '@assets/covers/taoweb.jpg?url';
+import coverTisland from '@assets/covers/tisland.png?url';
+import coverVersionai from '@assets/covers/versionai_tmall.jpg?url';
+import coverWine from '@assets/covers/wine.png?url';
+import coverZermattern from '@assets/covers/zermattern.png?url';
+
 export type ProjectCategory = 'work' | 'research';
+export type CoverKind = 'image' | 'video';
 
 export interface Project {
   slug: string;
@@ -8,24 +23,165 @@ export interface Project {
   /** When true, listed but not linkable (matches old-site locked cards). */
   locked?: boolean;
   title: Record<Locale, string>;
+  cover: string;
+  coverKind: CoverKind;
 }
 
 /**
- * Placeholder covers for P1 grid rhythm (4 per row @ 1440).
- * Replaced with real projects / assets in later phases.
+ * Home feed — reading order from Figma `home-work` (1294:3), row by row L→R.
+ *
+ * 1 avp · 2 versionai · 3 360 · 4 zermattern
+ * 5 taoweb · 6 tisland · 7 fss · 8 swap
+ * 9 automarket · 10 dscafe · 11 br · 12 wine
+ * 13 sgimf
  */
-export const projects: Project[] = Array.from({ length: 12 }, (_, index) => {
-  const n = index + 1;
-  return {
-    slug: `placeholder-${n}`,
-    category: 'work' as const,
+export const projects: Project[] = [
+  {
+    slug: 'taobaovp',
+    category: 'work',
     title: {
-      en: `Project ${n}`,
-      zh: `项目 ${n}`,
-      ja: `プロジェクト ${n}`,
+      en: 'Taobao on Apple Vision Pro',
+      zh: '淘宝 Apple Vision Pro',
+      ja: 'Taobao on Apple Vision Pro',
     },
-  };
-});
+    cover: coverAvp,
+    coverKind: 'image',
+  },
+  {
+    slug: 'versionai',
+    category: 'work',
+    title: {
+      en: 'VersionAI Tmall',
+      zh: 'VersionAI 天猫',
+      ja: 'VersionAI Tmall',
+    },
+    cover: coverVersionai,
+    coverKind: 'image',
+  },
+  {
+    slug: 'vr-video',
+    category: 'work',
+    locked: true,
+    title: {
+      en: 'VR-Video UX for Spatial Commodity Shopping',
+      zh: '空间商品购物 VR 视频体验',
+      ja: 'VR-Video UX for Spatial Commodity Shopping',
+    },
+    cover: cover360,
+    coverKind: 'image',
+  },
+  {
+    slug: 'zermattern',
+    category: 'work',
+    locked: true,
+    title: {
+      en: 'Zermattern® Ski Equipment & Club',
+      zh: 'Zermattern® 滑雪装备与俱乐部',
+      ja: 'Zermattern® Ski Equipment & Club',
+    },
+    cover: coverZermattern,
+    coverKind: 'image',
+  },
+  {
+    slug: 'taoweb',
+    category: 'work',
+    title: {
+      en: 'Taobao Design Official Website',
+      zh: '淘宝设计官网',
+      ja: 'Taobao Design Official Website',
+    },
+    cover: coverTaoweb,
+    coverKind: 'image',
+  },
+  {
+    slug: 'tisland',
+    category: 'work',
+    title: {
+      en: 'A Consumption Experience Driven by Community',
+      zh: '社区驱动的消费体验',
+      ja: 'A Consumption Experience Driven by Community',
+    },
+    cover: coverTisland,
+    coverKind: 'image',
+  },
+  {
+    slug: 'fss',
+    category: 'work',
+    title: {
+      en: 'New Steering Experience on Autonomous Driving',
+      zh: '自动驾驶新转向体验',
+      ja: 'New Steering Experience on Autonomous Driving',
+    },
+    cover: coverFss,
+    coverKind: 'image',
+  },
+  {
+    slug: 'swap',
+    category: 'work',
+    title: {
+      en: 'Swap Web3 Chatting Brand',
+      zh: 'Swap Web3 聊天品牌',
+      ja: 'Swap Web3 Chatting Brand',
+    },
+    cover: coverSwap,
+    coverKind: 'image',
+  },
+  {
+    slug: 'automarket',
+    category: 'work',
+    title: {
+      en: 'Aftermarket Experience Based on Telematics',
+      zh: '基于车联网的售后体验',
+      ja: 'Aftermarket Experience Based on Telematics',
+    },
+    cover: coverAutomarket,
+    coverKind: 'image',
+  },
+  {
+    slug: 'dscafe',
+    category: 'work',
+    title: {
+      en: 'Shanghai DASHENG CAFE Brand',
+      zh: '上海大生咖啡品牌',
+      ja: 'Shanghai DASHENG CAFE Brand',
+    },
+    cover: coverDscafe,
+    coverKind: 'image',
+  },
+  {
+    slug: 'sgmc',
+    category: 'work',
+    title: {
+      en: 'The Sino-Germany Music Competition',
+      zh: '中德音乐大赛',
+      ja: 'The Sino-Germany Music Competition',
+    },
+    cover: coverBr,
+    coverKind: 'image',
+  },
+  {
+    slug: 'wine',
+    category: 'work',
+    title: {
+      en: 'DongJiHuang Ice Fruit Wine Package',
+      zh: '东极黄冰果酒包装',
+      ja: 'DongJiHuang Ice Fruit Wine Package',
+    },
+    cover: coverWine,
+    coverKind: 'image',
+  },
+  {
+    slug: 'sgimf',
+    category: 'work',
+    title: {
+      en: 'The Belt & Road Sino-Germany Music Festival',
+      zh: '一带一路中德国际音乐节',
+      ja: 'The Belt & Road Sino-Germany Music Festival',
+    },
+    cover: coverSgimf,
+    coverKind: 'image',
+  },
+];
 
 export function getProject(slug: string): Project | undefined {
   return projects.find((project) => project.slug === slug);

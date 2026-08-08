@@ -39,6 +39,7 @@ const maxColumns = 12;
     const layer = overlay?.querySelector<HTMLElement>('.overlay__layer');
     const column = overlay?.querySelector<HTMLElement>('.overlay__col');
     const info = overlay?.querySelector<HTMLElement>('.overlay__info');
+    const liveCover = document.querySelector<HTMLElement>('.feed .cover');
     if (!readout || !page || !layer || !column || !info) return;
 
     const root = getComputedStyle(document.documentElement);
@@ -53,7 +54,10 @@ const maxColumns = 12;
     const infoWidth = info.getBoundingClientRect().width;
     const rootSize = parseFloat(root.fontSize);
 
-    const coverWidth = coverSpan * columnWidth + (coverSpan - 1) * gutter;
+    /* Prefer a live cover width — overlay cols can read as 0 when clipped. */
+    const coverWidth = liveCover
+      ? liveCover.getBoundingClientRect().width
+      : coverSpan * columnWidth + (coverSpan - 1) * gutter;
     const perRow = Math.floor(mainColumns / coverSpan);
 
     readout.textContent = [

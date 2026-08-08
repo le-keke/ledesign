@@ -24,15 +24,47 @@ const locale = Astro.params.lang as Locale;
         <div class="grid__main">
           <div class="grid feed">
             {
-              projects.map((project) => (
-                <a
-                  class="cover"
-                  href={getRelativeLocaleUrl(locale, `projects/${project.slug}`)}
-                  data-astro-prefetch
-                >
-                  <div class="cover__media" />
-                </a>
-              ))
+              projects.map((project) => {
+                const media =
+                  project.coverKind === 'video' ? (
+                    <video
+                      class="cover__media"
+                      src={project.cover}
+                      width="1200"
+                      height="1200"
+                      autoplay
+                      muted
+                      loop
+                      playsinline
+                      preload="auto"
+                      aria-label={project.title[locale]}
+                    />
+                  ) : (
+                    <img
+                      class="cover__media"
+                      src={project.cover}
+                      alt={project.title[locale]}
+                      width="1200"
+                      height="1200"
+                      loading="lazy"
+                      decoding="async"
+                    />
+                  );
+
+                return project.locked ? (
+                  <div class="cover cover--locked" aria-disabled="true">
+                    {media}
+                  </div>
+                ) : (
+                  <a
+                    class="cover"
+                    href={getRelativeLocaleUrl(locale, `projects/${project.slug}`)}
+                    data-astro-prefetch
+                  >
+                    {media}
+                  </a>
+                );
+              })
             }
           </div>
         </div>
@@ -89,13 +121,22 @@ const locale = Astro.params.lang as Locale;
   .cover {
     grid-column: span var(--cover-span);
     display: block;
+    min-width: 0;
     aspect-ratio: 1;
   }
 
   .cover__media {
+    display: block;
     width: 100%;
     height: 100%;
+    max-width: none;
+    max-height: none;
+    object-fit: cover;
     background: rgb(153 153 153 / 0.22);
+  }
+
+  .cover--locked {
+    cursor: default;
   }
 
   .chrome {
@@ -206,7 +247,7 @@ const locale = Astro.params.lang as Locale;
     }
 
     .screen {
-      padding-block-start: calc(var(--page-edge-y) + 2rem + var(--feed-gap-top));
+      padding-block-start: calc(var(--page-edge-y) + var(--logo-size) + var(--feed-gap-top));
     }
   }
 
@@ -216,6 +257,7 @@ const locale = Astro.params.lang as Locale;
     }
 
     .screen {
+      padding-block-start: calc(var(--page-edge-y) + var(--logo-size) + var(--feed-gap-top));
       padding-block-end: calc(2 * var(--page-edge-y));
     }
   }
