@@ -76,6 +76,11 @@
   },
   "project": {
     "close": "关闭",
-    "back": "返回"
+    "back": "返回",
+    "period": "Period",
+    "category": "Category",
+    "designLead": "Design Lead",
+    "team": "Team",
+    "award": "Award"
   }
 }

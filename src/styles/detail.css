@@ -1,0 +1,321 @@
+/**
+ * Project detail stream — same class taxonomy as old ledesign/style.css
+ * (detail_container / detail_line / line_text_en / …).
+ * Only values differ for the new grid + type tokens.
+ */
+
+/* ---------- Background bands (full-bleed under right chrome) ---------- */
+
+.detail_bg_light {
+  background: var(--color-white);
+  color: var(--color-fg);
+}
+
+.detail_bg_dark {
+  background: var(--color-black);
+  color: var(--color-white);
+}
+
+.detail_bg_tbvp_dark {
+  background: #5f5f5f;
+  color: var(--color-white);
+}
+
+.detail_bg_tbvp_grey {
+  background: #dddddd;
+  color: var(--color-fg);
+}
+
+.detail_container {
+  width: 100%;
+}
+
+/*
+ * Default (incl. detail_cover): top = --page-edge-y → aligns with Close / chrome.
+ * Bleed band (old full-window media): top = --page-margin → same as L/R inset.
+ * Bottom pad unchanged for both.
+ */
+.detail_container > .page {
+  padding-block-start: var(--page-edge-y);
+  padding-block-end: var(--page-edge-y);
+}
+
+/*
+ * End of feed: 120px @1440 on the last band itself so the inset uses that
+ * module’s bg (e.g. tbvp grey), not the default white page. All projects.
+ */
+.detail_container:last-child {
+  padding-bottom: 7.5rem;
+}
+
+.detail_container:last-child > .page {
+  padding-block-end: 0;
+}
+
+.detail_container--bleed-pad > .page {
+  padding-block-start: var(--page-margin);
+}
+
+/*
+ * Spacing utilities — same names as old ledesign/style.css.
+ * Desktop (@1440): lg 60 · md 40 · min 20
+ * ≤750: match old ≤1023 lg→30 · md→10 · min→0
+ */
+.spacing_bottom_lg {
+  margin-bottom: 3.75rem; /* 60px */
+}
+
+.spacing_bottom_md {
+  margin-bottom: 2.5rem; /* 40px */
+}
+
+.spacing_bottom_min {
+  margin-bottom: 1.25rem; /* 20px */
+}
+
+.spacing_top_xlg {
+  margin-top: 7.5rem; /* 120px — old xlg */
+}
+
+.spacing_top_lg {
+  margin-top: 3.75rem; /* 60px */
+}
+
+.spacing_top_md {
+  margin-top: 2.5rem; /* 40px */
+}
+
+.spacing_top_min {
+  margin-top: 1.25rem; /* 20px */
+}
+
+/* ---------- Feed stack ---------- */
+
+.detail_feed {
+  --detail-feed-gap: 3.75rem; /* 60px @1440 — old spacing_bottom_lg */
+  display: flex;
+  flex-direction: column;
+  gap: var(--detail-feed-gap);
+}
+
+/* ---------- Cover / single media (feed width; old bleed → same) ---------- */
+
+.detail_cover,
+.detail_line_image {
+  margin: 0;
+  min-width: 0;
+}
+
+.detail_cover img,
+.detail_cover video,
+.detail_line_image img,
+.detail_line_image video {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-width: none;
+  background: transparent;
+}
+
+/* ---------- Double media (old flex 5/5 + 50px → 1fr/1fr + gutter) ---------- */
+
+.detail_line_image_double {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  column-gap: var(--grid-gutter); /* was margin-right: 50px */
+  align-items: start;
+  margin: 0;
+}
+
+.line_double_img_left,
+.line_double_img_right {
+  margin: 0;
+  min-width: 0;
+}
+
+.line_double_img_left img,
+.line_double_img_left video,
+.line_double_img_right img,
+.line_double_img_right video {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-width: none;
+}
+
+/* ---------- Text line (annotation | text) ---------- */
+
+.detail_line {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  column-gap: var(--grid-gutter); /* was flex + margin-right: 50px */
+  align-items: start;
+  width: 100%;
+  margin: 0;
+}
+
+.line_annotation,
+.line_img_annotation,
+.line_research_img {
+  margin: 0;
+  min-width: 0;
+  font-weight: var(--weight-light);
+  line-height: var(--leading-body);
+  letter-spacing: var(--tracking-body);
+  color: var(--color-fg-muted);
+}
+
+.detail_bg_dark .line_annotation,
+.detail_bg_dark .line_img_annotation,
+.detail_bg_tbvp_dark .line_annotation,
+.detail_bg_tbvp_dark .line_img_annotation {
+  color: #999999;
+}
+
+.line_research_img img,
+.line_research_img video {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-width: none;
+}
+
+.line_text_en {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  /*
+   * Old light_mode #111 / dark_mode #ddd — primary by default.
+   * Only old #666 / #999 spans become .is-muted.
+   */
+  color: var(--color-fg);
+}
+
+.detail_bg_dark .line_text_en,
+.detail_bg_tbvp_dark .line_text_en {
+  color: var(--color-white);
+}
+
+/* Old: h5 margin-bottom 20 / p margin-bottom 24 → new 10 rhythm */
+.line_text_en h5 {
+  margin: 0 0 0.625rem;
+  font-size: var(--text-body);
+  font-weight: var(--weight-regular);
+  line-height: var(--leading-body);
+  letter-spacing: var(--tracking-body);
+  color: inherit; /* primary */
+}
+
+.line_text_en p {
+  margin: 0 0 0.625rem;
+  font-weight: var(--weight-light);
+  line-height: var(--leading-body);
+  letter-spacing: var(--tracking-intro);
+  color: inherit; /* primary unless .is-muted */
+}
+
+.line_text_en p:last-child {
+  margin-bottom: 0;
+}
+
+/* Old .line_text_en ol / li — keep structure for all projects */
+.line_text_en .line_list {
+  margin: 0 0 0.625rem;
+  padding-left: 1.5rem; /* was 24px */
+  font-weight: var(--weight-light);
+  line-height: var(--leading-body);
+  letter-spacing: var(--tracking-intro);
+  color: inherit;
+}
+
+.line_text_en .line_list:last-child {
+  margin-bottom: 0;
+}
+
+.line_text_en .line_list li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Captions where “1: …” is already in the string (old <br> lists) */
+.line_text_en .line_list--bare {
+  list-style: none;
+  padding-left: 0;
+}
+
+.line_text_en .lead {
+  color: inherit; /* primary emphasis */
+  font-weight: var(--weight-light);
+}
+
+/* Old #666 (light) / #999 (dark) → muted token */
+.line_text_en .is-muted {
+  color: var(--color-fg-muted);
+}
+
+.detail_bg_dark .line_text_en .is-muted,
+.detail_bg_tbvp_dark .line_text_en .is-muted {
+  color: #999999;
+}
+
+.line_text_en a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.line_text_en a:hover {
+  text-decoration: underline;
+}
+
+/* Empty left annotation — keep grid so text stays in the end column */
+.line_annotation:empty,
+.line_img_annotation:empty {
+  min-height: 0;
+}
+
+/* ---------- Phone: stack two-column lines (old ≤1023 → new ≤750) ---------- */
+
+@media (max-width: 750px) {
+  .detail_feed {
+    --detail-feed-gap: 1.875rem; /* 30px — old spacing_bottom_lg @≤1023 */
+  }
+
+  .spacing_bottom_lg {
+    margin-bottom: 1.875rem; /* 30px */
+  }
+
+  .spacing_bottom_md {
+    margin-bottom: 0.625rem; /* 10px */
+  }
+
+  .spacing_bottom_min {
+    margin-bottom: 0;
+  }
+
+  .spacing_top_xlg {
+    margin-top: 3.75rem; /* half of 120 */
+  }
+
+  .spacing_top_lg {
+    margin-top: 1.875rem;
+  }
+
+  .spacing_top_md {
+    margin-top: 0.625rem;
+  }
+
+  .spacing_top_min {
+    margin-top: 0;
+  }
+
+  .detail_line,
+  .detail_line_image_double {
+    grid-template-columns: minmax(0, 1fr);
+    row-gap: var(--detail-feed-gap);
+  }
+
+  .line_annotation:empty,
+  .line_img_annotation:empty {
+    display: none;
+  }
+}

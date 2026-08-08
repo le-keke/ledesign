@@ -76,6 +76,11 @@
   },
   "project": {
     "close": "Close",
-    "back": "Back"
+    "back": "Back",
+    "period": "Period",
+    "category": "Category",
+    "designLead": "Design Lead",
+    "team": "Team",
+    "award": "Award"
   }
 }

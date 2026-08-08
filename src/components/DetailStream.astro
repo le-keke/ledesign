@@ -1,0 +1,222 @@
+---
+/**
+ * Left feed for project details — renders the old ledesign class taxonomy
+ * (detail_cover / detail_line / detail_line_image / …). Styles in detail.css.
+ */
+import type { DetailSection, DetailParagraph } from '@data/project-details';
+
+interface Props {
+  sections: DetailSection[];
+}
+
+const { sections } = Astro.props;
+
+function isLinks(p: DetailParagraph): p is Extract<DetailParagraph, { type: 'links' }> {
+  return 'type' in p && p.type === 'links';
+}
+
+function isList(p: DetailParagraph): p is Extract<DetailParagraph, { type: 'list' }> {
+  return 'type' in p && p.type === 'list';
+}
+
+/** Feed gap handles bottom rhythm; only honor old top spacing utilities. */
+function spacingClass(spacing?: string[]) {
+  return (spacing || []).filter((s) => s.startsWith('spacing_top_')).join(' ');
+}
+---
+
+{
+  sections.map((section) => {
+    const first = section.blocks[0];
+    /*
+     * Two styles:
+     * - detail_cover → default page pad (top = --page-edge-y, aligns with Close)
+     * - detail_line_image--bleed → --bleed-pad (top = --page-margin, matches L/R)
+     */
+    const isBleed =
+      first?.type === 'detail_line_image' && first.layout === 'bleed';
+
+    return (
+    <section
+      class:list={[
+        'detail_container',
+        section.bg,
+        isBleed && 'detail_container--bleed-pad',
+      ]}
+    >
+      <div class="page">
+        <div class="grid">
+          <div class="grid__main">
+            <div class="detail_feed">
+              {section.blocks.map((block) => {
+                if (block.type === 'detail_cover') {
+                  return (
+                    <figure class="detail_cover">
+                      {block.kind === 'video' ? (
+                        <video
+                          src={block.src}
+                          autoplay
+                          muted
+                          loop
+                          playsinline
+                          preload="auto"
+                          aria-label={block.alt}
+                        />
+                      ) : (
+                        <img
+                          src={block.src}
+                          alt={block.alt || ''}
+                          width="1686"
+                          height="948"
+                          fetchpriority="high"
+                          decoding="async"
+                        />
+                      )}
+                    </figure>
+                  );
+                }
+
+                if (block.type === 'detail_line_image') {
+                  return (
+                    <figure
+                      class:list={[
+                        'detail_line_image',
+                        block.layout === 'bleed' && 'detail_line_image--bleed',
+                        spacingClass(block.spacing),
+                      ]}
+                    >
+                      {block.kind === 'video' ? (
+                        <video
+                          src={block.src}
+                          autoplay
+                          muted
+                          loop
+                          playsinline
+                          preload="metadata"
+                        />
+                      ) : (
+                        <img src={block.src} alt="" loading="lazy" decoding="async" />
+                      )}
+                    </figure>
+                  );
+                }
+
+                if (block.type === 'detail_line_image_double') {
+                  return (
+                    <div class:list={['detail_line_image_double', spacingClass(block.spacing)]}>
+                      <figure class="line_double_img_left">
+                        {block.left.kind === 'video' ? (
+                          <video
+                            src={block.left.src}
+                            autoplay
+                            muted
+                            loop
+                            playsinline
+                            preload="metadata"
+                          />
+                        ) : (
+                          <img src={block.left.src} alt="" loading="lazy" decoding="async" />
+                        )}
+                      </figure>
+                      <figure class="line_double_img_right">
+                        {block.right.kind === 'video' ? (
+                          <video
+                            src={block.right.src}
+                            autoplay
+                            muted
+                            loop
+                            playsinline
+                            preload="metadata"
+                          />
+                        ) : (
+                          <img src={block.right.src} alt="" loading="lazy" decoding="async" />
+                        )}
+                      </figure>
+                    </div>
+                  );
+                }
+
+                /* detail_line */
+                const asideRole = block.aside.role;
+                return (
+                  <div class:list={['detail_line', spacingClass(block.spacing)]}>
+                    {asideRole === 'line_research_img' && block.aside.media ? (
+                      <figure class="line_research_img">
+                        {block.aside.media.kind === 'video' ? (
+                          <video
+                            src={block.aside.media.src}
+                            autoplay
+                            muted
+                            loop
+                            playsinline
+                            preload="metadata"
+                          />
+                        ) : (
+                          <img
+                            src={block.aside.media.src}
+                            alt=""
+                            loading="lazy"
+                            decoding="async"
+                          />
+                        )}
+                      </figure>
+                    ) : (
+                      <div class={asideRole || 'line_annotation'}>{block.aside.text || ''}</div>
+                    )}
+
+                    <div class="line_text_en">
+                      {block.text.h5 ? <h5>{block.text.h5}</h5> : null}
+                      {block.text.paragraphs.map((paragraph) => {
+                        if (isLinks(paragraph)) {
+                          return (
+                            <p class:list={[paragraph.muted && 'is-muted']}>
+                              {paragraph.links.map((link, i) => (
+                                <Fragment>
+                                  {i > 0 ? <br /> : null}
+                                  <a href={link.href} target="_blank" rel="noopener noreferrer">
+                                    {link.label}
+                                  </a>
+                                </Fragment>
+                              ))}
+                            </p>
+                          );
+                        }
+                        if (isList(paragraph)) {
+                          const ListTag = paragraph.ordered === false ? 'ul' : 'ol';
+                          return (
+                            <ListTag
+                              class:list={[
+                                'line_list',
+                                paragraph.bare && 'line_list--bare',
+                                paragraph.muted && 'is-muted',
+                              ]}
+                            >
+                              {paragraph.items.map((item) => (
+                                <li set:html={item.replace(/\n/g, '<br />')} />
+                              ))}
+                            </ListTag>
+                          );
+                        }
+                        return (
+                          <p class:list={[paragraph.muted && 'is-muted']}>
+                            {paragraph.lead ? <span class="lead">{paragraph.lead} </span> : null}
+                            {paragraph.bodyMuted ? (
+                              <span class="is-muted">{paragraph.body}</span>
+                            ) : (
+                              paragraph.body
+                            )}
+                          </p>
+                        );
+                      })}
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    );
+  })
+}

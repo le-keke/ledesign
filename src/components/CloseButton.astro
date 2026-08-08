@@ -1,0 +1,42 @@
+---
+import { getRelativeLocaleUrl } from 'astro:i18n';
+import { getDictionary, type Locale } from '@i18n/index';
+
+interface Props {
+  locale: Locale;
+}
+
+const { locale } = Astro.props;
+const t = getDictionary(locale);
+---
+
+<a class="close" href={getRelativeLocaleUrl(locale)} aria-label={t.project.close} data-astro-prefetch>
+  <svg
+    class="close__icon"
+    width="16"
+    height="16"
+    viewBox="0 0 16 16"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    aria-hidden="true"
+  >
+    <path
+      d="M13.9224 2.60498L8.53369 7.99951L13.9224 13.3882L13.3921 13.9185L8.00342 8.52979L2.61572 13.9253L2.08545 13.395L7.47314 7.99951L2.07764 2.60498L2.60889 2.07471L8.00342 7.46924L13.3921 2.07471L13.9224 2.60498Z"
+      fill="currentColor"></path>
+  </svg>
+</a>
+
+<style>
+  .close {
+    display: inline-flex;
+    width: 1rem;
+    height: 1rem;
+    color: inherit;
+  }
+
+  .close__icon {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+</style>

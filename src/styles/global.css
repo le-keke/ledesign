@@ -96,6 +96,25 @@ body {
   .feed[data-feed='research'] .cover__text {
     opacity: 1 !important;
   }
+
+  /*
+   * Detail phone: 40px side inset (don’t inherit home’s growing phone margin).
+   */
+  [data-detail] {
+    --page-margin: 2.5rem; /* 40px */
+    --chrome-margin: 2.5rem;
+    --grid-gutter: 2.5rem;
+  }
+}
+
+/*
+ * Detail ≤1240: right meta is already off — keep Close only; hide EN/ZH + copyright
+ * (page-scoped media was unreliable; keep this in global).
+ */
+@media (max-width: 1240px) {
+  [data-detail] .chrome__foot {
+    display: none !important;
+  }
 }
 
 /* ---------- Utilities ---------- */
