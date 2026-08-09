@@ -26,10 +26,12 @@ const maxColumns = 12;
     if (width >= 2560) return '放大已封顶';
     if (width > 1440) return '等比放大';
     if (width === 1440) return '1440 · 1:1';
-    if (width > 1240) return '桌面 · 右栏 · 4 排';
-    if (width > 750) return '平板 · 满宽 4 排 · 无右栏';
+    if (width > 1350) return '桌面 · 右栏 · 4 排';
+    if (width > 1240) return '桌面 · Research 3 排';
+    if (width > 900) return '平板 · 满宽 4 排 · logo 侧栏';
+    if (width > 750) return '平板 · Research 3 排 · logo 侧栏';
     if (width === 390) return '手机锚点 390';
-    return '手机 · 1 排列表';
+    return '手机 · 1 排 · Research/详情 40 边';
   };
 
   const update = () => {

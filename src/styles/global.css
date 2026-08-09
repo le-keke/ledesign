@@ -77,45 +77,234 @@ body {
 }
 
 /*
- * Research ≤750: hug-height rectangle, no hover image.
+ * Research-only cover density (Work unchanged):
+ * 1350–1241: 3 / row (6 cols × span 2) — desktop, right rail still on
+ * 900–751:   3 / row (3 cols × span 1) — pad, no right rail
+ */
+@media (max-width: 1350px) and (min-width: 1241px) {
+  .feed[data-feed='research'] {
+    --grid-columns: 6;
+  }
+}
+
+@media (max-width: 900px) and (min-width: 751px) {
+  .feed[data-feed='research'] {
+    --grid-columns: 3;
+  }
+}
+
+/*
+ * Home category from hash (set in <head> before paint).
+ * Prevents Work covers flashing when refreshing on #research.
+ */
+html[data-home-category='research'] [data-home] [data-feed='work'] {
+  display: none !important;
+}
+
+html[data-home-category='research'] [data-home] [data-feed='research'] {
+  display: grid !important;
+}
+
+/*
+ * Pad info panel (≤1240) — illusion slide:
+ *
+ * Closed: logo top-right (col 4). About / meta / footer already in cols 3–4
+ * at normal vertical seats, opacity 0.
+ *
+ * Open: feed + Work/Research move left; logo to its end; About/meta/footer
+ * slide in from the right — same distance and duration.
+ * Close: message hard-cuts away; feed/logo slide back.
+ *
+ * --pad-slide-feed is a single flat calc on 100vw / chrome-margin /
+ * grid-gutter (no nested custom props) so translate can’t go invalid.
+ */
+@media (max-width: 1240px) {
+  [data-home],
+  [data-detail] {
+    overflow-x: clip;
+    /*
+     * Feed is 4 cols; after slide, the RIGHT edge of feed col 4 must sit on
+     * the RIGHT edge of screen col 2.
+     * Distance = (right of col4) − (right of col2) = (W + G) / 2
+     * (was (W − G) / 2 — short by one gutter).
+     */
+    --pad-slide-feed: calc((100vw - 2 * var(--page-margin) + var(--grid-gutter)) / 2);
+    /* Logo left edge → left of col 3 (= right of col 2 + gutter). */
+    --pad-slide-logo: calc(var(--pad-slide-feed) - var(--grid-gutter) - var(--logo-size));
+  }
+
+  [data-home] .chrome__grid,
+  [data-detail] .chrome__grid,
+  [data-home] .chrome--plain .chrome__grid {
+    --grid-columns: 4;
+    --main-columns: 4;
+  }
+
+  /* —— home: feed + Work/Research → column 2 —— */
+  [data-home] [data-feed-scroll],
+  [data-home] .chrome__nav {
+    transform: translate3d(0, 0, 0);
+    transition: transform var(--duration-base) var(--ease-out);
+    will-change: transform;
+  }
+
+  [data-home].is-info-open [data-feed-scroll],
+  [data-home].is-info-open .chrome__nav {
+    transform: translate3d(calc(-1 * var(--pad-slide-feed)), 0, 0);
+  }
+
+  /*
+   * Detail: slide only the inner .page (content), not .detail_container.
+   * Band backgrounds (detail_bg_*) stay full-bleed under the exclusion chrome,
+   * same as desktop — no hard white seam when the panel opens.
+   */
+  [data-detail] .detail_container > .page {
+    transform: translate3d(0, 0, 0);
+    transition: transform var(--duration-base) var(--ease-out);
+    will-change: transform;
+  }
+
+  [data-detail].is-info-open .detail_container > .page {
+    transform: translate3d(calc(-1 * var(--pad-slide-feed)), 0, 0);
+  }
+
+  /* Detail Close (X): same travel as the feed content. */
+  [data-detail] .chrome__top .close {
+    transform: translate3d(0, 0, 0);
+    transition: transform var(--duration-base) var(--ease-out);
+    will-change: transform;
+  }
+
+  [data-detail].is-info-open .chrome__top .close {
+    transform: translate3d(calc(-1 * var(--pad-slide-feed)), 0, 0);
+  }
+
+  /* —— logo: top-right → left edge of col 3 —— */
+  [data-home] .chrome__logo,
+  [data-detail] .chrome__top .logo {
+    position: absolute;
+    inset-block-start: 0;
+    inset-inline-end: var(--chrome-margin);
+    z-index: 2;
+    pointer-events: auto;
+    transform: translate3d(0, 0, 0);
+    transition: transform var(--duration-base) var(--ease-out);
+    will-change: transform;
+  }
+
+  /* Keep grid so mark ↔ back arrow can stack/center in the 32px hit target. */
+  [data-detail] .chrome__top .logo {
+    display: grid;
+  }
+
+  [data-home].is-info-open .chrome__logo,
+  [data-detail].is-info-open .chrome__top .logo {
+    transform: translate3d(calc(-1 * var(--pad-slide-logo)), 0, 0);
+  }
+
+  /* —— message: fixed in cols 3–4, fade only —— */
+  [data-home] .chrome__info,
+  [data-home] .chrome__aside,
+  [data-detail] .chrome__info {
+    grid-column: 3 / -1;
+    margin-inline-start: 0;
+  }
+
+  [data-home] .chrome__info {
+    justify-content: flex-end;
+  }
+
+  [data-home] .chrome__aside {
+    align-items: center;
+  }
+
+  [data-home] .chrome__aside .about {
+    width: 100%;
+    max-width: none;
+    box-sizing: border-box;
+  }
+
+  /*
+   * Message (About / meta / footer):
+   * Open — slide in from the right (same distance + duration as the feed).
+   * Close — hard cut (0ms): vanish instantly, no reverse slide / fade.
+   */
+  [data-home] .chrome__foot,
+  [data-home] .chrome__aside,
+  [data-detail] .chrome__mid,
+  [data-detail] .chrome__foot {
+    background: transparent;
+    opacity: 0;
+    pointer-events: none;
+    transform: translate3d(var(--pad-slide-feed), 0, 0);
+    transition: opacity 0ms, transform 0ms;
+    will-change: transform, opacity;
+  }
+
+  [data-home].is-info-open .chrome__foot,
+  [data-home].is-info-open .chrome__aside,
+  [data-detail].is-info-open .chrome__mid,
+  [data-detail].is-info-open .chrome__foot {
+    opacity: 1;
+    pointer-events: auto;
+    transform: translate3d(0, 0, 0);
+    transition:
+      opacity var(--duration-base) var(--ease-out),
+      transform var(--duration-base) var(--ease-out);
+  }
+}
+
+/*
+ * Phone ≤750
  * Kept here (not page-scoped) so media stays as max-width — Astro scoped CSS
  * was compiling to `width <= 750px`, which older Safari ignores.
  */
 @media (max-width: 750px) {
+  /* Research home: fixed 40px sides (Work keeps growing phone-cover margin). */
+  html[data-home-category='research'] {
+    --page-margin: 2.5rem; /* 40px */
+    --grid-gutter: 2.5rem;
+  }
+
   .feed[data-feed='research'] .cover--research {
     aspect-ratio: auto;
     height: auto;
     padding-block: var(--research-cover-pad-phone);
   }
 
-  .feed[data-feed='research'] .cover__hover {
-    display: none !important;
-    opacity: 0 !important;
-  }
-
-  .feed[data-feed='research'] .cover__text {
-    opacity: 1 !important;
-  }
-
-  /*
-   * Detail phone: 40px side inset (don’t inherit home’s growing phone margin).
-   */
+  /* Detail: 40px side inset (don’t inherit Work’s growing phone margin). */
   [data-detail] {
     --page-margin: 2.5rem; /* 40px */
     --chrome-margin: 2.5rem;
     --grid-gutter: 2.5rem;
   }
-}
 
-/*
- * Detail ≤1240: right meta is already off — keep Close only; hide EN/ZH + copyright
- * (page-scoped media was unreliable; keep this in global).
- */
-@media (max-width: 1240px) {
-  [data-detail] .chrome__foot {
-    display: none !important;
+  /*
+   * Phone info panel: feed slides off-screen; About / meta / footer take the
+   * full width (left → right). Logo parks at the left 40px edge.
+   */
+  [data-home],
+  [data-detail] {
+    --pad-slide-feed: calc(100vw - var(--chrome-margin));
+    --pad-slide-logo: calc(100vw - 2 * var(--chrome-margin) - var(--logo-size));
+  }
+
+  [data-home] .chrome__grid,
+  [data-detail] .chrome__grid,
+  [data-home] .chrome--plain .chrome__grid {
+    --grid-columns: 1;
+    --main-columns: 1;
+  }
+
+  [data-home] .chrome__nav,
+  [data-home] .chrome__info,
+  [data-home] .chrome__aside,
+  [data-detail] .chrome__info {
+    grid-column: 1 / -1;
+    margin-inline-start: 0;
   }
 }
+
 
 /* ---------- Utilities ---------- */
 

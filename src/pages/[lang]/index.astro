@@ -5,7 +5,6 @@ import About from '@components/About.astro';
 import CategoryNav from '@components/CategoryNav.astro';
 import Footer from '@components/Footer.astro';
 import Logo from '@components/Logo.astro';
-import MenuButton from '@components/MenuButton.astro';
 import { locales, type Locale } from '@i18n/index';
 import { projects } from '@data/projects';
 import { researchItems } from '@data/research';
@@ -18,6 +17,15 @@ const locale = Astro.params.lang as Locale;
 ---
 
 <BaseLayout locale={locale}>
+  {/*
+    Hash is not sent to the server, so SSR always defaults to Work.
+    Set the category on <html> before first paint so #research does not flash Work.
+  */}
+  <script is:inline slot="head">
+    document.documentElement.dataset.homeCategory =
+      location.hash === '#research' ? 'research' : 'work';
+  </script>
+
   <div data-home data-active-category="work">
     {/* Scrollable feed — chrome (filter / logo / about / footer) is fixed. */}
     <div class="screen page" data-feed-scroll>
@@ -69,10 +77,7 @@ const locale = Astro.params.lang as Locale;
             }
           </div>
 
-          {/*
-            Research: default = title card (Figma Frame auto-layout).
-            Hover (≥751 + fine pointer): research picture. Dev marks via "," settings / "r".
-          */}
+          {/* Research: title card only (no hover image). Dev marks via "," settings / "r". */}
           <div class="grid feed" data-feed="research" hidden aria-hidden="true">
             {
               researchItems.map((item) => (
@@ -88,15 +93,6 @@ const locale = Astro.params.lang as Locale;
                       <p>{item.date}</p>
                     </div>
                   </div>
-                  <img
-                    class="cover__hover"
-                    src={item.hoverCover}
-                    alt=""
-                    width="1200"
-                    height="1200"
-                    loading="lazy"
-                    decoding="async"
-                  />
                 </a>
               ))
             }
@@ -114,18 +110,14 @@ const locale = Astro.params.lang as Locale;
         <div class="grid__main chrome__nav">
           <CategoryNav locale={locale} />
         </div>
-        <div class="grid__info chrome__info">
+        <div class="grid__info chrome__info" id="pad-info-panel">
           <div class="chrome__logo">
-            <Logo locale={locale} />
+            <Logo locale={locale} infoToggle />
           </div>
           <div class="chrome__foot">
             <Footer locale={locale} />
           </div>
         </div>
-      </div>
-      {/* Phone: top-right control. Panel design later. */}
-      <div class="chrome__phone-end">
-        <MenuButton />
       </div>
     </div>
 
@@ -184,10 +176,9 @@ const locale = Astro.params.lang as Locale;
   /*
    * Research text card — Figma Frame 258 (1332:130):
    * Pad = 40/158 of cover width (not a fixed rem) so meta stays visible as cells shrink.
-   * Hover (fine pointer only): full-bleed research image. Phone: hug-height rectangle, no hover.
+   * Phone: hug-height rectangle → global.css @ max-width 750.
    */
   .cover--research {
-    position: relative;
     display: flex;
     flex-direction: column;
     align-items: stretch;
@@ -210,7 +201,6 @@ const locale = Astro.params.lang as Locale;
     line-height: var(--leading-body);
     letter-spacing: var(--tracking-intro);
     overflow-wrap: break-word;
-    transition: opacity var(--duration-fast) var(--ease-out);
   }
 
   .cover__title,
@@ -226,37 +216,6 @@ const locale = Astro.params.lang as Locale;
     color: var(--color-fg-muted);
   }
 
-  .cover__hover {
-    position: absolute;
-    inset: 0;
-    display: block;
-    width: 100%;
-    height: 100%;
-    max-width: none;
-    max-height: none;
-    object-fit: cover;
-    background: transparent;
-    opacity: 0;
-    pointer-events: none;
-    transition: opacity var(--duration-fast) var(--ease-out);
-  }
-
-  /*
-   * Hover only on desktop widths. Narrow desktop windows still report
-   * (hover: hover) + fine pointer — min-width stops the image swap under 750.
-   */
-  @media (hover: hover) and (pointer: fine) and (min-width: 751px) {
-    .cover--research:hover .cover__text,
-    .cover--research:focus-visible .cover__text {
-      opacity: 0;
-    }
-
-    .cover--research:hover .cover__hover,
-    .cover--research:focus-visible .cover__hover {
-      opacity: 1;
-    }
-  }
-
   .cover--research:focus {
     outline: none;
   }
@@ -265,8 +224,6 @@ const locale = Astro.params.lang as Locale;
     outline: 1px solid var(--color-fg);
     outline-offset: 2px;
   }
-
-  /* Phone layout (aspect / pad / hide hover img) → global.css @ max-width 750. */
 
   .chrome {
     position: fixed;
@@ -296,8 +253,7 @@ const locale = Astro.params.lang as Locale;
 
   .chrome__nav,
   .chrome__logo,
-  .chrome__foot,
-  .chrome__phone-end {
+  .chrome__foot {
     pointer-events: auto;
   }
 
@@ -345,48 +301,32 @@ const locale = Astro.params.lang as Locale;
     pointer-events: auto;
   }
 
-  .chrome__phone-end {
-    display: none;
-  }
-
   /*
-   * ≤1240 (tablet + phone top chrome): logo top-left, menu stub top-right.
-   * Filters / About / (phone Footer) move into the menu panel later.
+   * ≤1240 pad chrome — motion in global.css (1240–751):
+   * logo col 4 → left of col 3; About/footer stay mid/bottom in cols 3–4.
    */
   @media (max-width: 1240px) {
-    .chrome--plain {
-      display: none;
-    }
-
     .chrome__nav {
-      display: none;
+      grid-column: 1 / 3;
+      align-self: start;
+      z-index: 1;
     }
 
-    .chrome__info {
-      grid-column: 1 / -1;
-      margin-inline-start: 0;
-      align-items: flex-start;
-    }
-
-    .chrome__phone-end {
-      display: block;
-      position: absolute;
-      inset-block-start: 0;
-      inset-inline-end: var(--chrome-margin);
+    .chrome__foot {
+      margin-block-start: auto;
     }
 
     .screen {
-      padding-block-start: calc(var(--page-edge-y) + var(--logo-size) + var(--feed-gap-top));
+      padding-block-start: calc(var(--page-edge-y) + var(--leading-flat) + var(--feed-gap-top));
     }
   }
 
   @media (max-width: 750px) {
-    .chrome__foot {
-      display: none;
+    .chrome__nav {
+      grid-column: 1 / -1;
     }
 
     .screen {
-      padding-block-start: calc(var(--page-edge-y) + var(--logo-size) + var(--feed-gap-top));
       padding-block-end: calc(2 * var(--page-edge-y));
     }
   }

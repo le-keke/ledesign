@@ -41,6 +41,7 @@ const t = getDictionary(locale);
     if (!home) return;
 
     home.dataset.activeCategory = category;
+    document.documentElement.dataset.homeCategory = category;
 
     home.querySelectorAll<HTMLElement>('[data-feed]').forEach((feed) => {
       const match = feed.dataset.feed === category;
@@ -60,6 +61,14 @@ const t = getDictionary(locale);
 
   function categoryFromHash(): 'work' | 'research' {
     return location.hash === '#research' ? 'research' : 'work';
+  }
+
+  function syncFromHash() {
+    if (document.querySelector('[data-home]')) {
+      setCategory(categoryFromHash());
+    } else {
+      delete document.documentElement.dataset.homeCategory;
+    }
   }
 
   function bind() {
@@ -83,15 +92,13 @@ const t = getDictionary(locale);
       );
     });
 
-    setCategory(categoryFromHash());
+    syncFromHash();
   }
 
+  /* after-swap: apply hash before paint on ClientRouter navigations home. */
+  document.addEventListener('astro:after-swap', syncFromHash);
   document.addEventListener('astro:page-load', bind);
-  window.addEventListener('hashchange', () => {
-    if (document.querySelector('[data-home]')) {
-      setCategory(categoryFromHash());
-    }
-  });
+  window.addEventListener('hashchange', syncFromHash);
 </script>
 
 <style>
@@ -138,10 +145,4 @@ const t = getDictionary(locale);
     outline-offset: 2px;
   }
 
-  /* ≤1240: filters move into the menu panel (design TBD). */
-  @media (max-width: 1240px) {
-    .nav {
-      display: none;
-    }
-  }
 </style>

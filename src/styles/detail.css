@@ -49,6 +49,9 @@
  * Default (incl. detail_cover): top = --page-edge-y → aligns with Close / chrome.
  * Bleed band (old full-window media): top = --page-margin → same as L/R inset.
  * Bottom pad unchanged for both.
+ *
+ * ≤1240 (no right info rail): bump content top so the opening cover / title
+ * sits below Close + logo. Chrome stays on --page-edge-y (40).
  */
 .detail_container > .page {
   padding-block-start: var(--page-edge-y);
@@ -69,6 +72,13 @@
 
 .detail_container--bleed-pad > .page {
   padding-block-start: var(--page-margin);
+}
+
+@media (max-width: 1240px) {
+  .detail_container > .page,
+  .detail_container--bleed-pad > .page {
+    padding-block-start: 6.25rem; /* 100px — clear Close / logo */
+  }
 }
 
 /*

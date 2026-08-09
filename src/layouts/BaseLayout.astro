@@ -75,7 +75,9 @@ const canonical = new URL(getRelativeLocaleUrl(locale, route), Astro.site);
     {DevSettings && <DevSettings />}
     <script>
       import { installSessionNavCache } from '../scripts/session-nav-cache';
+      import { installInfoPanel } from '../scripts/info-panel';
       installSessionNavCache();
+      installInfoPanel();
     </script>
   </body>
 </html>

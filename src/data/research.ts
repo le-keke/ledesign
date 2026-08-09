@@ -1,18 +1,11 @@
 import type { Locale } from '@i18n/index';
 
-import researchHoverDemo from '@assets/covers/research-hover-demo.png?url';
-
 export interface ResearchItem {
   slug: string;
   title: Record<Locale, string>;
   /** Grey line: type + source, e.g. "Article, Alibaba Design". */
   kind: Record<Locale, string>;
   date: string;
-  /**
-   * Shown on hover in place of the title card.
-   * Demo image for now — replace per slug when real research covers land.
-   */
-  hoverCover: string;
 }
 
 /**
@@ -33,7 +26,6 @@ export const researchItems: ResearchItem[] = [
       ja: '記事、Alibaba Design',
     },
     date: '2026.2',
-    hoverCover: researchHoverDemo,
   },
   {
     slug: 'xr',
@@ -48,7 +40,6 @@ export const researchItems: ResearchItem[] = [
       ja: '記事、Alibaba Design',
     },
     date: '2023.2',
-    hoverCover: researchHoverDemo,
   },
   {
     slug: 'course',
@@ -63,7 +54,6 @@ export const researchItems: ResearchItem[] = [
       ja: 'コース、浙江大学・中国美術学院',
     },
     date: '2022.5',
-    hoverCover: researchHoverDemo,
   },
   {
     slug: 'vr',
@@ -78,7 +68,6 @@ export const researchItems: ResearchItem[] = [
       ja: '記事、Alibaba Design',
     },
     date: '2022.2',
-    hoverCover: researchHoverDemo,
   },
   {
     slug: 'connotation',
@@ -93,7 +82,6 @@ export const researchItems: ResearchItem[] = [
       ja: '記事',
     },
     date: '2020.7',
-    hoverCover: researchHoverDemo,
   },
   {
     slug: 'proactive',
@@ -108,7 +96,6 @@ export const researchItems: ResearchItem[] = [
       ja: '記事',
     },
     date: '2018.4',
-    hoverCover: researchHoverDemo,
   },
   {
     slug: 'aipl',
@@ -123,7 +110,6 @@ export const researchItems: ResearchItem[] = [
       ja: '記事、Alibaba Design',
     },
     date: '2018.1',
-    hoverCover: researchHoverDemo,
   },
   {
     slug: 'interaction',
@@ -138,7 +124,6 @@ export const researchItems: ResearchItem[] = [
       ja: '記事',
     },
     date: '2017.8',
-    hoverCover: researchHoverDemo,
   },
   {
     slug: 'effectiveness',
@@ -153,7 +138,6 @@ export const researchItems: ResearchItem[] = [
       ja: '学位論文、同済大学デザイン創意学院',
     },
     date: '2017.6',
-    hoverCover: researchHoverDemo,
   },
   {
     slug: 'ugc',
@@ -168,6 +152,5 @@ export const researchItems: ResearchItem[] = [
       ja: '記事',
     },
     date: '2016.5',
-    hoverCover: researchHoverDemo,
   },
 ];

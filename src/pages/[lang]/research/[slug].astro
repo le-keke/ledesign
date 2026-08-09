@@ -4,6 +4,7 @@ import BaseLayout from '@layouts/BaseLayout.astro';
 import CloseButton from '@components/CloseButton.astro';
 import DetailStream from '@components/DetailStream.astro';
 import Footer from '@components/Footer.astro';
+import Logo from '@components/Logo.astro';
 import { getDictionary, locales, type Locale } from '@i18n/index';
 import { researchItems } from '@data/research';
 import {
@@ -80,9 +81,10 @@ function summaryParts(text: string) {
 
     <div class="chrome chrome--blend page">
       <div class="grid chrome__grid">
-        <div class="grid__info chrome__info">
+        <div class="grid__info chrome__info" id="pad-info-panel">
           <div class="chrome__top">
             <CloseButton locale={locale} href={homeResearch} />
+            <Logo locale={locale} infoToggle />
           </div>
 
           {
@@ -198,6 +200,15 @@ function summaryParts(text: string) {
 
   .chrome__top {
     flex: 0 0 auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+
+  /* Pad-only control; desktop keeps Close alone in the right rail. */
+  .chrome__top :global(.logo) {
+    display: none;
   }
 
   .chrome__mid {
@@ -311,14 +322,28 @@ function summaryParts(text: string) {
     color: var(--color-exclusion-fg);
   }
 
+  /*
+   * ≤1240 pad chrome — motion in global.css:
+   * Close page-left; logo top-right slides with stream; meta/footer fade in.
+   */
   @media (max-width: 1240px) {
     .chrome__info {
-      grid-column: 1 / -1;
-      margin-inline-start: 0;
+      align-items: stretch;
+    }
+
+    .chrome__top :global(.close) {
+      position: absolute;
+      inset-block-start: 0;
+      inset-inline-start: var(--chrome-margin);
+      z-index: 2;
+    }
+
+    .chrome__top :global(.logo) {
+      display: grid;
     }
 
     .chrome__mid {
-      display: none;
+      display: flex;
     }
   }
 </style>
