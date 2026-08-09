@@ -1,0 +1,11 @@
+---
+/**
+ * Boots ClientRouter media recovery (Chrome blanks videos after soft navigations).
+ * Kept as its own component so Astro/Vite always emit a fresh script module.
+ */
+---
+
+<script>
+  import { installMediaHydration } from '../scripts/media-hydration';
+  installMediaHydration();
+</script>

@@ -27,6 +27,7 @@ const { locale, route = '' } = Astro.props;
               href={getRelativeLocaleUrl(code, route)}
               hreflang={localeTags[code]}
               data-locale-switch={code}
+              data-astro-reload
               aria-current={current ? 'page' : undefined}
             >
               {localeLabels[code]}

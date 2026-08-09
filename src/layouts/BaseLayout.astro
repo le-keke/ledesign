@@ -3,6 +3,7 @@ import '@styles/global.css';
 import { ClientRouter } from 'astro:transitions';
 import { getRelativeLocaleUrl } from 'astro:i18n';
 import { getDictionary, localeTags, locales, type Locale } from '@i18n/index';
+import MediaHydration from '@components/MediaHydration.astro';
 
 // Dev review tools (grid + settings window). Production builds omit these.
 const ENABLE_DEV_TOOLS = true;
@@ -73,6 +74,7 @@ const canonical = new URL(getRelativeLocaleUrl(locale, route), Astro.site);
     <slot />
     {GridOverlay && <GridOverlay />}
     {DevSettings && <DevSettings />}
+    <MediaHydration />
     <script>
       import { installSessionNavCache } from '../scripts/session-nav-cache';
       import { installInfoPanel } from '../scripts/info-panel';

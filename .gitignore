@@ -17,6 +17,10 @@ dist/
 .env.*
 !.env.example
 
+# Video faststart working copies (originals + remux + local preview)
+.cache/
+public/media-fs/
+
 # OS / editor noise
 .DS_Store
 *.log

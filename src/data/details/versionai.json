@@ -97,7 +97,7 @@
             "type": "detail_line_image",
             "spacing": [],
             "kind": "video",
-            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/aigui/intro.mp4",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/fs/aigui/intro.mp4",
             "layout": "content"
           },
           {
@@ -757,11 +757,11 @@
             "spacing": [],
             "left": {
               "kind": "video",
-              "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/aigui/lift-up-v.mp4"
+              "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/fs/aigui/lift-up-v.mp4"
             },
             "right": {
               "kind": "video",
-              "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/aigui/rotation-v.mp4"
+              "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/fs/aigui/rotation-v.mp4"
             }
           },
           {
@@ -800,11 +800,11 @@
             "spacing": [],
             "left": {
               "kind": "video",
-              "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/aigui/ui3.mp4"
+              "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/fs/aigui/ui3.mp4"
             },
             "right": {
               "kind": "video",
-              "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/aigui/uipath.mp4"
+              "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/fs/aigui/uipath.mp4"
             }
           },
           {
@@ -866,7 +866,7 @@
             },
             "right": {
               "kind": "video",
-              "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/aigui/4k_30fps_refined.mp4"
+              "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/fs/aigui/4k_30fps_refined.mp4"
             }
           },
           {
@@ -948,7 +948,7 @@
             "type": "detail_line_image",
             "spacing": [],
             "kind": "video",
-            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/aigui/intro.mp4",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/fs/aigui/intro.mp4",
             "layout": "content"
           },
           {
@@ -1608,11 +1608,11 @@
             "spacing": [],
             "left": {
               "kind": "video",
-              "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/aigui/lift-up-v.mp4"
+              "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/fs/aigui/lift-up-v.mp4"
             },
             "right": {
               "kind": "video",
-              "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/aigui/rotation-v.mp4"
+              "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/fs/aigui/rotation-v.mp4"
             }
           },
           {
@@ -1651,11 +1651,11 @@
             "spacing": [],
             "left": {
               "kind": "video",
-              "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/aigui/ui3.mp4"
+              "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/fs/aigui/ui3.mp4"
             },
             "right": {
               "kind": "video",
-              "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/aigui/uipath.mp4"
+              "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/fs/aigui/uipath.mp4"
             }
           },
           {
@@ -1717,7 +1717,7 @@
             },
             "right": {
               "kind": "video",
-              "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/aigui/4k_30fps_refined.mp4"
+              "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/fs/aigui/4k_30fps_refined.mp4"
             }
           },
           {
@@ -1799,7 +1799,7 @@
             "type": "detail_line_image",
             "spacing": [],
             "kind": "video",
-            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/aigui/intro.mp4",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/fs/aigui/intro.mp4",
             "layout": "content"
           },
           {
@@ -2459,11 +2459,11 @@
             "spacing": [],
             "left": {
               "kind": "video",
-              "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/aigui/lift-up-v.mp4"
+              "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/fs/aigui/lift-up-v.mp4"
             },
             "right": {
               "kind": "video",
-              "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/aigui/rotation-v.mp4"
+              "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/fs/aigui/rotation-v.mp4"
             }
           },
           {
@@ -2502,11 +2502,11 @@
             "spacing": [],
             "left": {
               "kind": "video",
-              "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/aigui/ui3.mp4"
+              "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/fs/aigui/ui3.mp4"
             },
             "right": {
               "kind": "video",
-              "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/aigui/uipath.mp4"
+              "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/fs/aigui/uipath.mp4"
             }
           },
           {
@@ -2568,7 +2568,7 @@
             },
             "right": {
               "kind": "video",
-              "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/aigui/4k_30fps_refined.mp4"
+              "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/fs/aigui/4k_30fps_refined.mp4"
             }
           },
           {
