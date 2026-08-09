@@ -4,16 +4,17 @@
  * Parent chrome uses mix-blend-mode: exclusion + white ink → logo reads black.
  */
 import { getRelativeLocaleUrl } from 'astro:i18n';
-import type { Locale } from '@i18n/index';
+import { getDictionary, type Locale } from '@i18n/index';
 
 interface Props {
   locale: Locale;
 }
 
 const { locale } = Astro.props;
+const t = getDictionary(locale);
 ---
 
-<a class="logo" href={getRelativeLocaleUrl(locale)} aria-label="Keke LE Design">
+<a class="logo" href={getRelativeLocaleUrl(locale)} aria-label={t.meta.title}>
   <span class="logo__spin" aria-hidden="true">
     <svg
       class="logo__img"

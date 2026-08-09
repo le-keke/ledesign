@@ -1,9 +1,17 @@
 ---
 import { getRelativeLocaleUrl } from 'astro:i18n';
 import BaseLayout from '@layouts/BaseLayout.astro';
+import CloseButton from '@components/CloseButton.astro';
+import DetailStream from '@components/DetailStream.astro';
 import Footer from '@components/Footer.astro';
 import { getDictionary, locales, type Locale } from '@i18n/index';
 import { researchItems } from '@data/research';
+import {
+  getResearchDetail,
+  getResearchSections,
+  localizeRoleField,
+} from '@data/research-details';
+import '@styles/detail.css';
 
 export function getStaticPaths() {
   return locales.flatMap((lang) =>
@@ -17,31 +25,130 @@ export function getStaticPaths() {
 const locale = Astro.params.lang as Locale;
 const { item } = Astro.props as { item: (typeof researchItems)[number] };
 const t = getDictionary(locale);
-const title = item.title[locale];
+const detail = getResearchDetail(item.slug);
+const title = detail?.meta.displayTitle[locale] ?? item.title[locale];
+const route = `research/${item.slug}`;
+const homeResearch = `${getRelativeLocaleUrl(locale)}#research`;
+const sections = detail ? getResearchSections(detail, locale) : [];
+
+const summaryParagraphs = detail?.meta.summary[locale]
+  ? detail.meta.summary[locale].split(/\n\n+/).map((p) => p.trim()).filter(Boolean)
+  : [];
+
+const metaRows = detail
+  ? (
+      [
+        [t.project.period, detail.meta.period[locale]],
+        [t.project.category, detail.meta.category[locale]],
+        [t.project.institution, detail.meta.institution?.[locale] ?? ''],
+        [t.project.keywords, detail.meta.keywords[locale]],
+      ] as const
+    ).filter(([, value]) => Boolean(value?.trim()))
+  : [];
+
+const roles = detail?.meta.roles ?? [];
+
+function summaryParts(text: string) {
+  const normalized = text.replace(/\s*\((\d+)\)\s*([.,;:!?])/g, '$2($1)');
+  return normalized.split(/(\(\d+\))/g).filter(Boolean).map((part) => {
+    const m = part.match(/^\((\d+)\)$/);
+    return m ? ({ type: 'marker' as const, value: m[1] }) : ({ type: 'text' as const, value: part });
+  });
+}
 ---
 
-<BaseLayout locale={locale} route={`research/${item.slug}`} title={title}>
+<BaseLayout locale={locale} route={route} title={title}>
   <div data-detail>
-    <div class="screen page">
-      <main class="grid">
-        <div class="grid__main">
-          <div class="detail__media" aria-hidden="true"></div>
-        </div>
-        <div class="grid__info detail__info">
-          <p class="detail__title">{title}</p>
-          <p class="text-muted">{item.kind[locale]}</p>
-          <p class="text-muted">{item.date}</p>
-          <p>
-            <a href={getRelativeLocaleUrl(locale)}>{t.project.back}</a>
-          </p>
-        </div>
-      </main>
+    <div class="stream">
+      {
+        detail ? (
+          <DetailStream sections={sections} />
+        ) : (
+          <section class="detail_container detail_bg_light">
+            <div class="page">
+              <div class="grid">
+                <div class="grid__main">
+                  <h5>{title}</h5>
+                  <p class="text-muted">{item.kind[locale]}</p>
+                </div>
+              </div>
+            </div>
+          </section>
+        )
+      }
     </div>
 
-    <div class="chrome page">
+    <div class="chrome chrome--blend page">
       <div class="grid chrome__grid">
-        <div class="grid__info chrome__foot">
-          <Footer locale={locale} route={`research/${item.slug}`} />
+        <div class="grid__info chrome__info">
+          <div class="chrome__top">
+            <CloseButton locale={locale} href={homeResearch} />
+          </div>
+
+          {
+            detail && (
+              <div class="chrome__mid">
+                <div class="meta">
+                  <div class="meta__intro">
+                    <h1 class="meta__title">{detail.meta.displayTitle[locale]}</h1>
+                    {
+                      summaryParagraphs.length > 0 && (
+                        <div class="meta__summary">
+                          {summaryParagraphs.map((paragraph) => (
+                            <p>
+                              {summaryParts(paragraph).map((part) =>
+                                part.type === 'marker' ? (
+                                  <span class="meta__marker">{part.value}</span>
+                                ) : (
+                                  part.value
+                                ),
+                              )}
+                            </p>
+                          ))}
+                        </div>
+                      )
+                    }
+                  </div>
+                  <dl class="meta__list">
+                    {metaRows.map(([label, value]) => (
+                      <div class="meta__row">
+                        <dt>{label}</dt>
+                        <dd set:html={value.replace(/\n/g, '<br />')} />
+                      </div>
+                    ))}
+                    {
+                      roles.map((role) => {
+                        const label = localizeRoleField(role.label, locale);
+                        const value = localizeRoleField(role.value, locale);
+                        return (
+                          <div class="meta__row">
+                            <dt>{label}</dt>
+                            <dd>
+                              {role.href ? (
+                                <a
+                                  href={role.href}
+                                  target="_blank"
+                                  rel="noopener noreferrer"
+                                >
+                                  {value}
+                                </a>
+                              ) : (
+                                <span set:html={value.replace(/\n/g, '<br />')} />
+                              )}
+                            </dd>
+                          </div>
+                        );
+                      })
+                    }
+                  </dl>
+                </div>
+              </div>
+            )
+          }
+
+          <div class="chrome__foot">
+            <Footer locale={locale} route={route} />
+          </div>
         </div>
       </div>
     </div>
@@ -49,33 +156,17 @@ const title = item.title[locale];
 </BaseLayout>
 
 <style>
-  .screen {
-    padding-block: var(--page-edge-y);
+  .stream {
     min-height: 100svh;
-  }
-
-  .detail__media {
-    aspect-ratio: 1;
-    background: transparent;
-  }
-
-  .detail__info {
-    display: flex;
-    flex-direction: column;
-    gap: var(--text-gap);
-    align-self: center;
-  }
-
-  .detail__title {
-    margin: 0;
   }
 
   .chrome {
     position: fixed;
     inset-block: var(--page-edge-y);
     inset-inline: 0;
-    z-index: 1;
+    z-index: 2;
     pointer-events: none;
+    overscroll-behavior: none;
   }
 
   .chrome__grid {
@@ -84,8 +175,150 @@ const title = item.title[locale];
     align-items: stretch;
   }
 
-  .chrome__foot {
-    align-self: end;
+  .chrome--blend {
+    mix-blend-mode: exclusion;
+    color: var(--color-exclusion-fg);
+  }
+
+  .chrome__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-self: stretch;
+    height: 100%;
+    min-height: 0;
+    pointer-events: none;
+  }
+
+  .chrome__top,
+  .chrome__foot,
+  .chrome__mid {
     pointer-events: auto;
+  }
+
+  .chrome__top {
+    flex: 0 0 auto;
+  }
+
+  .chrome__mid {
+    flex: 1 1 auto;
+    display: flex;
+    align-items: center;
+    min-height: 0;
+    overflow: auto;
+    scrollbar-width: none;
+  }
+
+  .chrome__mid::-webkit-scrollbar {
+    display: none;
+  }
+
+  .chrome__foot {
+    flex: 0 0 auto;
+  }
+
+  .chrome__foot :global(.footer),
+  .chrome__foot :global(.text-muted) {
+    color: var(--color-exclusion-fg-muted);
+  }
+
+  .chrome__foot :global(.switch__list a:hover) {
+    color: var(--color-exclusion-fg);
+  }
+
+  .meta {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .meta__intro {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+  }
+
+  .meta__title {
+    margin: 0;
+    font-size: var(--text-body);
+    font-weight: var(--weight-regular);
+    line-height: var(--leading-body);
+    letter-spacing: var(--tracking-body);
+    color: var(--color-exclusion-fg);
+  }
+
+  .meta__summary {
+    display: flex;
+    flex-direction: column;
+    gap: 0.625rem;
+    margin: 0;
+    font-weight: var(--weight-light);
+    line-height: var(--leading-body);
+    letter-spacing: var(--tracking-intro);
+    color: var(--color-exclusion-fg);
+  }
+
+  .meta__summary p {
+    margin: 0;
+  }
+
+  .meta__list a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  .meta__list a:hover {
+    text-decoration: underline;
+  }
+
+  .meta__marker {
+    font-size: var(--text-micro);
+    font-weight: inherit;
+    letter-spacing: normal;
+    line-height: 1;
+    position: relative;
+    top: -0.45em;
+    vertical-align: baseline;
+  }
+
+  .meta__list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.625rem;
+    margin: 0;
+  }
+
+  .meta__row {
+    display: grid;
+    gap: 0;
+  }
+
+  .meta__row dt,
+  .meta__row dd {
+    margin: 0;
+    font-weight: var(--weight-light);
+    line-height: var(--leading-body);
+    letter-spacing: var(--tracking-body);
+  }
+
+  .meta__row dt {
+    color: var(--color-exclusion-fg-muted);
+  }
+
+  .meta__row dd {
+    color: var(--color-exclusion-fg);
+  }
+
+  @media (max-width: 1240px) {
+    .chrome__info {
+      grid-column: 1 / -1;
+      margin-inline-start: 0;
+    }
+
+    .chrome__mid {
+      display: none;
+    }
   }
 </style>

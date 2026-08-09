@@ -1,0 +1,832 @@
+{
+  "slug": "vr",
+  "meta": {
+    "displayTitle": {
+      "en": "VR-Video Interaction and Technology Application in E-Retail Field",
+      "zh": "电商领域的 VR 视频交互与技术应用",
+      "ja": "EC領域におけるVR動画インタラクションと技術応用"
+    },
+    "summary": {
+      "en": "",
+      "zh": "",
+      "ja": ""
+    },
+    "keywords": {
+      "en": "VR Video, Spatial Commodity, Localization Solution",
+      "zh": "VR 视频、空间商品、本地化方案",
+      "ja": "VR動画、空間商品、ローカライズ方案"
+    },
+    "period": {
+      "en": "2022.2",
+      "zh": "2022.2",
+      "ja": "2022.2"
+    },
+    "category": {
+      "en": "Article (Excerpt)",
+      "zh": "文章（节选）",
+      "ja": "記事（抜粋）"
+    },
+    "roles": [
+      {
+        "label": {
+          "en": "Writer",
+          "zh": "作者",
+          "ja": "執筆者"
+        },
+        "value": {
+          "en": "Keke LE",
+          "zh": "乐可柯",
+          "ja": "樂可柯"
+        }
+      },
+      {
+        "href": "https://mp.weixin.qq.com/s/TkmpPYUKbSPBk0V4txD1Qg",
+        "label": {
+          "en": "Published",
+          "zh": "发表",
+          "ja": "掲載"
+        },
+        "value": {
+          "en": "Keke LE Design © Official Pubilc Subscription →",
+          "zh": "乐可柯 Design © 官方公众号 →",
+          "ja": "樂可柯 Design © 公式パブリック購読 →"
+        }
+      },
+      {
+        "label": {
+          "en": "Work",
+          "zh": "作品",
+          "ja": "作品"
+        },
+        "value": {
+          "en": "VR-Video Experience Design for Spatial Commodity →",
+          "zh": "空间商品的 VR 视频体验设计 →",
+          "ja": "空間商品のための VR 動画体験デザイン →"
+        }
+      }
+    ],
+    "disclaimer": {
+      "en": "Keke LE Design © All rights reserved.",
+      "zh": "乐可柯 Design © 版权所有。",
+      "ja": "樂可柯 Design © All rights reserved."
+    }
+  },
+  "sections": {
+    "en": [
+      {
+        "bg": "detail_bg_dark",
+        "blocks": [
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_annotation",
+              "text": ""
+            },
+            "text": {
+              "h5": "01. Insight into panoramic video’s application potential in e-commerce",
+              "paragraphs": [
+                {
+                  "body": "If categories are divided by the relative scale of goods to the human body, single-item goods smaller than a person—digital devices, apparel, FMCG, and the like—can use 3D models, AR, etc., so users can handle and interact with them in the palm or against the body; spatial goods larger than a person—cars, furniture showrooms, houses, and the like—can use “Panoramic View” to place the user inside, looking around to learn all-around information about such goods.",
+                  "muted": false
+                },
+                {
+                  "body": "Meanwhile, the latter categories are all high-ticket, low-frequency purchases with high decision cost and long cycles, often decided offline, corresponding to dealer and in-store sales models. Whether test-drive explanation, showroom introduction, or property showing, if the salesperson’s explanation is seen as a key factor that more vividly conveys product information and influences consumer decisions, then “video” is a suitable medium for capturing such explanation and dynamic demonstration.",
+                  "muted": false
+                },
+                {
+                  "body": "The spatial interactivity of the “panorama” and the content authenticity of “video” give “Panoramic Video” sufficiency, on the user side, for conveying information about spatial commodities. On the merchant side, these categories remain at low online penetration due to industry characteristics; digitizing store goods and sales guidance can help break the geographic constraint on organic traffic. For each store’s merchandise, a single shoot that generates “panoramic video” can yield incrementally growing online traffic, giving the capability necessity as a low-cost tool for digitizing goods and acquiring customers. Thus “panoramic video” is applied as an expressive capability for spatial commodities and as a solution for re-localized industries—home furnishing, automobiles, real estate, travel, and more.",
+                  "muted": false
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_research_img",
+              "media": {
+                "kind": "image",
+                "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/vr/sense.png"
+              }
+            },
+            "text": {
+              "h5": "02. Building the panoramic-video user experience for presenting products",
+              "paragraphs": [
+                {
+                  "body": "i. Creating “strong bodily sense” and “sense of authenticity”",
+                  "muted": false
+                },
+                {
+                  "body": "Unlike traditional video’s one-way transmission and the user’s passive reception of audiovisual information, “panoramic video” adds interaction with the panoramic space presented, simulating a sense of deep interaction in which users seem able to actively influence and control the video content—in short, constructing an experience of “freely viewing product appearance, details, and explanation demos in an immersive space.” Accordingly, building this experience is divided into “strong bodily sense” and “sense of authenticity.”",
+                  "muted": false
+                },
+                {
+                  "body": "Note: Experience begins with need. Even among spatial commodities, the information consumers care about differs by category characteristics, thus affecting information interaction methods. The following takes the home-furnishing industry as an example.",
+                  "muted": true
+                },
+                {
+                  "body": "“Strong bodily sense” comprises three sensory layers: “free looking,” “active listening,” and “interactive looking.” The underlying content carrier is a sales-explanation video of multiple products (e.g., a showroom composed of several furniture pieces) or a single product (e.g., a custom cabinet space); the video itself is linearly structured by multiple items or by feature points of a single item. “Free looking” and “active listening” build on this linear structure so users can slide the video viewpoint to inspect products in every direction within the panorama, or jump to any object’s explanation segment—creating a nonlinear, free experience that can be interrupted, skipped, and actively chosen.",
+                  "muted": false
+                },
+                {
+                  "body": "Users can further interact with each product object in the space, obtaining auxiliary product information through a “what you see is what you get” interaction; that information can in turn be presented as image-text, video, 3D models (e.g., swapping materials and colors), AR (e.g., placing furniture), and other forms for secondary interaction. This “interactive looking” enhances bodily sense via pseudo-deep interaction*.",
+                  "muted": false
+                },
+                {
+                  "body": "Note: Panoramic video differs from virtual reality video in that the latter, beyond all-around imagery, also offers deep interaction: participants can change object states in the image space through behavior (moving a chair, opening a cabinet, etc.). VR video today is still a virtual scene via modeling and real-time rendering. To simulate a degree of interactivity in panoramic real-scene video, weak or pseudo-deep interaction is added: instructions are input into the panoramic image, and feedback comes via other information that is not itself a change of the panoramic image, approximating object-oriented control.",
+                  "muted": true
+                },
+                {
+                  "body": "The “live recording” of sales explanation audio, the “live shooting” of store environment, products, and salesperson video, and the “simulated authenticity” of interactive auxiliary product information together construct a “sense of authenticity.”",
+                  "muted": false
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_research_img",
+              "media": {
+                "kind": "image",
+                "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/vr/structure.png"
+              }
+            },
+            "text": {
+              "paragraphs": [
+                {
+                  "body": "ii. Architecting three layers of panoramic-video interaction",
+                  "muted": false
+                },
+                {
+                  "body": "Based on the experience architecture, design the UI framework and core interactions. The interface divides into (1) video layer (2) control layer (3) interaction layer.",
+                  "muted": false
+                },
+                {
+                  "body": "1) Video layer — free looking at the panorama",
+                  "muted": false
+                },
+                {
+                  "body": "Given that offline home-furnishing stores often arrange several small-square-meter showrooms or product spaces, and given the basic experience requirement of keeping products clear, video is shot from a fixed panoramic camera position, with products within a circular radiation area of about 12㎡ at a 2-meter viewing radius from the center. Users can “stand in a fixed position,” slide the video 360° left–right and 180° up–down*, and zoom FOV within a limited range.",
+                  "muted": false
+                },
+                {
+                  "body": "Note: Setting 360° vertically would invert the viewpoint when sliding past the south and north poles of the spherical video.",
+                  "muted": true
+                },
+                {
+                  "body": "To maximize immersion in spatial products and stores, and to maximize room for frequent sliding interaction, the video layer occupies nearly 90% of the entire interface.",
+                  "muted": false
+                },
+                {
+                  "body": "2) Control layer — actively listening to explanations",
+                  "muted": false
+                },
+                {
+                  "body": "The control layer divides into top bar, bottom navigation, and sidebar. The bottom navigation is the primary operation area besides video-layer interaction: product objects in the space are linearly arranged by explanation order as product-info display, with the main call to action—“book a lead”—bound to each product nav unit; clicking a unit switches the explained object and its corresponding product viewpoint.",
+                  "muted": false
+                },
+                {
+                  "body": "Notably, common video controls (progress bar, duration, play/pause, etc.) are intentionally hidden, to align with the experience architecture’s aim of “creating a nonlinear free experience that can be interrupted, skipped, and actively chosen,” reinforcing a sense of space rather than a sense of video (bounded time with a head and a tail).",
+                  "muted": true
+                },
+                {
+                  "body": "The sidebar is set as a secondary operation area mainly for diverting functions—e.g., other spatial videos in the store, flipping to other similar spatial products, or store panoramic video (using taps to avoid conflict between vertical-flip gestures and panoramic viewpoint sliding).",
+                  "muted": false
+                },
+                {
+                  "body": "3) Interaction layer — interactively looking at products",
+                  "muted": false
+                },
+                {
+                  "body": "For each product object (or each explanation point of a single product), anchors are marked in the full-frame video so users can see at a glance, in panoramic view, which objects the video covers. Anchors are paired with product-info modules; a click can summon an interactive overlay of secondary auxiliary information—image-text, video, 3D models, AR, and other forms—for deeper understanding of the product against the backdrop of the explanation audio.",
+                  "muted": false
+                },
+                {
+                  "body": "Precisely because product coordinates exist, when clicking any non-current explained product object or switching a bottom-nav product unit, the explanation segment jumps while the viewpoint also auto-transfers to that object.",
+                  "muted": false
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_annotation",
+              "text": ""
+            },
+            "text": {
+              "paragraphs": [
+                {
+                  "body": "iii. Panoramic-video path design",
+                  "muted": false
+                },
+                {
+                  "body": "1) Panoramic-video entry display",
+                  "muted": false
+                },
+                {
+                  "body": "In public-domain feeds, search, and similar paths, unlike ordinary video display, panoramic video keeps the referred product at the center of the container frame while the viewpoint automatically pans left and right at a set angle (or, sensing the phone gyroscope, turns with the phone’s angle). This machine-generated cover clip can auto-adapt to all entry sizes on the path (1:1, 3:4, 16:9, etc.).",
+                  "muted": false
+                },
+                {
+                  "body": "2) Linking store roaming with panoramic video",
+                  "muted": false
+                },
+                {
+                  "body": "Users discover a category’s panoramic video via search, guided shopping, or similar paths; after taking interest in its sales or store, they can enter a store-roaming scene through a store component. As with mature roaming experiences, they browse store goods in static panoramas via waypoint displacement, bird’s-eye store models, and the like; after taking interest in a product or showroom, they can click a spatial anchor to re-enter panoramic video and hear the salesperson’s explanation—forming a closed loop of “find products, browse the store, find sales explanation, book a lead, visit the store.”",
+                  "muted": false
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_research_img",
+              "media": {
+                "kind": "image",
+                "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/vr/report.png"
+              }
+            },
+            "text": {
+              "paragraphs": [
+                {
+                  "body": "iv. Solving panoramic-video clarity and volume problems",
+                  "muted": false
+                },
+                {
+                  "body": "Panoramic video can be seen as a spherical video; the visible window of a typical phone UI is only about 1/6 of its unfolded full frame. Through shooting standards and technical means*, panoramic video whose original volume exceeds ordinary video by more than 6× has been reduced by over 90% while preserving clarity.",
+                  "muted": false
+                },
+                {
+                  "body": "Four steps for optimizing panoramic-video clarity and volume: (1) material shooting: optimizing hardware and ambient light; (2) material preprocessing: algorithmic recognition for separating and recomposing static and dynamic imagery; (3) raw delivery: optimizing format requirements; (4) codec compression: optimizing mapping methods.",
+                  "muted": false
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": true,
+                  "items": [
+                    "Patents:",
+                    "A Solution of Spatial Commodity Viewing based on Panoramic Video Technology, CXTA75463",
+                    "A Optimization Solution of Quality Improvement and Size Reduction for Running Panoramic Video in Mobile App, CXTA83536"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_annotation",
+              "text": ""
+            },
+            "text": {
+              "h5": "03. Application overview",
+              "paragraphs": [
+                {
+                  "body": "At present, panoramic-video design solutions are mainly applied to localized home-furnishing scenarios, covering thousands of stores in core markets across seven cities, with cumulative online videos in the thousands and listed products in the tens of thousands. Future work will still explore applications in automotive, travel, and real estate. Meanwhile, on the UX side, video clarity will be further improved and camera-position limits caused by file-size constraints will be broken, so users can move within dynamic panoramic video for freer, more immersive, more authentic experience.",
+                  "muted": false
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": true,
+                  "items": [
+                    "Sensitive data are not shown; related technical solutions are protected by patents.",
+                    "Certain data has been hidden due to disclosure agreement. Detailed tech-solutions mentioned are under the intellectual property protection."
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "zh": [
+      {
+        "bg": "detail_bg_dark",
+        "blocks": [
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_annotation",
+              "text": ""
+            },
+            "text": {
+              "h5": "01. 洞察全景视频于电商的应用可能",
+              "paragraphs": [
+                {
+                  "body": "如果把各品类按商品与人的相对尺度来划分，尺度小于人的诸如数码、服饰、快消品等单体类商品可用3D模型、AR等方式让用户在掌间、或贴身把玩互动；那么尺度大于人的诸如汽车、家具样板间、房屋等空间类商品则可用“全景”（Panoramic View）的方式置用户于其中环顾互动以了解此类商品的全方位信息。",
+                  "muted": false
+                },
+                {
+                  "body": "同时，后者品类均属于高客单、低购买频次的商品，决策成本高、周期长，往往以线下决策为消费习惯，对应以经销商、门店导购为销售模式。不论是试驾讲解、样板间介绍或是房屋带看，如果销售员的讲解被看作是更生动表达商品信息、影响消费者决策的关键要素，那么「视频」则是捕捉这种讲解和动态演示的合适媒介。",
+                  "muted": false
+                },
+                {
+                  "body": "“全景”的空间互动性与“视频”的内容真实性，使“全景视频”（Panoramic Video）能力具备了于用户侧传递空间类商品信息的充分性。而于商家侧，上述品类由于行业特性仍处于线上低渗透阶段，门店商品及销售导购的数字化可帮助其突破自然流量受制于地理区位的限制，针对每个门店商品只需单次拍摄生成“全景视频”便可获取线上边际递增流量，使该能力具备了提供低成本数字化商品与获客工具的必要性。由此，将“全景视频”作为空间类商品表达能力、重本地化行业的解决方案，应用于家装、汽车、房产、航旅等。",
+                  "muted": false
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_research_img",
+              "media": {
+                "kind": "image",
+                "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/vr/sense.png"
+              }
+            },
+            "text": {
+              "h5": "02. 构建呈现商品的全景视频用户体验",
+              "paragraphs": [
+                {
+                  "body": "i. 营造“强体感”与“真实感”",
+                  "muted": false
+                },
+                {
+                  "body": "有别于传统视频单向传输、用户被动接受信息的视听体感，“全景视频”增加对视频所呈现全景空间的互动，模拟出用户仿佛可以主动影响、控制视频内容的深度交互感，简言之即构建一种“用户可以在一个沉浸空间里自由地看商品外观、细节及讲解演示”的体验。由此，将该体验的构建分为“强体感”与“真实感”：",
+                  "muted": false
+                },
+                {
+                  "body": "注：体验始于需求。即便皆同属空间类商品，消费者所关心的信息也会因品类特性而不同，从而影响信息交互方式，以下以家装行业为例。",
+                  "muted": true
+                },
+                {
+                  "body": "“强体感”由“自由看”、“主动听”与“互动看”三层感官组成。底层内容载体是一段多商品（如若干家具组合而成的样板间）或单商品（如定制橱柜空间）的销售讲解视频，视频本身按多商品（Items）、或单商品讲解点（Features）顺序呈线性结构。“自由看”、“主动听”是此线性结构基础上，使用户可通过滑动视频视角查看全景内各个方位的商品、或跳转至任意一个对象的讲解片段，营造一种可打断、跳跃、主动选择的非线性自由体验。",
+                  "muted": false
+                },
+                {
+                  "body": "用户还可与空间内的每个商品对象进行更进一步的交互，通过“所见即所得”的交互方式获取商品辅助信息，而这些信息又可以图文、视频、3D模型（如换材质颜色）、AR（如摆置家具）等形式呈现与用户进行二级交互。此“互动看”是以伪深度交互的方式*增强了体感。",
+                  "muted": false
+                },
+                {
+                  "body": "注：全景视频与虚拟现实视频（Virtual Reality Video）的区别在于，后者除了全视角展示影像之外，还具备深度交互，参与者可以通过行为改变所在影像空间中的对象状态（如挪动椅子、打开橱柜等）。虚拟现实视频目前仍是通过建模、实时渲染的虚拟场景。故为了在全景实景视频中模拟一定的互动性，加入了弱交互或伪深度交互：向全景影像输入指令，借由非全景影像本身变化的其他信息进行反馈，来拟真面向对象的控制。",
+                  "muted": true
+                },
+                {
+                  "body": "销售讲解声音的“实录”、门店环境、商品、销售员的视频“实拍”、商品辅助信息互动的”拟真“，共同构建了”真实感“。",
+                  "muted": false
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_research_img",
+              "media": {
+                "kind": "image",
+                "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/vr/structure.png"
+              }
+            },
+            "text": {
+              "paragraphs": [
+                {
+                  "body": "ii. 架构全景视频三层交互",
+                  "muted": false
+                },
+                {
+                  "body": "基于体验架构进行用户界面框架与核心交互设计。界面分为（1）视频层（2）控件层（3）互动层。",
+                  "muted": false
+                },
+                {
+                  "body": "1） 视频层 — 自由看全景",
+                  "muted": false
+                },
+                {
+                  "body": "根据家装行业线下门店常以分若干小平米样板间或商品空间布置的特征，以及需保证商品清晰的基本体验要求，视频采用固定全景机位拍摄，以2米为可视半径、方圆12平米的圆心位置辐射区域内的商品。用户可“站在固定位置”左右360度、上下180度*滑动视频、在有限的FOV范围内缩放视角大小。",
+                  "muted": false
+                },
+                {
+                  "body": "注：上下设置360度会导致在滑过球体视频的南、北极点时发生视角颠倒。",
+                  "muted": true
+                },
+                {
+                  "body": "为最大程度的呈现空间商品及门店的沉浸感、最大程度的提供频发滑动交互的操作空间，视频层占据了整个界面近90%。",
+                  "muted": false
+                },
+                {
+                  "body": "2） 控件层 — 主动听讲解",
+                  "muted": false
+                },
+                {
+                  "body": "控件层分为顶栏、底部导航栏与侧边栏。底部导航栏是除视频层交互外最主要的操作区域，将空间中的商品对象按视频讲解顺序线性地排布于底部，作为商品信息的展示，将最主要的行动引导 --「预约留资」绑定在每个商品导航单元上，通过点击导航单元来切换讲解对象及其对应的商品视角。",
+                  "muted": false
+                },
+                {
+                  "body": "值得注意的是，常见的视频控件（如进度条、时长、播放暂停等）被有意隐去，目的是为同体验架构中所述的“营造一种可打断、跳跃、主动选择的非线性自由体验”对照，强化“空间感”而非“视频感（有头尾的、有限的时间感）”。",
+                  "muted": true
+                },
+                {
+                  "body": "侧边栏则设为次要操作区域，以分流功能为主，如门店其他空间视频、上下翻屏其他相似空间商品或门店全景视频（采用点击避免上下翻屏手势与全景视角滑动手势冲突）。",
+                  "muted": false
+                },
+                {
+                  "body": "3） 互动层 — 互动看商品",
+                  "muted": false
+                },
+                {
+                  "body": "针对每个商品对象（或单商品的每个讲解点）在全画幅视频中标记锚点，用户可以在全景视角中一目了然视频所涉及的讲解对象。锚点配以商品信息模块，通过点击操作可唤起二级辅助信息的互动浮层，承载以图文、视频、3D模型、AR等各种内容形式，在讲解音的背景下对商品进行更深入的了解。",
+                  "muted": false
+                },
+                {
+                  "body": "正是由于商品坐标的存在，可以实现当点击任意一个非当前讲解商品对象、或切换底部导航商品单元后，讲解片段跳转的同时，视角也会自动转移至对象。",
+                  "muted": false
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_annotation",
+              "text": ""
+            },
+            "text": {
+              "paragraphs": [
+                {
+                  "body": "iii. 全景视频链路设计",
+                  "muted": false
+                },
+                {
+                  "body": "1） 全景视频入口展示",
+                  "muted": false
+                },
+                {
+                  "body": "在公域Feeds流、搜索等链路中，区别于普通视频内容的展示方式，全景视频以所指商品为容器画面中心，视频播放的同时、视角自动左右以特定角度往复转动（或以手机陀螺仪为感应，随手机角度而发生转动）。这段由机器自动生成的封面视频片段可自动适配于所有链路入口尺寸（1:1、3:4、16:9等）。",
+                  "muted": false
+                },
+                {
+                  "body": "2） 门店漫游与全景视频串联",
+                  "muted": false
+                },
+                {
+                  "body": "用户通过搜索或导购等路径发现某个品类商品的全景视频，对其所属销售或门店产生兴趣后，可通过门店组件进入门店漫游场景，同现已成熟的漫游体验一样，以点位位移、全店模型鸟瞰等方式，在静态全景中浏览门店商品，而对某个商品或样板间产生兴趣后，可通过点击空间锚点再次进入全景视频听销售讲解，形成“找品、逛店、找销售讲解、预约留资、到店”的体验闭环。",
+                  "muted": false
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_research_img",
+              "media": {
+                "kind": "image",
+                "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/vr/report.png"
+              }
+            },
+            "text": {
+              "paragraphs": [
+                {
+                  "body": "iv. 解决全景视频清晰度与体积问题",
+                  "muted": false
+                },
+                {
+                  "body": "全景视频可看作是一个球体视频（Spherical Video），常规手机界面的窗口可视区域仅为其所展开全画幅的1/6。通过拍摄规范及技术手段*将原片体积大于常规视频6倍的全景视频、在保有清晰度的前提下缩减了90%以上。",
+                  "muted": false
+                },
+                {
+                  "body": "景视频清晰度与体积优化四步骤：（1）素材拍摄：拍摄硬件与环境光的优化（2）素材预处理：算法识别实现动静态图像分离与再合成（3）原始素材交付：格式要求的优化（4）编解码压缩处理：映射方式的优化。",
+                  "muted": false
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": true,
+                  "items": [
+                    "专利：",
+                    "一种基于全景视频技术的空间商品观看方案，CXTA75463",
+                    "一种提升画质并减小体积以在移动应用中运行全景视频的优化方案，CXTA83536"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_annotation",
+              "text": ""
+            },
+            "text": {
+              "h5": "03. 应用概况",
+              "paragraphs": [
+                {
+                  "body": "目前全景视频设计解决方案主要应用于家装行业本地化场景，覆盖七座城市核心卖场千家门店、上线累计视频数以千计、覆盖上翻商品数以万计。后续仍将探索其在汽车行业、航旅行业以及房产行业的应用可能。同时，在用户体验上进一步提升视频清晰度、打破囿于视频体积问题带来的机位限制，让用户可以在动态全景视频下移动位置，实现更自由、沉浸、真实的体验。",
+                  "muted": false
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": true,
+                  "items": [
+                    "涉及敏感数据未展示，相关技术解决方案已由专利保护。",
+                    "因披露协议，部分数据已隐藏。文中涉及的详细技术方案受知识产权保护。"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "ja": [
+      {
+        "bg": "detail_bg_dark",
+        "blocks": [
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_annotation",
+              "text": ""
+            },
+            "text": {
+              "h5": "01. パノラマ動画のEC応用可能性への洞察",
+              "paragraphs": [
+                {
+                  "body": "各カテゴリーを商品と人の相対尺度で分けるなら、人より小さい尺度のデジタル・アパレル・日用品などの単体商品は3DモデルやARなどで掌間・身辺で弄びインタラクションでき、人より大きい尺度の自動車・家具モデルルーム・住宅などの空間系商品は「パノラマ」（Panoramic View）でユーザーをその中に置き、見回して全方位情報を把握させることができる。",
+                  "muted": false
+                },
+                {
+                  "body": "同時に後者のカテゴリーはいずれも高客単価・低購買頻度の商品で、意思決定コストが高く周期が長く、しばしばオフライン意思決定を消費習慣とし、ディーラー・店舗接客を販売モデルとする。試乗解説、モデルルーム紹介、物件案内のいずれであれ、販売員の解説が商品情報をより生き生きと伝え消費者意思決定に影響する鍵だとすれば、「動画」はその解説と動的デモを捉える適切なメディアである。",
+                  "muted": false
+                },
+                {
+                  "body": "「パノラマ」の空間インタラクティビティと「動画」の内容真正性により、「パノラマ動画」（Panoramic Video）はユーザー側で空間系商品情報を伝える充足性を備える。商家側では、上記カテゴリーは業界特性によりなおオンライン低浸透段階にあり、店舗商品および販売接客のデジタル化は、自然流入が地理立地に制約される状況を突破しうる。各店舗の商品に対し一度の撮影で「パノラマ動画」を生成するだけで、オンラインの限界逓増トラフィックを得られ、低コストのデジタル商品・顧客獲得ツールとしての必要性を備える。かくして「パノラマ動画」を空間系商品の表現能力、再ローカル化業界の解決策として、ホームインテリア、自動車、不動産、旅行などに応用する。",
+                  "muted": false
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_research_img",
+              "media": {
+                "kind": "image",
+                "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/vr/sense.png"
+              }
+            },
+            "text": {
+              "h5": "02. 商品を呈するパノラマ動画ユーザー体験の構築",
+              "paragraphs": [
+                {
+                  "body": "i. 「強体感」と「真正感」の醸成",
+                  "muted": false
+                },
+                {
+                  "body": "伝統的動画の一方向伝送・ユーザーの受動的情報受容という視聴体感と異なり、「パノラマ動画」は提示されるパノラマ空間へのインタラクションを加え、ユーザーが能動的に動画内容に影響・制御できるかのような深度インタラクション感を模擬する。要するに「没入空間で商品外観・ディテール・解説デモを自由に見る」体験を構築する。よってこの体験の構築を「強体感」と「真正感」に分ける。",
+                  "muted": false
+                },
+                {
+                  "body": "注：体験は需要に始まる。同じく空間系商品に属しても、消費者が関心を持つ情報はカテゴリー特性により異なり、情報インタラクション方式に影響する。以下はホームインテリア業界を例とする。",
+                  "muted": true
+                },
+                {
+                  "body": "「強体感」は「自由に見る」「能動的に聴く」「インタラクティブに見る」の三層の感官からなる。基底の内容担体は、多商品（例えば複数家具で構成されたモデルルーム）または単商品（例えばカスタム食器棚空間）の販売解説動画であり、動画自体は多商品（Items）または単商品の解説点（Features）の順に線形構造をなす。「自由に見る」「能動的に聴く」は、この線形構造の上で、ユーザーが視点をスワイプしてパノラマ内の各方位の商品を見たり、任意の対象の解説断片へジャンプしたりできるようにし、中断・跳躍・能動選択可能な非線形の自由体験を醸成する。",
+                  "muted": false
+                },
+                {
+                  "body": "ユーザーはさらに空間内の各商品オブジェクトと一歩進んだインタラクションができ、「見たまま得られる」方式で商品補助情報を取得し、それらの情報は図文・動画・3Dモデル（材質色の変更など）・AR（家具配置など）などの形で提示され二次インタラクションを行う。この「インタラクティブに見る」は疑似深度インタラクション*により体感を強化する。",
+                  "muted": false
+                },
+                {
+                  "body": "注：パノラマ動画とバーチャルリアリティ動画（Virtual Reality Video）の違いは、後者が全方位の映像提示に加え深いインタラクションを備え、参加者が行動によって映像空間内の対象状態を変えられる（椅子を動かす、食器棚を開けるなど）点にある。VR動画は現在なおモデリングとリアルタイムレンダリングによる仮想場面である。ゆえにパノラマ実景動画で一定のインタラクティビティを模擬するため、弱インタラクションまたは疑似深度インタラクションを加える：パノラマ映像へ指令を入力し、パノラマ映像自体の変化ではない他情報によりフィードバックし、対象指向の制御を擬真する。",
+                  "muted": true
+                },
+                {
+                  "body": "販売解説音声の「実録」、店舗環境・商品・販売員の動画「実拍」、商品補助情報インタラクションの「擬真」が共に「真正感」を構築する。",
+                  "muted": false
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_research_img",
+              "media": {
+                "kind": "image",
+                "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/vr/structure.png"
+              }
+            },
+            "text": {
+              "paragraphs": [
+                {
+                  "body": "ii. パノラマ動画三層インタラクションのアーキテクチャ",
+                  "muted": false
+                },
+                {
+                  "body": "体験アーキテクチャに基づきユーザーインタフェース枠組みとコアインタラクションをデザインする。インタフェースは（1）動画層（2）コントロール層（3）インタラクション層に分かれる。",
+                  "muted": false
+                },
+                {
+                  "body": "1） 動画層 — パノラマを自由に見る",
+                  "muted": false
+                },
+                {
+                  "body": "ホームインテリア業界のオフライン店舗がしばしば複数の小平米モデルルームや商品空間で配置される特徴と、商品の鮮明さを保証する基本体験要求に基づき、動画は固定パノラマ機位で撮影し、可視半径2メートル・方円約12平米の圆心位置から放射する領域内の商品を対象とする。ユーザーは「固定位置に立ち」左右360度・上下180度*で動画をスワイプし、限られたFOV範囲で視点サイズをズームできる。",
+                  "muted": false
+                },
+                {
+                  "body": "注：上下を360度に設定すると、球体動画の南・北極点を滑る際に視点が逆転する。",
+                  "muted": true
+                },
+                {
+                  "body": "空間商品と店舗の没入感を最大限に呈し、頻発するスワイプインタラクションの操作空間を最大限に提供するため、動画層はインタフェース全体の約90%を占める。",
+                  "muted": false
+                },
+                {
+                  "body": "2） コントロール層 — 解説を能動的に聴く",
+                  "muted": false
+                },
+                {
+                  "body": "コントロール層はトップバー、底部ナビ、サイドバーに分かれる。底部ナビは動画層インタラクション以外で最も主要な操作領域であり、空間内の商品オブジェクトを動画解説順に線形配置して商品情報表示とし、最も主要な行動誘導——「予約リード獲得」——を各商品ナビユニットにバインドし、ナビユニットのクリックで解説対象とその商品視点を切り替える。",
+                  "muted": false
+                },
+                {
+                  "body": "注目すべきは、一般的な動画コントロール（進捗バー、尺、再生一時停止など）が意図的に隠されていることで、体験アーキテクチャで述べた「中断・跳躍・能動選択可能な非線形自由体験の醸成」と対応し、「空間感」を強化し「動画感（頭尾のある有限の時間感）」ではなくすることである。",
+                  "muted": true
+                },
+                {
+                  "body": "サイドバーは副次操作領域とし、分流機能を主とする——店舗の他空間動画、上下に類似空間商品を繰る、店舗パノラマ動画など（クリックを用い、上下繰りジェスチャーとパノラマ視点スワイプの衝突を避ける）。",
+                  "muted": false
+                },
+                {
+                  "body": "3） インタラクション層 — 商品をインタラクティブに見る",
+                  "muted": false
+                },
+                {
+                  "body": "各商品オブジェクト（または単商品の各解説点）に対し全画幅動画内にアンカーを標記し、ユーザーはパノラマ視点で動画が扱う解説対象を一目で把握できる。アンカーには商品情報モジュールを添え、クリック操作で二次補助情報のインタラクティブ浮層を喚起でき、図文・動画・3Dモデル・ARなど各種内容形式を担い、解説音声を背景に商品をより深く理解する。",
+                  "muted": false
+                },
+                {
+                  "body": "まさに商品座標の存在により、現在解説中でない任意の商品オブジェクトをクリックし、または底部ナビの商品ユニットを切り替えた後、解説断片がジャンプすると同時に視点も自動で対象へ移る。",
+                  "muted": false
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_annotation",
+              "text": ""
+            },
+            "text": {
+              "paragraphs": [
+                {
+                  "body": "iii. パノラマ動画リンクデザイン",
+                  "muted": false
+                },
+                {
+                  "body": "1） パノラマ動画入口の展示",
+                  "muted": false
+                },
+                {
+                  "body": "公域Feeds流・検索などのリンクにおいて、通常の動画表示と異なり、パノラマ動画は指示対象の商品を容器画面の中心とし、再生と同時に視点が特定角度で自動的に左右往復する（あるいはスマホジャイロを感知し端末角度に応じて回転する）。この機械自動生成のカバー動画断片は、すべてのリンク入口サイズ（1:1、3:4、16:9など）に自動適応できる。",
+                  "muted": false
+                },
+                {
+                  "body": "2） 店舗漫遊とパノラマ動画の直列",
+                  "muted": false
+                },
+                {
+                  "body": "ユーザーは検索や導購などの経路で某カテゴリー商品のパノラマ動画を発見し、所属する販売や店舗に関心を持った後、店舗コンポーネントから店舗漫遊シーンへ入れる。既存の成熟した漫遊体験と同様、ポイント移動や全店モデル俯瞰などで静的パノラマ内の店舗商品を閲覧し、ある商品やモデルルームに関心を持った後は空間アンカーをクリックして再びパノラマ動画へ入り販売解説を聴き、「商品探し・店内散策・販売解説・予約リード獲得・来店」の体験閉ループを形成する。",
+                  "muted": false
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_research_img",
+              "media": {
+                "kind": "image",
+                "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/vr/report.png"
+              }
+            },
+            "text": {
+              "paragraphs": [
+                {
+                  "body": "iv. パノラマ動画の鮮明度と体積問題の解決",
+                  "muted": false
+                },
+                {
+                  "body": "パノラマ動画は球体動画（Spherical Video）とみなせ、通常のスマホUIのウィンドウ可視領域はその展開全画幅の約1/6にすぎない。撮影規範と技術手段*により、原片体積が通常動画の6倍超のパノラマ動画を、鮮明度を保ったまま90%以上削減した。",
+                  "muted": false
+                },
+                {
+                  "body": "パノラマ動画の鮮明度と体積最適化の四ステップ：（1）素材撮影：撮影ハードウェアと環境光の最適化（2）素材前処理：アルゴリズム認識による動静画像の分離と再合成（3）原始素材引き渡し：フォーマット要件の最適化（4）符号化復号圧縮処理：マッピング方式の最適化。",
+                  "muted": false
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": true,
+                  "items": [
+                    "特許：",
+                    "パノラマ動画技術に基づく空間商品閲覧ソリューション、CXTA75463",
+                    "モバイルアプリでパノラマ動画を走らせるための画質向上とサイズ削減の最適化ソリューション、CXTA83536"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_annotation",
+              "text": ""
+            },
+            "text": {
+              "h5": "03. 応用概況",
+              "paragraphs": [
+                {
+                  "body": "現在、パノラマ動画デザイン解決策は主にホームインテリア業界のローカル化シーンに応用され、七都市のコア売場で千店規模をカバーし、累計上線動画は千本単位、掲載商品は万単位に及ぶ。以降も自動車・旅行・不動産業界での応用可能性を探る。同時にユーザー体験では動画鮮明度をさらに高め、動画体積問題に起因する機位制限を打ち破り、ユーザーが動的パノラマ動画下で位置を移動し、より自由・没入・真正な体験を実現する。",
+                  "muted": false
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": true,
+                  "items": [
+                    "機微データを未展示。関連技術解決策は特許により保護されている。",
+                    "開示契約のため一部データは非表示。言及される詳細技術ソリューションは知的財産として保護される。"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

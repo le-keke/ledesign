@@ -30,19 +30,25 @@ const t = getDictionary(locale);
 </nav>
 
 <script>
+  /**
+   * ClientRouter keeps ES modules alive across navigations, so top-level
+   * listeners would stick to removed DOM. Re-bind on every astro:page-load.
+   */
+  let abort: AbortController | null = null;
+
   function setCategory(category: 'work' | 'research') {
     const home = document.querySelector<HTMLElement>('[data-home]');
     if (!home) return;
 
     home.dataset.activeCategory = category;
 
-    document.querySelectorAll<HTMLElement>('[data-feed]').forEach((feed) => {
+    home.querySelectorAll<HTMLElement>('[data-feed]').forEach((feed) => {
       const match = feed.dataset.feed === category;
       feed.hidden = !match;
       feed.setAttribute('aria-hidden', match ? 'false' : 'true');
     });
 
-    document.querySelectorAll<HTMLButtonElement>('[data-category-nav] [data-category]').forEach((btn) => {
+    home.querySelectorAll<HTMLButtonElement>('[data-category-nav] [data-category]').forEach((btn) => {
       btn.setAttribute('aria-pressed', String(btn.dataset.category === category));
     });
 
@@ -56,17 +62,36 @@ const t = getDictionary(locale);
     return location.hash === '#research' ? 'research' : 'work';
   }
 
-  document.querySelectorAll<HTMLButtonElement>('[data-category-nav] [data-category]').forEach((btn) => {
-    btn.addEventListener('click', () => {
-      const category = btn.dataset.category;
-      if (category === 'work' || category === 'research') {
-        setCategory(category);
-      }
-    });
-  });
+  function bind() {
+    abort?.abort();
+    abort = new AbortController();
+    const { signal } = abort;
 
-  setCategory(categoryFromHash());
-  window.addEventListener('hashchange', () => setCategory(categoryFromHash()));
+    const home = document.querySelector<HTMLElement>('[data-home]');
+    if (!home) return;
+
+    home.querySelectorAll<HTMLButtonElement>('[data-category-nav] [data-category]').forEach((btn) => {
+      btn.addEventListener(
+        'click',
+        () => {
+          const category = btn.dataset.category;
+          if (category === 'work' || category === 'research') {
+            setCategory(category);
+          }
+        },
+        { signal },
+      );
+    });
+
+    setCategory(categoryFromHash());
+  }
+
+  document.addEventListener('astro:page-load', bind);
+  window.addEventListener('hashchange', () => {
+    if (document.querySelector('[data-home]')) {
+      setCategory(categoryFromHash());
+    }
+  });
 </script>
 
 <style>

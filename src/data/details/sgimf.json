@@ -3,13 +3,13 @@
   "meta": {
     "displayTitle": {
       "en": "The 2020 Sino-Germany International Music Festival and Competition Poster Design",
-      "zh": "The 2020 Sino-Germany International Music Festival and Competition Poster Design",
-      "ja": "The 2020 Sino-Germany International Music Festival and Competition Poster Design"
+      "zh": "2020 中德国际音乐节暨大赛海报设计",
+      "ja": "2020年中独国際音楽祭・コンクール ポスターデザイン"
     },
     "summary": {
       "en": "This event, the 2020 Sino-Germany International Music Festival and Competition, is hosted by Deutsche Philharmonie, co-organized by the 24 National School of Music in Germany and Berlin Philharmonic Orchestra. To convey the cultural integration of China and Germany, as well as their independent confidence, typography design with pure Chinese and German is used in the poster series. Handpicking the slender serif font of these two languages is to express the artistic characteristics of classical music.",
-      "zh": "This event, the 2020 Sino-Germany International Music Festival and Competition, is hosted by Deutsche Philharmonie, co-organized by the 24 National School of Music in Germany and Berlin Philharmonic Orchestra. To convey the cultural integration of China and Germany, as well as their independent confidence, typography design with pure Chinese and German is used in the poster series. Handpicking the slender serif font of these two languages is to express the artistic characteristics of classical music.",
-      "ja": "This event, the 2020 Sino-Germany International Music Festival and Competition, is hosted by Deutsche Philharmonie, co-organized by the 24 National School of Music in Germany and Berlin Philharmonic Orchestra. To convey the cultural integration of China and Germany, as well as their independent confidence, typography design with pure Chinese and German is used in the poster series. Handpicking the slender serif font of these two languages is to express the artistic characteristics of classical music."
+      "zh": "2020 中德国际音乐节暨大赛由 Deutsche Philharmonie 主办，德国 24 所国立音乐学院与柏林爱乐乐团协办。为传达中德文化交融及其各自的自信，系列海报采用纯中文与德文的字体设计；精选两种语言的纤细衬线字体，以表现古典音乐的艺术气质。",
+      "ja": "2020年中独国際音楽祭・コンクールは Deutsche Philharmonie が主催し、ドイツの24の国立音楽学校およびベルリン・フィルハーモニー管弦楽団が共催します。中国とドイツの文化融合と、それぞれの自立した自信を伝えるため、ポスターシリーズでは純粋な中国語とドイツ語によるタイポグラフィを採用。両言語の細身のセリフ体を厳選し、クラシック音楽の芸術的性格を表現しています。"
     },
     "period": {
       "en": "2020",
@@ -18,13 +18,13 @@
     },
     "category": {
       "en": "Graphic Design",
-      "zh": "Graphic Design",
-      "ja": "Graphic Design"
+      "zh": "平面设计",
+      "ja": "グラフィックデザイン"
     },
     "designLead": {
       "en": "Keke LE",
-      "zh": "Keke LE",
-      "ja": "Keke LE"
+      "zh": "乐可柯",
+      "ja": "樂可柯"
     },
     "team": {
       "en": "",
@@ -38,42 +38,112 @@
     },
     "disclaimer": {
       "en": "Deutsche Philharmonie © All rights reserved.",
-      "zh": "Deutsche Philharmonie © All rights reserved.",
+      "zh": "Deutsche Philharmonie © 版权所有。",
       "ja": "Deutsche Philharmonie © All rights reserved."
     }
   },
-  "sections": [
-    {
-      "bg": "detail_bg_light",
-      "blocks": [
-        {
-          "type": "detail_cover",
-          "kind": "image",
-          "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/sgimf/sgimf_cover.png",
-          "alt": ""
-        },
-        {
-          "type": "detail_line_image",
-          "spacing": [],
-          "kind": "image",
-          "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/sgimf/sgimf_1.png",
-          "layout": "content"
-        },
-        {
-          "type": "detail_line_image",
-          "spacing": [],
-          "kind": "image",
-          "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/sgimf/sgimf_2.png",
-          "layout": "content"
-        },
-        {
-          "type": "detail_line_image",
-          "spacing": [],
-          "kind": "image",
-          "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/sgimf/sgimf_3.png",
-          "layout": "content"
-        }
-      ]
-    }
-  ]
+  "sections": {
+    "en": [
+      {
+        "bg": "detail_bg_light",
+        "blocks": [
+          {
+            "type": "detail_cover",
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/sgimf/sgimf_cover.png",
+            "alt": ""
+          },
+          {
+            "type": "detail_line_image",
+            "spacing": [],
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/sgimf/sgimf_1.png",
+            "layout": "content"
+          },
+          {
+            "type": "detail_line_image",
+            "spacing": [],
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/sgimf/sgimf_2.png",
+            "layout": "content"
+          },
+          {
+            "type": "detail_line_image",
+            "spacing": [],
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/sgimf/sgimf_3.png",
+            "layout": "content"
+          }
+        ]
+      }
+    ],
+    "zh": [
+      {
+        "bg": "detail_bg_light",
+        "blocks": [
+          {
+            "type": "detail_cover",
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/sgimf/sgimf_cover.png",
+            "alt": ""
+          },
+          {
+            "type": "detail_line_image",
+            "spacing": [],
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/sgimf/sgimf_1.png",
+            "layout": "content"
+          },
+          {
+            "type": "detail_line_image",
+            "spacing": [],
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/sgimf/sgimf_2.png",
+            "layout": "content"
+          },
+          {
+            "type": "detail_line_image",
+            "spacing": [],
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/sgimf/sgimf_3.png",
+            "layout": "content"
+          }
+        ]
+      }
+    ],
+    "ja": [
+      {
+        "bg": "detail_bg_light",
+        "blocks": [
+          {
+            "type": "detail_cover",
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/sgimf/sgimf_cover.png",
+            "alt": ""
+          },
+          {
+            "type": "detail_line_image",
+            "spacing": [],
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/sgimf/sgimf_1.png",
+            "layout": "content"
+          },
+          {
+            "type": "detail_line_image",
+            "spacing": [],
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/sgimf/sgimf_2.png",
+            "layout": "content"
+          },
+          {
+            "type": "detail_line_image",
+            "spacing": [],
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/sgimf/sgimf_3.png",
+            "layout": "content"
+          }
+        ]
+      }
+    ]
+  }
 }

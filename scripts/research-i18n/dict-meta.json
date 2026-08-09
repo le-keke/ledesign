@@ -1,0 +1,102 @@
+{
+  "Author": {
+    "en": "Author",
+    "zh": "作者",
+    "ja": "著者"
+  },
+  "Writer": {
+    "en": "Writer",
+    "zh": "作者",
+    "ja": "執筆者"
+  },
+  "Published": {
+    "en": "Published",
+    "zh": "发表",
+    "ja": "掲載"
+  },
+  "Course Producer": {
+    "en": "Course Producer",
+    "zh": "课程制作人",
+    "ja": "コースプロデューサー"
+  },
+  "Lecturer": {
+    "en": "Lecturer",
+    "zh": "讲师",
+    "ja": "講師"
+  },
+  "Designer & Researcher": {
+    "en": "Designer & Researcher",
+    "zh": "设计师与研究者",
+    "ja": "デザイナー・研究者"
+  },
+  "Work": {
+    "en": "Work",
+    "zh": "作品",
+    "ja": "作品"
+  },
+  "Tutor": {
+    "en": "Tutor",
+    "zh": "导师",
+    "ja": "指導教員"
+  },
+  "Honor": {
+    "en": "Honor",
+    "zh": "荣誉",
+    "ja": "栄誉"
+  },
+  "Researcher & Writer": {
+    "en": "Researcher & Writer",
+    "zh": "研究者与作者",
+    "ja": "研究者・著者"
+  },
+  "Article (Excerpt) [EN]": {
+    "en": "Article (Excerpt)",
+    "zh": "文章（节选）",
+    "ja": "記事（抜粋）"
+  },
+  "Article [EN]": {
+    "en": "Article",
+    "zh": "文章",
+    "ja": "記事"
+  },
+  "Article (Excerpt) [中]": {
+    "en": "Article (Excerpt)",
+    "zh": "文章（节选）",
+    "ja": "記事（抜粋）"
+  },
+  "Course [EN]": {
+    "en": "Course",
+    "zh": "课程",
+    "ja": "コース"
+  },
+  "M.A.Dissertation (Excerpt) [EN/中]": {
+    "en": "M.A. Dissertation (Excerpt)",
+    "zh": "硕士学位论文（节选）",
+    "ja": "修士論文（抜粋）"
+  },
+  "Full Article on VersionAI Tmall→": {
+    "en": "Full Article on VersionAI Tmall→",
+    "zh": "完整文章见 VersionAI Tmall→",
+    "ja": "全文は VersionAI Tmall→"
+  },
+  "Keke LE Design © Official Pubilc Subscription →": {
+    "en": "Keke LE Design © Official Pubilc Subscription →",
+    "zh": "乐可柯 Design © 官方公众号 →",
+    "ja": "樂可柯 Design © 公式パブリック購読 →"
+  },
+  "Online Course Preview →": {
+    "en": "Online Course Preview →",
+    "zh": "在线课程预览 →",
+    "ja": "オンラインコースプレビュー →"
+  },
+  "VR-Video Experience Design for Spatial Commodity →": {
+    "en": "VR-Video Experience Design for Spatial Commodity →",
+    "zh": "空间商品的 VR 视频体验设计 →",
+    "ja": "空間商品のための VR 動画体験デザイン →"
+  },
+  "Keke LE Design © All rights reserved.": {
+    "en": "Keke LE Design © All rights reserved.",
+    "zh": "乐可柯 Design © 版权所有。",
+    "ja": "樂可柯 Design © All rights reserved."
+  }
+}

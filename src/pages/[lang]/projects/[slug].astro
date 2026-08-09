@@ -5,7 +5,7 @@ import DetailStream from '@components/DetailStream.astro';
 import Footer from '@components/Footer.astro';
 import { getDictionary, locales, type Locale } from '@i18n/index';
 import { projects } from '@data/projects';
-import { getProjectDetail } from '@data/project-details';
+import { getProjectDetail, getProjectSections } from '@data/project-details';
 import '@styles/detail.css';
 
 export function getStaticPaths() {
@@ -25,15 +25,18 @@ const t = getDictionary(locale);
 const detail = getProjectDetail(project.slug);
 const title = detail?.meta.displayTitle[locale] ?? project.title[locale];
 const route = `projects/${project.slug}`;
+const sections = detail ? getProjectSections(detail, locale) : [];
 
 const awardLinks = detail?.meta.awardLinks ?? [];
+const hasTeam = Boolean(detail?.meta.team[locale]?.trim());
+const designRoleLabel = hasTeam ? t.project.designLead : t.project.designer;
 
 const metaRows = detail
   ? (
       [
         [t.project.period, detail.meta.period[locale]],
         [t.project.category, detail.meta.category[locale]],
-        [t.project.designLead, detail.meta.designLead[locale]],
+        [designRoleLabel, detail.meta.designLead[locale]],
         [t.project.team, detail.meta.team[locale]],
         /* Linked awards render separately below */
         ...(awardLinks.length
@@ -66,7 +69,7 @@ function summaryParts(text: string) {
     <div class="stream">
       {
         detail ? (
-          <DetailStream sections={detail.sections} />
+          <DetailStream sections={sections} />
         ) : (
           <section class="detail_container detail_bg_light">
             <div class="page">

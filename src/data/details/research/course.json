@@ -1,0 +1,567 @@
+{
+  "slug": "course",
+  "meta": {
+    "displayTitle": {
+      "en": "Information and Interaction Design Theory and Practice",
+      "zh": "信息与交互设计理论与实践",
+      "ja": "情報とインタラクションデザインの理論と実践"
+    },
+    "summary": {
+      "en": "",
+      "zh": "",
+      "ja": ""
+    },
+    "keywords": {
+      "en": "",
+      "zh": "",
+      "ja": ""
+    },
+    "period": {
+      "en": "2022.5",
+      "zh": "2022.5",
+      "ja": "2022.5"
+    },
+    "category": {
+      "en": "Course",
+      "zh": "课程",
+      "ja": "コース"
+    },
+    "institution": {
+      "en": "Zhejiang University, China Academy of Art",
+      "zh": "浙江大学、中国美术学院",
+      "ja": "浙江大学、中国美術学院"
+    },
+    "roles": [
+      {
+        "label": {
+          "en": "Course Producer",
+          "zh": "课程制作人",
+          "ja": "コースプロデューサー"
+        },
+        "value": {
+          "en": "Keke LE, Alibaba Design, University Faculty",
+          "zh": "乐可柯，阿里巴巴设计，高校教师",
+          "ja": "樂可柯、阿里巴巴デザイン、大学教員"
+        }
+      },
+      {
+        "label": {
+          "en": "Lecturer",
+          "zh": "讲师",
+          "ja": "講師"
+        },
+        "value": {
+          "en": "Keke LE",
+          "zh": "乐可柯",
+          "ja": "樂可柯"
+        }
+      },
+      {
+        "href": "https://orange-class.com/course/4800013210256732?spm=ali-study.27183935.0.0.24a06a4dhHNeql",
+        "label": {
+          "en": "Published",
+          "zh": "发表",
+          "ja": "掲載"
+        },
+        "value": {
+          "en": "Online Course Preview →",
+          "zh": "在线课程预览 →",
+          "ja": "オンラインコースプレビュー →"
+        }
+      }
+    ],
+    "disclaimer": {
+      "en": "Keke LE Design © All rights reserved.",
+      "zh": "乐可柯 Design © 版权所有。",
+      "ja": "樂可柯 Design © All rights reserved."
+    }
+  },
+  "sections": {
+    "en": [
+      {
+        "bg": "detail_bg_light",
+        "blocks": [
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_annotation",
+              "text": ""
+            },
+            "text": {
+              "h5": "Introduction",
+              "paragraphs": [
+                {
+                  "body": "As a corporate lecturer of Alibaba Design, I co-developed a series of courses \"Information and Interaction Design\" with the International Design Institute of Zhejiang University, and taught it to junior design students of Zhejiang University, which was launched on the free online course platform of Orange Point, with a total of 15,567 people studying it.",
+                  "muted": false
+                },
+                {
+                  "body": "A series of courses jointly was also developed with China Academy of Art, \"Digital Product and Multimodal Perceptual Design\", for junior design students.",
+                  "muted": false
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line",
+            "spacing": [],
+            "aside": {
+              "role": "line_research_img",
+              "media": {
+                "kind": "image",
+                "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/course/files.png"
+              }
+            },
+            "text": {
+              "h5": "Course Outline",
+              "paragraphs": [
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "1. Interaction Design Basic Definition",
+                    "1-1. From Physical Logic to Behavioral Logic",
+                    "1-2. Five Elements of Interaction Design"
+                  ]
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "2. GUI/NUI Design Process",
+                    "2-1. Basic Logic Flow",
+                    "2-2. Information Processing",
+                    "2-2-1. Selecting Information Architecture",
+                    "2-2-2. Determining Information Content",
+                    "2-2-3. Arranging Information Layout"
+                  ]
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "3. Basic Laws",
+                    "3-1. Fetzer's Law",
+                    "3-2. Hick's Law",
+                    "3-3. Occam's Razor Law",
+                    "3-4. Miller's Law",
+                    "3-5. Interaction Coherence",
+                    "3-6. Global System Design"
+                  ]
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "4. Full-State and Abnormality Design",
+                    "4-1. Process Full State",
+                    "4-2. Full State of Controls",
+                    "4-3. Passive and Proactive Interaction"
+                  ]
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "5. User Interface and Interaction of Forms",
+                    "5-1. UI - User Interface",
+                    "5-2. Cognitive Behavioral Psychology",
+                    "5-3. HMI, HCI, HSI",
+                    "5-4. Multimodal HCI_CLI, GUI, NUI, TUI, OUI, PUI, BCI"
+                  ]
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "6. Interaction Design Product Type",
+                    "6-1. Hardware Product Type",
+                    "6-2. Software System Type",
+                    "6-3. Service System Type",
+                    "6-4. Combined Hardware and Software Product Type",
+                    "6-5. Service System Type of Combined Hardware Products",
+                    "6-6. Service System Type of Collected Software System",
+                    "6-7. Service System Type of Combined Hardware Product and Software System",
+                    "7. Factors Affecting Interaction Design"
+                  ]
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "8. Gestalt Awareness",
+                    "8-1. Basic Definition",
+                    "8-2. Proximity",
+                    "8-3. Similarity",
+                    "8-4. Continuity",
+                    "8-5. Closeness",
+                    "8-6. Subject Perception",
+                    "8-7. Symmetry",
+                    "8-8. Organization",
+                    "8-9. Perceptual Irrationality",
+                    "8-10. Recognition",
+                    "9. Factors Affecting Visual Design"
+                  ]
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "10. Business Practice Thinking and Methods",
+                    "10-1. Business Strategy Insight",
+                    "10-2. Analysis of Demand Essence",
+                    "10-3. Design Strategy Development",
+                    "10-4. Technology Feeding",
+                    "10-5. ROI and Downgrading"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "zh": [
+      {
+        "bg": "detail_bg_light",
+        "blocks": [
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_annotation",
+              "text": ""
+            },
+            "text": {
+              "h5": "引言",
+              "paragraphs": [
+                {
+                  "body": "作为阿里巴巴设计的企业讲师，我与浙江大学国际设计学院共同开发了系列课程《信息与交互设计》，并为浙江大学设计专业低年级学生授课；课程上线于橙点免费在线课程平台，累计学习人数达 15,567 人。",
+                  "muted": false
+                },
+                {
+                  "body": "亦与中国美术学院共同开发了系列课程《数字产品与多模态感知设计》，面向设计专业低年级学生。",
+                  "muted": false
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line",
+            "spacing": [],
+            "aside": {
+              "role": "line_research_img",
+              "media": {
+                "kind": "image",
+                "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/course/files.png"
+              }
+            },
+            "text": {
+              "h5": "课程大纲",
+              "paragraphs": [
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "1. 交互设计基本定义",
+                    "1-1. 从物理逻辑到行为逻辑",
+                    "1-2. 交互设计五要素"
+                  ]
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "2. GUI／NUI 设计流程",
+                    "2-1. 基本逻辑流程",
+                    "2-2. 信息加工",
+                    "2-2-1. 选择信息架构",
+                    "2-2-2. 确定信息内容",
+                    "2-2-3. 安排信息布局"
+                  ]
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "3. 基本定律",
+                    "3-1. 费茨定律",
+                    "3-2. 希克定律",
+                    "3-3. 奥卡姆剃刀法则",
+                    "3-4. 米勒定律",
+                    "3-5. 交互连贯性",
+                    "3-6. 全局系统设计"
+                  ]
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "4. 全态与异常设计",
+                    "4-1. 流程全态",
+                    "4-2. 控件全态",
+                    "4-3. 被动与主动交互"
+                  ]
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "5. 表单的用户界面与交互",
+                    "5-1. UI——用户界面",
+                    "5-2. 认知行为心理学",
+                    "5-3. HMI、HCI、HSI",
+                    "5-4. 多模态 HCI：CLI、GUI、NUI、TUI、OUI、PUI、BCI"
+                  ]
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "6. 交互设计产品类型",
+                    "6-1. 硬件产品类型",
+                    "6-2. 软件系统类型",
+                    "6-3. 服务系统类型",
+                    "6-4. 软硬件结合产品类型",
+                    "6-5. 组合硬件产品的服务系统类型",
+                    "6-6. 集合软件系统的服务系统类型",
+                    "6-7. 软硬件结合的服务系统类型",
+                    "7. 影响交互设计的因素"
+                  ]
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "8. 格式塔认知",
+                    "8-1. 基本定义",
+                    "8-2. 邻近性",
+                    "8-3. 相似性",
+                    "8-4. 连续性",
+                    "8-5. 闭合性",
+                    "8-6. 主体感知",
+                    "8-7. 对称性",
+                    "8-8. 组织",
+                    "8-9. 知觉非理性",
+                    "8-10. 识别",
+                    "9. 影响视觉设计的因素"
+                  ]
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "10. 商业实践思考与方法",
+                    "10-1. 商业策略洞察",
+                    "10-2. 需求本质分析",
+                    "10-3. 设计策略制定",
+                    "10-4. 技术反哺",
+                    "10-5. ROI 与降级"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "ja": [
+      {
+        "bg": "detail_bg_light",
+        "blocks": [
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_annotation",
+              "text": ""
+            },
+            "text": {
+              "h5": "序論",
+              "paragraphs": [
+                {
+                  "body": "阿里巴巴デザインの企業講師として、浙江大学国際デザイン学院と共同でシリーズ講座「情報とインタラクションデザイン」を開発し、浙江大学の低学年デザイン学生に講義した。オレンジポイントの無料オンライン講座プラットフォームで公開され、累計学習者は15,567人に達した。",
+                  "muted": false
+                },
+                {
+                  "body": "中国美術学院とも共同でシリーズ講座「デジタル製品とマルチモーダル知覚デザイン」を開発し、低学年デザイン学生向けとした。",
+                  "muted": false
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line",
+            "spacing": [],
+            "aside": {
+              "role": "line_research_img",
+              "media": {
+                "kind": "image",
+                "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/course/files.png"
+              }
+            },
+            "text": {
+              "h5": "コースアウトライン",
+              "paragraphs": [
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "1. インタラクションデザインの基本定義",
+                    "1-1. 物理論理から行動論理へ",
+                    "1-2. インタラクションデザインの五要素"
+                  ]
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "2. GUI/NUIデザインプロセス",
+                    "2-1. 基本論理フロー",
+                    "2-2. 情報処理",
+                    "2-2-1. 情報アーキテクチャの選定",
+                    "2-2-2. 情報内容の確定",
+                    "2-2-3. 情報レイアウトの配置"
+                  ]
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "3. 基本法則",
+                    "3-1. フィッツの法則",
+                    "3-2. ヒックの法則",
+                    "3-3. オッカムの剃刀",
+                    "3-4. ミラーの法則",
+                    "3-5. インタラクションの一貫性",
+                    "3-6. グローバルシステムデザイン"
+                  ]
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "4. フルステートと異常系デザイン",
+                    "4-1. プロセスのフルステート",
+                    "4-2. コントロールのフルステート",
+                    "4-3. 受動と能動のインタラクション"
+                  ]
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "5. フォームのユーザーインターフェースとインタラクション",
+                    "5-1. UI - ユーザーインターフェース",
+                    "5-2. 認知行動心理学",
+                    "5-3. HMI、HCI、HSI",
+                    "5-4. マルチモーダルHCI_CLI、GUI、NUI、TUI、OUI、PUI、BCI"
+                  ]
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "6. インタラクションデザインの製品タイプ",
+                    "6-1. ハードウェア製品型",
+                    "6-2. ソフトウェアシステム型",
+                    "6-3. サービスシステム型",
+                    "6-4. ハードウェアとソフトウェアの結合製品型",
+                    "6-5. 結合ハードウェア製品のサービスシステム型",
+                    "6-6. 収集ソフトウェアシステムのサービスシステム型",
+                    "6-7. ハードウェア製品とソフトウェアシステムの結合サービスシステム型",
+                    "7. インタラクションデザインに影響する要因"
+                  ]
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "8. ゲシュタルト認識",
+                    "8-1. 基本定義",
+                    "8-2. 近接",
+                    "8-3. 類似性",
+                    "8-4. 連続性",
+                    "8-5. 閉合",
+                    "8-6. 主体知覚",
+                    "8-7. 対称性",
+                    "8-8. 組織化",
+                    "8-9. 知覚的非合理性",
+                    "8-10. 認識",
+                    "9. 視覚デザインに影響する要因"
+                  ]
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "10. 事業実践の思考と方法",
+                    "10-1. 事業戦略インサイト",
+                    "10-2. 需要本質の分析",
+                    "10-3. デザイン戦略の策定",
+                    "10-4. 技術のフィードバック",
+                    "10-5. ROIとダウングレード"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

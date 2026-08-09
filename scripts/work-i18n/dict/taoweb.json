@@ -1,0 +1,102 @@
+{
+  "Interactive manifesto experience for the website hero section ↑": {
+    "zh": "网站首屏的互动宣言体验 ↑",
+    "ja": "サイトヒーローのインタラクティブ・マニフェスト体験 ↑"
+  },
+  "Transforming the Manifesto into an Interactive Narrative Journey": {
+    "zh": "将宣言转化为互动叙事旅程",
+    "ja": "マニフェストをインタラクティブな物語の旅へ"
+  },
+  "Taobao Design is guided by five core values: Human-Centered, Freedom, Academia, Creativity, and Technology. Each value is translated into a symbolic visual language and merged with the TAO brand mark. Through a series of interactive moments, users actively uncover and experience these values, transforming the manifesto from static content into an engaging narrative journey.": {
+    "zh": "淘宝设计以五项核心价值为指引：以人为本、自由、学术、创意与技术。每一价值被转译为象征性视觉语言，并与 TAO 品牌标识融合。通过一系列互动瞬间，用户主动发现并体验这些价值，使宣言由静态内容转化为引人入胜的叙事旅程。",
+    "ja": "淘宝デザインは五つのコアバリュー——Human-Centered、Freedom、Academia、Creativity、Technology——に導かれます。各価値は象徴的な視覚言語へ翻訳され、TAOブランドマークと融合します。一連のインタラクティブな瞬間を通じて、ユーザーはこれらの価値を能動的に発見・体験し、マニフェストを静的コンテンツから没入的な物語の旅へと変えます。"
+  },
+  "Human-centered → feel human warmth → thermal imaging TAO → front camera captures, heatmap flows with user movement": {
+    "zh": "以人为本 → 感受人文温度 → 热成像 TAO → 前置摄像头捕捉，热力场随用户移动流动",
+    "ja": "Human-centered → 人のぬくもりを感じる → サーマルイメージング TAO → フロントカメラが捉え、ヒートマップが動きに沿って流れる"
+  },
+  "Freedom → feel randomness in creative expression → ink TAO → blow into microphone, ink spreads freely": {
+    "zh": "自由 → 感受创作表达中的随机性 → 水墨 TAO → 对着麦克风吹气，墨色自由晕开",
+    "ja": "Freedom → 創造表現の偶然性を感じる → インク TAO → マイクに息を吹き、墨が自由に広がる"
+  },
+  "Academia → feel exploratory nature of research → node ruler TAO → click or drag to freely connect/disconnect ruler": {
+    "zh": "学术 → 感受研究的探索性 → 节点尺 TAO → 点击或拖拽，自由连接／拆分尺段",
+    "ja": "Academia → リサーチの探究性を感じる → ノード定規 TAO → クリックやドラッグで定規を自由に接続／分離"
+  },
+  "Creativity → feel generative creativity → brush TAO → select brush for freeform drawing": {
+    "zh": "创意 → 感受生成式创造力 → 画笔 TAO → 选择画笔进行自由绘制",
+    "ja": "Creativity → 生成的な創造性を感じる → ブラシ TAO → ブラシを選んで自由に描画"
+  },
+  "Thermal imaging TAO ↑": {
+    "zh": "热成像 TAO ↑",
+    "ja": "サーマルイメージング TAO ↑"
+  },
+  "Based on metaball algorithms and coordinate mapping techniques, a thermal imaging effect is implemented on the canvas. The heat field flows dynamically following human movement.": {
+    "zh": "基于 Metaball 算法与坐标映射，在画布上实现热成像效果；热力场随人体运动动态流动。",
+    "ja": "メタボールアルゴリズムと座標マッピングにより、キャンバス上にサーマルイメージング効果を実装。熱場は人の動きに追従して動的に流れます。"
+  },
+  "Using ml5.js, real-time detection of human body key points (head, chest, and both hands) is performed, and these positions are mapped to drive the movement of the thermal field.": {
+    "zh": "借助 ml5.js 实时检测人体关键点（头、胸与双手），并将位置映射以驱动热力场运动。",
+    "ja": "ml5.js により頭部・胸部・両手などの人体キーポイントをリアルタイム検出し、その位置をマッピングして熱場の動きを駆動します。"
+  },
+  "A set of adjustable parameters, aoe, power, distance, and cutoff, are used to control the size of metaballs, interaction range, heat intensity, and the outer diffusion boundary. These controls allow fine-tuning of the final visual shape.": {
+    "zh": "通过 aoe、power、distance、cutoff 等可调参数，控制 Metaball 尺寸、交互范围、热强度与外扩散边界，从而精细调节最终视觉形态。",
+    "ja": "aoe、power、distance、cutoff などの調整可能パラメータで、メタボールサイズ、相互作用範囲、熱強度、外側拡散境界を制御し、最終的な視覚形状を精緻にチューニングできます。"
+  },
+  "The thermal field is rendered with five-layer gradient colors from inner to outer, which can be freely adjusted to create different visual styles and atmospheric effects.": {
+    "zh": "热力场由内而外以五层渐变色渲染，可自由调节以呈现不同视觉风格与氛围。",
+    "ja": "熱場は内側から外側へ五層グラデーションで描画され、自由に調整して多様な視覚スタイルと雰囲気を生み出せます。"
+  },
+  "Ink TAO ↑": {
+    "zh": "水墨 TAO ↑",
+    "ja": "インク TAO ↑"
+  },
+  "Using Three.js combined with custom GLSL fragment shaders for ink-style rendering, and SDF-based physics simulation to create ink stretching and trailing effects when blown.": {
+    "zh": "以 Three.js 结合自定义 GLSL 片元着色器实现水墨渲染，并以基于 SDF 的物理模拟生成吹气时的墨迹拉伸与拖尾。",
+    "ja": "Three.js とカスタム GLSL フラグメントシェーダで墨表現を行い、SDF ベースの物理シミュレーションで息を吹きかけた際の伸びと残像を生成します。"
+  },
+  "A free, randomized ink effect driven by microphone volume and airflow direction.": {
+    "zh": "由麦克风音量与气流方向驱动的自由随机水墨效果。",
+    "ja": "マイク音量と気流方向に駆動される、自由でランダムなインク効果。"
+  },
+  "Node ruler TAO ↑": {
+    "zh": "节点尺 TAO ↑",
+    "ja": "ノード定規 TAO ↑"
+  },
+  "Built a modular ruler system as a standalone React component, powered by PixiJS for real-time Canvas/WebGL interactions. Enabled intuitive manipulation such as dragging and rotating via pointer events, supported by geometric computation and state-machine logic for precise node snapping and structural attachment.": {
+    "zh": "将模块化尺系统实现为独立 React 组件，并以 PixiJS 驱动实时 Canvas／WebGL 交互。通过指针事件支持拖拽与旋转等直觉操作，辅以几何计算与状态机逻辑，实现精确节点吸附与结构拼接。",
+    "ja": "モジュール式定規システムを独立した React コンポーネントとして構築し、PixiJS でリアルタイムの Canvas／WebGL インタラクションを駆動。ポインターイベントでドラッグや回転などの直感操作を可能にし、幾何計算とステートマシンにより精密なノード吸着と構造接続を実現しました。"
+  },
+  "Developed a set of ruler modules in different sizes and forms, allowing users to freely disassemble and recombine them into flexible geometric structures through a unified interaction rule system.": {
+    "zh": "开发不同尺寸与形态的尺模块，用户可在统一交互规则下自由拆解与重组，形成灵活的几何结构。",
+    "ja": "サイズと形態の異なる定規モジュール群を開発し、統一された操作規則のもとで自由に分解・再結合し、柔軟な幾何構造を組み立てられます。"
+  },
+  "Brush TAO ↑": {
+    "zh": "画笔 TAO ↑",
+    "ja": "ブラシ TAO ↑"
+  },
+  "Built a browser-based drawing system using native HTML5 Canvas 2D and Pointer Events. Designed and implemented four custom brushes—including a pressure-responsive pen, texture-based crayon, pixel-stamp brush, and marker brush—while providing real-time controls for brush size, color selection, and erasing.": {
+    "zh": "基于原生 HTML5 Canvas 2D 与 Pointer Events 构建浏览器端绘画系统；设计并实现四支自定义画笔——压感笔、纹理蜡笔、像素图章笔与马克笔——并提供笔刷大小、取色与擦除的实时控制。",
+    "ja": "ネイティブ HTML5 Canvas 2D と Pointer Events でブラウザ描画システムを構築。筆圧対応ペン、テクスチャクレヨン、ピクセルスタンプ、マーカーの四種カスタムブラシを設計実装し、サイズ・色・消しゴムのリアルタイム制御を提供します。"
+  },
+  "Developed four unique rendering behaviors to emulate different drawing media, ranging from expressive pressure-driven ink lines to textured crayon marks, pixel-art strokes, and clean marker illustrations.": {
+    "zh": "开发四种独特渲染行为以模拟不同绘画媒介：从富有表现力的压感墨线，到纹理蜡笔痕迹、像素笔触，以及干净的马克笔插画效果。",
+    "ja": "表現力のある筆圧インク線から、テクスチャのあるクレヨン、ピクセルアート、クリーンなマーカーイラストまで、異なる描画媒体を模する四つの固有レンダリング挙動を開発しました。"
+  },
+  "Design requirements documentation in IDE ↑": {
+    "zh": "IDE 中的设计需求文档 ↑",
+    "ja": "IDE 上のデザイン要件ドキュメント ↑"
+  },
+  "AI-Driven Design Engineering Practice": {
+    "zh": "AI 驱动的设计工程实践",
+    "ja": "AI駆動のデザインエンジニアリング実践"
+  },
+  "Documented the concepts and requirements of the four interactive experiences in Markdown, using LLMs to explore technical solutions and implementation approaches. Built each interaction as an independent project, iterating through AI-assisted prototyping, testing, and refinement to achieve the desired visual and interaction outcomes. Packaged reusable components, optimized rendering performance, and delivered production-ready code and documentation for deployment.": {
+    "zh": "以 Markdown 记录四类互动体验的概念与需求，并借助大语言模型探索技术方案与实现路径。将每一互动作为独立项目构建，经 AI 辅助原型、测试与打磨迭代，达成预期的视觉与交互效果；封装可复用组件、优化渲染性能，并交付可上线的生产代码与文档。",
+    "ja": "四つのインタラクティブ体験の概念と要件を Markdown で文書化し、LLM で技術解と実装方針を探りました。各インタラクションを独立プロジェクトとして構築し、AI支援のプロトタイピング・検証・洗練を繰り返し、狙った視覚とインタラクションに到達。再利用可能なコンポーネントをパッケージ化し、描画性能を最適化し、本番投入可能なコードとドキュメントを納品しました。"
+  },
+  "Sample website pages ↑": {
+    "zh": "网站页面示例 ↑",
+    "ja": "ウェブサイトページ例 ↑"
+  }
+}

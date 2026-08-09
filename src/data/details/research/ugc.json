@@ -1,0 +1,483 @@
+{
+  "slug": "ugc",
+  "meta": {
+    "displayTitle": {
+      "en": "UGC Product Design Philosophy behind the Great Design Iteration of Instagram",
+      "zh": "Instagram 重大设计迭代背后的 UGC 产品设计哲学",
+      "ja": "Instagramの大規模デザイン反復の背後にあるUGC製品デザイン哲学"
+    },
+    "summary": {
+      "en": "",
+      "zh": "",
+      "ja": ""
+    },
+    "keywords": {
+      "en": "Design Philosophy, UI Design",
+      "zh": "设计哲学、界面设计",
+      "ja": "デザイン哲学、UIデザイン"
+    },
+    "period": {
+      "en": "2016.5",
+      "zh": "2016.5",
+      "ja": "2016.5"
+    },
+    "category": {
+      "en": "Article",
+      "zh": "文章",
+      "ja": "記事"
+    },
+    "roles": [
+      {
+        "label": {
+          "en": "Writer",
+          "zh": "作者",
+          "ja": "執筆者"
+        },
+        "value": {
+          "en": "Keke LE",
+          "zh": "乐可柯",
+          "ja": "樂可柯"
+        }
+      }
+    ],
+    "disclaimer": {
+      "en": "Keke LE Design © All rights reserved.",
+      "zh": "乐可柯 Design © 版权所有。",
+      "ja": "樂可柯 Design © All rights reserved."
+    }
+  },
+  "sections": {
+    "en": [
+      {
+        "bg": "detail_bg_light",
+        "blocks": [
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_annotation",
+              "text": ""
+            },
+            "text": {
+              "h5": "Preface",
+              "paragraphs": [
+                {
+                  "body": "Instagram, “a global community of interests sharing more than 80 million photos and videos every day”, has launched a big iteration on its graphical user interface and brands of product, which is not just to express a simple rainbow gradient, colourless inside pages and a doing-process video, but moreover a design philosophy and values behind that.",
+                  "muted": false
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_research_img",
+              "media": {
+                "kind": "image",
+                "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/ugc/plates.png"
+              }
+            },
+            "text": {
+              "h5": "Plates with Decorative Patterns or Just White",
+              "paragraphs": [
+                {
+                  "body": "Before exploring what kind is the design philosophy, I would like to give an example for the beginning. When a dish to be evaluated, its colour, smell, flavour, etc. will be the factors as usual. Fragrance is to capture the sense of smell, taste is to capture the sense of taste and then the dish's appearance is to capture the vision. That is, simply, a good dish smells good, looks beautiful and tastes great. To have an impressive look, besides toning dishes, fire control and selecting side-dishes during the period of production, it is important that how the food is presented in the plate. A creative chef can often put highly ornamental even moral dish with the same foods. So we'll usually see in Michelin restaurant, there're mostly the plates with a white background, but different in shape. That is because using white plates can maximise the creation space to chefs and make diners pay the greatest degree of attention on the foods itself. If we look presenting dishes as creative painting, then I think that those Michelin chefs also want a piece of white paper to present their work.",
+                  "muted": false
+                },
+                {
+                  "body": "Based on the above Michelin example, we will find that, compared to the fruits in a blue-pattern plate (right), the one in white plate (left) can attract more eye-focus on the fruit itself: Appropriate margin puts fruits on the visual centre and decorative background makes fruits slightly overshadowed.",
+                  "muted": false
+                },
+                {
+                  "body": "Plates with a decorative pattern does look artistic and beautiful. To some extent, those nice looking plates are not for supporting foods any more, but rather that it itself is a saturated visual art. So when the foods are put on those plates, they are overwhelmed as a “dwarf”.",
+                  "muted": false
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_annotation",
+              "text": ""
+            },
+            "text": {
+              "h5": "\"Half-full or Half-empty” Design Philosophy",
+              "paragraphs": [
+                {
+                  "body": "So if the users' photographs, videos and stories are the colourful foods, as a product or platform, itself should be relegated to no-stylish as “white and transparent” as possible, even abandons its brand theme blue, being the most humble status to support and embrace the most diverse contents.",
+                  "muted": false
+                },
+                {
+                  "body": "This is what I called “half-full or half-empty” design philosophy. A cup full of water can not tolerate more in, where the given inevitability kills inclusiveness. Contrarily, appropriate space left can make more different stories included and happened under different scenarios and roles. Similarly, we can also be understood from the Japanese philosophy of life — “80% fitness of Objects”. That is, designing everything should hold a degree, not to be full. The “Eighty” is an imaginary number referring to a certain and appropriate degree or “volume” of a product, the remaining “Twenty” volume is to be filled by the users. So this remaining part is completely different with the different users under different scenarios. Only when the “Eighty” including the “Twenty” equals the fully “Hundred”, the story is complete and perfect.",
+                  "muted": false
+                },
+                {
+                  "body": "For a mainly user-generated content (UGC) dependent product or platform, content is the core and the visual centre. It is the organic and inclusive but competitive relationship between products (object) and user (content), which is not even a mathematical equation (80/20), but more like a chemical reaction: “Ten” appropriate design can not only absorb the contents of “Ninety”, but to enlarge it more.",
+                  "muted": false
+                },
+                {
+                  "body": "Also, we can see the original intention from the Instagram official blog: “The simpler design puts more focus on your photos and videos without changing how you navigate the app.”",
+                  "muted": false
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_annotation",
+              "text": ""
+            },
+            "text": {
+              "h5": "A Practice from \"Half-full\" Philosophy",
+              "paragraphs": [
+                {
+                  "body": "Firstly, almost all the buttons and icons abandoned the familiar blue (this move is very bold, because the Instagram blue almost represent its brand which leave a great impression to users, just as Airbnb red, Twitter sky blue) and changed into the most neutral colour system (black, grey and white). People always say that black, grey, white are the ones can be easily matched with every other colours. Actually, the reason is that they are essentially playing a white plate role standing behind all colours with hue.",
+                  "muted": false
+                },
+                {
+                  "body": "Secondly, because the theme blue disappears, the orange label for pushing notification had been replaced by the most conservative red one. On the one hand, the natural orange-blue contrast colours is ungrouped because of the blue's leaving, then it'll be a kind of “chicken rib — things of little value” if the orange still stays, even a redundant pattern painted on a burly white plate. On the other hand, for staying “white” without losing its basic notification functions, the final selection is the red based on that red as a warning and reminder in phone interface is the lowest-cost type for user identification and learning.",
+                  "muted": false
+                },
+                {
+                  "body": "Then there is the colour of the label and words with links has changed, which many people are not aware of. We can have a look, the colour in new version is deeper than that in the old version, closer to dark blue. It would even needs more attention to identify the dark blue among those body and username black. Of course, this is also based on long-term accumulation of Instagram user habits — users have become accustomed to identify the link when seeing the @ or #. So it is feasible that reducing the visual weight of those elements except contents as much as possible.",
+                  "muted": false
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_research_img",
+              "media": {
+                "kind": "image",
+                "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/ugc/cup.png"
+              }
+            },
+            "text": {
+              "h5": "Be A Glass",
+              "paragraphs": [
+                {
+                  "body": "For user-generated content (UGC) platform or product, designs should focus on how make it easier and convenient to publish, share and manage contents, other than upstage that. It is not only the graphic user interface able to do so, but also the interaction logic: The lowest-cost of learning interaction is designed to relegate to the bottom for reducing the most barriers getting in the using flow — that is no design, such as whatsapp and wechat using iOS native interaction and interface styles, in other words is to leave most spaces, that is the very Eighty fitness of Object.",
+                  "muted": false
+                },
+                {
+                  "body": "Once a person took a glass of orange juice, asking people, what it was. Others replied: “Orange juice.” The man then took a glass of oil, then asked people, what it was. Answered: “Oil.” So he took a glass of Coke, and asked what it was. Answered: “Coke.” Finally, the man emptied the glass, ask what it was. The answer was: “A glass.”",
+                  "muted": false
+                },
+                {
+                  "body": "Although the glass was in this man's hands three times when he asked a ask, not even been noticed even one time. Presumably this is what Instagram want to be.",
+                  "muted": false
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "zh": [
+      {
+        "bg": "detail_bg_light",
+        "blocks": [
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_annotation",
+              "text": ""
+            },
+            "text": {
+              "h5": "序言",
+              "paragraphs": [
+                {
+                  "body": "Instagram——“一个每天分享超过八千万张照片与视频的全球兴趣社区”——对其图形用户界面与产品品牌进行了重大迭代。这不只是表达简单的彩虹渐变、无彩色内页与过程式视频，更是其背后的设计哲学与价值观念。",
+                  "muted": false
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_research_img",
+              "media": {
+                "kind": "image",
+                "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/ugc/plates.png"
+              }
+            },
+            "text": {
+              "h5": "装饰纹样盘，还是纯白盘",
+              "paragraphs": [
+                {
+                  "body": "在探讨这是怎样一种设计哲学之前，我想先举一个例子作为开场。当评价一道菜时，色、香、味等通常会成为考量因素。香气捕捉嗅觉，味道捕捉味觉，而菜肴的外观则捕捉视觉。简言之，好菜应闻起来香、看起来美、吃起来好。要呈现令人印象深刻的外观，除了在制作过程中调色、火候与配菜选择之外，食物如何在盘中呈现同样重要。富有创造力的厨师往往能用相同的食材，摆出极具装饰性甚至富有寓意的菜肴。因此我们常在米其林餐厅看到：餐盘多为白色底，但形状各异。那是因为白色餐盘能最大限度拓展厨师的创作空间，并让用餐者最大程度把注意力放在食物本身。若把摆盘视为创作绘画，那么我认为这些米其林厨师也希望有一张白纸来呈现他们的作品。",
+                  "muted": false
+                },
+                {
+                  "body": "基于上述米其林例子可以看到：相较于蓝纹盘中的水果（右），白盘中的水果（左）更能把视觉焦点吸引到水果本身——恰当留白使水果居于视觉中心，而装饰性背景则使水果略显被遮蔽。",
+                  "muted": false
+                },
+                {
+                  "body": "带装饰图案的盘子确实看起来艺术而美丽。在某种程度上，那些好看的盘子不再是为了支撑食物，而更像其本身就是饱和的视觉艺术。于是当食物放上去时，它们被淹没成了“侏儒”。",
+                  "muted": false
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_annotation",
+              "text": ""
+            },
+            "text": {
+              "h5": "“半满或半空”设计哲学",
+              "paragraphs": [
+                {
+                  "body": "因此，若用户的照片、视频与故事是五彩食物，那么作为产品或平台，本身应尽可能退居为“白且透明”的无风格状态，甚至放弃品牌主题蓝，以最谦逊的姿态支撑并包容最多样的内容。",
+                  "muted": false
+                },
+                {
+                  "body": "这就是我所说的“半满或半空”设计哲学。一杯水若已满，便再也容不下更多；既定的必然性会扼杀包容性。相反，适当留白能让不同情境与角色下发生更多不同的故事。我们也可以从日本生活哲学“物件八分满”来理解：设计万物都应有节制，不宜过满。“八分”是一个虚数，指产品某种恰当的“量”；余下的“二分”由用户去填充。因此这一余量会因用户与场景不同而截然不同。只有当“八分”与“二分”相加成为完整的“十分”，故事才完整而圆满。",
+                  "muted": false
+                },
+                {
+                  "body": "对于主要依赖用户生成内容（UGC）的产品或平台，内容是核心与视觉中心。产品（客体）与用户（内容）之间是有机、包容却又竞争的关系——甚至不是数学上的 80/20 等式，而更像化学反应：“十分”恰当的设计不仅能吸纳“九十分”的内容，还能将其放大。",
+                  "muted": false
+                },
+                {
+                  "body": "我们也可以从 Instagram 官方博客看到其初衷：“更简洁的设计把更多焦点放在你的照片与视频上，而不改变你在应用中的导航方式。”",
+                  "muted": false
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_annotation",
+              "text": ""
+            },
+            "text": {
+              "h5": "来自“半满”哲学的实践",
+              "paragraphs": [
+                {
+                  "body": "首先，几乎所有按钮与图标都放弃了熟悉的蓝色（此举很大胆，因为 Instagram 蓝几乎代表其品牌并给用户留下深刻印象，正如 Airbnb 红、Twitter 天蓝），改为最中性的色彩体系（黑、灰、白）。人们常说黑灰白易与任何颜色搭配；实际上，原因在于它们本质上扮演着站在所有有彩色之后的白盘角色。",
+                  "muted": false
+                },
+                {
+                  "body": "其次，由于主题蓝色消失，原先用于推送通知的橙色标签也被替换为最为保守的红色。一方面，蓝橙这对天然对比色因蓝色撤离而失组；若橙色仍留，便会成为一种“鸡肋”——甚至像画在粗壮白盘上的多余纹样。另一方面，为了在保持“白”的同时不丧失基本通知功能，最终选择红色：在手机界面中，红色作为警示与提醒，是用户识别与学习成本最低的类型。",
+                  "muted": false
+                },
+                {
+                  "body": "此外，带链接的标签与文字颜色也发生了变化，许多人未必察觉。可以看到，新版本的颜色比旧版本更深，更接近深蓝。甚至需要更仔细才能在正文与用户名的黑色之间辨认出深蓝。当然，这也基于 Instagram 用户长期习惯的积累——用户已习惯看到 @ 或 # 就识别为链接。因此，尽可能降低内容以外元素的视觉权重是可行的。",
+                  "muted": false
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_research_img",
+              "media": {
+                "kind": "image",
+                "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/ugc/cup.png"
+              }
+            },
+            "text": {
+              "h5": "做一只杯子",
+              "paragraphs": [
+                {
+                  "body": "对于用户生成内容（UGC）平台或产品，设计应聚焦如何让发布、分享与管理内容更轻松便捷，而不是喧宾夺主。这不仅关乎图形用户界面，也关乎交互逻辑：将学习成本最低的交互沉到底层，以最大限度降低使用流程中的门槛——也就是“无设计”，例如 WhatsApp 与微信采用 iOS 原生交互与界面风格；换言之是留下最多空间，这正是物件八分满的要义。",
+                  "muted": false
+                },
+                {
+                  "body": "从前有人端起一杯橙汁问众人：这是什么？别人答：“橙汁。”他又端起一杯油问：这是什么？答：“油。”再端起一杯可乐问：这是什么？答：“可乐。”最后他把杯子倒空，问这是什么。答案是：“一个杯子。”",
+                  "muted": false
+                },
+                {
+                  "body": "尽管那个人三次提问时杯子都在他手中，却一次也未被注意到。想必这正是 Instagram 想成为的样子。",
+                  "muted": false
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "ja": [
+      {
+        "bg": "detail_bg_light",
+        "blocks": [
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_annotation",
+              "text": ""
+            },
+            "text": {
+              "h5": "前書き",
+              "paragraphs": [
+                {
+                  "body": "Instagram——「毎日8千万以上の写真と動画を共有するグローバルな関心コミュニティ」——はGUIと製品ブランドの大きな反復を行った。それは単なる虹グラデーション、無彩色の内ページ、プロセス動画の表現にとどまらず、その背後のデザイン哲学と価値観である。",
+                  "muted": false
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_research_img",
+              "media": {
+                "kind": "image",
+                "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/ugc/plates.png"
+              }
+            },
+            "text": {
+              "h5": "装飾模様の皿か、ただの白か",
+              "paragraphs": [
+                {
+                  "body": "デザイン哲学の内実を探る前に、まず一例から始めたい。料理を評価するとき、色・香り・味などが通常の判断要因となる。香りは嗅覚を、味は味覚を、そして見た目は視覚を捉える。つまり良い料理とは、香りがよく、美しく見え、美味であることだ。印象的な見た目のためには、調理過程での色調・火加減・副菜選びに加え、皿への盛り付け方が重要である。創造的なシェフは同じ食材でも高度に装飾的で、時に寓意さえ帯びた一皿を生み出せる。だからミシュランレストランでは白い背景の皿が多く、形だけが異なるのをよく見かける。白い皿はシェフの創作余地を最大化し、食事客の注意を料理そのものへ最も強く向けるからである。盛り付けを創作絵画とみなすなら、ミシュランのシェフたちもまた、作品を載せる白い紙を求めているのだと思う。",
+                  "muted": false
+                },
+                {
+                  "body": "上記ミシュランの例から、青花模様の皿（右）の果物に比べ、白い皿（左）の果物の方が果物自体への視線焦点をより集めることが分かる——適切な余白が果物を視覚中心に置き、装飾的背景は果物をやや覆い隠す。",
+                  "muted": false
+                },
+                {
+                  "body": "装飾模様のある皿は確かに芸術的で美しい。ある意味で、それらの見栄えの良い皿はもはや食物を支えるためではなく、それ自体が飽和した視覚芸術である。ゆえに食物が載せられると「小人」のように圧倒される。",
+                  "muted": false
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_annotation",
+              "text": ""
+            },
+            "text": {
+              "h5": "「半ば満ち・半ば空」デザイン哲学",
+              "paragraphs": [
+                {
+                  "body": "ゆえにユーザーの写真・動画・ストーリーが彩り豊かな料理なら、製品／プラットフォーム自体は可能な限り「白く透明」な無スタイルへ退き、ブランドのテーマ青さえ捨て、最も謙虚な地位で最も多様な内容を支え包むべきである。",
+                  "muted": false
+                },
+                {
+                  "body": "これが私が呼ぶ「半ば満ち・半ば空」のデザイン哲学である。水で満ちた杯はそれ以上を受け入れられず、与えられた必然性が包容性を殺す。逆に、適度な余白は、異なるシナリオと役割のもとでより多様な物語を内包し生じさせる。日本の生活哲学「物の八分目」からも理解できる——すべてをデザインする際は度を保ち、満ち切らせないことだ。「八」は製品のある適切さ＝「量」を指す仮想数であり、残る「二」はユーザーが埋める。ゆえにこの残りはユーザーとシナリオごとに全く異なる。「八」と「二」が合わさり完全な「十」になるとき、物語は完結し完璧になる。",
+                  "muted": false
+                },
+                {
+                  "body": "主にUGCに依存する製品／プラットフォームでは、コンテンツが核心であり視覚の中心である。製品（客体）とユーザー（内容）の関係は有機的で包摂的かつ競争的で、数学的な80/20等式ですらなく化学反応に近い——「十」の適切なデザインは「九十」の内容を吸収するだけでなく、さらに拡大する。",
+                  "muted": false
+                },
+                {
+                  "body": "Instagram公式ブログからも本来の意図が見える：「よりシンプルなデザインは、アプリのナビ方法を変えずに、写真と動画により多くの焦点を置く。」",
+                  "muted": false
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_annotation",
+              "text": ""
+            },
+            "text": {
+              "h5": "「半ば満ち」哲学からの実践",
+              "paragraphs": [
+                {
+                  "body": "まず、ほぼすべてのボタンとアイコンが馴染みの青を捨てた（大胆な一手で、InstagramブルーはAirbnbの赤やTwitterの空色と同様、ブランドを象徴し強い印象を残す）。最も中立的な色体系（黒・灰・白）へ変えた。黒灰白はどんな色とも合わせやすいと言われるが、実際にはそれらが本質的に、あらゆる有彩色の背後に立つ白い皿の役割を果たしているからである。",
+                  "muted": false
+                },
+                {
+                  "body": "次に、テーマの青が消えたため、プッシュ通知のオレンジラベルも最も保守的な赤に置き換えられた。一方で、天然の橙青コントラストは青の離脱で解体され、オレンジが残れば「鶏肋——あまり価値のないもの」となり、逞しい白い皿に描かれた冗長な模様にさえなる。他方で、「白」を保ちつつ基本的な通知機能を失わないため、最終選択は赤である——電話UIにおいて警告・リマインダーとしての赤は、ユーザー識別と学習のコストが最も低い型だからだ。",
+                  "muted": false
+                },
+                {
+                  "body": "さらに、リンク付きラベルと文字の色も変わり、多くの人は気づかない。新版の色は旧版より深く、ダークブルーに近い。本文やユーザー名の黒の中でそのダークブルーを識別するには、より注意が要ることもある。もちろんこれは Instagram ユーザー習慣の長期蓄積に基づく——ユーザーは @ や # を見ればリンクだと識別するのに慣れている。ゆえに内容以外の要素の視覚重量を最大限下げることは実行可能である。",
+                  "muted": false
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_research_img",
+              "media": {
+                "kind": "image",
+                "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/ugc/cup.png"
+              }
+            },
+            "text": {
+              "h5": "杯であれ",
+              "paragraphs": [
+                {
+                  "body": "ユーザー生成コンテンツ（UGC）のプラットフォーム／製品では、内容の公開・共有・管理をより容易便利にすることに焦点を当て、それを上回る演出をしてはならない。GUIだけでなくインタラクション論理も同様で、学習コスト最低のインタラクションを底部へ下ろし、利用フローの障壁を最も減らす——すなわち「デザインしない」こと。WhatsAppやWeChatがiOSネイティブのインタラクションとUIを使うように、最大限の余白を残すことこそ「物の八分目」である。",
+                  "muted": false
+                },
+                {
+                  "body": "かつてある人がオレンジジュースの杯を手に「これは何か」と尋ねた。人々は「オレンジジュース」と答えた。次に油の杯を手に尋ねると「油」。コーラの杯では「コーラ」。最後に杯を空にして尋ねると、答えは「杯」だった。",
+                  "muted": false
+                },
+                {
+                  "body": "尋ねた三度とも杯はその人の手にあったのに、一度も気づかれなかった。おそらくこれが Instagram のありたい姿である。",
+                  "muted": false
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

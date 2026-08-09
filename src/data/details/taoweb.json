@@ -3,13 +3,13 @@
   "meta": {
     "displayTitle": {
       "en": "Taobao Design Official Website",
-      "zh": "Taobao Design Official Website",
-      "ja": "Taobao Design Official Website"
+      "zh": "淘宝设计官网",
+      "ja": "淘宝デザイン公式サイト"
     },
     "summary": {
       "en": "Taobao Designr is a 200-member design organization responsible for the design of Alibaba Group's e-commerce businesses, including Taobao and Tmall. I led the project team in designing and developing the department's official website and CRM system, featuring sections on the manifesto, self-developed products, research, awards, recruitment, and team profiles. This project also serves as a practical exploration of AI-assisted design and development.",
-      "zh": "Taobao Designr is a 200-member design organization responsible for the design of Alibaba Group's e-commerce businesses, including Taobao and Tmall. I led the project team in designing and developing the department's official website and CRM system, featuring sections on the manifesto, self-developed products, research, awards, recruitment, and team profiles. This project also serves as a practical exploration of AI-assisted design and development.",
-      "ja": "Taobao Designr is a 200-member design organization responsible for the design of Alibaba Group's e-commerce businesses, including Taobao and Tmall. I led the project team in designing and developing the department's official website and CRM system, featuring sections on the manifesto, self-developed products, research, awards, recruitment, and team profiles. This project also serves as a practical exploration of AI-assisted design and development."
+      "zh": "淘宝设计是约二百人规模的设计组织，负责阿里巴巴集团电商业务（含淘宝、天猫等）的设计工作。我带领项目团队完成部门官网与 CRM 系统的设计与开发，内容涵盖宣言、自研产品、研究、奖项、招聘与团队介绍等板块。本项目亦作为 AI 辅助设计与开发的实践探索。",
+      "ja": "淘宝デザインは約200名規模のデザイン組織で、淘宝や天猫などアリババグループのEC事業のデザインを担っています。私はプロジェクトチームを率い、部門公式サイトとCRMシステムのデザイン・開発を担当しました。マニフェスト、自社開発プロダクト、リサーチ、受賞、採用、チーム紹介などのセクションを備えています。本プロジェクトは、AI支援によるデザインと開発の実践的探究でもあります。"
     },
     "summaryLink": {
       "href": "https://taobao-design.com",
@@ -22,13 +22,13 @@
     },
     "category": {
       "en": "Website Design",
-      "zh": "Website Design",
-      "ja": "Website Design"
+      "zh": "网站设计",
+      "ja": "ウェブサイトデザイン"
     },
     "designLead": {
       "en": "Keke LE",
-      "zh": "Keke LE",
-      "ja": "Keke LE"
+      "zh": "乐可柯",
+      "ja": "樂可柯"
     },
     "team": {
       "en": "",
@@ -42,263 +42,775 @@
     },
     "disclaimer": {
       "en": "Taobao Design © All rights reserved.",
-      "zh": "Taobao Design © All rights reserved.",
+      "zh": "Taobao Design © 版权所有。",
       "ja": "Taobao Design © All rights reserved."
     }
   },
-  "sections": [
-    {
-      "bg": "detail_bg_tbweb_grey",
-      "blocks": [
-        {
-          "type": "detail_cover",
-          "kind": "image",
-          "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/taoweb/taoweb_cover.png",
-          "alt": ""
-        },
-        {
-          "type": "detail_line_image",
-          "spacing": [],
-          "kind": "image",
-          "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/taoweb/taoweb_concept.png",
-          "layout": "content"
-        },
-        {
-          "type": "detail_line",
-          "spacing": [
-            "spacing_bottom_lg"
-          ],
-          "aside": {
-            "role": "line_img_annotation",
-            "text": "Interactive manifesto experience for the website hero section ↑"
-          },
-          "text": {
-            "h5": "Transforming the Manifesto into an Interactive Narrative Journey",
-            "paragraphs": [
-              {
-                "body": "Taobao Design is guided by five core values: Human-Centered, Freedom, Academia, Creativity, and Technology. Each value is translated into a symbolic visual language and merged with the TAO brand mark. Through a series of interactive moments, users actively uncover and experience these values, transforming the manifesto from static content into an engaging narrative journey.",
-                "muted": false
-              },
-              {
-                "type": "list",
-                "ordered": true,
-                "bare": false,
-                "muted": true,
-                "items": [
-                  "Human-centered → feel human warmth → thermal imaging TAO → front camera captures, heatmap flows with user movement",
-                  "Freedom → feel randomness in creative expression → ink TAO → blow into microphone, ink spreads freely",
-                  "Academia → feel exploratory nature of research → node ruler TAO → click or drag to freely connect/disconnect ruler",
-                  "Creativity → feel generative creativity → brush TAO → select brush for freeform drawing"
-                ]
-              }
-            ]
-          }
-        },
-        {
-          "type": "detail_line_image_double",
-          "spacing": [],
-          "left": {
-            "kind": "video",
-            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/taoweb/thermal_1.mp4"
-          },
-          "right": {
-            "kind": "video",
-            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/taoweb/thermal_2.mp4"
-          }
-        },
-        {
-          "type": "detail_line_image_double",
-          "spacing": [],
-          "left": {
+  "sections": {
+    "en": [
+      {
+        "bg": "detail_bg_tbweb_grey",
+        "blocks": [
+          {
+            "type": "detail_cover",
             "kind": "image",
-            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/taoweb/thermal_3.png"
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/taoweb/taoweb_cover.png",
+            "alt": ""
           },
-          "right": {
+          {
+            "type": "detail_line_image",
+            "spacing": [],
             "kind": "image",
-            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/taoweb/thermal_4.png"
-          }
-        },
-        {
-          "type": "detail_line",
-          "spacing": [
-            "spacing_bottom_lg"
-          ],
-          "aside": {
-            "role": "line_img_annotation",
-            "text": "Thermal imaging TAO ↑"
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/taoweb/taoweb_concept.png",
+            "layout": "content"
           },
-          "text": {
-            "paragraphs": [
-              {
-                "type": "list",
-                "ordered": true,
-                "bare": false,
-                "muted": true,
-                "items": [
-                  "Based on metaball algorithms and coordinate mapping techniques, a thermal imaging effect is implemented on the canvas. The heat field flows dynamically following human movement.",
-                  "Using ml5.js, real-time detection of human body key points (head, chest, and both hands) is performed, and these positions are mapped to drive the movement of the thermal field.",
-                  "A set of adjustable parameters, aoe, power, distance, and cutoff, are used to control the size of metaballs, interaction range, heat intensity, and the outer diffusion boundary. These controls allow fine-tuning of the final visual shape.",
-                  "The thermal field is rendered with five-layer gradient colors from inner to outer, which can be freely adjusted to create different visual styles and atmospheric effects."
-                ]
-              }
-            ]
-          }
-        },
-        {
-          "type": "detail_line_image_double",
-          "spacing": [],
-          "left": {
-            "kind": "video",
-            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/taoweb/ink_1.mp4"
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_img_annotation",
+              "text": "Interactive manifesto experience for the website hero section ↑"
+            },
+            "text": {
+              "h5": "Transforming the Manifesto into an Interactive Narrative Journey",
+              "paragraphs": [
+                {
+                  "body": "Taobao Design is guided by five core values: Human-Centered, Freedom, Academia, Creativity, and Technology. Each value is translated into a symbolic visual language and merged with the TAO brand mark. Through a series of interactive moments, users actively uncover and experience these values, transforming the manifesto from static content into an engaging narrative journey.",
+                  "muted": false
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": false,
+                  "muted": true,
+                  "items": [
+                    "Human-centered → feel human warmth → thermal imaging TAO → front camera captures, heatmap flows with user movement",
+                    "Freedom → feel randomness in creative expression → ink TAO → blow into microphone, ink spreads freely",
+                    "Academia → feel exploratory nature of research → node ruler TAO → click or drag to freely connect/disconnect ruler",
+                    "Creativity → feel generative creativity → brush TAO → select brush for freeform drawing"
+                  ]
+                }
+              ]
+            }
           },
-          "right": {
+          {
+            "type": "detail_line_image_double",
+            "spacing": [],
+            "left": {
+              "kind": "video",
+              "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/taoweb/thermal_1.mp4"
+            },
+            "right": {
+              "kind": "video",
+              "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/taoweb/thermal_2.mp4"
+            }
+          },
+          {
+            "type": "detail_line_image_double",
+            "spacing": [],
+            "left": {
+              "kind": "image",
+              "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/taoweb/thermal_3.png"
+            },
+            "right": {
+              "kind": "image",
+              "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/taoweb/thermal_4.png"
+            }
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_img_annotation",
+              "text": "Thermal imaging TAO ↑"
+            },
+            "text": {
+              "paragraphs": [
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": false,
+                  "muted": true,
+                  "items": [
+                    "Based on metaball algorithms and coordinate mapping techniques, a thermal imaging effect is implemented on the canvas. The heat field flows dynamically following human movement.",
+                    "Using ml5.js, real-time detection of human body key points (head, chest, and both hands) is performed, and these positions are mapped to drive the movement of the thermal field.",
+                    "A set of adjustable parameters, aoe, power, distance, and cutoff, are used to control the size of metaballs, interaction range, heat intensity, and the outer diffusion boundary. These controls allow fine-tuning of the final visual shape.",
+                    "The thermal field is rendered with five-layer gradient colors from inner to outer, which can be freely adjusted to create different visual styles and atmospheric effects."
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line_image_double",
+            "spacing": [],
+            "left": {
+              "kind": "video",
+              "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/taoweb/ink_1.mp4"
+            },
+            "right": {
+              "kind": "image",
+              "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/taoweb/ink_2.png"
+            }
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_img_annotation",
+              "text": "Ink TAO ↑"
+            },
+            "text": {
+              "paragraphs": [
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": false,
+                  "muted": true,
+                  "items": [
+                    "Using Three.js combined with custom GLSL fragment shaders for ink-style rendering, and SDF-based physics simulation to create ink stretching and trailing effects when blown.",
+                    "A free, randomized ink effect driven by microphone volume and airflow direction."
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line_image_double",
+            "spacing": [],
+            "left": {
+              "kind": "video",
+              "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/taoweb/ruler_1.mp4"
+            },
+            "right": {
+              "kind": "image",
+              "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/taoweb/ruler_2.png"
+            }
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_img_annotation",
+              "text": "Node ruler TAO ↑"
+            },
+            "text": {
+              "paragraphs": [
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": false,
+                  "muted": true,
+                  "items": [
+                    "Built a modular ruler system as a standalone React component, powered by PixiJS for real-time Canvas/WebGL interactions. Enabled intuitive manipulation such as dragging and rotating via pointer events, supported by geometric computation and state-machine logic for precise node snapping and structural attachment.",
+                    "Developed a set of ruler modules in different sizes and forms, allowing users to freely disassemble and recombine them into flexible geometric structures through a unified interaction rule system."
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line_image_double",
+            "spacing": [],
+            "left": {
+              "kind": "video",
+              "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/taoweb/draw_1.mp4"
+            },
+            "right": {
+              "kind": "image",
+              "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/taoweb/draw_2.png"
+            }
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_img_annotation",
+              "text": "Brush TAO ↑"
+            },
+            "text": {
+              "paragraphs": [
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": false,
+                  "muted": true,
+                  "items": [
+                    "Built a browser-based drawing system using native HTML5 Canvas 2D and Pointer Events. Designed and implemented four custom brushes—including a pressure-responsive pen, texture-based crayon, pixel-stamp brush, and marker brush—while providing real-time controls for brush size, color selection, and erasing.",
+                    "Developed four unique rendering behaviors to emulate different drawing media, ranging from expressive pressure-driven ink lines to textured crayon marks, pixel-art strokes, and clean marker illustrations."
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line_image",
+            "spacing": [],
             "kind": "image",
-            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/taoweb/ink_2.png"
-          }
-        },
-        {
-          "type": "detail_line",
-          "spacing": [
-            "spacing_bottom_lg"
-          ],
-          "aside": {
-            "role": "line_img_annotation",
-            "text": "Ink TAO ↑"
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/taoweb/vibe_design.png",
+            "layout": "content"
           },
-          "text": {
-            "paragraphs": [
-              {
-                "type": "list",
-                "ordered": true,
-                "bare": false,
-                "muted": true,
-                "items": [
-                  "Using Three.js combined with custom GLSL fragment shaders for ink-style rendering, and SDF-based physics simulation to create ink stretching and trailing effects when blown.",
-                  "A free, randomized ink effect driven by microphone volume and airflow direction."
-                ]
-              }
-            ]
-          }
-        },
-        {
-          "type": "detail_line_image_double",
-          "spacing": [],
-          "left": {
-            "kind": "video",
-            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/taoweb/ruler_1.mp4"
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_img_annotation",
+              "text": "Design requirements documentation in IDE ↑"
+            },
+            "text": {
+              "h5": "AI-Driven Design Engineering Practice",
+              "paragraphs": [
+                {
+                  "body": "Documented the concepts and requirements of the four interactive experiences in Markdown, using LLMs to explore technical solutions and implementation approaches. Built each interaction as an independent project, iterating through AI-assisted prototyping, testing, and refinement to achieve the desired visual and interaction outcomes. Packaged reusable components, optimized rendering performance, and delivered production-ready code and documentation for deployment.",
+                  "muted": false
+                }
+              ]
+            }
           },
-          "right": {
+          {
+            "type": "detail_line_image",
+            "spacing": [],
             "kind": "image",
-            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/taoweb/ruler_2.png"
-          }
-        },
-        {
-          "type": "detail_line",
-          "spacing": [
-            "spacing_bottom_lg"
-          ],
-          "aside": {
-            "role": "line_img_annotation",
-            "text": "Node ruler TAO ↑"
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/taoweb/webdesign.png",
+            "layout": "content"
           },
-          "text": {
-            "paragraphs": [
-              {
-                "type": "list",
-                "ordered": true,
-                "bare": false,
-                "muted": true,
-                "items": [
-                  "Built a modular ruler system as a standalone React component, powered by PixiJS for real-time Canvas/WebGL interactions. Enabled intuitive manipulation such as dragging and rotating via pointer events, supported by geometric computation and state-machine logic for precise node snapping and structural attachment.",
-                  "Developed a set of ruler modules in different sizes and forms, allowing users to freely disassemble and recombine them into flexible geometric structures through a unified interaction rule system."
-                ]
-              }
-            ]
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_img_annotation",
+              "text": "Sample website pages ↑"
+            },
+            "text": {
+              "paragraphs": []
+            }
           }
-        },
-        {
-          "type": "detail_line_image_double",
-          "spacing": [],
-          "left": {
-            "kind": "video",
-            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/taoweb/draw_1.mp4"
-          },
-          "right": {
+        ]
+      }
+    ],
+    "zh": [
+      {
+        "bg": "detail_bg_tbweb_grey",
+        "blocks": [
+          {
+            "type": "detail_cover",
             "kind": "image",
-            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/taoweb/draw_2.png"
-          }
-        },
-        {
-          "type": "detail_line",
-          "spacing": [
-            "spacing_bottom_lg"
-          ],
-          "aside": {
-            "role": "line_img_annotation",
-            "text": "Brush TAO ↑"
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/taoweb/taoweb_cover.png",
+            "alt": ""
           },
-          "text": {
-            "paragraphs": [
-              {
-                "type": "list",
-                "ordered": true,
-                "bare": false,
-                "muted": true,
-                "items": [
-                  "Built a browser-based drawing system using native HTML5 Canvas 2D and Pointer Events. Designed and implemented four custom brushes—including a pressure-responsive pen, texture-based crayon, pixel-stamp brush, and marker brush—while providing real-time controls for brush size, color selection, and erasing.",
-                  "Developed four unique rendering behaviors to emulate different drawing media, ranging from expressive pressure-driven ink lines to textured crayon marks, pixel-art strokes, and clean marker illustrations."
-                ]
-              }
-            ]
-          }
-        },
-        {
-          "type": "detail_line_image",
-          "spacing": [],
-          "kind": "image",
-          "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/taoweb/vibe_design.png",
-          "layout": "content"
-        },
-        {
-          "type": "detail_line",
-          "spacing": [
-            "spacing_bottom_lg"
-          ],
-          "aside": {
-            "role": "line_img_annotation",
-            "text": "Design requirements documentation in IDE ↑"
+          {
+            "type": "detail_line_image",
+            "spacing": [],
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/taoweb/taoweb_concept.png",
+            "layout": "content"
           },
-          "text": {
-            "h5": "AI-Driven Design Engineering Practice",
-            "paragraphs": [
-              {
-                "body": "Documented the concepts and requirements of the four interactive experiences in Markdown, using LLMs to explore technical solutions and implementation approaches. Built each interaction as an independent project, iterating through AI-assisted prototyping, testing, and refinement to achieve the desired visual and interaction outcomes. Packaged reusable components, optimized rendering performance, and delivered production-ready code and documentation for deployment.",
-                "muted": false
-              }
-            ]
-          }
-        },
-        {
-          "type": "detail_line_image",
-          "spacing": [],
-          "kind": "image",
-          "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/taoweb/webdesign.png",
-          "layout": "content"
-        },
-        {
-          "type": "detail_line",
-          "spacing": [
-            "spacing_bottom_lg"
-          ],
-          "aside": {
-            "role": "line_img_annotation",
-            "text": "Sample website pages ↑"
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_img_annotation",
+              "text": "网站首屏互动宣言体验 ↑"
+            },
+            "text": {
+              "h5": "将宣言转化为互动叙事之旅",
+              "paragraphs": [
+                {
+                  "body": "淘宝设计以五项核心价值观为指引：人本、自由、学术、创意与科技。每一项价值均被转译为象征性视觉语言，并与 TAO 品牌标识融合。通过一系列互动瞬间，用户主动发现并体验这些价值，使宣言从静态内容转化为引人入胜的叙事旅程。",
+                  "muted": false
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": false,
+                  "muted": true,
+                  "items": [
+                    "人本 → 感受人文温度 → 热成像 TAO → 前置摄像头捕捉，热力场随用户动作流动",
+                    "自由 → 感受创作表达的随机性 → 水墨 TAO → 对着麦克风吹气，墨迹自由扩散",
+                    "学术 → 感受研究的探索性 → 节点尺 TAO → 点击或拖拽，自由连接/拆解尺段",
+                    "创意 → 感受生成式创造力 → 笔刷 TAO → 选择笔刷自由绘画"
+                  ]
+                }
+              ]
+            }
           },
-          "text": {
-            "paragraphs": []
+          {
+            "type": "detail_line_image_double",
+            "spacing": [],
+            "left": {
+              "kind": "video",
+              "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/taoweb/thermal_1.mp4"
+            },
+            "right": {
+              "kind": "video",
+              "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/taoweb/thermal_2.mp4"
+            }
+          },
+          {
+            "type": "detail_line_image_double",
+            "spacing": [],
+            "left": {
+              "kind": "image",
+              "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/taoweb/thermal_3.png"
+            },
+            "right": {
+              "kind": "image",
+              "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/taoweb/thermal_4.png"
+            }
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_img_annotation",
+              "text": "热成像 TAO ↑"
+            },
+            "text": {
+              "paragraphs": [
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": false,
+                  "muted": true,
+                  "items": [
+                    "基于 Metaball 算法与坐标映射技术，在画布上实现热成像效果。热力场随人体动作动态流动。",
+                    "借助 ml5.js 实时检测人体关键点（头部、胸部与双手），并将这些位置映射以驱动热力场运动。",
+                    "通过 aoe、power、distance、cutoff 等可调参数，控制 Metaball 尺寸、交互范围、热力强度与外扩边界，从而精细调节最终视觉形态。",
+                    "热力场以由内至外的五层渐变色渲染，可自由调整，以营造不同视觉风格与氛围效果。"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line_image_double",
+            "spacing": [],
+            "left": {
+              "kind": "video",
+              "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/taoweb/ink_1.mp4"
+            },
+            "right": {
+              "kind": "image",
+              "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/taoweb/ink_2.png"
+            }
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_img_annotation",
+              "text": "水墨 TAO ↑"
+            },
+            "text": {
+              "paragraphs": [
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": false,
+                  "muted": true,
+                  "items": [
+                    "结合 Three.js 与自定义 GLSL 片段着色器实现水墨风格渲染，并以基于 SDF 的物理模拟，呈现吹动时墨迹拉伸与拖尾效果。",
+                    "由麦克风音量与气流方向驱动的自由、随机水墨效果。"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line_image_double",
+            "spacing": [],
+            "left": {
+              "kind": "video",
+              "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/taoweb/ruler_1.mp4"
+            },
+            "right": {
+              "kind": "image",
+              "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/taoweb/ruler_2.png"
+            }
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_img_annotation",
+              "text": "节点尺 TAO ↑"
+            },
+            "text": {
+              "paragraphs": [
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": false,
+                  "muted": true,
+                  "items": [
+                    "将模块化尺具系统构建为独立 React 组件，基于 PixiJS 实现实时 Canvas/WebGL 交互。通过指针事件支持拖拽、旋转等直观操作，并以几何计算与状态机逻辑实现精确的节点吸附与结构拼接。",
+                    "开发不同尺寸与形态的尺具模块，使用户可在统一交互规则下自由拆解与重组，形成灵活的几何结构。"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line_image_double",
+            "spacing": [],
+            "left": {
+              "kind": "video",
+              "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/taoweb/draw_1.mp4"
+            },
+            "right": {
+              "kind": "image",
+              "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/taoweb/draw_2.png"
+            }
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_img_annotation",
+              "text": "笔刷 TAO ↑"
+            },
+            "text": {
+              "paragraphs": [
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": false,
+                  "muted": true,
+                  "items": [
+                    "基于原生 HTML5 Canvas 2D 与 Pointer Events 构建浏览器端绘画系统。设计并实现四款自定义笔刷——含压感钢笔、纹理蜡笔、像素图章笔与马克笔——并提供笔刷尺寸、颜色选择与擦除的实时控制。",
+                    "开发四种独特渲染行为，以模拟不同绘画媒介：从富有表现力的压感墨线，到纹理蜡笔笔触、像素风笔迹与干净的马克笔插画。"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line_image",
+            "spacing": [],
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/taoweb/vibe_design.png",
+            "layout": "content"
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_img_annotation",
+              "text": "IDE 中的设计需求文档 ↑"
+            },
+            "text": {
+              "h5": "AI 驱动的设计工程实践",
+              "paragraphs": [
+                {
+                  "body": "以 Markdown 记录四项互动体验的概念与需求，借助大语言模型探索技术方案与实现路径。将每个互动构建为独立项目，通过 AI 辅助原型、测试与迭代打磨，达成预期的视觉与交互效果。封装可复用组件、优化渲染性能，并交付可部署的生产级代码与文档。",
+                  "muted": false
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line_image",
+            "spacing": [],
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/taoweb/webdesign.png",
+            "layout": "content"
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_img_annotation",
+              "text": "网站页面示例 ↑"
+            },
+            "text": {
+              "paragraphs": []
+            }
           }
-        }
-      ]
-    }
-  ]
+        ]
+      }
+    ],
+    "ja": [
+      {
+        "bg": "detail_bg_tbweb_grey",
+        "blocks": [
+          {
+            "type": "detail_cover",
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/taoweb/taoweb_cover.png",
+            "alt": ""
+          },
+          {
+            "type": "detail_line_image",
+            "spacing": [],
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/taoweb/taoweb_concept.png",
+            "layout": "content"
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_img_annotation",
+              "text": "ウェブサイトヒーローセクションのインタラクティブ・マニフェスト体験 ↑"
+            },
+            "text": {
+              "h5": "マニフェストをインタラクティブな物語の旅へ",
+              "paragraphs": [
+                {
+                  "body": "淘宝デザインは、人間中心、自由、学術、創造性、テクノロジーという五つの核心的価値観に導かれています。各価値観は象徴的な視覚言語へと翻訳され、TAOブランドマークと融合します。一連のインタラクティブな瞬間を通じて、ユーザーはこれらの価値観を能動的に発見・体験し、マニフェストを静的なコンテンツから没入感のある物語の旅へと変えます。",
+                  "muted": false
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": false,
+                  "muted": true,
+                  "items": [
+                    "人間中心 → 人の温かみを感じる → サーマルイメージング TAO → フロントカメラが捉え、ヒートマップがユーザーの動きに合わせて流れる",
+                    "自由 → 創造表現の偶然性を感じる → インク TAO → マイクに息を吹きかけ、インクが自由に広がる",
+                    "学術 → 研究の探求性を感じる → ノード定規 TAO → クリックまたはドラッグで定規を自由に接続／切断",
+                    "創造性 → 生成的な創造力を感じる → ブラシ TAO → ブラシを選んで自由に描画"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line_image_double",
+            "spacing": [],
+            "left": {
+              "kind": "video",
+              "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/taoweb/thermal_1.mp4"
+            },
+            "right": {
+              "kind": "video",
+              "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/taoweb/thermal_2.mp4"
+            }
+          },
+          {
+            "type": "detail_line_image_double",
+            "spacing": [],
+            "left": {
+              "kind": "image",
+              "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/taoweb/thermal_3.png"
+            },
+            "right": {
+              "kind": "image",
+              "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/taoweb/thermal_4.png"
+            }
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_img_annotation",
+              "text": "サーマルイメージング TAO ↑"
+            },
+            "text": {
+              "paragraphs": [
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": false,
+                  "muted": true,
+                  "items": [
+                    "メタボールアルゴリズムと座標マッピング技術に基づき、キャンバス上にサーマルイメージング効果を実装。熱場は人体の動きに追随して動的に流れます。",
+                    "ml5.jsを用いて人体のキーポイント（頭部、胸部、両手）をリアルタイム検出し、これらの位置をマッピングして熱場の動きを駆動します。",
+                    "aoe、power、distance、cutoffといった調整可能なパラメータ群により、メタボールのサイズ、インタラクション範囲、熱強度、外側の拡散境界を制御し、最終的な視覚形態を繊細に調整できます。",
+                    "熱場は内側から外側へ五層のグラデーションカラーで描画され、自由に調整して異なる視覚スタイルと雰囲気効果を生み出せます。"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line_image_double",
+            "spacing": [],
+            "left": {
+              "kind": "video",
+              "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/taoweb/ink_1.mp4"
+            },
+            "right": {
+              "kind": "image",
+              "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/taoweb/ink_2.png"
+            }
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_img_annotation",
+              "text": "インク TAO ↑"
+            },
+            "text": {
+              "paragraphs": [
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": false,
+                  "muted": true,
+                  "items": [
+                    "Three.jsとカスタムGLSLフラグメントシェーダーを組み合わせてインク風レンダリングを行い、SDFベースの物理シミュレーションにより、息を吹きかけた際のインクの伸長と軌跡効果を実現します。",
+                    "マイクの音量と気流方向によって駆動される、自由でランダムなインク効果。"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line_image_double",
+            "spacing": [],
+            "left": {
+              "kind": "video",
+              "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/taoweb/ruler_1.mp4"
+            },
+            "right": {
+              "kind": "image",
+              "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/taoweb/ruler_2.png"
+            }
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_img_annotation",
+              "text": "ノード定規 TAO ↑"
+            },
+            "text": {
+              "paragraphs": [
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": false,
+                  "muted": true,
+                  "items": [
+                    "モジュラー定規システムを独立したReactコンポーネントとして構築し、PixiJSによるリアルタイムCanvas/WebGLインタラクションを実装。ポインターイベントによるドラッグや回転などの直感的操作を可能にし、幾何計算とステートマシン論理により精確なノードスナップと構造的接合を支えます。",
+                    "異なるサイズと形態の定規モジュール群を開発し、統一されたインタラクション規則のもとで自由に分解・再構成し、柔軟な幾何構造を形成できるようにしました。"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line_image_double",
+            "spacing": [],
+            "left": {
+              "kind": "video",
+              "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/taoweb/draw_1.mp4"
+            },
+            "right": {
+              "kind": "image",
+              "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/taoweb/draw_2.png"
+            }
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_img_annotation",
+              "text": "ブラシ TAO ↑"
+            },
+            "text": {
+              "paragraphs": [
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": false,
+                  "muted": true,
+                  "items": [
+                    "ネイティブHTML5 Canvas 2DとPointer Eventsを用いてブラウザベースの描画システムを構築。圧力応答ペン、テクスチャベースのクレヨン、ピクセルスタンプブラシ、マーカーブラシを含む四種のカスタムブラシを設計・実装し、ブラシサイズ、カラー選択、消去のリアルタイム制御を提供します。",
+                    "表現力のある圧力駆動のインク線から、テクスチャ付きクレヨンの筆致、ピクセルアートのストローク、クリーンなマーカーイラストまで、異なる描画媒体を模した四つの独自レンダリング挙動を開発しました。"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line_image",
+            "spacing": [],
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/taoweb/vibe_design.png",
+            "layout": "content"
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_img_annotation",
+              "text": "IDEにおけるデザイン要件ドキュメント ↑"
+            },
+            "text": {
+              "h5": "AI駆動のデザインエンジニアリング実践",
+              "paragraphs": [
+                {
+                  "body": "四つのインタラクティブ体験のコンセプトと要件をMarkdownで文書化し、LLMを用いて技術的解決策と実装アプローチを探索しました。各インタラクションを独立プロジェクトとして構築し、AI支援によるプロトタイピング、テスト、洗練を繰り返して望ましい視覚・インタラクション成果を実現。再利用可能なコンポーネントをパッケージ化し、レンダリング性能を最適化し、デプロイ可能な本番品質のコードとドキュメントを納品しました。",
+                  "muted": false
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line_image",
+            "spacing": [],
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/taoweb/webdesign.png",
+            "layout": "content"
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_img_annotation",
+              "text": "ウェブサイトページのサンプル ↑"
+            },
+            "text": {
+              "paragraphs": []
+            }
+          }
+        ]
+      }
+    ]
+  }
 }

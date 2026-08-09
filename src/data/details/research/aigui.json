@@ -1,0 +1,550 @@
+{
+  "slug": "aigui",
+  "meta": {
+    "displayTitle": {
+      "en": "Building an AI-Friendly Design System for AIGUI",
+      "zh": "构建面向 AIGUI 的 AI 友好设计系统",
+      "ja": "AIGUIのためのAI親和デザインシステムの構築"
+    },
+    "summary": {
+      "en": "VersionAI Tmall - A Design System Specification for AI Models. Tmall Design is a design system developed specifically for the Tmall shopping app, one of the largest B2C e-commerce platforms in China.\n\nUnlike previous iterations, the version presented on this site is intended not only for human designers and developers, but more importantly for AI models. Its content structure, textual format, and communication logic have been translated to enable AI models to read and apply the specification. With AI assistance, users can reference this knowledge base to generate user interfaces that comply with Tmall's design specification (1), as well as conduct design evaluation and Q&A (2).\n\nBy enabling a more efficient and advanced mode of human-AI collaborative design, the system supports scenarios such as recomposing existing designs, making incremental adjustments, and creating new interfaces step by step.",
+      "zh": "VersionAI Tmall——面向 AI 模型的设计系统规范。天猫设计是专为天猫购物 App（中国最大的 B2C 电商平台之一）开发的设计系统。\n\n与以往版本不同，本站呈现的版本不仅面向人类设计师与开发者，更重要的是面向 AI 模型。其内容结构、文本格式与沟通逻辑均已转译，使 AI 模型能够阅读并应用该规范。借助 AI，用户可参照本知识库生成符合天猫设计规范的用户界面（1），并进行设计评估与问答（2）。\n\n通过实现更高效、更先进的人机协同设计模式，该系统支持重组既有设计、增量调整，以及逐步创建新界面等场景。",
+      "ja": "VersionAI Tmall——AIモデル向けデザインシステム仕様。天猫デザインは、中国最大級のB2C ECプラットフォームの一つである天猫ショッピングアプリ向けに開発されたデザインシステムである。\n\n従来版と異なり、本サイトの版は人間のデザイナー／開発者だけでなく、より重要にはAIモデル向けである。内容構造・テキスト形式・伝達論理が翻訳され、AIモデルが仕様を読み適用できる。AI支援により、ユーザーはこの知識ベースを参照し天猫デザイン仕様に準拠するUIを生成（1）し、デザイン評価とQ&A（2）を行える。\n\nより効率的で高度な人間—AI協働デザインを可能にし、既存デザインの再構成、段階的調整、新規界面の段階的作成などのシナリオを支援する。"
+    },
+    "keywords": {
+      "en": "UI Generation, Design System Wiki, Multi-Agents Workflow",
+      "zh": "界面生成、设计系统 Wiki、多智能体工作流",
+      "ja": "UI生成、デザインシステムWiki、マルチエージェントワークフロー"
+    },
+    "period": {
+      "en": "2026.2",
+      "zh": "2026.2",
+      "ja": "2026.2"
+    },
+    "category": {
+      "en": "Article (Excerpt)",
+      "zh": "文章（节选）",
+      "ja": "記事（抜粋）"
+    },
+    "roles": [
+      {
+        "label": {
+          "en": "Author",
+          "zh": "作者",
+          "ja": "著者"
+        },
+        "value": {
+          "en": "Keke LE",
+          "zh": "乐可柯",
+          "ja": "樂可柯"
+        }
+      },
+      {
+        "href": "https://www.tmall-design.com/#blog/building-design-wiki-for-aigui",
+        "label": {
+          "en": "Published",
+          "zh": "发表",
+          "ja": "掲載"
+        },
+        "value": {
+          "en": "Full Article on VersionAI Tmall→",
+          "zh": "完整文章见 VersionAI Tmall→",
+          "ja": "全文は VersionAI Tmall→"
+        }
+      }
+    ],
+    "disclaimer": {
+      "en": "Keke LE Design © All rights reserved.",
+      "zh": "乐可柯 Design © 版权所有。",
+      "ja": "樂可柯 Design © All rights reserved."
+    }
+  },
+  "sections": {
+    "en": [
+      {
+        "bg": "detail_bg_light",
+        "blocks": [
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_annotation",
+              "text": ""
+            },
+            "text": {
+              "h5": "Purpose",
+              "paragraphs": [
+                {
+                  "body": "In the daily workflow of design teams, deliverables generally fall into three categories: modules, single pages, and multi-page flows. When mapped to five major demand scenarios—core user journeys, content discovery channels, gamified engagement campaigns, marketing events, and B-end experiences—a year-round analysis reveals a consistent pattern",
+                  "muted": false
+                },
+                {
+                  "body": "Within core user journeys, discovery channels, and B-end experiences, design tasks that involve assembling or modifying existing components at the module or single-page level account for nearly 48% of all requests. This large volume of repetitive and structurally similar work highlights a strong need for automated, AI-driven interface generation to improve both efficiency and output quality.",
+                  "muted": false
+                },
+                {
+                  "body": "For enterprise design teams, the primary objective remains the same: generating product interfaces that strictly adhere to internal design standards. To achieve this, teams must clarify and construct an AI-readable design knowledge system that can be reliably connected to design tools or large language models.",
+                  "muted": false
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_research_img",
+              "media": {
+                "kind": "image",
+                "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/aigui/aigui.png"
+              }
+            },
+            "text": {
+              "h5": "Design Solution",
+              "paragraphs": [
+                {
+                  "body": "VersionAI Tmall interface generation is essentially a domain-specific intelligent system composed of multiple task-oriented agents. It operates within an enterprise-aligned design workflow and is driven by contextual reasoning and retrieval over Design System Specification Knowledge.",
+                  "muted": false
+                },
+                {
+                  "body": "Within this system, the workflow serves as the engineering foundation, connecting all stages from requirement input to interface output and ensuring both process determinism and outcome reliability. The multi-agent system functions as the cognitive core: guided by predefined system prompts, each agent interprets the output of the previous step, performs autonomous step-by-step reasoning, and passes structured results to the next stage. The agents are organized into four primary task roles: intent recognition, knowledge retrieval, design synthesis, and code generation.",
+                  "muted": false
+                },
+                {
+                  "body": "Design System Specification Knowledge serves as externally retrieved factual knowledge. Through a Design-to-Code (D2C) transformation, designs are converted into rule-based semantic facts, code-level symbolic facts, and structured mappings between them. Together, these form a structured design knowledge base that AI models can read, retrieve, and apply.",
+                  "muted": false
+                },
+                {
+                  "body": "The entire interface generation process is traceable, reproducible, and evolvable, with outcomes remaining controllable within the continuously evolving enterprise design system and codebase. The design effort focuses on two core areas: the construction of Design System Specification Knowledge and the design of the multi-agent workflow.",
+                  "muted": false
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line",
+            "spacing": [],
+            "aside": {
+              "role": "line_annotation",
+              "text": ""
+            },
+            "text": {
+              "h5": "1. Design System Specification Knowledge",
+              "paragraphs": [
+                {
+                  "body": "Design System Specification Knowledge consists of two categories of knowledge objects and three corresponding file types. The two categories of knowledge objects are styles and pages. Styles are further subdivided into four types: elements, layouts, components, and assets. Each knowledge object is associated with three file types: semantic rules, mapping schemas, and code implementations.",
+                  "muted": false
+                },
+                {
+                  "body": "Semantic rules are textual descriptions covering definitions, styles, variables, usage, and constraints. They represent the core intellectual property of the design system and are authored in Markdown format.",
+                  "muted": false
+                },
+                {
+                  "body": "Code implementations translate design objects into executable and deployable symbolic facts, using appropriate programming languages as representation formats.",
+                  "muted": false
+                },
+                {
+                  "body": "Mapping schemas act as the central connective layer between semantic rules and code implementations. Rather than duplicating either, they provide object ID anchoring, constraint definitions, and precise code references. Within the workflow, they guide knowledge retrieval, solution construction, and code generation, enabling large language models to avoid traversing the entire knowledge corpus and reducing computational overhead. Mapping schemas are represented in JSON format.",
+                  "muted": false
+                },
+                {
+                  "body": "The design team redesigned and reinterpreted the Tmall design specification, covering four types of elements, four types of layouts, two types of assets, thirteen types of components, and one page type.",
+                  "muted": false
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line",
+            "spacing": [],
+            "aside": {
+              "role": "line_annotation",
+              "text": ""
+            },
+            "text": {
+              "h5": "2. Multi-Agents Workflow",
+              "paragraphs": [
+                {
+                  "body": "The complete generation pipeline proceeds as follows:",
+                  "muted": false
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": false,
+                  "muted": false,
+                  "items": [
+                    "The user inputs a natural-language requirement.",
+                    "The request is processed by the intent recognition agent, which expands ambiguous input into a system-interpretable design intent and outputs a structured requirement description with explicit boundary conditions.",
+                    "The knowledge retrieval agent then uses Retrieval-Augmented Generation (RAG) to selectively retrieve highly relevant context from the Design System Specification Knowledge.",
+                    "The design synthesis agent evaluates and composes the retrieved specifications within the defined constraints, producing an intermediate structured data representation (Schema). This Schema explicitly describes page structure, components, styles, and content.",
+                    "Finally, the code generation agent re-queries the Design System Specification Knowledge based on the Schema, using targeted retrieval to locate corresponding code artifacts and generate production-ready UI output."
+                  ]
+                },
+                {
+                  "body": "Together, the Design System Specification Knowledge Base and the interface generation workflow form an integrated, AI-friendly enterprise design system. The system can be flexibly applied in IDE-based environments and agent-mode design tools via MCP or context injection.",
+                  "muted": false
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_annotation",
+              "text": ""
+            },
+            "text": {
+              "h5": "Outcomes & Impact",
+              "paragraphs": [
+                {
+                  "body": "VersionAI Tmall is an AI-oriented design specification website that consolidates all of the knowledge described above. It supports interface generation compliant with the Tmall design specification, design review, and design-related Q&A.",
+                  "muted": false
+                },
+                {
+                  "body": "The site's information architecture mirrors the structure of the design system specification, organized as a tree-based navigation of styles, cases, and granular knowledge modules. Each module supports switching between human-readable rules and AI-readable prompts, as well as copying or downloading structured knowledge snippets. A dedicated deployment page provides guidance on invoking the specification through “tmall-design” MCP Server for interface generation.",
+                  "muted": false
+                },
+                {
+                  "body": "This comprehensive set of theory and practice offers broad applicability and can be adopted and reused by enterprise teams across industries. VersionAI Tmall has already been implemented in real-world projects, resulting in significant improvements in interface design efficiency.",
+                  "muted": false
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "zh": [
+      {
+        "bg": "detail_bg_light",
+        "blocks": [
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_annotation",
+              "text": ""
+            },
+            "text": {
+              "h5": "目的",
+              "paragraphs": [
+                {
+                  "body": "在设计团队的日常工作流中，交付物通常分为三类：模块、单页与多页流程。将其映射到五大需求场景——核心用户旅程、内容发现渠道、游戏化互动活动、营销事件与 B 端体验——全年分析呈现出一致规律",
+                  "muted": false
+                },
+                {
+                  "body": "在核心用户旅程、发现渠道与 B 端体验中，涉及在模块或单页层面组装或修改既有组件的设计任务，约占全部需求的近 48%。这类大量重复、结构相似的工作，凸显了对自动化、AI 驱动界面生成以提升效率与产出质量的强烈需求。",
+                  "muted": false
+                },
+                {
+                  "body": "对企业设计团队而言，首要目标始终如一：生成严格遵循内部设计标准的产品界面。为此，团队必须澄清并构建可被 AI 可靠读取、并能连接设计工具或大语言模型的设计知识体系。",
+                  "muted": false
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_research_img",
+              "media": {
+                "kind": "image",
+                "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/aigui/aigui.png"
+              }
+            },
+            "text": {
+              "h5": "设计方案",
+              "paragraphs": [
+                {
+                  "body": "VersionAI Tmall 界面生成本质上是由多个面向任务的智能体构成的领域专用智能系统。它运行于与企业对齐的设计工作流中，并由对设计系统规范知识的情境推理与检索所驱动。",
+                  "muted": false
+                },
+                {
+                  "body": "在该系统中，工作流作为工程基础，连接从需求输入到界面输出的各阶段，确保过程确定性与结果可靠性。多智能体系统作为认知核心：在预定义系统提示引导下，各智能体解读上一步输出，进行自主分步推理，并将结构化结果传递至下一阶段。智能体被组织为四类主要任务角色：意图识别、知识检索、设计综合与代码生成。",
+                  "muted": false
+                },
+                {
+                  "body": "设计系统规范知识作为外部检索的事实性知识。通过设计到代码（D2C）转换，设计被转化为基于规则的语义事实、代码级符号事实，以及二者之间的结构化映射。它们共同构成 AI 模型可读、可检索、可应用的结构化设计知识库。",
+                  "muted": false
+                },
+                {
+                  "body": "整个界面生成过程可追溯、可复现、可演进，结果在持续演进的企业设计系统与代码库内保持可控。设计工作聚焦两个核心领域：设计系统规范知识的构建，以及多智能体工作流的设计。",
+                  "muted": false
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line",
+            "spacing": [],
+            "aside": {
+              "role": "line_annotation",
+              "text": ""
+            },
+            "text": {
+              "h5": "1. 设计系统规范知识",
+              "paragraphs": [
+                {
+                  "body": "设计系统规范知识由两类知识对象与三种对应文件类型构成。两类知识对象为样式与页面。样式进一步细分为四种：元素、布局、组件与资产。每个知识对象关联三种文件类型：语义规则、映射模式与代码实现。",
+                  "muted": false
+                },
+                {
+                  "body": "语义规则是涵盖定义、样式、变量、用法与约束的文本描述。它们代表设计系统的核心知识产权，并以 Markdown 格式编写。",
+                  "muted": false
+                },
+                {
+                  "body": "代码实现将设计对象转化为可执行、可部署的符号事实，并以适当的编程语言作为表示格式。",
+                  "muted": false
+                },
+                {
+                  "body": "映射模式是语义规则与代码实现之间的核心连接层。它们并不重复二者，而是提供对象 ID 锚定、约束定义与精确代码引用。在工作流中，它们引导知识检索、方案构建与代码生成，使大语言模型无需遍历整个知识语料，从而降低计算开销。映射模式以 JSON 格式表示。",
+                  "muted": false
+                },
+                {
+                  "body": "设计团队重新设计并诠释了天猫设计规范，覆盖四类元素、四类布局、两类资产、十三类组件以及一类页面。",
+                  "muted": false
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line",
+            "spacing": [],
+            "aside": {
+              "role": "line_annotation",
+              "text": ""
+            },
+            "text": {
+              "h5": "2. 多智能体工作流",
+              "paragraphs": [
+                {
+                  "body": "完整生成流水线流程如下：",
+                  "muted": false
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": false,
+                  "muted": false,
+                  "items": [
+                    "用户输入自然语言需求。",
+                    "请求由意图识别智能体处理：它将模糊输入扩展为系统可解释的设计意图，并输出带有明确边界条件的结构化需求描述。",
+                    "随后，知识检索智能体使用检索增强生成（RAG），从设计系统规范知识中选择性检索高度相关的上下文。",
+                    "设计综合智能体在既定约束内评估并组合所检索的规范，产出中间结构化数据表示（Schema）。该 Schema 显式描述页面结构、组件、样式与内容。",
+                    "最后，代码生成智能体基于 Schema 再次查询设计系统规范知识，通过定向检索定位对应代码产物并生成可上线的 UI 输出。"
+                  ]
+                },
+                {
+                  "body": "设计系统规范知识库与界面生成工作流共同构成一体化、AI 友好的企业设计系统。该系统可经由 MCP 或上下文注入，灵活应用于基于 IDE 的环境与智能体模式设计工具。",
+                  "muted": false
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_annotation",
+              "text": ""
+            },
+            "text": {
+              "h5": "成果与影响",
+              "paragraphs": [
+                {
+                  "body": "VersionAI Tmall 是一个面向 AI 的设计规范网站，整合了上述全部知识。它支持符合天猫设计规范的界面生成、设计评审以及设计相关问答。",
+                  "muted": false
+                },
+                {
+                  "body": "站点的信息架构镜像设计系统规范的结构，以树状导航组织样式、案例与细粒度知识模块。每个模块支持在人类可读规则与 AI 可读提示之间切换，并支持复制或下载结构化知识片段。专用部署页提供通过 “tmall-design” MCP Server 调用规范以生成界面的指引。",
+                  "muted": false
+                },
+                {
+                  "body": "这套完整的理论与实践具有广泛适用性，可被跨行业的企业团队采纳与复用。VersionAI Tmall 已在真实项目中落地，显著提升了界面设计效率。",
+                  "muted": false
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "ja": [
+      {
+        "bg": "detail_bg_light",
+        "blocks": [
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_annotation",
+              "text": ""
+            },
+            "text": {
+              "h5": "目的",
+              "paragraphs": [
+                {
+                  "body": "デザインチームの日常ワークフローでは、成果物は概ねモジュール・単一ページ・複数ページフローの三類に分かれる。コアユーザージャーニー、コンテンツ発見チャネル、ゲーミフィケーション施策、マーケティングイベント、B端体験の五大需要シナリオへ写像すると、通年分析に一貫したパターンが現れる",
+                  "muted": false
+                },
+                {
+                  "body": "コアユーザージャーニー、ディスカバリーチャネル、B端体験では、モジュールまたは単一ページ水準で既存コンポーネントを組立・改変するデザインタスクが全要求の約48%を占める。この反復的で構造的に類似した大量業務は、効率と出力品質を高める自動・AI駆動の界面生成への強いニーズを示す。",
+                  "muted": false
+                },
+                {
+                  "body": "企業デザインチームの第一目標は変わらず、内部デザイン基準に厳格準拠した製品界面の生成である。そのため、デザインツールや大規模言語モデルへ確実に接続できる、AI可読のデザイン知識体系を明確化し構築しなければならない。",
+                  "muted": false
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_research_img",
+              "media": {
+                "kind": "image",
+                "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/aigui/aigui.png"
+              }
+            },
+            "text": {
+              "h5": "デザインソリューション",
+              "paragraphs": [
+                {
+                  "body": "VersionAI Tmall の界面生成は本質的に、複数のタスク指向エージェントからなる領域特化知能システムである。企業整合のデザインワークフロー内で動作し、デザインシステム仕様知識に対する文脈推論と検索に駆動される。",
+                  "muted": false
+                },
+                {
+                  "body": "本システムではワークフローが工学的基盤となり、要求入力から界面出力までの全段階を接続し、過程の決定性と成果の信頼性を担保する。マルチエージェントは認知コアとして機能し、事前定義のシステムプロンプトに導かれ、各エージェントが前段出力を解釈し自律的な段階推論を行い、構造化結果を次段へ渡す。エージェントは意図認識・知識検索・デザイン統合・コード生成の四つの主要タスク役割に組織される。",
+                  "muted": false
+                },
+                {
+                  "body": "デザインシステム仕様知識は外部検索される事実知識として機能する。Design-to-Code（D2C）変換により、デザインは規則ベースの意味事実、コード水準の記号事実、および両者の構造化マッピングへ変換される。これらが一体となり、AIモデルが読み・検索し・適用できる構造化デザイン知識ベースを形成する。",
+                  "muted": false
+                },
+                {
+                  "body": "界面生成プロセス全体は追跡可能・再現可能・進化可能であり、成果は進化し続ける企業デザインシステムとコードベース内で制御可能に保たれる。デザイン努力は二つの中核——デザインシステム仕様知識の構築とマルチエージェントワークフロー設計——に焦点を当てる。",
+                  "muted": false
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line",
+            "spacing": [],
+            "aside": {
+              "role": "line_annotation",
+              "text": ""
+            },
+            "text": {
+              "h5": "1. デザインシステム仕様知識",
+              "paragraphs": [
+                {
+                  "body": "デザインシステム仕様知識は二類の知識オブジェクトと三つの対応ファイル型からなる。二類はスタイルとページ。スタイルは要素・レイアウト・コンポーネント・アセットの四種に細分される。各知識オブジェクトは意味規則・マッピングスキーマ・コード実装の三ファイル型に対応する。",
+                  "muted": false
+                },
+                {
+                  "body": "意味規則は定義・スタイル・変数・用法・制約をカバーするテキスト記述である。デザインシステムの中核知的財産を表し、Markdown形式で著される。",
+                  "muted": false
+                },
+                {
+                  "body": "コード実装はデザインオブジェクトを実行可能・デプロイ可能な記号事実へ翻訳し、適切なプログラミング言語を表現形式とする。",
+                  "muted": false
+                },
+                {
+                  "body": "マッピングスキーマは意味規則とコード実装の間の中核的接続層である。どちらの複製でもなく、オブジェクトIDのアンカー、制約定義、精密なコード参照を提供する。ワークフロー内では知識検索・解構築・コード生成を導き、大規模言語モデルが知識コーパス全体を横断せず計算負荷を減らす。マッピングスキーマはJSONで表現される。",
+                  "muted": false
+                },
+                {
+                  "body": "デザインチームは天猫デザイン仕様を再設計・再解釈し、四種の要素、四種のレイアウト、二種のアセット、十三種のコンポーネント、一種のページをカバーした。",
+                  "muted": false
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line",
+            "spacing": [],
+            "aside": {
+              "role": "line_annotation",
+              "text": ""
+            },
+            "text": {
+              "h5": "2. マルチエージェントワークフロー",
+              "paragraphs": [
+                {
+                  "body": "完全な生成パイプラインは次のとおり進行する：",
+                  "muted": false
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": false,
+                  "muted": false,
+                  "items": [
+                    "ユーザーが自然言語の要求を入力する。",
+                    "要求は意図認識エージェントが処理し、曖昧な入力をシステム解釈可能なデザイン意図へ拡張し、明示的境界条件付きの構造化要求記述を出力する。",
+                    "次いで知識検索エージェントはRetrieval-Augmented Generation（RAG）を用い、デザインシステム仕様知識から高度に関連する文脈を選択的に検索する。",
+                    "デザイン統合エージェントは定義された制約内で検索された仕様を評価・構成し、中間の構造化データ表現（Schema）を生成する。このSchemaはページ構造・コンポーネント・スタイル・内容を明示的に記述する。",
+                    "最後にコード生成エージェントがSchemaに基づきデザインシステム仕様知識を再照会し、狙いを定めた検索で対応コード成果物を特定し、本番可能なUI出力を生成する。"
+                  ]
+                },
+                {
+                  "body": "デザインシステム仕様知識ベースと界面生成ワークフローは一体となり、AI親和の企業デザインシステムを形成する。MCPまたはコンテキスト注入により、IDE環境やエージェントモードのデザインツールへ柔軟に適用できる。",
+                  "muted": false
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_annotation",
+              "text": ""
+            },
+            "text": {
+              "h5": "成果と影響",
+              "paragraphs": [
+                {
+                  "body": "VersionAI Tmall は上記の全知識を統合するAI志向のデザイン仕様サイトである。天猫デザイン仕様に準拠した界面生成、デザインレビュー、デザイン関連Q&Aを支援する。",
+                  "muted": false
+                },
+                {
+                  "body": "サイトの情報アーキテクチャはデザインシステム仕様の構造を映し、スタイル・ケース・粒度の細かい知識モジュールをツリー型ナビで組織する。各モジュールは人間可読ルールとAI可読プロンプトの切替、構造化知識スニペットのコピー／ダウンロードを支える。専用デプロイページは「tmall-design」MCP Server経由で仕様を呼び出し界面生成する手引きを提供する。",
+                  "muted": false
+                },
+                {
+                  "body": "この包括的な理論と実践は広い適用性を持ち、業種横断の企業チームが採用・再利用できる。VersionAI Tmall は実プロジェクトに実装済みで、界面デザイン効率を大幅に改善した。",
+                  "muted": false
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

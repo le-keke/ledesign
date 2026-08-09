@@ -1,0 +1,1008 @@
+{
+  "slug": "xr",
+  "meta": {
+    "displayTitle": {
+      "en": "Efficiency-Oriented XR Design Principle",
+      "zh": "效率导向的 XR 设计原则",
+      "ja": "効率志向のXRデザイン原則"
+    },
+    "summary": {
+      "en": "",
+      "zh": "",
+      "ja": ""
+    },
+    "keywords": {
+      "en": "Virtual Reality, Interaction Design Principle",
+      "zh": "虚拟现实、交互设计原则",
+      "ja": "バーチャルリアリティ、インタラクションデザイン原則"
+    },
+    "period": {
+      "en": "2023.2",
+      "zh": "2023.2",
+      "ja": "2023.2"
+    },
+    "category": {
+      "en": "Article",
+      "zh": "文章",
+      "ja": "記事"
+    },
+    "roles": [
+      {
+        "label": {
+          "en": "Designer & Researcher",
+          "zh": "设计师与研究者",
+          "ja": "デザイナー・研究者"
+        },
+        "value": {
+          "en": "Keke LE",
+          "zh": "乐可柯",
+          "ja": "樂可柯"
+        }
+      }
+    ],
+    "disclaimer": {
+      "en": "Keke LE Design © All rights reserved.",
+      "zh": "乐可柯 Design © 版权所有。",
+      "ja": "樂可柯 Design © All rights reserved."
+    }
+  },
+  "sections": {
+    "en": [
+      {
+        "bg": "detail_bg_dark",
+        "blocks": [
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_annotation",
+              "text": ""
+            },
+            "text": {
+              "h5": "Overview",
+              "paragraphs": [
+                {
+                  "body": "This is a research proposal on Metaverse E-shopping scenarios that I was responsible for during my time at Alibaba design. XR (VR and AR) immersive experience is a key element in the metaverse context. At that time, there were many product cases due to the metaverse mania, among which the most examples were user avatars wandering in the virtual world, with unclear functional tasks, unreasonable interaction design, and confusing visual presentation making them failures. After studying a large number of cases and XR technologies' design specifications, the following basic design principles were produced.",
+                  "muted": false
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_annotation",
+              "text": ""
+            },
+            "text": {
+              "h5": "1. Efficiency Oriented",
+              "paragraphs": [
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "Avoid poor perception to a product value and high user fatigue.",
+                    "When a product lacks practical functions to solve problems and has a complex experience, users will eventually get lost and leave no matter how fresh their senses are at the beginning. Firstly clarify the problems, needs and use scenarios that can be efficiently solved or worked by XR, maximize the efficiency of using XR to satisfy the needs, control the cost of interaction (reduce the fatigue), and pursue the sense of pleasure at last."
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_annotation",
+              "text": ""
+            },
+            "text": {
+              "h5": "2. XR-bias",
+              "paragraphs": [
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "Focus on features and experiences where XR has advantages.",
+                    "The XR experience is not suitable for scenarios where users need to use it for a long time due to the fatigue of the wearable device. In addition to purely sensory-enhanced scenarios (such as games), there is a need to look for scenarios where the use of XR technology and experience can enhance efficiency and problem solving. Such as try-on, learning and training, etc., can help users simulate events more intuitively in advance and make more accurate decisions."
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_annotation",
+              "text": ""
+            },
+            "text": {
+              "h5": "3. High Performance",
+              "paragraphs": [
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "Make compatibility with multiple device interactions based on performance differences.",
+                    "Personal computer environment for optimal results + XR headset streaming + Mobile web adaptation → XR headset environment implementation → Mobile environment downgrade implementation. Interaction design based on device (information hierarchy / layout / direct and indirect interaction / UI elements, etc.)"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_research_img",
+              "media": {
+                "kind": "image",
+                "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/xr/task.png"
+              }
+            },
+            "text": {
+              "h5": "4. Task Perception",
+              "paragraphs": [
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "Prioritize experience tasks clearly, reduce multitasking parallelism.",
+                    "No clear task context can lead to unfocused purpose of user behavior. No primary and secondary relationship between discrete tasks can lead to a lack of perceived value of the product's core functionality. Therefore, when designing an efficiency-oriented XR product experience, it is important to communicate clearly the action tasks at Main/First level of information hierarchy, and to convey the primary and secondary position of multiple tasks by means of classification and subjectivity perception principles."
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_research_img",
+              "media": {
+                "kind": "image",
+                "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/xr/object.png"
+              }
+            },
+            "text": {
+              "h5": "5. Object Perception",
+              "paragraphs": [
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "Enhance the subject perception of interactable objects, reduce the interference of spatial atmosphere.",
+                    "Mixing primary and secondary object elements, rendering all objects equally without distinction in front of the line of sight, and weak expression of interaction guidelines can lead to weak object recognition for primary interactions. Avoid the above problems by means of the layout and proportional relationship between objects and space canvas, functional visibility of objects for interactive operation, and appropriate design of space atmosphere."
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_research_img",
+              "media": {
+                "kind": "image",
+                "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/xr/reach.png"
+              }
+            },
+            "text": {
+              "h5": "6. Directly Reach",
+              "paragraphs": [
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "Enhance direct access to interactable objects, reduce inefficient and time-consuming orientation perception and search.",
+                    "The unpredictable number and orientation of objects, the high cost of object accessibility, and the dilution of interactive tasks by roaming tasks can cause users to spend too much time looking for interaction targets and thus lose their core tasks. Interactable objects need to be clearly perceived by users in terms of their location and distribution, and the directness can be improved by reasonable object-user relationship design."
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_research_img",
+              "media": {
+                "kind": "image",
+                "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/xr/23d.png"
+              }
+            },
+            "text": {
+              "h5": "7. 2D & 3D Information Combination",
+              "paragraphs": [
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "Determine 3D or 2D information interactive display with the judgment of efficiency.",
+                    "Excessive freedom of 3D interactions, inadequately display of efficient 2D information such videos, images and indirect controls, which will reduce the efficiency of interaction and at the same time lead to a low Return on Investment of model making. UI elements need reasonable design: use world-lock 3D UI elements for directly interactive objects, billboarding 2D UI elements following the subject object for auxiliary information or indirect operations, and Tag-along 2D UI following the user's line of sight for global navigation and information."
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_annotation",
+              "text": ""
+            },
+            "text": {
+              "h5": "8. High-Fidelity",
+              "paragraphs": [
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "Enhance object authenticity, reduce distrust due to inauthenticity.",
+                    "For those scenarios where users are concerned about object realism, such as online shopping, live chat, simulation games, twin factories, etc., as long as the object or scene is a little bit unrealistic will make users unable to make decisions. The improvement of realism is shown in: object material, light and shadow, physical movement, freedom and fidelity of interactive feedback, user's sense of scene immersion, etc."
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "bg": "detail_bg_grey",
+        "blocks": [
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg",
+              "spacing_top_lg"
+            ],
+            "aside": {
+              "role": "line_research_img",
+              "media": {
+                "kind": "image",
+                "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/xr/ia.png"
+              }
+            },
+            "text": {
+              "h5": "Multi-task XR Product IA",
+              "paragraphs": [
+                {
+                  "body": "Under the XR product form of platform-based, multi-task composite, and Operation System application, the basic interaction information structure can be divided into three levels:",
+                  "muted": false
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "Level 1 for space distribution, global navigation, and single-task space preview.",
+                    "Level 2 for in-space navigation and content objects into individual task contexts.",
+                    "Level 3 for subsidiary information and actions of main interaction objects."
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "bg": "detail_bg_light",
+        "blocks": [
+          {
+            "type": "detail_line_image",
+            "spacing": [
+              "spacing_top_lg"
+            ],
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/xr/wireframe1.png",
+            "layout": "content"
+          },
+          {
+            "type": "detail_line_image",
+            "spacing": [],
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/xr/wireframe2.png",
+            "layout": "content"
+          },
+          {
+            "type": "detail_line",
+            "spacing": [],
+            "aside": {
+              "role": "line_annotation",
+              "text": ""
+            },
+            "text": {
+              "h5": "3D Wireframe (Partly)",
+              "paragraphs": [
+                {
+                  "body": "Taking XR-shopping platform-based multitasking product as an example, after determining the function and specific information structure (not shown), the core 3d wireframe is drawn. Home space navigation is in level 1. Focus Ring, Navigation Ring and Background Ring are set according to the object and user distance. For example, the discover content field and virtual wardrobe in home space appear in the nav ring as the distribution entrance, when the user enters any of these task scenes, the content of level 2 will appear in the focus ring, and of course the background ring is always in the farthest layer.",
+                  "muted": false
+                },
+                {
+                  "body": "Certain content has been hidden due to disclosure agreement.",
+                  "muted": true
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "zh": [
+      {
+        "bg": "detail_bg_dark",
+        "blocks": [
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_annotation",
+              "text": ""
+            },
+            "text": {
+              "h5": "概述",
+              "paragraphs": [
+                {
+                  "body": "这是我在阿里巴巴设计期间负责的一项关于元宇宙电商购物场景的研究提案。XR（VR 与 AR）沉浸式体验是元宇宙语境中的关键要素。当时因元宇宙热潮出现了大量产品案例，其中最多的是用户化身在虚拟世界中游荡：功能任务不清晰、交互设计不合理、视觉呈现混乱，因而失败。在研究大量案例与 XR 技术设计规范之后，形成了以下基本设计原则。",
+                  "muted": false
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_annotation",
+              "text": ""
+            },
+            "text": {
+              "h5": "1. 效率导向",
+              "paragraphs": [
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "避免产品价值感知差与用户高疲劳。",
+                    "当产品缺乏解决实际问题的实用功能且体验复杂时，无论开场感官多么新鲜，用户最终都会迷失并离开。应首先澄清 XR 能高效解决或处理的问题、需求与使用场景；最大化用 XR 满足需求的效率；控制交互成本（降低疲劳）；最后再追求愉悦感。"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_annotation",
+              "text": ""
+            },
+            "text": {
+              "h5": "2. XR 偏置",
+              "paragraphs": [
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "聚焦 XR 具有优势的功能与体验。",
+                    "由于可穿戴设备带来的疲劳，XR 体验不适合用户长时间使用的场景。除纯感官增强场景（如游戏）外，需要寻找 XR 技术与体验能提升效率并解决问题的场景。例如试穿试戴、学习与培训等，能帮助用户更直观地预先模拟事件并做出更准确的决策。"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_annotation",
+              "text": ""
+            },
+            "text": {
+              "h5": "3. 高性能",
+              "paragraphs": [
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "基于性能差异，兼容多设备交互。",
+                    "个人电脑环境以求最佳效果 + XR 头显串流 + 移动网页适配 → XR 头显环境实现 → 移动环境降级实现。基于设备的交互设计（信息层级／布局／直接与间接交互／UI 元素等）"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_research_img",
+              "media": {
+                "kind": "image",
+                "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/xr/task.png"
+              }
+            },
+            "text": {
+              "h5": "4. 任务感知",
+              "paragraphs": [
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "清晰优先体验任务，减少多任务并行。",
+                    "任务语境不清晰会导致用户行为目的失焦；离散任务之间缺乏主次关系会导致产品核心功能的感知价值不足。因此，在设计以效率为导向的 XR 产品体验时，必须在信息层级的主／第一层清晰传达行动任务，并借助分类与主体感知原则传达多任务的主次位置。"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_research_img",
+              "media": {
+                "kind": "image",
+                "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/xr/object.png"
+              }
+            },
+            "text": {
+              "h5": "5. 对象感知",
+              "paragraphs": [
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "增强可交互对象的主体感知，降低空间氛围的干扰。",
+                    "主次对象元素混杂、视线前方对所有对象一视同仁地渲染、交互指引表达薄弱，会导致主交互对象的识别变弱。应通过对象与空间画布的布局与比例关系、对象对交互操作的功能可见性，以及适当的空间氛围设计，避免上述问题。"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_research_img",
+              "media": {
+                "kind": "image",
+                "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/xr/reach.png"
+              }
+            },
+            "text": {
+              "h5": "6. 直接可达",
+              "paragraphs": [
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "增强对可交互对象的直接可达，减少低效耗时的定向感知与搜索。",
+                    "对象数量与朝向不可预期、对象可达成本高、漫游任务稀释交互任务，会使用户花费过多时间寻找交互目标从而丢失核心任务。可交互对象的位置与分布需被用户清晰感知，并通过合理的对象—用户关系设计提升直接性。"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_research_img",
+              "media": {
+                "kind": "image",
+                "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/xr/23d.png"
+              }
+            },
+            "text": {
+              "h5": "7. 二维与三维信息结合",
+              "paragraphs": [
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "以效率判断为依据，决定三维或二维信息交互展示。",
+                    "三维交互过度自由、高效二维信息（如视频、图像与间接控件）展示不足，会降低交互效率，同时导致建模投入回报偏低。UI 元素需要合理设计：对可直接交互的对象使用世界锁定的三维 UI；对辅助信息或间接操作使用跟随主体对象的广告牌式二维 UI；对全局导航与信息使用跟随用户视线的 Tag-along 二维 UI。"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_annotation",
+              "text": ""
+            },
+            "text": {
+              "h5": "8. 高保真",
+              "paragraphs": [
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "增强对象真实感，降低因不真实产生的不信任。",
+                    "在用户关注对象真实感的场景中——如网购、实时聊天、模拟游戏、孪生工厂等——对象或场景稍有不真实，就会使用户难以决策。真实感的提升体现在：对象材质、光影、物理运动、交互反馈的自由度与保真度、用户的场景沉浸感等。"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "bg": "detail_bg_grey",
+        "blocks": [
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg",
+              "spacing_top_lg"
+            ],
+            "aside": {
+              "role": "line_research_img",
+              "media": {
+                "kind": "image",
+                "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/xr/ia.png"
+              }
+            },
+            "text": {
+              "h5": "多任务 XR 产品信息架构",
+              "paragraphs": [
+                {
+                  "body": "在平台型、多任务复合、操作系统应用的 XR 产品形态下，基本交互信息结构可分为三层：",
+                  "muted": false
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "一级用于空间分布、全局导航与单任务空间预览。",
+                    "二级用于空间内导航，以及进入各任务语境的内容对象。",
+                    "三级用于主交互对象的附属信息与动作。"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "bg": "detail_bg_light",
+        "blocks": [
+          {
+            "type": "detail_line_image",
+            "spacing": [
+              "spacing_top_lg"
+            ],
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/xr/wireframe1.png",
+            "layout": "content"
+          },
+          {
+            "type": "detail_line_image",
+            "spacing": [],
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/xr/wireframe2.png",
+            "layout": "content"
+          },
+          {
+            "type": "detail_line",
+            "spacing": [],
+            "aside": {
+              "role": "line_annotation",
+              "text": ""
+            },
+            "text": {
+              "h5": "三维线框（部分）",
+              "paragraphs": [
+                {
+                  "body": "以基于 XR 购物平台的多任务产品为例：在确定功能与具体信息结构（未展示）之后，绘制核心三维线框。一级为家空间导航。根据对象与用户距离设置 Focus Ring、Navigation Ring 与 Background Ring。例如，家空间中的发现内容区与虚拟衣橱，会作为分发入口出现在导航环；当用户进入任一任务场景时，二级内容会出现在焦点环中；背景环则始终处于最远层。",
+                  "muted": false
+                },
+                {
+                  "body": "因披露协议，部分内容已隐藏。",
+                  "muted": true
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "ja": [
+      {
+        "bg": "detail_bg_dark",
+        "blocks": [
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_annotation",
+              "text": ""
+            },
+            "text": {
+              "h5": "概要",
+              "paragraphs": [
+                {
+                  "body": "これは阿里巴巴デザイン在籍時に担当した、メタバースEC購買シナリオに関する研究提案である。XR（VRとAR）の没入体験はメタバース文脈の鍵要素だ。当時メタバース熱で多くの製品事例があり、最も多かったのはユーザーアバターが仮想世界を徘徊するもので、機能タスクが不明瞭、インタラクション設計が不合理、視覚提示が混乱し失敗していた。多数の事例とXR技術のデザイン仕様を研究した後、以下の基本デザイン原則が生まれた。",
+                  "muted": false
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_annotation",
+              "text": ""
+            },
+            "text": {
+              "h5": "1. 効率志向",
+              "paragraphs": [
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "製品価値の知覚不良と高いユーザー疲労を避ける。",
+                    "実用的機能が欠け体験が複雑な製品では、初めの感覚がどれほど新鮮でもユーザーは最終的に迷い去る。まずXRが効率的に解ける問題・需要・利用シナリオを明確化し、XRで需要を満たす効率を最大化し、インタラクションコスト（疲労）を抑え、最後に愉悦感を追求する。"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_annotation",
+              "text": ""
+            },
+            "text": {
+              "h5": "2. XRバイアス",
+              "paragraphs": [
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "XRが優位性を持つ機能と体験に焦点を当てる。",
+                    "ウェアラブル機器の疲労のため、XR体験は長時間利用のシナリオには向かない。純粋な感覚強化（ゲーム等）以外では、XR技術と体験が効率と問題解決を高められるシナリオを探す必要がある。試着・学習・訓練などは、事象をより直感的に事前シミュレートし、より正確な意思決定を助ける。"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_annotation",
+              "text": ""
+            },
+            "text": {
+              "h5": "3. ハイパフォーマンス",
+              "paragraphs": [
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "性能差に基づき複数デバイスのインタラクションと互換させる。",
+                    "最適結果のためのPC環境 + XRヘッドセット配信 + モバイルWeb適応 → XRヘッドセット環境実装 → モバイル環境へのダウングレード実装。デバイスに基づくインタラクション設計（情報階層／レイアウト／直接・間接操作／UI要素など）"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_research_img",
+              "media": {
+                "kind": "image",
+                "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/xr/task.png"
+              }
+            },
+            "text": {
+              "h5": "4. タスク知覚",
+              "paragraphs": [
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "体験タスクを明確に優先し、マルチタスク並列を減らす。",
+                    "明確なタスク文脈の欠如はユーザー行動の目的をぼかし、離散タスク間の主従関係の欠如は製品コア機能の知覚価値を弱める。ゆえに効率志向のXR製品体験を設計する際は、情報階層の主／第一層で行動タスクを明確に伝え、分類と主体知覚の原則により複数タスクの主従を伝えることが重要である。"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_research_img",
+              "media": {
+                "kind": "image",
+                "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/xr/object.png"
+              }
+            },
+            "text": {
+              "h5": "5. オブジェクト知覚",
+              "paragraphs": [
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "操作可能オブジェクトの主体知覚を高め、空間雰囲気の干渉を減らす。",
+                    "主従オブジェクト要素の混在、視線前ですべてを同等に描画すること、インタラクション指針の弱い表現は、主インタラクション対象の認識を弱める。オブジェクトと空間キャンバスのレイアウト・比率、操作に対する機能可視性、適切な空間雰囲気デザインにより上記を避ける。"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_research_img",
+              "media": {
+                "kind": "image",
+                "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/xr/reach.png"
+              }
+            },
+            "text": {
+              "h5": "6. 直接到達",
+              "paragraphs": [
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "操作可能オブジェクトへの直接アクセスを高め、非効率で時間のかかる方位知覚と探索を減らす。",
+                    "オブジェクト数と向きの予測不能、到達コストの高さ、ローミングによるインタラクションタスクの希釈は、目標探索に時間を奪いコアタスクを失わせる。操作可能オブジェクトの位置と分布は明確に知覚され、合理的なオブジェクト—ユーザー関係設計で直接性を高める必要がある。"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_research_img",
+              "media": {
+                "kind": "image",
+                "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/xr/23d.png"
+              }
+            },
+            "text": {
+              "h5": "7. 2Dと3D情報の組み合わせ",
+              "paragraphs": [
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "効率の判断に基づき、3Dまたは2Dの情報インタラクティブ表示を決定する。",
+                    "3Dインタラクションの過度な自由度、動画・画像や間接操作などの効率的2D情報提示の不足は、インタラクション効率を下げ、モデル制作のROIを低くする。UI要素は合理的に設計すべきで、直接操作対象にはワールドロック3D UI、補助情報や間接操作には主体に追従するビルボード2D UI、グローバルナビと情報には視線追従のTag-along 2D UIを用いる。"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_annotation",
+              "text": ""
+            },
+            "text": {
+              "h5": "8. ハイフィデリティ",
+              "paragraphs": [
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "オブジェクトの真正性を高め、非真正による不信を減らす。",
+                    "オンライン購買・ライブチャット・シミュレーションゲーム・双子工場など、対象のリアリティを気にするシナリオでは、対象や場面が少し非現実的なだけで意思決定が難しくなる。リアリティ向上は、材質・光と影・物理運動、インタラクティブ反馈の自由度と忠実度、場面没入感などに表れる。"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "bg": "detail_bg_grey",
+        "blocks": [
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg",
+              "spacing_top_lg"
+            ],
+            "aside": {
+              "role": "line_research_img",
+              "media": {
+                "kind": "image",
+                "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/xr/ia.png"
+              }
+            },
+            "text": {
+              "h5": "マルチタスクXR製品IA",
+              "paragraphs": [
+                {
+                  "body": "プラットフォーム型・マルチタスク複合・OSアプリケーションというXR製品形態のもと、基本インタラクション情報構造は三層に分けられる：",
+                  "muted": false
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "レベル1は空間分布、グローバルナビ、単一タスク空間プレビュー。",
+                    "レベル2は空間内ナビと、個別タスク文脈へのコンテンツオブジェクト。",
+                    "レベル3は主インタラクション対象の付随情報とアクション。"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "bg": "detail_bg_light",
+        "blocks": [
+          {
+            "type": "detail_line_image",
+            "spacing": [
+              "spacing_top_lg"
+            ],
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/xr/wireframe1.png",
+            "layout": "content"
+          },
+          {
+            "type": "detail_line_image",
+            "spacing": [],
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/xr/wireframe2.png",
+            "layout": "content"
+          },
+          {
+            "type": "detail_line",
+            "spacing": [],
+            "aside": {
+              "role": "line_annotation",
+              "text": ""
+            },
+            "text": {
+              "h5": "3Dワイヤーフレーム（一部）",
+              "paragraphs": [
+                {
+                  "body": "XRショッピングのプラットフォーム型マルチタスク製品を例に、機能と具体的な情報構造（非表示）を確定した後、中核の3Dワイヤーフレームを描く。ホーム空間ナビはレベル1。対象とユーザー距離に応じ Focus Ring・Navigation Ring・Background Ring を設定する。例えばホーム空間のディスカバー領域と仮想ワードローブはナビリングに配信入口として現れ、いずれかのタスクシーンに入るとレベル2の内容がフォーカスリングに現れ、背景リングは常に最遠層にある。",
+                  "muted": false
+                },
+                {
+                  "body": "開示契約のため一部内容は非表示。",
+                  "muted": true
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

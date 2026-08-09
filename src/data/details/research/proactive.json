@@ -1,0 +1,514 @@
+{
+  "slug": "proactive",
+  "meta": {
+    "displayTitle": {
+      "en": "The Theoretical Explanation of Proactive Interaction",
+      "zh": "主动前摄性交互的理论阐释",
+      "ja": "プロアクティブ・インタラクションの理論的説明"
+    },
+    "summary": {
+      "en": "",
+      "zh": "",
+      "ja": ""
+    },
+    "keywords": {
+      "en": "Proactive, Intelligent Interaction",
+      "zh": "主动前摄、智能交互",
+      "ja": "プロアクティブ、インテリジェントインタラクション"
+    },
+    "period": {
+      "en": "2018.4",
+      "zh": "2018.4",
+      "ja": "2018.4"
+    },
+    "category": {
+      "en": "Article (Excerpt)",
+      "zh": "文章（节选）",
+      "ja": "記事（抜粋）"
+    },
+    "roles": [
+      {
+        "label": {
+          "en": "Writer",
+          "zh": "作者",
+          "ja": "執筆者"
+        },
+        "value": {
+          "en": "Keke LE",
+          "zh": "乐可柯",
+          "ja": "樂可柯"
+        }
+      },
+      {
+        "href": "https://mp.weixin.qq.com/s/aIzt5W9JdnDTDsMYD8xLGw",
+        "label": {
+          "en": "Published",
+          "zh": "发表",
+          "ja": "掲載"
+        },
+        "value": {
+          "en": "Keke LE Design © Official Pubilc Subscription →",
+          "zh": "乐可柯 Design © 官方公众号 →",
+          "ja": "樂可柯 Design © 公式パブリック購読 →"
+        }
+      }
+    ],
+    "disclaimer": {
+      "en": "Keke LE Design © All rights reserved.",
+      "zh": "乐可柯 Design © 版权所有。",
+      "ja": "樂可柯 Design © All rights reserved."
+    }
+  },
+  "sections": {
+    "en": [
+      {
+        "bg": "detail_bg_light",
+        "blocks": [
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_annotation",
+              "text": ""
+            },
+            "text": {
+              "h5": "Proactive",
+              "paragraphs": [
+                {
+                  "body": "/prōˈaktiv/ adj. (of a person, policy, or action) creating or controlling a situation by causing something to happen rather than responding to it after it has happened.",
+                  "muted": false
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_research_img",
+              "media": {
+                "kind": "image",
+                "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/proactive/proactive.png"
+              }
+            },
+            "text": {
+              "h5": "Interpretation within the scope of interaction design",
+              "paragraphs": [
+                {
+                  "body": "Before understanding what “Proactive” really is, we need to begin with another word—“Reactive.”",
+                  "muted": false
+                },
+                {
+                  "body": "Interaction between user and product rests on a basic logical relation: in a specific context, the user completes a purpose through action upon a medium. User, context, medium, action, and purpose are also called the five basic elements of interaction design, defining who, where & when, what, how, and why. Within this relation, user and medium typically play subject and object in a pair of interacting counterparts: the subject inputs behavior to the object; the object outputs feedback to the subject in response to that need.",
+                  "muted": false
+                },
+                {
+                  "body": "It should be noted that what this foundational theory usually reflects—and what we most often discuss—is in fact a “Reactive Interaction”: a conventional, basic, mechanical mode. In the current context the user forms a need (a purpose), inputs that need to the medium through behavior, and the medium passively responds with output feedback; after closing that loop, when the next context appears, another round of user-active input and medium-passive response begins, link by link until the user’s ultimate purpose is reached. This is interaction-design thinking focused only on a single independent contextual dimension, and it is linear and closed.",
+                  "muted": false
+                },
+                {
+                  "body": "The “Reactive Interaction” mechanical mechanism of “waiting for the user to operate”—namely, “Reactive → Mechanical.” Next we turn to another mechanism.",
+                  "muted": false
+                },
+                {
+                  "body": "Among endlessly emerging intelligent product systems—AI language assistants, smart cars, IoT home appliances, and more—we find, besides conventional reactive interaction, another interaction mechanism; and it is precisely this mechanism that lets these products wear the name “smart”:",
+                  "muted": false
+                },
+                {
+                  "body": "It is a cross-contextual, nonlinear, and open mode of interaction-design thinking. Unlike reactive interaction—where the user actively inputs and the medium passively outputs—the subject–object I/O order is reversed and exchanged: the medium supplies demand-oriented output to the user in advance, anticipating or even creating the user’s likely next needs and actions. Moreover, the medium’s source of output is often not the user’s behavioral input in the current context: (1) it may be indirect behavioral input from a prior context (or even another context); (2) more often it does not come from the user’s behavior at all, but from variable inputs gathered from a scene, the environment, other users, or similar indirect elements. In either case, interestingly, this anticipatory demand output typically helps the user achieve the purpose of a later moment or context before that context arrives. We call this interaction mechanism “Proactive Interaction.”",
+                  "muted": false
+                },
+                {
+                  "body": "The cross-contextual output stream that concatenates media (orange arrows)—what the author calls a “decision shortcut (or decision wormhole)”—not only shortens the user’s behavioral path on the surface; more importantly, at the shortcut’s (wormhole’s) ends the subject–object input–output relation is reversed: at the start the subject actively inputs to the object; at the end the object actively inputs to the subject.",
+                  "muted": false
+                },
+                {
+                  "body": "Through the analysis and description above, we can roughly understand the intelligent mechanism of “Proactive Interaction” that “anticipates user needs”—namely, “Proactive → Intelligent.”",
+                  "muted": false
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_annotation",
+              "text": ""
+            },
+            "text": {
+              "h5": "Main roles and application scenarios of the proactive design mechanism",
+              "paragraphs": [
+                {
+                  "body": "Applying the proactive design mechanism to products mainly serves two purposes: (1) Risk Prevention; (2) Seamless Connection.",
+                  "muted": false
+                },
+                {
+                  "body": "The iOS 9 case of reminding departure time for a meeting belongs to risk prevention—avoiding the risk of leaving at a normal time, hitting evening rush-hour congestion, and arriving late. Volvo Autopilot Assist, before ending a highway segment and entering slower urban traffic, proactively prompts the driver to switch from autonomous to manual driving, and so on.",
+                  "muted": false
+                },
+                {
+                  "body": "Regarding “connection,” here it can be further unfolded by need context as:",
+                  "muted": false
+                },
+                {
+                  "body": "a. Under a single-need context, behavioral connection within a closed environment aims to help the user achieve that single need more efficiently. For example, in online shopping the user carries a relatively singular “shopping” need and interacts with a shopping app in a relatively closed environment; the basis on which the app can “anticipate shopping needs and connect user behavior” largely comes from behavioral traces or data left inside that app environment. If we personify the intelligent medium responsible for “connection,” it is like Alexa in the Amazon app: under the single-need context of shopping, it can smartly and proactively help you reach your need relatively quickly.",
+                  "muted": false
+                },
+                {
+                  "body": "b. Under compound-need contexts, behavioral connection across open environments aims to let users string together every need in life smoothly and seamlessly—for example, receiving “Shall we turn on the home AC in advance?” on the car’s center screen while driving home, or “Based on last week’s checkup, we recommend these recipes” while ordering food online. In such cases, the medium’s “proactivity” rests not only on user input within a single closed interactive environment, but more on cross-contextual behavioral traces or environmental variables that provide decision shortcuts in the current context—requiring a far larger, interwoven product ecosystem and cloud support.",
+                  "muted": false
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_annotation",
+              "text": ""
+            },
+            "text": {
+              "h5": "Design methods for the proactive design mechanism",
+              "paragraphs": [
+                {
+                  "body": "The proactive design mechanism is like a stream that always flows on the medium’s backstage—invisible yet ubiquitous. When the timing is right, it enters the scene A you are in, in some form, to proactively prompt and guide (connection), or forcibly interrupt your scene-A behavior (risk prevention) and enter scene B.",
+                  "muted": false
+                },
+                {
+                  "body": "So how can such proactivity be realized in design? In fact, by decomposing the statement above into several independent questions and answering them one by one, one can largely grasp some approaches to “Proactive interaction design.”",
+                  "muted": false
+                },
+                {
+                  "body": "1) Why it appears—for connection or risk prevention: insight into the purpose behind the user’s existing behavior, to discover breakpoints or failure risks on the current path to that purpose.",
+                  "muted": false
+                },
+                {
+                  "body": "2) What appears: what functional information or action points need to be proactively input to the user to connect these breakpoints or avoid risks in advance.",
+                  "muted": false
+                },
+                {
+                  "body": "3) When it appears: set trigger conditions or judgment logic—e.g., when the user performs a certain behavior or the environment changes in certain ways, proactive input is triggered.",
+                  "muted": false
+                },
+                {
+                  "body": "4) In what form it appears: according to the purpose of connection or risk prevention, judge the priority of how much a preemptive information or action point guides or interrupts the user in the current context, and the features of that context, to choose an appropriate appearance form.",
+                  "muted": false
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "zh": [
+      {
+        "bg": "detail_bg_light",
+        "blocks": [
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_annotation",
+              "text": ""
+            },
+            "text": {
+              "h5": "主动",
+              "paragraphs": [
+                {
+                  "body": "/prōˈaktiv/ adj.（指人、政策或行动）通过促成某事发生来创造或掌控局面，而非事后被动应对。",
+                  "muted": false
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_research_img",
+              "media": {
+                "kind": "image",
+                "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/proactive/proactive.png"
+              }
+            },
+            "text": {
+              "h5": "交互设计范畴下的释义",
+              "paragraphs": [
+                {
+                  "body": "要理解到底什么是“Proactive”之前，我们有必要先从另一个词开始讲起 —— “Reactive”。",
+                  "muted": false
+                },
+                {
+                  "body": "用户和产品之间的交互有个基本的逻辑关系：用户（User）在某种特定场景（Context）下通过媒介（Media）的使用行为（Action）来完成某个目的（Purpose）。其中用户、场景、媒介、行为、目的也被称为交互设计中的五个基本要素，分别用来定义who、where&when、what、how以及why。而在这组关系中，用户和媒介通常扮演着一组交互对象中的主体（Subject）和客体（Object），主体向客体作行为输入，客体向主体作反馈输出来响应这个需求。",
+                  "muted": false
+                },
+                {
+                  "body": "需要指出的是，基于这层基础理论所反映出来的、也是大多时候我们所讨论的，其实是一种“被动响应式的交互方式“（Reactive Interaction），是常规、基础、机械的交互方式：在当前场景下，用户产生一个需求（也就是目的），然后通过行为向媒介输入需求，媒介被动响应给予输出反馈，在完成这一闭环后，到下一个场景出现时，再进行下一个阶段的用户主动输入、媒介被动响应的交互过程，一环环直到达成用户的最终目的。这是一种仅聚焦同一独立场景维度，且线性闭合的交互设计思维。",
+                  "muted": false
+                },
+                {
+                  "body": "“被动响应式的交互方式”这种“等着用户来操作”的机械机制，即“被动响应式 → 机械式交互”（Reactive → Mechanical）。接着我们来看另一种机制。",
+                  "muted": false
+                },
+                {
+                  "body": "人工智能语言助手、智能汽车、物联家电等等，在层出不穷的智能产品体系中，我们发现除了常规的被动响应式交互之外，还有种交互机制，且正是这种机制的存在使这些产品能冠以“智能”之名：",
+                  "muted": false
+                },
+                {
+                  "body": "它是跨场景维度的，非线性且开放的交互设计思维，与被动响应式交互中用户主动输入、媒介被动输出的机制所不同的是，主客体I/O的交互次序发生了颠倒和置换，也就是媒介提前向用户提供了需求输出，预判甚至创造了用户下一步可能的需求和行为，且媒介的输出源（Source of output），往往不是用户当前场景的行为输入：（1）可能是用户在先前场景中（甚至另一个场景）的间接行为输入（2）更有可能不是来自于用户的行为输入，而是采集于某个场景、环境或其他用户等间接元素的变量输入。不管是哪种，有趣的是，这个提前出现的需求输出通常会在下一个时间点或场景出现的时候，提前帮用户达成那个场景下的目的。我们将这种交互机制称为“主动前摄性的交互方式”（Proactive Interaction）。",
+                  "muted": false
+                },
+                {
+                  "body": "跨场景、串联起媒介间的输出流（橙色箭头），笔者管它叫“决策捷径（或决策虫洞）”， 这条捷径（虫洞）除了表面上缩短了用户行为路径之外，更重要的一个特征就是捷径（虫洞）始末，主客体的输入输出关系发生颠倒置换，始端主体向客体主动输入，末端则是客体向主体主动输入。",
+                  "muted": false
+                },
+                {
+                  "body": "通过上述的分析和描述，我们大致可以理解“主动前摄性的交互方式”这种”预判用户需求”的智能机制，即“主动前摄性 → 智能式交互”（Proactive → Intelligent）。",
+                  "muted": false
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_annotation",
+              "text": ""
+            },
+            "text": {
+              "h5": "主动前摄性设计机制的主要作用和应用场景",
+              "paragraphs": [
+                {
+                  "body": "前摄性设计机制应用到产品中主要出于以下两个目的：（1）避险（Risk Prevention）（2）连接（Seamless Connection）。",
+                  "muted": false
+                },
+                {
+                  "body": "iOS 9提醒会议出发时间的案例就是属于避险，避开正常出发而遭遇下班高峰路况拥堵、从而迟到会议的风险。沃尔沃自主巡航系统（Volvo Autopilot Assist）在即将结束高速公路路段、进入城市缓行路段前，主动提示驾驶者从自动驾驶模式切换回手动驾驶模式等等。",
+                  "muted": false
+                },
+                {
+                  "body": "关于“连接”，这里根据需求场景可以继续展开为：",
+                  "muted": false
+                },
+                {
+                  "body": "a. 单一需求场景下，闭合环境内的行为连接，为了使用户更高效地达成这个单一需求。比如线上购物，用户带着相对单一的“购物”需求，与一个线上购物应用在相对封闭的环境中进行交互，这个应用能用来“预判用户购物需求、连接用户行为“的依据基本来源于这个应用环境内用户留下的行为痕迹或信息数据，如果我们给这个负责”连接“的智能媒介描绘一个形象，它就像是Amazon app中的Alexa，在购物这个单一需求场景下，它能聪明且主动地帮你相对快速地达成自己的需求。",
+                  "muted": false
+                },
+                {
+                  "body": "b. 复合需求场景下，开放环境间的行为连接，为了使用户顺畅无缝地串联起生活中的每个需求。比如驾车回家中在中控屏上收到“是否要提前打开家中空调”，或在线上点餐中收到“基于您上周的体检报告为您推荐以下菜谱”等等，这种情况下，媒介的“主动性”除了基于单一场景、封闭交互环境下的用户输入之外，更多地通过跨场景的用户行为痕迹或环境变量为当前场景下的用户提供决策捷径，当然这需要更为庞大交织的产品体系和云端支持。",
+                  "muted": false
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_annotation",
+              "text": ""
+            },
+            "text": {
+              "h5": "主动前摄性设计机制的设计方法",
+              "paragraphs": [
+                {
+                  "body": "主动前摄性设计机制就好比是始终流淌在媒介后台的水（A stream flows on the backstage），隐形却又无处不在，当合时机时，它会以某种形式进入你所在的场景A，来主动提示、引导（连接作用），抑或是强制中断你的场景A行为（避险作用），进入场景B。",
+                  "muted": false
+                },
+                {
+                  "body": "那么应如何在设计中实现这种主动性呢？实际上，只需要将上面这段话解构成几个独立的问题，并一一解答，应该就能大抵掌握一些“Proactive interaction design”的思路了。",
+                  "muted": false
+                },
+                {
+                  "body": "1）为什么出现、为了连接还是避险：洞察用户现有行为背后的目的，去发现达成这个目的的现有链路上存在哪些断点或可能导致失败的风险点。",
+                  "muted": false
+                },
+                {
+                  "body": "2）出现什么：需要主动输入给用户什么功能信息或行动点，来连接这些断点或提前避免风险。",
+                  "muted": false
+                },
+                {
+                  "body": "3）何时出现：设定好触发条件或判断逻辑，如当用户做了哪个行为或环境发生哪些变化，则触发主动输入。",
+                  "muted": false
+                },
+                {
+                  "body": "4）以什么形式出现：按照连接或避险的目的，判断前置信息点或行动点在当前场景下引导或干扰用户程度的优先级，以及当前场景的特征，来选择合适的出现形态。",
+                  "muted": false
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "ja": [
+      {
+        "bg": "detail_bg_light",
+        "blocks": [
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_annotation",
+              "text": ""
+            },
+            "text": {
+              "h5": "プロアクティブ",
+              "paragraphs": [
+                {
+                  "body": "/prōˈaktiv/ 形.（人・政策・行動について）事が起きた後に対応するのではなく、何かを起こすことで状況を創造または制御すること。",
+                  "muted": false
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_research_img",
+              "media": {
+                "kind": "image",
+                "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/proactive/proactive.png"
+              }
+            },
+            "text": {
+              "h5": "インタラクションデザイン範疇下の釈義",
+              "paragraphs": [
+                {
+                  "body": "「Proactive」とは何かを理解する前に、もう一つの語——「Reactive」——から話し始める必要がある。",
+                  "muted": false
+                },
+                {
+                  "body": "ユーザーとプロダクトのインタラクションには基本的な論理関係がある：ユーザー（User）はある特定の場面（Context）のもとで、メディア（Media）への使用行動（Action）を通じてある目的（Purpose）を達成する。ユーザー・場面・メディア・行動・目的はインタラクションデザインの五つの基本要素とも呼ばれ、それぞれwho、where&when、what、how、whyを定義する。この関係において、ユーザーとメディアは通常、一組のインタラクション対象における主体（Subject）と客体（Object）を演じ、主体が客体へ行動入力し、客体が主体へフィードバック出力してその需要に応答する。",
+                  "muted": false
+                },
+                {
+                  "body": "指摘すべきは、この基礎理論が映し出すもの——そして多くの場合われわれが議論しているもの——は実のところ「受動応答型インタラクション」（Reactive Interaction）であり、通常的・基礎的・機械的なインタラクション様式だということである：現在の場面でユーザーが需要（すなわち目的）を生じ、行動を通じてメディアへ需要を入力し、メディアが受動的に応答して出力フィードバックを与え、この閉ループを終えた後、次の場面が現れたらまた次段階のユーザー能動入力・メディア受動応答の過程を行い、一環ずつユーザーの最終目的に至る。これは同一の独立した場面次元のみに焦点を当て、線形で閉じたインタラクションデザイン思考である。",
+                  "muted": false
+                },
+                {
+                  "body": "「受動応答型インタラクション」という「ユーザーの操作を待つ」機械的機構——すなわち「受動応答型 → 機械式インタラクション」（Reactive → Mechanical）。次に別の機構を見る。",
+                  "muted": false
+                },
+                {
+                  "body": "人工知能言語アシスタント、スマートカー、IoT家電など、次々と現れるスマートプロダクト体系の中で、通常の受動応答型インタラクションのほかに、もう一つのインタラクション機構があり、まさにその機構の存在によってこれらの製品が「スマート」の名を冠しうると気づく：",
+                  "muted": false
+                },
+                {
+                  "body": "それは跨場面的で、非線形かつ開放的なインタラクションデザイン思考である。受動応答型インタラクションにおけるユーザー能動入力・メディア受動出力の仕組みと異なり、主客体のI/Oの交互順序が逆転・置換される。すなわちメディアが先回りしてユーザーに需要出力を提供し、次に起こりうる需要と行動を予測し、さらには創造する。しかもメディアの出力源（Source of output）は、しばしば現在場面におけるユーザーの行動入力ではない：（1）先の場面（あるいは別の場面）における間接的な行動入力である場合、（2）より多くはユーザーの行動入力ではなく、ある場面・環境・他ユーザーなど間接要素から収集した変数入力である場合。いずれにせよ興味深いのは、この先回りした需要出力が、次の時点や場面が現れたときに、その場面での目的達成をあらかじめ助けることである。われわれはこのインタラクション機構を「能動的前向きインタラクション」（Proactive Interaction）と呼ぶ。",
+                  "muted": false
+                },
+                {
+                  "body": "跨場面でメディア間の出力流（オレンジ矢印）を直列させるもの——筆者は「意思決定ショートカット（または意思決定ワームホール）」と呼ぶ——は、表面上ユーザー行動経路を短縮するだけでなく、より重要な特徴としてショートカット（ワームホール）の始終で主客体の入出力関係が逆転置換し、始端では主体が客体へ能動入力し、末端では客体が主体へ能動入力する。",
+                  "muted": false
+                },
+                {
+                  "body": "上述の分析と記述を通じ、「能動的前向きインタラクション」という「ユーザー需要を予測する」知能機構——すなわち「能動的前向き → 知能型インタラクション」（Proactive → Intelligent）——をおおよそ理解できる。",
+                  "muted": false
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_annotation",
+              "text": ""
+            },
+            "text": {
+              "h5": "能動的前向きデザイン機構の主な作用と応用場面",
+              "paragraphs": [
+                {
+                  "body": "前向きデザイン機構をプロダクトに応用する主な目的は次の二つである：（1）避険（Risk Prevention）（2）接続（Seamless Connection）。",
+                  "muted": false
+                },
+                {
+                  "body": "iOS 9が会議出発時刻を知らせる事例は避険に属する——通常どおり出発して退勤ラッシュの渋滞に遭い会議に遅刻するリスクを避ける。ボルボの自律クルーズ（Volvo Autopilot Assist）は高速道路区間が終わり都市の緩行区間に入る前に、自動運転から手動運転へ切り替えるよう能動的に運転者へ提示するなど。",
+                  "muted": false
+                },
+                {
+                  "body": "「接続」について、ここでは需要場面に応じてさらに展開できる：",
+                  "muted": false
+                },
+                {
+                  "body": "a. 単一需要場面のもと、閉じた環境内での行動接続は、ユーザーがこの単一需要をより効率的に達成できるようにするためである。たとえばオンラインショッピングでは、ユーザーは比較的単一の「買い物」需要を携え、比較的閉じた環境でショッピングアプリとインタラクションする。このアプリが「ユーザーの買い物需要を予測し、行動を接続する」根拠は、基本的にそのアプリ環境内に残された行動痕跡や情報データに由来する。「接続」を担う知能メディアに形象を与えるなら、Amazonアプリ内のAlexaのようであり、買い物という単一需要場面で、賢く能動的に需要達成を比較的速やかに助ける。",
+                  "muted": false
+                },
+                {
+                  "body": "b. 複合需要場面のもと、開放環境間の行動接続は、生活の各需要を円滑・シームレスに直列させるためである。たとえば帰宅運転中にセンターディスプレイで「自宅のエアコンを先に入れますか」を受け取る、あるいはオンライン注文中に「先週の検診報告に基づき以下のレシピを推薦します」を受け取るなど。この場合、メディアの「能動性」は単一場面・閉鎖インタラクション環境下のユーザー入力に基づくだけでなく、より多く跨場面の行動痕跡や環境変数を通じて現場面のユーザーに意思決定ショートカットを提供し、より巨大で交錯したプロダクト体系とクラウド支援を要する。",
+                  "muted": false
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_annotation",
+              "text": ""
+            },
+            "text": {
+              "h5": "能動的前向きデザイン機構のデザイン方法",
+              "paragraphs": [
+                {
+                  "body": "能動的前向きデザイン機構は、メディアのバックステージを常に流れる水（A stream flows on the backstage）のようで、不可視でありながら至る所に存在する。時機が合えば、ある形式であなたのいる場面Aに入り、能動的に提示・誘導し（接続作用）、あるいは場面Aの行動を強制中断し（避険作用）、場面Bへ入る。",
+                  "muted": false
+                },
+                {
+                  "body": "ではデザインにおいてこのような能動性をいかに実現するか。実際、上の文をいくつかの独立した問いに分解し、一つずつ答えれば、「Proactive interaction design」の思路をおおよそ掌握できるはずである。",
+                  "muted": false
+                },
+                {
+                  "body": "1）なぜ現れるのか、接続か避険か：ユーザーの既存行動の背後にある目的を洞察し、その目的達成の既存リンク上にどの断点や失敗リスクがあるかを発見する。",
+                  "muted": false
+                },
+                {
+                  "body": "2）何が現れるか：これらの断点を接続し、またはリスクを事前に避けるために、ユーザーへ能動入力すべき機能情報や行動点は何か。",
+                  "muted": false
+                },
+                {
+                  "body": "3）いつ現れるか：トリガー条件または判断論理を設定する——ユーザーがどの行動をしたか、環境がどう変化したかで能動入力をトリガーする、など。",
+                  "muted": false
+                },
+                {
+                  "body": "4）どのような形式で現れるか：接続または避険の目的に応じ、前置情報点や行動点が現場面でユーザーを誘導または妨害する程度の優先度と、現場面の特徴を判断し、適切な出現形態を選ぶ。",
+                  "muted": false
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

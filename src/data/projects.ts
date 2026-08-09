@@ -53,7 +53,7 @@ export const projects: Project[] = [
     title: {
       en: 'VersionAI Tmall',
       zh: 'VersionAI 天猫',
-      ja: 'VersionAI Tmall',
+      ja: 'VersionAI 天猫',
     },
     cover: coverVersionai,
     coverKind: 'image',
@@ -65,7 +65,7 @@ export const projects: Project[] = [
     title: {
       en: 'VR-Video UX for Spatial Commodity Shopping',
       zh: '空间商品购物 VR 视频体验',
-      ja: 'VR-Video UX for Spatial Commodity Shopping',
+      ja: '空間商品購買向け VR 動画体験',
     },
     cover: cover360,
     coverKind: 'image',
@@ -77,7 +77,7 @@ export const projects: Project[] = [
     title: {
       en: 'Zermattern® Ski Equipment & Club',
       zh: 'Zermattern® 滑雪装备与俱乐部',
-      ja: 'Zermattern® Ski Equipment & Club',
+      ja: 'Zermattern® スキー用具とクラブ',
     },
     cover: coverZermattern,
     coverKind: 'image',
@@ -88,7 +88,7 @@ export const projects: Project[] = [
     title: {
       en: 'Taobao Design Official Website',
       zh: '淘宝设计官网',
-      ja: 'Taobao Design Official Website',
+      ja: '淘宝デザイン公式サイト',
     },
     cover: coverTaoweb,
     coverKind: 'image',
@@ -99,7 +99,7 @@ export const projects: Project[] = [
     title: {
       en: 'A Consumption Experience Driven by Community',
       zh: '社区驱动的消费体验',
-      ja: 'A Consumption Experience Driven by Community',
+      ja: 'コミュニティが駆動する消費体験',
     },
     cover: coverTisland,
     coverKind: 'image',
@@ -110,7 +110,7 @@ export const projects: Project[] = [
     title: {
       en: 'New Steering Experience on Autonomous Driving',
       zh: '自动驾驶新转向体验',
-      ja: 'New Steering Experience on Autonomous Driving',
+      ja: '自動運転における新たなステアリング体験',
     },
     cover: coverFss,
     coverKind: 'image',
@@ -121,7 +121,7 @@ export const projects: Project[] = [
     title: {
       en: 'Swap Web3 Chatting Brand',
       zh: 'Swap Web3 聊天品牌',
-      ja: 'Swap Web3 Chatting Brand',
+      ja: 'Swap Web3 チャットブランド',
     },
     cover: coverSwap,
     coverKind: 'image',
@@ -132,7 +132,7 @@ export const projects: Project[] = [
     title: {
       en: 'Aftermarket Experience Based on Telematics',
       zh: '基于车联网的售后体验',
-      ja: 'Aftermarket Experience Based on Telematics',
+      ja: 'テレマティクスに基づくアフターサービス体験',
     },
     cover: coverAutomarket,
     coverKind: 'image',
@@ -143,7 +143,7 @@ export const projects: Project[] = [
     title: {
       en: 'Shanghai DASHENG CAFE Brand',
       zh: '上海大生咖啡品牌',
-      ja: 'Shanghai DASHENG CAFE Brand',
+      ja: '上海大生カフェ・ブランド',
     },
     cover: coverDscafe,
     coverKind: 'image',
@@ -154,7 +154,7 @@ export const projects: Project[] = [
     title: {
       en: 'The Sino-Germany Music Competition',
       zh: '中德音乐大赛',
-      ja: 'The Sino-Germany Music Competition',
+      ja: '中独音楽コンクール',
     },
     cover: coverBr,
     coverKind: 'image',
@@ -164,8 +164,8 @@ export const projects: Project[] = [
     category: 'work',
     title: {
       en: 'DongJiHuang Ice Fruit Wine Package',
-      zh: '东极黄冰果酒包装',
-      ja: 'DongJiHuang Ice Fruit Wine Package',
+      zh: '东吉黄冰果酒包装',
+      ja: '東吉黄アイスフルーツワイン包装',
     },
     cover: coverWine,
     coverKind: 'image',
@@ -176,7 +176,7 @@ export const projects: Project[] = [
     title: {
       en: 'The Belt & Road Sino-Germany Music Festival',
       zh: '一带一路中德国际音乐节',
-      ja: 'The Belt & Road Sino-Germany Music Festival',
+      ja: '一帯一路・中独国際音楽祭',
     },
     cover: coverSgimf,
     coverKind: 'image',

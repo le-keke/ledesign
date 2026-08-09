@@ -3,13 +3,13 @@
   "meta": {
     "displayTitle": {
       "en": "Automotive Aftermarket Service Experience Design Based on V2Service Telematics",
-      "zh": "Automotive Aftermarket Service Experience Design Based on V2Service Telematics",
-      "ja": "Automotive Aftermarket Service Experience Design Based on V2Service Telematics"
+      "zh": "基于 V2Service 车联网的汽车后市场服务体验设计",
+      "ja": "V2Serviceテレマティクスに基づく自動車アフターマーケット・サービス体験設計"
     },
     "summary": {
       "en": "It is a UX design proposal for exploring a new user (i.e. car-owner) shopping and service experience suitable for intelligent, electric vehicles of the automotive aftermarket. Based on telematics and cloud data transfer technology, vehicles have ability of syncing status and recommending service (Washing, Maintenance, etc.) to user terminal real time and proactively. Meanwhile, it is took into consideration that assisting automotive brand OEMs and eco-distribution service providers to obtain increments.",
-      "zh": "It is a UX design proposal for exploring a new user (i.e. car-owner) shopping and service experience suitable for intelligent, electric vehicles of the automotive aftermarket. Based on telematics and cloud data transfer technology, vehicles have ability of syncing status and recommending service (Washing, Maintenance, etc.) to user terminal real time and proactively. Meanwhile, it is took into consideration that assisting automotive brand OEMs and eco-distribution service providers to obtain increments.",
-      "ja": "It is a UX design proposal for exploring a new user (i.e. car-owner) shopping and service experience suitable for intelligent, electric vehicles of the automotive aftermarket. Based on telematics and cloud data transfer technology, vehicles have ability of syncing status and recommending service (Washing, Maintenance, etc.) to user terminal real time and proactively. Meanwhile, it is took into consideration that assisting automotive brand OEMs and eco-distribution service providers to obtain increments."
+      "zh": "本项目是面向智能电动汽车后市场的 UX 设计提案，探索适于车主的新型购物与服务体验。依托车联网与云端数据传输，车辆可实时同步状态，并主动向用户终端推荐洗车、保养等服务；同时兼顾协助汽车品牌 OEM 与生态分销服务商获取增量的考量。",
+      "ja": "本プロジェクトは、スマート電動車のアフターマーケットに適した、車オーナー向けの新たな購買・サービス体験を探るUXデザイン提案です。テレマティクスとクラウドデータ連携により、車両は状態をリアルタイムで同期し、洗車やメンテナンスなどのサービスをユーザー端末へ能動的に推奨できます。あわせて、自動車ブランドOEMおよびエコシステム上の流通サービス事業者がインクリメントを得る支援も考慮しています。"
     },
     "period": {
       "en": "2020",
@@ -18,13 +18,13 @@
     },
     "category": {
       "en": "Digital Product Design",
-      "zh": "Digital Product Design",
-      "ja": "Digital Product Design"
+      "zh": "数字产品设计",
+      "ja": "デジタルプロダクトデザイン"
     },
     "designLead": {
       "en": "LE Keke",
-      "zh": "LE Keke",
-      "ja": "LE Keke"
+      "zh": "乐可柯",
+      "ja": "樂可柯"
     },
     "team": {
       "en": "",
@@ -38,318 +38,940 @@
     },
     "disclaimer": {
       "en": "Alibaba Group © All rights reserved. The certain content or data have been hidden due to the undisclosure agreement.",
-      "zh": "Alibaba Group © All rights reserved. The certain content or data have been hidden due to the undisclosure agreement.",
-      "ja": "Alibaba Group © All rights reserved. The certain content or data have been hidden due to the undisclosure agreement."
+      "zh": "Alibaba Group © 版权所有。部分内容或数据因保密协议不予展示。",
+      "ja": "Alibaba Group © All rights reserved. 秘密保持契約のため、一部のコンテンツまたはデータを非公開としています。"
     }
   },
-  "sections": [
-    {
-      "bg": "detail_bg_dark",
-      "blocks": [
-        {
-          "type": "detail_cover",
-          "kind": "image",
-          "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/auto/auto_cover.png",
-          "alt": ""
-        },
-        {
-          "type": "detail_line_image",
-          "spacing": [
-            "spacing_bottom_md"
-          ],
-          "kind": "image",
-          "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/auto/market.png",
-          "layout": "content"
-        },
-        {
-          "type": "detail_line",
-          "spacing": [
-            "spacing_bottom_lg"
-          ],
-          "aside": {
-            "role": "line_img_annotation",
-            "text": "Car Owner-user Consumption Items ↑"
+  "sections": {
+    "en": [
+      {
+        "bg": "detail_bg_dark",
+        "blocks": [
+          {
+            "type": "detail_cover",
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/auto/auto_cover.png",
+            "alt": ""
           },
-          "text": {
-            "h5": "Three High-frequency Consumption",
-            "paragraphs": [
-              {
-                "body": "Whether it is a traditional fuel car or new energy electric car, in the after-market owners regularly or irregularly consume the following: car insurance, interior accessories, exterior parts, maintenance, washing, repair, refueling and charging, modification, etc. Some consumption is the owner's active demand, some are passive. The frequency of consumption in the unit year also varies. The main focus is on three consumptions:",
-                "muted": false
-              },
-              {
-                "type": "list",
-                "ordered": true,
-                "bare": true,
-                "muted": false,
-                "items": [
-                  "1. Decoration",
-                  "2. Clean",
-                  "3. Maintenance"
-                ]
-              }
-            ]
-          }
-        },
-        {
-          "type": "detail_line_image",
-          "spacing": [
-            "spacing_bottom_md"
-          ],
-          "kind": "image",
-          "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/auto/using_routine.png",
-          "layout": "content"
-        },
-        {
-          "type": "detail_line",
-          "spacing": [
-            "spacing_bottom_lg"
-          ],
-          "aside": {
-            "role": "line_img_annotation",
-            "text": "Car Owner-user Consumption Path ↑"
+          {
+            "type": "detail_line_image",
+            "spacing": [
+              "spacing_bottom_md"
+            ],
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/auto/market.png",
+            "layout": "content"
           },
-          "text": {
-            "h5": "From Needs Generating to Item and Service Consumption",
-            "paragraphs": [
-              {
-                "body": "The path of consumption, the type of goods and services provider, and the pros and cons of the existing paths are completely different for car owners under the three needs. In short, the demand for interior and exterior decoration is initiated by the owners, mainly purchased online and installed offline. The demand for cleaning is initiated by the owners, either by going to a store or by their own. The demand for maintenance is initiated by the vehicle, by going to an official service center, a third-party vendor, or maintaining and repairing by the owners.",
-                "muted": false
-              },
-              {
-                "type": "list",
-                "ordered": true,
-                "bare": true,
-                "muted": true,
-                "items": [
-                  "Decoration: Self-initiated demand → item → service",
-                  "Clean: Self-initiated demand → item + service",
-                  "Maintenance: Vehicle-initiated demand → service → item"
-                ]
-              }
-            ]
-          }
-        },
-        {
-          "type": "detail_line_image",
-          "spacing": [
-            "spacing_bottom_min"
-          ],
-          "kind": "image",
-          "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/auto/strategy.png",
-          "layout": "content"
-        },
-        {
-          "type": "detail_line",
-          "spacing": [
-            "spacing_bottom_md"
-          ],
-          "aside": {
-            "role": "line_img_annotation",
-            "text": "Product Feature Flow & Design Keys ↑"
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_img_annotation",
+              "text": "Car Owner-user Consumption Items ↑"
+            },
+            "text": {
+              "h5": "Three High-frequency Consumption",
+              "paragraphs": [
+                {
+                  "body": "Whether it is a traditional fuel car or new energy electric car, in the after-market owners regularly or irregularly consume the following: car insurance, interior accessories, exterior parts, maintenance, washing, repair, refueling and charging, modification, etc. Some consumption is the owner's active demand, some are passive. The frequency of consumption in the unit year also varies. The main focus is on three consumptions:",
+                  "muted": false
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "1. Decoration",
+                    "2. Clean",
+                    "3. Maintenance"
+                  ]
+                }
+              ]
+            }
           },
-          "text": {
-            "h5": "One Product for Three Consumption Scenes",
-            "paragraphs": [
-              {
-                "type": "list",
-                "ordered": true,
-                "bare": true,
-                "muted": false,
-                "items": [
-                  "Feature 1",
-                  "Vehicle dynamic status is automatically linked to corresponding consumption contents in order to guide users' next purchasing or service-seeking actions. The main information structure of this product is divided into owning-vehicle dashboard as coordinate and consumption canvas covering decoration, clean and maintenance."
-                ]
-              },
-              {
-                "type": "list",
-                "ordered": true,
-                "bare": true,
-                "muted": false,
-                "items": [
-                  "Feature 2",
-                  "The order of content and tabs is arranged by demand type, frequency and consumption path. The three main consumption tabs are decoration, clean, and maintenance in descending order of frequency."
-                ]
-              },
-              {
-                "body": "For example, Under decoration, goods information is first. Under clean, car wash goods information is first, followed by service store information, and under maintenance, service store information is first, followed by goods information.",
-                "muted": true
-              },
-              {
-                "type": "list",
-                "ordered": true,
-                "bare": true,
-                "muted": false,
-                "items": [
-                  "Feature 3",
-                  "Dynamic adjustment of information layout based on algorithms, car owners' consumption habits."
-                ]
-              },
-              {
-                "type": "list",
-                "ordered": true,
-                "bare": true,
-                "muted": false,
-                "items": [
-                  "Feature 4",
-                  "By means of multimedia contents guide such as short videos, peer group recommendations to meet users-initiated demands like decoration and clean. By means of vehicle data synchronization, specific content corresponding to specific brand vehicle to meet vehicle-initiated demands like maintenance."
-                ]
-              }
-            ]
-          }
-        },
-        {
-          "type": "detail_line_image",
-          "spacing": [],
-          "kind": "image",
-          "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/auto/auto_ai.png",
-          "layout": "content"
-        },
-        {
-          "type": "detail_line",
-          "spacing": [
-            "spacing_bottom_md"
-          ],
-          "aside": {
-            "role": "line_img_annotation",
-            "text": "Product Information Architecture ↑"
+          {
+            "type": "detail_line_image",
+            "spacing": [
+              "spacing_bottom_md"
+            ],
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/auto/using_routine.png",
+            "layout": "content"
           },
-          "text": {
-            "h5": "Vehicle-oriented Navigation",
-            "paragraphs": [
-              {
-                "body": "The first-level bottom navigation bar is divided into discover, category, and shopping cart. The global top bar contains search and profile. In the main discover page, vehicle-driven navigation is used to display the vehicle's dashboard, call-to-action & service procedure assistance, and goods and service recommendations in three cases: decoration, clean, and maintenance, without page jumping.",
-                "muted": false
-              }
-            ]
-          }
-        },
-        {
-          "type": "detail_line_image",
-          "spacing": [],
-          "kind": "video",
-          "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/auto/demo_short.mp4",
-          "layout": "content"
-        },
-        {
-          "type": "detail_line",
-          "spacing": [
-            "spacing_bottom_lg"
-          ],
-          "aside": {
-            "role": "line_img_annotation",
-            "text": "HVP Interface & System Map ↑"
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_img_annotation",
+              "text": "Car Owner-user Consumption Path ↑"
+            },
+            "text": {
+              "h5": "From Needs Generating to Item and Service Consumption",
+              "paragraphs": [
+                {
+                  "body": "The path of consumption, the type of goods and services provider, and the pros and cons of the existing paths are completely different for car owners under the three needs. In short, the demand for interior and exterior decoration is initiated by the owners, mainly purchased online and installed offline. The demand for cleaning is initiated by the owners, either by going to a store or by their own. The demand for maintenance is initiated by the vehicle, by going to an official service center, a third-party vendor, or maintaining and repairing by the owners.",
+                  "muted": false
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": true,
+                  "items": [
+                    "Decoration: Self-initiated demand → item → service",
+                    "Clean: Self-initiated demand → item + service",
+                    "Maintenance: Vehicle-initiated demand → service → item"
+                  ]
+                }
+              ]
+            }
           },
-          "text": {
-            "h5": "Vehicle to Service to Driver",
-            "paragraphs": [
-              {
-                "body": "The vehicle will synchronize the information to the vehicle system interface and the App terminal, the users choose the service or goods consumption according to the vehicle status and the corresponding assistant suggestion. Whether by themselves or service personnel driving vehicles to the service center, vehicle maintenance, washing and care, accessories installation and other service status information will be synchronized to the owner's terminal and the vehicle system.",
-                "muted": false
-              }
-            ]
-          }
-        },
-        {
-          "type": "detail_line_image",
-          "spacing": [
-            "spacing_bottom_md"
-          ],
-          "kind": "image",
-          "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/auto/interface.png",
-          "layout": "content"
-        },
-        {
-          "type": "detail_line",
-          "spacing": [
-            "spacing_bottom_lg"
-          ],
-          "aside": {
-            "role": "line_img_annotation",
-            "text": "Vehicle-oriented UI Cards Kit ↑"
+          {
+            "type": "detail_line_image",
+            "spacing": [
+              "spacing_bottom_min"
+            ],
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/auto/strategy.png",
+            "layout": "content"
           },
-          "text": {
-            "h5": "Clear, Unified and Content-Highlighted UI",
-            "paragraphs": [
-              {
-                "body": "The UI module is divided into vehicle models, dashboards, assistants, items recommendations, service recommendations, etc. Through the visual design of information such as grid, font size, color and other elements, UI keeps unity and clear affordance.",
-                "muted": false
-              },
-              {
-                "type": "list",
-                "ordered": true,
-                "bare": true,
-                "muted": true,
-                "items": [
-                  "Vehicle model: 3D visualization of vehicle status information.",
-                  "Dashboards: The respective record data of decoration, clean and maintenance.",
-                  "Assistant: Synchronization of vehicle status, action suggestion, service status.",
-                  "Items: Repurchase, peer group recommendations.",
-                  "Service: Provider Infomation."
-                ]
-              }
-            ]
-          }
-        },
-        {
-          "type": "detail_line_image",
-          "spacing": [
-            "spacing_bottom_lg"
-          ],
-          "kind": "image",
-          "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/auto/service_status.png",
-          "layout": "content"
-        },
-        {
-          "type": "detail_line",
-          "spacing": [
-            "spacing_bottom_md"
-          ],
-          "aside": {
-            "role": "line_img_annotation",
-            "text": "Service Procedure Assistant Card ↑"
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_md"
+            ],
+            "aside": {
+              "role": "line_img_annotation",
+              "text": "Product Feature Flow & Design Keys ↑"
+            },
+            "text": {
+              "h5": "One Product for Three Consumption Scenes",
+              "paragraphs": [
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "Feature 1",
+                    "Vehicle dynamic status is automatically linked to corresponding consumption contents in order to guide users' next purchasing or service-seeking actions. The main information structure of this product is divided into owning-vehicle dashboard as coordinate and consumption canvas covering decoration, clean and maintenance."
+                  ]
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "Feature 2",
+                    "The order of content and tabs is arranged by demand type, frequency and consumption path. The three main consumption tabs are decoration, clean, and maintenance in descending order of frequency."
+                  ]
+                },
+                {
+                  "body": "For example, Under decoration, goods information is first. Under clean, car wash goods information is first, followed by service store information, and under maintenance, service store information is first, followed by goods information.",
+                  "muted": true
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "Feature 3",
+                    "Dynamic adjustment of information layout based on algorithms, car owners' consumption habits."
+                  ]
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "Feature 4",
+                    "By means of multimedia contents guide such as short videos, peer group recommendations to meet users-initiated demands like decoration and clean. By means of vehicle data synchronization, specific content corresponding to specific brand vehicle to meet vehicle-initiated demands like maintenance."
+                  ]
+                }
+              ]
+            }
           },
-          "text": {
-            "h5": "Full State Service Notification",
-            "paragraphs": [
-              {
-                "body": "Taking maintenance as an example, the assistant is divided into 3 stages:",
-                "muted": false
-              },
-              {
-                "type": "list",
-                "ordered": true,
-                "bare": true,
-                "muted": false,
-                "items": [
-                  "State 1",
-                  "Car condition information synchronization, demand initiation, action guidance (contacting maintenance personnel, store inquiries and appointments)."
-                ]
-              },
-              {
-                "type": "list",
-                "ordered": true,
-                "bare": true,
-                "muted": false,
-                "items": [
-                  "State 2",
-                  "Service information synchronization, material list synchronization and remote ordering."
-                ]
-              },
-              {
-                "type": "list",
-                "ordered": true,
-                "bare": true,
-                "muted": false,
-                "items": [
-                  "State 3",
-                  "Service completion notification, action guidance."
-                ]
-              }
-            ]
+          {
+            "type": "detail_line_image",
+            "spacing": [],
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/auto/auto_ai.png",
+            "layout": "content"
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_md"
+            ],
+            "aside": {
+              "role": "line_img_annotation",
+              "text": "Product Information Architecture ↑"
+            },
+            "text": {
+              "h5": "Vehicle-oriented Navigation",
+              "paragraphs": [
+                {
+                  "body": "The first-level bottom navigation bar is divided into discover, category, and shopping cart. The global top bar contains search and profile. In the main discover page, vehicle-driven navigation is used to display the vehicle's dashboard, call-to-action & service procedure assistance, and goods and service recommendations in three cases: decoration, clean, and maintenance, without page jumping.",
+                  "muted": false
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line_image",
+            "spacing": [],
+            "kind": "video",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/auto/demo_short.mp4",
+            "layout": "content"
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_img_annotation",
+              "text": "HVP Interface & System Map ↑"
+            },
+            "text": {
+              "h5": "Vehicle to Service to Driver",
+              "paragraphs": [
+                {
+                  "body": "The vehicle will synchronize the information to the vehicle system interface and the App terminal, the users choose the service or goods consumption according to the vehicle status and the corresponding assistant suggestion. Whether by themselves or service personnel driving vehicles to the service center, vehicle maintenance, washing and care, accessories installation and other service status information will be synchronized to the owner's terminal and the vehicle system.",
+                  "muted": false
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line_image",
+            "spacing": [
+              "spacing_bottom_md"
+            ],
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/auto/interface.png",
+            "layout": "content"
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_img_annotation",
+              "text": "Vehicle-oriented UI Cards Kit ↑"
+            },
+            "text": {
+              "h5": "Clear, Unified and Content-Highlighted UI",
+              "paragraphs": [
+                {
+                  "body": "The UI module is divided into vehicle models, dashboards, assistants, items recommendations, service recommendations, etc. Through the visual design of information such as grid, font size, color and other elements, UI keeps unity and clear affordance.",
+                  "muted": false
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": true,
+                  "items": [
+                    "Vehicle model: 3D visualization of vehicle status information.",
+                    "Dashboards: The respective record data of decoration, clean and maintenance.",
+                    "Assistant: Synchronization of vehicle status, action suggestion, service status.",
+                    "Items: Repurchase, peer group recommendations.",
+                    "Service: Provider Infomation."
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line_image",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/auto/service_status.png",
+            "layout": "content"
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_md"
+            ],
+            "aside": {
+              "role": "line_img_annotation",
+              "text": "Service Procedure Assistant Card ↑"
+            },
+            "text": {
+              "h5": "Full State Service Notification",
+              "paragraphs": [
+                {
+                  "body": "Taking maintenance as an example, the assistant is divided into 3 stages:",
+                  "muted": false
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "State 1",
+                    "Car condition information synchronization, demand initiation, action guidance (contacting maintenance personnel, store inquiries and appointments)."
+                  ]
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "State 2",
+                    "Service information synchronization, material list synchronization and remote ordering."
+                  ]
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "State 3",
+                    "Service completion notification, action guidance."
+                  ]
+                }
+              ]
+            }
           }
-        }
-      ]
-    }
-  ]
+        ]
+      }
+    ],
+    "zh": [
+      {
+        "bg": "detail_bg_dark",
+        "blocks": [
+          {
+            "type": "detail_cover",
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/auto/auto_cover.png",
+            "alt": ""
+          },
+          {
+            "type": "detail_line_image",
+            "spacing": [
+              "spacing_bottom_md"
+            ],
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/auto/market.png",
+            "layout": "content"
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_img_annotation",
+              "text": "车主用户消费项目 ↑"
+            },
+            "text": {
+              "h5": "三项高频消费",
+              "paragraphs": [
+                {
+                  "body": "无论传统燃油车还是新能源电动车，车主在后市场都会定期或不定期产生以下消费：车险、内饰配件、外饰部件、保养、洗车、维修、加油与充电、改装等。部分消费由车主主动发起，部分为被动需求；年度消费频次也各不相同。本项目主要聚焦三项消费：",
+                  "muted": false
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "1. 装饰",
+                    "2. 清洁",
+                    "3. 保养"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line_image",
+            "spacing": [
+              "spacing_bottom_md"
+            ],
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/auto/using_routine.png",
+            "layout": "content"
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_img_annotation",
+              "text": "车主用户消费路径 ↑"
+            },
+            "text": {
+              "h5": "从需求产生到商品与服务消费",
+              "paragraphs": [
+                {
+                  "body": "在三项需求下，车主的消费路径、商品与服务提供方类型，以及既有路径的优劣完全不同。简言之：内外饰需求由车主发起，以线上购买、线下安装为主；清洁需求由车主发起，可到店或自行完成；保养需求由车辆发起，可前往官方服务中心、第三方门店，或由车主自行维保。",
+                  "muted": false
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": true,
+                  "items": [
+                    "装饰：主动需求 → 商品 → 服务",
+                    "清洁：主动需求 → 商品 + 服务",
+                    "保养：车辆发起需求 → 服务 → 商品"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line_image",
+            "spacing": [
+              "spacing_bottom_min"
+            ],
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/auto/strategy.png",
+            "layout": "content"
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_md"
+            ],
+            "aside": {
+              "role": "line_img_annotation",
+              "text": "产品功能流程与设计要点 ↑"
+            },
+            "text": {
+              "h5": "一款产品覆盖三类消费场景",
+              "paragraphs": [
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "特性一",
+                    "车辆动态状态自动关联对应消费内容，以引导用户下一步的购买或服务寻求行为。本产品的主要信息结构以所拥有车辆的仪表盘为坐标，并以覆盖装饰、清洁与保养的消费画布为载体。"
+                  ]
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "特性二",
+                    "内容与标签页的顺序按需求类型、频次与消费路径排列。三大消费标签按频次由高到低依次为：装饰、清洁、保养。"
+                  ]
+                },
+                {
+                  "body": "例如：在装饰场景下，商品信息优先；在清洁场景下，洗车商品信息优先，其次为服务门店信息；在保养场景下，服务门店信息优先，其次为商品信息。",
+                  "muted": true
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "特性三",
+                    "基于算法与车主消费习惯，动态调整信息布局。"
+                  ]
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "特性四",
+                    "借助短视频、同伴推荐等多媒体内容引导，满足装饰与清洁等用户主动需求；借助车辆数据同步，按具体品牌车型推送对应内容，满足保养等车辆发起需求。"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line_image",
+            "spacing": [],
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/auto/auto_ai.png",
+            "layout": "content"
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_md"
+            ],
+            "aside": {
+              "role": "line_img_annotation",
+              "text": "产品信息架构 ↑"
+            },
+            "text": {
+              "h5": "以车辆为导向的导航",
+              "paragraphs": [
+                {
+                  "body": "一级底部导航栏分为发现、分类与购物车；全局顶栏包含搜索与个人中心。在主要的发现页中，采用车辆驱动导航，在装饰、清洁与保养三种情况下展示车辆仪表盘、行动号召与服务流程辅助，以及商品与服务推荐，无需页面跳转。",
+                  "muted": false
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line_image",
+            "spacing": [],
+            "kind": "video",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/auto/demo_short.mp4",
+            "layout": "content"
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_img_annotation",
+              "text": "HVP 界面与系统地图 ↑"
+            },
+            "text": {
+              "h5": "从车辆到服务再到驾驶者",
+              "paragraphs": [
+                {
+                  "body": "车辆将信息同步至车机系统界面与 App 终端，用户根据车辆状态及相应助手建议选择服务或商品消费。无论由本人或服务人员驾车前往服务中心，车辆保养、洗护、配件安装等服务状态信息均将同步至车主终端与车机系统。",
+                  "muted": false
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line_image",
+            "spacing": [
+              "spacing_bottom_md"
+            ],
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/auto/interface.png",
+            "layout": "content"
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_img_annotation",
+              "text": "以车辆为导向的 UI 卡片套件 ↑"
+            },
+            "text": {
+              "h5": "清晰、统一且内容突出的界面",
+              "paragraphs": [
+                {
+                  "body": "UI 模块划分为车辆模型、仪表盘、助手、商品推荐、服务推荐等。通过网格、字号、色彩等视觉信息设计，界面保持统一并具备清晰的可供性。",
+                  "muted": false
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": true,
+                  "items": [
+                    "车辆模型：车辆状态信息的三维可视化。",
+                    "仪表盘：装饰、清洁与保养各自的记录数据。",
+                    "助手：车辆状态同步、行动建议、服务状态。",
+                    "商品：复购、同伴推荐。",
+                    "服务：服务商信息。"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line_image",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/auto/service_status.png",
+            "layout": "content"
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_md"
+            ],
+            "aside": {
+              "role": "line_img_annotation",
+              "text": "服务流程助手卡片 ↑"
+            },
+            "text": {
+              "h5": "全状态服务通知",
+              "paragraphs": [
+                {
+                  "body": "以保养为例，助手分为三个阶段：",
+                  "muted": false
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "状态一",
+                    "车况信息同步、需求发起、行动引导（联系维保人员、门店查询与预约）。"
+                  ]
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "状态二",
+                    "服务信息同步、物料清单同步与远程下单。"
+                  ]
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "状态三",
+                    "服务完成通知、行动引导。"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "ja": [
+      {
+        "bg": "detail_bg_dark",
+        "blocks": [
+          {
+            "type": "detail_cover",
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/auto/auto_cover.png",
+            "alt": ""
+          },
+          {
+            "type": "detail_line_image",
+            "spacing": [
+              "spacing_bottom_md"
+            ],
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/auto/market.png",
+            "layout": "content"
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_img_annotation",
+              "text": "車オーナー・ユーザーの消費項目 ↑"
+            },
+            "text": {
+              "h5": "三つの高頻度消費",
+              "paragraphs": [
+                {
+                  "body": "従来のガソリン車であれ新エネルギー電動車であれ、アフターマーケットにおいてオーナーは定期的または不定期に次のような消費を行います：自動車保険、内装アクセサリー、外装パーツ、メンテナンス、洗車、修理、給油・充電、カスタムなど。一部はオーナーの能動的需要であり、一部は受動的です。年間の消費頻度も異なります。本プロジェクトが主に焦点を当てるのは三つの消費です：",
+                  "muted": false
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "1. 装飾",
+                    "2. 清掃",
+                    "3. メンテナンス"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line_image",
+            "spacing": [
+              "spacing_bottom_md"
+            ],
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/auto/using_routine.png",
+            "layout": "content"
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_img_annotation",
+              "text": "車オーナー・ユーザーの消費経路 ↑"
+            },
+            "text": {
+              "h5": "ニーズの発生から商品・サービス消費へ",
+              "paragraphs": [
+                {
+                  "body": "三つのニーズのもとで、車オーナーの消費経路、商品・サービス提供者の類型、および既存経路の長所・短所はまったく異なります。要するに、内外装の需要はオーナーが起点となり、主にオンライン購入・オフライン取付です。清掃の需要はオーナーが起点で、店舗へ行くか自ら行うかのいずれかです。メンテナンスの需要は車両が起点となり、公式サービスセンター、第三者業者、あるいはオーナー自身による整備・修理へと至ります。",
+                  "muted": false
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": true,
+                  "items": [
+                    "装飾：自己起点の需要 → 商品 → サービス",
+                    "清掃：自己起点の需要 → 商品＋サービス",
+                    "メンテナンス：車両起点の需要 → サービス → 商品"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line_image",
+            "spacing": [
+              "spacing_bottom_min"
+            ],
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/auto/strategy.png",
+            "layout": "content"
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_md"
+            ],
+            "aside": {
+              "role": "line_img_annotation",
+              "text": "プロダクト機能フローとデザイン要点 ↑"
+            },
+            "text": {
+              "h5": "三つの消費シーンに対応する一つのプロダクト",
+              "paragraphs": [
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "特徴 1",
+                    "車両の動的ステータスを対応する消費コンテンツへ自動連携し、ユーザーの次の購買またはサービス探索行動を導きます。本プロダクトの主要な情報構造は、所有車両ダッシュボードを座標とし、装飾・清掃・メンテナンスを覆う消費キャンバスで構成されます。"
+                  ]
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "特徴 2",
+                    "コンテンツとタブの順序は、需要類型、頻度、消費経路に基づいて配置されます。三大消費タブは頻度の高い順に、装飾、清掃、メンテナンスです。"
+                  ]
+                },
+                {
+                  "body": "例えば、装飾では商品情報が優先されます。清掃では洗車商品情報が優先され、次いでサービス店舗情報です。メンテナンスではサービス店舗情報が優先され、次いで商品情報です。",
+                  "muted": true
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "特徴 3",
+                    "アルゴリズムと車オーナーの消費習慣に基づき、情報レイアウトを動的に調整します。"
+                  ]
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "特徴 4",
+                    "短尺動画や仲間コミュニティの推薦などマルチメディア案内により、装飾・清掃のようなユーザー起点の需要に応えます。車両データ同期により、特定ブランド車両に対応するコンテンツを届け、メンテナンスのような車両起点の需要に応えます。"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line_image",
+            "spacing": [],
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/auto/auto_ai.png",
+            "layout": "content"
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_md"
+            ],
+            "aside": {
+              "role": "line_img_annotation",
+              "text": "プロダクト情報アーキテクチャ ↑"
+            },
+            "text": {
+              "h5": "車両志向のナビゲーション",
+              "paragraphs": [
+                {
+                  "body": "一次レベルの下部ナビゲーションバーは、発見、カテゴリ、ショッピングカートに分かれます。グローバルトップバーには検索とプロフィールが含まれます。主要な発見ページでは、車両駆動ナビゲーションにより、装飾・清掃・メンテナンスの三つのケースで、車両ダッシュボード、行動喚起とサービス手順支援、商品・サービス推薦をページ遷移なしで表示します。",
+                  "muted": false
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line_image",
+            "spacing": [],
+            "kind": "video",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/auto/demo_short.mp4",
+            "layout": "content"
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_img_annotation",
+              "text": "HVPインターフェースとシステムマップ ↑"
+            },
+            "text": {
+              "h5": "車両からサービス、そしてドライバーへ",
+              "paragraphs": [
+                {
+                  "body": "車両は情報を車載システム界面とApp端末へ同期し、ユーザーは車両ステータスと対応するアシスタント提案に基づき、サービスまたは商品消費を選択します。本人またはサービス担当者が車両をサービスセンターへ運転する場合でも、車両メンテナンス、洗車・ケア、アクセサリー取付などのサービスステータス情報は、オーナー端末と車載システムへ同期されます。",
+                  "muted": false
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line_image",
+            "spacing": [
+              "spacing_bottom_md"
+            ],
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/auto/interface.png",
+            "layout": "content"
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_img_annotation",
+              "text": "車両志向のUIカードキット ↑"
+            },
+            "text": {
+              "h5": "明瞭・統一・コンテンツ強調のUI",
+              "paragraphs": [
+                {
+                  "body": "UIモジュールは、車両モデル、ダッシュボード、アシスタント、商品推薦、サービス推薦などに分かれます。グリッド、フォントサイズ、カラーなどの視覚情報設計を通じて、UIは統一性と明瞭なアフォーダンスを保ちます。",
+                  "muted": false
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": true,
+                  "items": [
+                    "車両モデル：車両ステータス情報の3D可視化。",
+                    "ダッシュボード：装飾・清掃・メンテナンスそれぞれの記録データ。",
+                    "アシスタント：車両ステータス同期、行動提案、サービスステータス。",
+                    "商品：再購入、仲間コミュニティの推薦。",
+                    "サービス：提供者情報。"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line_image",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/auto/service_status.png",
+            "layout": "content"
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_md"
+            ],
+            "aside": {
+              "role": "line_img_annotation",
+              "text": "サービス手順アシスタントカード ↑"
+            },
+            "text": {
+              "h5": "全状態のサービス通知",
+              "paragraphs": [
+                {
+                  "body": "メンテナンスを例にとると、アシスタントは三段階に分かれます：",
+                  "muted": false
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "状態 1",
+                    "車況情報の同期、需要の起点化、行動ガイダンス（整備担当者への連絡、店舗照会と予約）。"
+                  ]
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "状態 2",
+                    "サービス情報の同期、部品リストの同期とリモート発注。"
+                  ]
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "状態 3",
+                    "サービス完了通知、行動ガイダンス。"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }
 }

@@ -356,17 +356,17 @@ function parseBlocks(inner, { skipAbstractMeta = false } = {}) {
 
     if (classAttr.startsWith('detail_line_image')) {
       const { videos, imgs } = mediaFrom(chunk);
-      const media = videos[0] || imgs[0];
+      const medias = [...videos, ...imgs];
       if (imgs[0]?.spacing?.length) spacing = [...new Set([...spacing, ...imgs[0].spacing])];
-      if (media) {
+      medias.forEach((media, i) => {
         blocks.push({
           type: 'detail_line_image',
-          spacing,
+          spacing: i === 0 ? spacing : [],
           kind: media.kind,
           src: media.src,
           layout: 'content',
         });
-      }
+      });
       continue;
     }
 

@@ -1,0 +1,186 @@
+{
+  "Car Owner-user Consumption Items ↑": {
+    "zh": "车主用户消费事项 ↑",
+    "ja": "車オーナーの消費項目 ↑"
+  },
+  "Three High-frequency Consumption": {
+    "zh": "三类高频消费",
+    "ja": "三つの高頻度消費"
+  },
+  "Whether it is a traditional fuel car or new energy electric car, in the after-market owners regularly or irregularly consume the following: car insurance, interior accessories, exterior parts, maintenance, washing, repair, refueling and charging, modification, etc. Some consumption is the owner's active demand, some are passive. The frequency of consumption in the unit year also varies. The main focus is on three consumptions:": {
+    "zh": "无论传统燃油车还是新能源电动车，在后市场中车主都会规律或不规律地产生如下消费：车险、内饰配件、外观件、保养、洗车、维修、加油与充电、改装等。部分消费由车主主动发起，部分则属被动需求；单位年内的消费频次亦各不相同。本方案重点关注三类消费：",
+    "ja": "従来のガソリン車であれ新エネルギー電動車であれ、アフターマーケットではオーナーが定期・不定期に次のような消費を行います。自動車保険、内装アクセサリー、外装部品、メンテナンス、洗車、修理、給油・充電、カスタムなど。需要にはオーナー起点のものと受動的なものがあり、年間の頻度も異なります。本提案が焦点を当てるのは、次の三つの消費です。"
+  },
+  "1. Decoration": {
+    "zh": "1. 装饰改装",
+    "ja": "1. 装飾・カスタム"
+  },
+  "2. Clean": {
+    "zh": "2. 清洁洗护",
+    "ja": "2. クリーニング"
+  },
+  "3. Maintenance": {
+    "zh": "3. 维保养护",
+    "ja": "3. メンテナンス"
+  },
+  "Car Owner-user Consumption Path ↑": {
+    "zh": "车主用户消费路径 ↑",
+    "ja": "車オーナーの消費パス ↑"
+  },
+  "From Needs Generating to Item and Service Consumption": {
+    "zh": "从需求产生到商品与服务消费",
+    "ja": "ニーズ発生から商品・サービス消費へ"
+  },
+  "The path of consumption, the type of goods and services provider, and the pros and cons of the existing paths are completely different for car owners under the three needs. In short, the demand for interior and exterior decoration is initiated by the owners, mainly purchased online and installed offline. The demand for cleaning is initiated by the owners, either by going to a store or by their own. The demand for maintenance is initiated by the vehicle, by going to an official service center, a third-party vendor, or maintaining and repairing by the owners.": {
+    "zh": "在三类需求下，车主的消费路径、商品与服务提供方类型，以及既有路径的利弊均截然不同。简言之：内外装饰需求由车主发起，多为线上购买、线下安装；清洁需求由车主发起，可到店或自行完成；维保需求由车辆侧发起，可前往官方服务中心、第三方门店，或由车主自行维护维修。",
+    "ja": "三つのニーズのもとで、消費パス、商品・サービス提供者の類型、既存パスの得失はまったく異なります。要するに、内外装の装飾需要はオーナー起点で、主にオンライン購入・オフライン施工。クリーニング需要もオーナー起点で、店舗利用または自力。メンテナンス需要は車両起点で、正規サービスセンター、第三者事業者、またはオーナー自身による整備・修理へとつながります。"
+  },
+  "Decoration: Self-initiated demand → item → service": {
+    "zh": "装饰：主动需求 → 商品 → 服务",
+    "ja": "装飾：自己起点ニーズ → 商品 → サービス"
+  },
+  "Clean: Self-initiated demand → item + service": {
+    "zh": "清洁：主动需求 → 商品 + 服务",
+    "ja": "クリーニング：自己起点ニーズ → 商品 + サービス"
+  },
+  "Maintenance: Vehicle-initiated demand → service → item": {
+    "zh": "维保：车辆发起需求 → 服务 → 商品",
+    "ja": "メンテナンス：車両起点ニーズ → サービス → 商品"
+  },
+  "Product Feature Flow & Design Keys ↑": {
+    "zh": "产品功能流与设计要点 ↑",
+    "ja": "プロダクト機能フローとデザイン要点 ↑"
+  },
+  "One Product for Three Consumption Scenes": {
+    "zh": "一款产品覆盖三类消费场景",
+    "ja": "一つのプロダクトで三つの消費シーンをカバー"
+  },
+  "Feature 1": {
+    "zh": "要点一",
+    "ja": "ポイント1"
+  },
+  "Vehicle dynamic status is automatically linked to corresponding consumption contents in order to guide users' next purchasing or service-seeking actions. The main information structure of this product is divided into owning-vehicle dashboard as coordinate and consumption canvas covering decoration, clean and maintenance.": {
+    "zh": "车辆动态状态自动关联相应消费内容，以引导用户下一步购买或寻服行为。产品主信息结构以“所拥有车辆仪表盘”为坐标，并以覆盖装饰、清洁与维保的消费画布展开。",
+    "ja": "車両の動的ステータスを対応する消費コンテンツへ自動連動させ、次の購買やサービス利用を導きます。本プロダクトの主情報構造は、保有車両ダッシュボードを座標とし、装飾・クリーニング・メンテナンスを覆う消費キャンバスで構成されます。"
+  },
+  "Feature 2": {
+    "zh": "要点二",
+    "ja": "ポイント2"
+  },
+  "The order of content and tabs is arranged by demand type, frequency and consumption path. The three main consumption tabs are decoration, clean, and maintenance in descending order of frequency.": {
+    "zh": "内容与页签顺序按需求类型、频次与消费路径编排。三个主消费页签按频次由高到低为：装饰、清洁、维保。",
+    "ja": "コンテンツとタブの順序は、需要タイプ、頻度、消費パスに沿って配置します。三つの主要消費タブは頻度の高い順に、装飾、クリーニング、メンテナンスです。"
+  },
+  "For example, Under decoration, goods information is first. Under clean, car wash goods information is first, followed by service store information, and under maintenance, service store information is first, followed by goods information.": {
+    "zh": "例如：装饰场景下商品信息优先；清洁场景下洗车商品信息优先，其次为服务门店信息；维保场景下服务门店信息优先，其次为商品信息。",
+    "ja": "例：装飾では商品情報を優先。クリーニングでは洗車商品情報を優先し、次いでサービス店舗情報。メンテナンスではサービス店舗情報を優先し、次いで商品情報とします。"
+  },
+  "Feature 3": {
+    "zh": "要点三",
+    "ja": "ポイント3"
+  },
+  "Dynamic adjustment of information layout based on algorithms, car owners' consumption habits.": {
+    "zh": "基于算法与车主消费习惯，动态调整信息布局。",
+    "ja": "アルゴリズムとオーナーの消費習慣に基づき、情報レイアウトを動的に調整します。"
+  },
+  "Feature 4": {
+    "zh": "要点四",
+    "ja": "ポイント4"
+  },
+  "By means of multimedia contents guide such as short videos, peer group recommendations to meet users-initiated demands like decoration and clean. By means of vehicle data synchronization, specific content corresponding to specific brand vehicle to meet vehicle-initiated demands like maintenance.": {
+    "zh": "以短视频、同圈层推荐等多媒体内容引导，满足装饰、清洁等用户主动需求；以车辆数据同步，按品牌车型匹配专属内容，满足维保等车辆发起需求。",
+    "ja": "ショート動画や同世代推奨などのマルチメディア導線で、装飾・クリーニングなどユーザー起点の需要に応えます。車両データ同期によりブランド・車種ごとの専用コンテンツを届け、メンテナンスなど車両起点の需要に応えます。"
+  },
+  "Product Information Architecture ↑": {
+    "zh": "产品信息架构 ↑",
+    "ja": "プロダクト情報アーキテクチャ ↑"
+  },
+  "Vehicle-oriented Navigation": {
+    "zh": "以车辆为中心的导航",
+    "ja": "車両起点のナビゲーション"
+  },
+  "The first-level bottom navigation bar is divided into discover, category, and shopping cart. The global top bar contains search and profile. In the main discover page, vehicle-driven navigation is used to display the vehicle's dashboard, call-to-action & service procedure assistance, and goods and service recommendations in three cases: decoration, clean, and maintenance, without page jumping.": {
+    "zh": "一级底部导航分为发现、分类与购物车；全局顶栏含搜索与个人中心。在主发现页中，以车辆驱动导航，在装饰、清洁、维保三类场景下展示车辆仪表盘、行动号召与服务流程辅助，以及商品与服务推荐，无需跳页。",
+    "ja": "一級の下部ナビは発見・カテゴリー・カートに分かれ、グローバル上部には検索とプロフィールがあります。メインの発見ページでは車両駆動ナビにより、装飾・クリーニング・メンテナンスの三場面で、車両ダッシュボード、CTAとサービス手順支援、商品・サービス推奨をページ遷移なく表示します。"
+  },
+  "HVP Interface & System Map ↑": {
+    "zh": "人—车—服务界面与系统地图 ↑",
+    "ja": "HVPインターフェースとシステムマップ ↑"
+  },
+  "Vehicle to Service to Driver": {
+    "zh": "从车辆到服务再到驾驶者",
+    "ja": "車両からサービス、そしてドライバーへ"
+  },
+  "The vehicle will synchronize the information to the vehicle system interface and the App terminal, the users choose the service or goods consumption according to the vehicle status and the corresponding assistant suggestion. Whether by themselves or service personnel driving vehicles to the service center, vehicle maintenance, washing and care, accessories installation and other service status information will be synchronized to the owner's terminal and the vehicle system.": {
+    "zh": "车辆将信息同步至车机界面与 App 终端；用户依据车辆状态与助手建议选择服务或商品消费。无论车主自驾或由服务人员驾车前往服务中心，维保、洗护、配件安装等服务状态信息均同步至车主终端与车机系统。",
+    "ja": "車両は情報を車載システムUIとアプリ端末へ同期し、ユーザーは車両状態とアシスタント提案に応じてサービスまたは商品消費を選びます。オーナー自身の運転であれ、サービス担当による回送であれ、整備、洗車・ケア、アクセサリー装着などのサービス状態はオーナー端末と車載システムへ同期されます。"
+  },
+  "Vehicle-oriented UI Cards Kit ↑": {
+    "zh": "车辆导向 UI 卡片组件 ↑",
+    "ja": "車両起点 UI カードキット ↑"
+  },
+  "Clear, Unified and Content-Highlighted UI": {
+    "zh": "清晰、统一且内容突出的界面",
+    "ja": "明快で統一され、コンテンツを際立たせるUI"
+  },
+  "The UI module is divided into vehicle models, dashboards, assistants, items recommendations, service recommendations, etc. Through the visual design of information such as grid, font size, color and other elements, UI keeps unity and clear affordance.": {
+    "zh": "UI 模块划分为车辆模型、仪表盘、助手、商品推荐、服务推荐等。通过栅格、字号、色彩等视觉信息设计，界面保持统一并具备清晰的示能性。",
+    "ja": "UIモジュールは車両モデル、ダッシュボード、アシスタント、商品推奨、サービス推奨などに分かれます。グリッド、文字サイズ、色などの視覚設計により、統一感と明快なアフォーダンスを保ちます。"
+  },
+  "Vehicle model: 3D visualization of vehicle status information.": {
+    "zh": "车辆模型：车辆状态信息的三维可视化。",
+    "ja": "車両モデル：車両状態情報の3D可視化。"
+  },
+  "Dashboards: The respective record data of decoration, clean and maintenance.": {
+    "zh": "仪表盘：装饰、清洁与维保各自的记录数据。",
+    "ja": "ダッシュボード：装飾・クリーニング・メンテナンスそれぞれの記録データ。"
+  },
+  "Assistant: Synchronization of vehicle status, action suggestion, service status.": {
+    "zh": "助手：车辆状态同步、行动建议与服务状态。",
+    "ja": "アシスタント：車両状態同期、行動提案、サービス状態。"
+  },
+  "Items: Repurchase, peer group recommendations.": {
+    "zh": "商品：复购与同圈层推荐。",
+    "ja": "商品：再購入、同世代推奨。"
+  },
+  "Service: Provider Infomation.": {
+    "zh": "服务：服务商信息。",
+    "ja": "サービス：提供者情報。"
+  },
+  "Service Procedure Assistant Card ↑": {
+    "zh": "服务流程助手卡片 ↑",
+    "ja": "サービス手順アシスタントカード ↑"
+  },
+  "Full State Service Notification": {
+    "zh": "全状态服务通知",
+    "ja": "全状態サービス通知"
+  },
+  "Taking maintenance as an example, the assistant is divided into 3 stages:": {
+    "zh": "以维保为例，助手分为三个阶段：",
+    "ja": "メンテナンスを例に、アシスタントは三段階に分かれます。"
+  },
+  "State 1": {
+    "zh": "状态一",
+    "ja": "状態1"
+  },
+  "Car condition information synchronization, demand initiation, action guidance (contacting maintenance personnel, store inquiries and appointments).": {
+    "zh": "车况信息同步、需求发起与行动引导（联系维保人员、门店查询与预约）。",
+    "ja": "車況情報の同期、需要の起動、行動ガイド（整備担当への連絡、店舗照会と予約）。"
+  },
+  "State 2": {
+    "zh": "状态二",
+    "ja": "状態2"
+  },
+  "Service information synchronization, material list synchronization and remote ordering.": {
+    "zh": "服务信息同步、物料清单同步与远程下单。",
+    "ja": "サービス情報の同期、部品リスト同期とリモート発注。"
+  },
+  "State 3": {
+    "zh": "状态三",
+    "ja": "状態3"
+  },
+  "Service completion notification, action guidance.": {
+    "zh": "服务完成通知与行动引导。",
+    "ja": "サービス完了通知と行動ガイド。"
+  }
+}

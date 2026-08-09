@@ -3,13 +3,13 @@
   "meta": {
     "displayTitle": {
       "en": "Shanghai DS®CAFE Brand Design",
-      "zh": "Shanghai DS®CAFE Brand Design",
-      "ja": "Shanghai DS®CAFE Brand Design"
+      "zh": "上海大生咖啡品牌设计",
+      "ja": "上海大生カフェ・ブランドデザイン"
     },
     "summary": {
       "en": "Dasheng® Coffee is located in Dasheng Hutong on Huashan Road in Shanghai, taking the name \"Dasheng\" to mean the coffee born in Dasheng Hutong. Dasheng Hutong is one of the few lanes in Shanghai called \"Hutong\", originally established by the Belgian Catholic Church as a property of the Universalist Community in Shanghai, and built between 1912 and 1936 by Father Drummond. The property was named after the \"hutong\" commonly used in the north because the priest was from Beijing.",
-      "zh": "Dasheng® Coffee is located in Dasheng Hutong on Huashan Road in Shanghai, taking the name \"Dasheng\" to mean the coffee born in Dasheng Hutong. Dasheng Hutong is one of the few lanes in Shanghai called \"Hutong\", originally established by the Belgian Catholic Church as a property of the Universalist Community in Shanghai, and built between 1912 and 1936 by Father Drummond. The property was named after the \"hutong\" commonly used in the north because the priest was from Beijing.",
-      "ja": "Dasheng® Coffee is located in Dasheng Hutong on Huashan Road in Shanghai, taking the name \"Dasheng\" to mean the coffee born in Dasheng Hutong. Dasheng Hutong is one of the few lanes in Shanghai called \"Hutong\", originally established by the Belgian Catholic Church as a property of the Universalist Community in Shanghai, and built between 1912 and 1936 by Father Drummond. The property was named after the \"hutong\" commonly used in the north because the priest was from Beijing."
+      "zh": "大生®咖啡位于上海华山路大生胡同，取“大生”之名，意为诞生于大生胡同的咖啡。大生胡同是上海少数以“胡同”为名的里弄之一，最初由比利时天主教会作为上海普世教会房产设立，并于 1912 至 1936 年间由 Drummond 神父主持建造。因神父来自北京，遂以北方常用的“胡同”为名。",
+      "ja": "大生®コーヒーは上海・華山路の大生胡同に位置し、「大生」の名は大生胡同に生まれたコーヒーを意味します。大生胡同は上海でも数少ない「胡同」と称される路地のひとつで、当初はベルギー・カトリック教会が上海のユニバーサリスト共同体の不動産として設け、1912年から1936年にかけてドラモンド神父のもとで建設されました。神父が北京出身であったことから、北方で一般的な「胡同」の呼称が用いられました。"
     },
     "period": {
       "en": "2022",
@@ -18,13 +18,13 @@
     },
     "category": {
       "en": "Brand Design",
-      "zh": "Brand Design",
-      "ja": "Brand Design"
+      "zh": "品牌设计",
+      "ja": "ブランドデザイン"
     },
     "designLead": {
       "en": "Keke LE",
-      "zh": "Keke LE",
-      "ja": "Keke LE"
+      "zh": "乐可柯",
+      "ja": "樂可柯"
     },
     "team": {
       "en": "",
@@ -38,135 +38,391 @@
     },
     "disclaimer": {
       "en": "DS®CAFE © All rights reserved.",
-      "zh": "DS®CAFE © All rights reserved.",
+      "zh": "DS®CAFE © 版权所有。",
       "ja": "DS®CAFE © All rights reserved."
     }
   },
-  "sections": [
-    {
-      "bg": "detail_bg_light",
-      "blocks": [
-        {
-          "type": "detail_cover",
-          "kind": "video",
-          "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/dscafe/dscafe.mp4",
-          "alt": ""
-        },
-        {
-          "type": "detail_line_image",
-          "spacing": [],
-          "kind": "image",
-          "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/dscafe/p1.png",
-          "layout": "content"
-        },
-        {
-          "type": "detail_line_image",
-          "spacing": [],
-          "kind": "image",
-          "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/dscafe/p2.png",
-          "layout": "content"
-        },
-        {
-          "type": "detail_line",
-          "spacing": [],
-          "aside": {
-            "role": "line_img_annotation",
-            "text": "The pattern of bricks on the facade of Dasheng Hutong ↑"
+  "sections": {
+    "en": [
+      {
+        "bg": "detail_bg_light",
+        "blocks": [
+          {
+            "type": "detail_cover",
+            "kind": "video",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/dscafe/dscafe.mp4",
+            "alt": ""
           },
-          "text": {
-            "paragraphs": [
-              {
-                "body": "The layout of the nearly 100 French-style houses in rows, the beige brushed cement on the facade, and the red raw bricks laid on the corners and eaves, it is clear that this \"hutong\" still has Art Deco soul inside. So the inheritance and interpretation of its architectural symbols are used in the brand design to reflect the continuation of the century-old lane culture.",
-                "muted": false
-              }
-            ]
+          {
+            "type": "detail_line_image",
+            "spacing": [],
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/dscafe/p1.png",
+            "layout": "content"
+          },
+          {
+            "type": "detail_line_image",
+            "spacing": [],
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/dscafe/p2.png",
+            "layout": "content"
+          },
+          {
+            "type": "detail_line",
+            "spacing": [],
+            "aside": {
+              "role": "line_img_annotation",
+              "text": "The pattern of bricks on the facade of Dasheng Hutong ↑"
+            },
+            "text": {
+              "paragraphs": [
+                {
+                  "body": "The layout of the nearly 100 French-style houses in rows, the beige brushed cement on the facade, and the red raw bricks laid on the corners and eaves, it is clear that this \"hutong\" still has Art Deco soul inside. So the inheritance and interpretation of its architectural symbols are used in the brand design to reflect the continuation of the century-old lane culture.",
+                  "muted": false
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line_image",
+            "spacing": [],
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/dscafe/p3.png",
+            "layout": "content"
+          },
+          {
+            "type": "detail_line_image",
+            "spacing": [],
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/dscafe/p4.png",
+            "layout": "content"
+          },
+          {
+            "type": "detail_line_image",
+            "spacing": [],
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/dscafe/p5.png",
+            "layout": "content"
+          },
+          {
+            "type": "detail_line_image",
+            "spacing": [],
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/dscafe/p6.png",
+            "layout": "content"
+          },
+          {
+            "type": "detail_line_image",
+            "spacing": [],
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/dscafe/p6-1.png",
+            "layout": "content"
+          },
+          {
+            "type": "detail_line_image",
+            "spacing": [],
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/dscafe/p7-1.png",
+            "layout": "content"
+          },
+          {
+            "type": "detail_line_image",
+            "spacing": [],
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/dscafe/p9-1.png",
+            "layout": "content"
+          },
+          {
+            "type": "detail_line_image",
+            "spacing": [],
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/dscafe/p10.jpg",
+            "layout": "content"
+          },
+          {
+            "type": "detail_line_image",
+            "spacing": [],
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/dscafe/p11.jpg",
+            "layout": "content"
+          },
+          {
+            "type": "detail_line_image",
+            "spacing": [],
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/dscafe/p12.jpg",
+            "layout": "content"
+          },
+          {
+            "type": "detail_line_image",
+            "spacing": [],
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/dscafe/p13.jpg",
+            "layout": "content"
+          },
+          {
+            "type": "detail_line_image",
+            "spacing": [],
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/dscafe/p14.jpg",
+            "layout": "content"
           }
-        },
-        {
-          "type": "detail_line_image",
-          "spacing": [],
-          "kind": "image",
-          "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/dscafe/p3.png",
-          "layout": "content"
-        },
-        {
-          "type": "detail_line_image",
-          "spacing": [],
-          "kind": "image",
-          "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/dscafe/p4.png",
-          "layout": "content"
-        },
-        {
-          "type": "detail_line_image",
-          "spacing": [],
-          "kind": "image",
-          "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/dscafe/p5.png",
-          "layout": "content"
-        },
-        {
-          "type": "detail_line_image",
-          "spacing": [],
-          "kind": "image",
-          "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/dscafe/p6.png",
-          "layout": "content"
-        },
-        {
-          "type": "detail_line_image",
-          "spacing": [],
-          "kind": "image",
-          "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/dscafe/p6-1.png",
-          "layout": "content"
-        },
-        {
-          "type": "detail_line_image",
-          "spacing": [],
-          "kind": "image",
-          "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/dscafe/p7-1.png",
-          "layout": "content"
-        },
-        {
-          "type": "detail_line_image",
-          "spacing": [],
-          "kind": "image",
-          "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/dscafe/p9-1.png",
-          "layout": "content"
-        },
-        {
-          "type": "detail_line_image",
-          "spacing": [],
-          "kind": "image",
-          "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/dscafe/p10.jpg",
-          "layout": "content"
-        },
-        {
-          "type": "detail_line_image",
-          "spacing": [],
-          "kind": "image",
-          "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/dscafe/p11.jpg",
-          "layout": "content"
-        },
-        {
-          "type": "detail_line_image",
-          "spacing": [],
-          "kind": "image",
-          "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/dscafe/p12.jpg",
-          "layout": "content"
-        },
-        {
-          "type": "detail_line_image",
-          "spacing": [],
-          "kind": "image",
-          "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/dscafe/p13.jpg",
-          "layout": "content"
-        },
-        {
-          "type": "detail_line_image",
-          "spacing": [],
-          "kind": "image",
-          "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/dscafe/p14.jpg",
-          "layout": "content"
-        }
-      ]
-    }
-  ]
+        ]
+      }
+    ],
+    "zh": [
+      {
+        "bg": "detail_bg_light",
+        "blocks": [
+          {
+            "type": "detail_cover",
+            "kind": "video",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/dscafe/dscafe.mp4",
+            "alt": ""
+          },
+          {
+            "type": "detail_line_image",
+            "spacing": [],
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/dscafe/p1.png",
+            "layout": "content"
+          },
+          {
+            "type": "detail_line_image",
+            "spacing": [],
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/dscafe/p2.png",
+            "layout": "content"
+          },
+          {
+            "type": "detail_line",
+            "spacing": [],
+            "aside": {
+              "role": "line_img_annotation",
+              "text": "大生胡同立面砖砌纹样 ↑"
+            },
+            "text": {
+              "paragraphs": [
+                {
+                  "body": "近百栋法式排屋的布局、立面米色拉毛水泥，以及转角与檐口铺设的红色清水砖，清晰可见这条“胡同”内里仍保有装饰艺术（Art Deco）的灵魂。因此，品牌设计承袭并转译其建筑符号，以体现百年里弄文化的延续。",
+                  "muted": false
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line_image",
+            "spacing": [],
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/dscafe/p3.png",
+            "layout": "content"
+          },
+          {
+            "type": "detail_line_image",
+            "spacing": [],
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/dscafe/p4.png",
+            "layout": "content"
+          },
+          {
+            "type": "detail_line_image",
+            "spacing": [],
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/dscafe/p5.png",
+            "layout": "content"
+          },
+          {
+            "type": "detail_line_image",
+            "spacing": [],
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/dscafe/p6.png",
+            "layout": "content"
+          },
+          {
+            "type": "detail_line_image",
+            "spacing": [],
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/dscafe/p6-1.png",
+            "layout": "content"
+          },
+          {
+            "type": "detail_line_image",
+            "spacing": [],
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/dscafe/p7-1.png",
+            "layout": "content"
+          },
+          {
+            "type": "detail_line_image",
+            "spacing": [],
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/dscafe/p9-1.png",
+            "layout": "content"
+          },
+          {
+            "type": "detail_line_image",
+            "spacing": [],
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/dscafe/p10.jpg",
+            "layout": "content"
+          },
+          {
+            "type": "detail_line_image",
+            "spacing": [],
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/dscafe/p11.jpg",
+            "layout": "content"
+          },
+          {
+            "type": "detail_line_image",
+            "spacing": [],
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/dscafe/p12.jpg",
+            "layout": "content"
+          },
+          {
+            "type": "detail_line_image",
+            "spacing": [],
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/dscafe/p13.jpg",
+            "layout": "content"
+          },
+          {
+            "type": "detail_line_image",
+            "spacing": [],
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/dscafe/p14.jpg",
+            "layout": "content"
+          }
+        ]
+      }
+    ],
+    "ja": [
+      {
+        "bg": "detail_bg_light",
+        "blocks": [
+          {
+            "type": "detail_cover",
+            "kind": "video",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/dscafe/dscafe.mp4",
+            "alt": ""
+          },
+          {
+            "type": "detail_line_image",
+            "spacing": [],
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/dscafe/p1.png",
+            "layout": "content"
+          },
+          {
+            "type": "detail_line_image",
+            "spacing": [],
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/dscafe/p2.png",
+            "layout": "content"
+          },
+          {
+            "type": "detail_line",
+            "spacing": [],
+            "aside": {
+              "role": "line_img_annotation",
+              "text": "大生胡同ファサードのレンガ模様 ↑"
+            },
+            "text": {
+              "paragraphs": [
+                {
+                  "body": "約100棟のフランス様式の連棟住宅の配置、ファサードのベージュ刷毛引きセメント、角部と軒に敷かれた赤い素焼きレンガ——この「胡同」が内側にアール・デコの精神を今なお宿していることは明らかです。それゆえ、ブランドデザインではその建築的記号を継承・解釈し、百年に及ぶ里弄文化の連続を映し出しています。",
+                  "muted": false
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line_image",
+            "spacing": [],
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/dscafe/p3.png",
+            "layout": "content"
+          },
+          {
+            "type": "detail_line_image",
+            "spacing": [],
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/dscafe/p4.png",
+            "layout": "content"
+          },
+          {
+            "type": "detail_line_image",
+            "spacing": [],
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/dscafe/p5.png",
+            "layout": "content"
+          },
+          {
+            "type": "detail_line_image",
+            "spacing": [],
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/dscafe/p6.png",
+            "layout": "content"
+          },
+          {
+            "type": "detail_line_image",
+            "spacing": [],
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/dscafe/p6-1.png",
+            "layout": "content"
+          },
+          {
+            "type": "detail_line_image",
+            "spacing": [],
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/dscafe/p7-1.png",
+            "layout": "content"
+          },
+          {
+            "type": "detail_line_image",
+            "spacing": [],
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/dscafe/p9-1.png",
+            "layout": "content"
+          },
+          {
+            "type": "detail_line_image",
+            "spacing": [],
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/dscafe/p10.jpg",
+            "layout": "content"
+          },
+          {
+            "type": "detail_line_image",
+            "spacing": [],
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/dscafe/p11.jpg",
+            "layout": "content"
+          },
+          {
+            "type": "detail_line_image",
+            "spacing": [],
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/dscafe/p12.jpg",
+            "layout": "content"
+          },
+          {
+            "type": "detail_line_image",
+            "spacing": [],
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/dscafe/p13.jpg",
+            "layout": "content"
+          },
+          {
+            "type": "detail_line_image",
+            "spacing": [],
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/dscafe/p14.jpg",
+            "layout": "content"
+          }
+        ]
+      }
+    ]
+  }
 }

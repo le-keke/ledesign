@@ -1,0 +1,876 @@
+{
+  "slug": "aipl",
+  "meta": {
+    "displayTitle": {
+      "en": "The Design Method of Brand's Customer Growth Product Based on AIPL Theory",
+      "zh": "基于 AIPL 理论的品牌客户增长产品设计方法",
+      "ja": "AIPL理論に基づくブランド顧客成長製品のデザイン方法"
+    },
+    "summary": {
+      "en": "",
+      "zh": "",
+      "ja": ""
+    },
+    "keywords": {
+      "en": "AIPL Theory, Growth Product Design Methodology",
+      "zh": "AIPL 理论、增长产品设计方法论",
+      "ja": "AIPL理論、成長製品デザイン方法論"
+    },
+    "period": {
+      "en": "2018.1",
+      "zh": "2018.1",
+      "ja": "2018.1"
+    },
+    "category": {
+      "en": "Article",
+      "zh": "文章",
+      "ja": "記事"
+    },
+    "roles": [
+      {
+        "label": {
+          "en": "Writer",
+          "zh": "作者",
+          "ja": "執筆者"
+        },
+        "value": {
+          "en": "Keke LE",
+          "zh": "乐可柯",
+          "ja": "樂可柯"
+        }
+      }
+    ],
+    "disclaimer": {
+      "en": "Keke LE Design © All rights reserved.",
+      "zh": "乐可柯 Design © 版权所有。",
+      "ja": "樂可柯 Design © All rights reserved."
+    }
+  },
+  "sections": {
+    "en": [
+      {
+        "bg": "detail_bg_light",
+        "blocks": [
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_research_img",
+              "media": {
+                "kind": "image",
+                "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/aipl/aipl.png"
+              }
+            },
+            "text": {
+              "h5": "AIPL",
+              "paragraphs": [
+                {
+                  "body": "Brands use the traffic channels and digital marketing products provided by the E-commerce platform to reach and acquire target customer segments and conduct continuous customer relationship management. Based on the customer behavioral definition of e-commerce platforms, the brand's customer groups structure can be further split into four layers of AIPL customer attributes by stage:",
+                  "muted": false
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "A-Awareness, Silent Customer Group:",
+                    "Brand store follower, low-frequency browsing, no purchase."
+                  ]
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "I-Interest, Potential Customer Group:",
+                    "Brand store follower, high-frequency browsing, no purchase."
+                  ]
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "P-Purchase, Active Customer Group:",
+                    "Brand store follower, high-frequency browsing, low-frequency purchasing."
+                  ]
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "L-Loyalty, Loyalty Customer Group:",
+                    "Brand store follower, high-frequency browsing, high-frequency purchase."
+                  ]
+                },
+                {
+                  "body": "Customer acquisition of level n = base increment of level n + stock conversion from level n-1.",
+                  "muted": false
+                },
+                {
+                  "body": "If participating in large promotions a few times a year is a means for brands to focus on acquiring and growing an active customer group (e.g. 618, Double 11, etc.), then daily marketing tools can help brands to reach, promote and convert the silent group gained by participating in marketing activities, and continuously optimize the customer group structure in the long tail phase.",
+                  "muted": false
+                },
+                {
+                  "body": "*Daily marketing tools include check-in, sharing task, reservation, etc.",
+                  "muted": true
+                },
+                {
+                  "body": "Through the data, we can find that different brands in different categories present a completely different four-tier customer group structure. Generally speaking, silent customers are the majority, consumer electronics brands are linearly narrowing layer by layer, cell phone brands have a higher proportion of potential and active middle-waist customers, and FMCG food brands have a larger proportion of loyal customers. From another point of view, it shows that different brands have different needs for converting customer segments, then they need to design and use targeted daily marketing tools and refine their operations.",
+                  "muted": false
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_research_img",
+              "media": {
+                "kind": "image",
+                "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/aipl/tools.png"
+              }
+            },
+            "text": {
+              "h5": "Design Methods for Daily Marketing Products",
+              "paragraphs": [
+                {
+                  "body": "The underlying logic of the business of daily marketing products is that tiered benefits are exchanged for incremental growth and conversion of brands' tiered customers. Specific marketing tools contain specific types of rights and benefits, and convert specific tiered customer groups.",
+                  "muted": false
+                },
+                {
+                  "body": "0→A: from not following the brand store to following the brand store. Corresponding to weak brand-related generic benefits (cash / coupons).",
+                  "muted": false
+                },
+                {
+                  "body": "A→I: from no browsing to low frequency browsing. Corresponding to highly interactive, strongly brand-related content or benefits.",
+                  "muted": false
+                },
+                {
+                  "body": "I→P: from no purchase to purchase. Corresponding to strongly branded product-related benefits, promotional benefits.",
+                  "muted": false
+                },
+                {
+                  "body": "P→L: from low-frequency purchase to high-frequency purchase. Corresponding to brand scarcity benefits.",
+                  "muted": false
+                },
+                {
+                  "body": "The types of benefits included in the 12 marketing products were reordered and positioned according to the above rules to help design further clarity of execution focus.",
+                  "muted": true
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "• Big Lottery Share: Service or Event Eligibility, Product Purchase Rights",
+                    "• Brand Topic: Products Purchase Rights",
+                    "• Sample Distribution: New Products, Samples",
+                    "• Service Reservation: Service or Event Eligibility",
+                    "• Legendary Goodies: Top Goods, New Products, Limited Goods",
+                    "• Brand Class: Cash Bonus, Coupons, Physical Prizes, Brand Honor",
+                    "• Q&A Contest: Large Cash Bonuses",
+                    "• Voice Challenge: Cash Bonus, Coupons, Physical Prizes",
+                    "• Invitation: Cash Bonus, Coupons, Physical Prizes",
+                    "• Gift for Task: Cash Bonus, Coupons",
+                    "• Gift for Store Following: Cash Bonus, Coupons",
+                    "• Check-in: Cash Bonus, Coupons"
+                  ]
+                },
+                {
+                  "body": "\"Figure out what characteristics the customer group targeted for conversion is and what they will be attracted to\" and \"how to accurately express the type of benefits through reasonable interaction and appropriate visual presentation\". The benefit type corresponds to the conversion point determines the design strategy of the marketing product:",
+                  "muted": false
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "1）Define the function of the tool",
+                    "2）Qualify the business objectives",
+                    "3）Qualify the type of benefits",
+                    "4）Target the conversion layer of the customer group",
+                    "5）Describe the customer group characteristics",
+                    "6）Set experience goals",
+                    "7）Draw design strategy",
+                    "8）Refine key-point",
+                    "9）Measuring product data and customer conversion data"
+                  ]
+                },
+                {
+                  "body": "Take the service reservation marketing tool as an example:",
+                  "muted": true
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "1）Define the function of the tool:",
+                    "Users book online to checkout and experience brand service activities offline."
+                  ]
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "2）Qualify the business objectives:",
+                    "Service reservation tools empower brands to provide consumers with brand benefits such as activities or services, so that consumers can recognize and consume the brand from the dimension of goods or service experience and form a conversion."
+                  ]
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "3）Qualify the type of benefits:",
+                    "Service or event eligibility."
+                  ]
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "4）Target the conversion layer of the customer group:",
+                    "I→P, from no purchase to purchase."
+                  ]
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "5）Describe the customer group characteristics:",
+                    "Customers are interested in the brand's products, but make purchase decisions through offline service experience before triggering purchase. Example: offline makeup trial for beauty brands, offline test drive for car brands, etc."
+                  ]
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "6）Set experience goals:",
+                    "Customers can quickly and intuitively understand the content of brand services.",
+                    "Customers can efficiently and conveniently complete all the operational processes of filling out, viewing and checking off appointment forms."
+                  ]
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "7）Draw design strategy:",
+                    "Divided into two parts: service content expression and reservation form module.",
+                    "Customers have to be interested in the services provided by the brand before they are allowed to make appointments, so the design strategy gives priority to expressing the service content.",
+                    "Prioritizing the expression of service content information by means of rich media, structured information, product atmosphere, etc. Enhancing the information perception while reducing reading costs. Enhancing the efficiency of the completed form by means of standardized controls, consistent interaction behavior design, etc."
+                  ]
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "8）Refine key-point:",
+                    "* Enhanced representation of header video and picture information",
+                    "* Structured expression of basic information of service content",
+                    "* Atmospheric expression of the overall product marketing state (image color recognition for background atmosphere)",
+                    "* Standardized and modularized design of multi-task selection input control (service location and time selection, reservation person information input, etc.)",
+                    "* Structured expression of information for reservation orders."
+                  ]
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "9）Measuring product data and customer conversion data:",
+                    "* UV CTR",
+                    "* Duration of page-stay",
+                    "* Order generation rate",
+                    "* Offline checkout rate",
+                    "* I→P conversion rate",
+                    "* Go-to-store rate and ordering rate within N days after checkout",
+                    "* Other tiers of additions and conversions"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "zh": [
+      {
+        "bg": "detail_bg_light",
+        "blocks": [
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_research_img",
+              "media": {
+                "kind": "image",
+                "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/aipl/aipl.png"
+              }
+            },
+            "text": {
+              "h5": "AIPL",
+              "paragraphs": [
+                {
+                  "body": "品牌借助电商平台提供的流量渠道与数字营销产品触达并获取目标客群，并持续进行客户关系管理。基于电商平台的客户行为定义，品牌客群结构可进一步按阶段拆分为四层 AIPL 客户属性：",
+                  "muted": false
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "A—认知，沉默客群：",
+                    "品牌店铺关注者，低频浏览，无购买。"
+                  ]
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "I—兴趣，潜在客群：",
+                    "品牌店铺关注者，高频浏览，无购买。"
+                  ]
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "P—购买，活跃客群：",
+                    "品牌店铺关注者，高频浏览，低频购买。"
+                  ]
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "L—忠诚，忠诚客群：",
+                    "品牌店铺关注者，高频浏览，高频购买。"
+                  ]
+                },
+                {
+                  "body": "第 n 层客户获取 = 第 n 层基础增量 + 来自第 n-1 层的存量转化。",
+                  "muted": false
+                },
+                {
+                  "body": "若一年数次参与大促是品牌集中获取并壮大活跃客群的手段（如 618、双 11 等），那么日常营销工具则可帮助品牌触达、促活并转化大促所获得的沉默群体，并在长尾阶段持续优化客群结构。",
+                  "muted": false
+                },
+                {
+                  "body": "*日常营销工具包括签到、分享任务、预约等。",
+                  "muted": true
+                },
+                {
+                  "body": "通过数据可以发现：不同品类中的不同品牌，呈现出截然不同的四层客群结构。总体而言，沉默客户占多数；消费电子品牌呈层层线性收窄；手机品牌的潜在与活跃“中腰”客群占比更高；快消食品品牌则拥有更大比例的忠诚客户。从另一角度看，这也表明不同品牌在客群转化上的需求不同，因而需要有针对性地设计并使用日常营销工具，精细化运营。",
+                  "muted": false
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_research_img",
+              "media": {
+                "kind": "image",
+                "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/aipl/tools.png"
+              }
+            },
+            "text": {
+              "h5": "日常营销产品设计方法",
+              "paragraphs": [
+                {
+                  "body": "日常营销产品业务的底层逻辑是：分层权益换取品牌分层客户的增量增长与转化。具体营销工具包含特定类型的权益，并转化特定分层客群。",
+                  "muted": false
+                },
+                {
+                  "body": "0→A：从未关注品牌店铺到关注品牌店铺。对应弱品牌相关的通用权益（现金／优惠券）。",
+                  "muted": false
+                },
+                {
+                  "body": "A→I：从无浏览到低频浏览。对应高互动、强品牌相关的内容或权益。",
+                  "muted": false
+                },
+                {
+                  "body": "I→P：从无购买到购买。对应强品牌商品相关权益、促销权益。",
+                  "muted": false
+                },
+                {
+                  "body": "P→L：从低频购买到高频购买。对应品牌稀缺性权益。",
+                  "muted": false
+                },
+                {
+                  "body": "依据上述规则，对 12 个营销产品所含权益类型进行重新排序与定位，以帮助设计进一步明确执行焦点。",
+                  "muted": true
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "• 大转盘分享：服务或活动资格、商品购买权益",
+                    "• 品牌话题：商品购买权益",
+                    "• 派样：新品、样品",
+                    "• 服务预约：服务或活动资格",
+                    "• 传奇好物：爆款、新品、限定商品",
+                    "• 品牌课堂：现金红包、优惠券、实物奖品、品牌荣誉",
+                    "• 问答竞赛：大额现金奖励",
+                    "• 语音挑战：现金红包、优惠券、实物奖品",
+                    "• 邀请：现金红包、优惠券、实物奖品",
+                    "• 任务有礼：现金红包、优惠券",
+                    "• 关注有礼：现金红包、优惠券",
+                    "• 签到：现金红包、优惠券"
+                  ]
+                },
+                {
+                  "body": "“弄清转化目标客群具有哪些特征、会被什么吸引”以及“如何通过合理交互与恰当视觉呈现准确表达权益类型”。权益类型对应转化点，决定营销产品的设计策略：",
+                  "muted": false
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "1）界定工具功能",
+                    "2）明确业务目标",
+                    "3）明确权益类型",
+                    "4）瞄准客群转化层",
+                    "5）描述客群特征",
+                    "6）设定体验目标",
+                    "7）绘制设计策略",
+                    "8）提炼关键点",
+                    "9）衡量产品数据与客户转化数据"
+                  ]
+                },
+                {
+                  "body": "以服务预约营销工具为例：",
+                  "muted": true
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "1）界定工具功能：",
+                    "用户在线预约核销，并在线下体验品牌服务活动。"
+                  ]
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "2）明确业务目标：",
+                    "服务预约工具赋能品牌向消费者提供活动或服务等品牌权益，使消费者从商品或服务体验维度认识并消费品牌，形成转化。"
+                  ]
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "3）明确权益类型：",
+                    "服务或活动资格。"
+                  ]
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "4）瞄准客群转化层：",
+                    "I→P，从无购买到购买。"
+                  ]
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "5）描述客群特征：",
+                    "顾客对品牌商品感兴趣，但通过线下服务体验做出购买决策后再触发购买。例如：美妆品牌的线下试妆、汽车品牌的线下试驾等。"
+                  ]
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "6）设定体验目标：",
+                    "顾客能够快速、直观地理解品牌服务内容。",
+                    "顾客能够高效、便捷地完成预约表单的填写、查看与核销等全部操作流程。"
+                  ]
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "7）绘制设计策略：",
+                    "分为两部分：服务内容表达与预约表单模块。",
+                    "顾客须先对品牌提供的服务产生兴趣，才被允许预约，因此设计策略优先表达服务内容。",
+                    "通过富媒体、结构化信息、产品氛围等方式优先表达服务内容信息；在增强信息感知的同时降低阅读成本。通过标准化控件、一致的交互行为设计等提升表单完成效率。"
+                  ]
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "8）提炼关键点：",
+                    "* 强化页头视频与图片信息的表达",
+                    "* 服务内容基础信息的结构化表达",
+                    "* 整体产品营销态的氛围表达（基于图像色彩识别的背景氛围）",
+                    "* 多任务选择输入控件的标准化与模块化设计（服务地点与时间选择、预约人信息输入等）",
+                    "* 预约订单信息的结构化表达。"
+                  ]
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "9）衡量产品数据与客户转化数据：",
+                    "* UV 点击率",
+                    "* 页面停留时长",
+                    "* 订单生成率",
+                    "* 线下核销率",
+                    "* I→P 转化率",
+                    "* 核销后 N 日内到店率与下单率",
+                    "* 其他层级的新增与转化"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "ja": [
+      {
+        "bg": "detail_bg_light",
+        "blocks": [
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_research_img",
+              "media": {
+                "kind": "image",
+                "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/aipl/aipl.png"
+              }
+            },
+            "text": {
+              "h5": "AIPL",
+              "paragraphs": [
+                {
+                  "body": "ブランドはECプラットフォームが提供するトラフィックチャネルとデジタルマーケティング製品により目標顧客層へ到達・獲得し、継続的な顧客関係管理を行う。ECプラットフォームの顧客行動定義に基づき、ブランドの顧客構造は段階別の四層AIPL顧客属性へさらに分割できる：",
+                  "muted": false
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "A—Awareness、沈黙顧客群：",
+                    "ブランド店舗フォロワー、低頻度閲覧、未購入。"
+                  ]
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "I—Interest、潜在顧客群：",
+                    "ブランド店舗フォロワー、高頻度閲覧、未購入。"
+                  ]
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "P—Purchase、アクティブ顧客群：",
+                    "ブランド店舗フォロワー、高頻度閲覧、低頻度購入。"
+                  ]
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "L—Loyalty、ロイヤル顧客群：",
+                    "ブランド店舗フォロワー、高頻度閲覧、高頻度購入。"
+                  ]
+                },
+                {
+                  "body": "レベルnの顧客獲得＝レベルnの基礎増分＋レベルn-1からの在庫転換。",
+                  "muted": false
+                },
+                {
+                  "body": "年に数回の大型販促への参加がアクティブ顧客層の獲得・成長に集中する手段（618、ダブル11等）なら、日常マーケティングツールは販促で得た沈黙層への到達・促進・転換を助け、ロングテール段階で顧客構造を継続最適化する。",
+                  "muted": false
+                },
+                {
+                  "body": "*日常マーケティングツールにはチェックイン、シェアタスク、予約などが含まれる。",
+                  "muted": true
+                },
+                {
+                  "body": "データから、異なるカテゴリーの異なるブランドが全く異なる四層の顧客構造を示すことが分かる。概して沈黙顧客が多数を占め、家電ブランドは層ごとに線形に窄まり、携帯電話ブランドは潜在・アクティブな中間層比率が高く、FMCG食品ブランドはロイヤル顧客の比率が大きい。別の観点では、ブランドごとに顧客層転換のニーズが異なり、狙いを定めた日常マーケティングツールの設計・運用と精緻なオペレーションが必要だと言える。",
+                  "muted": false
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_research_img",
+              "media": {
+                "kind": "image",
+                "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/aipl/tools.png"
+              }
+            },
+            "text": {
+              "h5": "日常マーケティング製品のデザイン方法",
+              "paragraphs": [
+                {
+                  "body": "日常マーケティング製品の事業の底層論理は、階層化された特典でブランドの階層顧客の増分成長と転換を換えることである。具体ツールは特定タイプの権利・特典を含み、特定階層の顧客群を転換する。",
+                  "muted": false
+                },
+                {
+                  "body": "0→A：ブランド店舗未フォローからフォローへ。弱いブランド関連の汎用特典（現金／クーポン）に対応。",
+                  "muted": false
+                },
+                {
+                  "body": "A→I：閲覧なしから低頻度閲覧へ。高インタラクティブで強いブランド関連の内容または特典に対応。",
+                  "muted": false
+                },
+                {
+                  "body": "I→P：未購入から購入へ。強いブランド商品関連特典・販促特典に対応。",
+                  "muted": false
+                },
+                {
+                  "body": "P→L：低頻度購入から高頻度購入へ。ブランド希少性特典に対応。",
+                  "muted": false
+                },
+                {
+                  "body": "上記規則に従い、12のマーケティング製品に含まれる特典タイプを再配列・位置づけし、デザインの実行焦点をより明確にした。",
+                  "muted": true
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "• 大抽選シェア：サービス／イベント資格、商品購入権",
+                    "• ブランドトピック：商品購入権",
+                    "• サンプル配布：新商品、サンプル",
+                    "• サービス予約：サービス／イベント資格",
+                    "• レジェンダリーグッズ：主力商品、新商品、限定商品",
+                    "• ブランドクラス：現金ボーナス、クーポン、実物賞品、ブランド栄誉",
+                    "• Q&Aコンテスト：高額現金ボーナス",
+                    "• ボイスチャレンジ：現金ボーナス、クーポン、実物賞品",
+                    "• 招待：現金ボーナス、クーポン、実物賞品",
+                    "• タスクギフト：現金ボーナス、クーポン",
+                    "• 店舗フォローギフト：現金ボーナス、クーポン",
+                    "• チェックイン：現金ボーナス、クーポン"
+                  ]
+                },
+                {
+                  "body": "「転換目標の顧客層がどんな特徴を持ち、何に惹かれるか」と「合理的インタラクションと適切な視覚提示で特典タイプをいかに正確に表現するか」。特典タイプは転換点に対応し、マーケティング製品のデザイン戦略を決める：",
+                  "muted": false
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "1）ツールの機能を定義する",
+                    "2）事業目標を確定する",
+                    "3）特典タイプを確定する",
+                    "4）顧客群の転換層を狙う",
+                    "5）顧客群の特徴を記述する",
+                    "6）体験目標を設定する",
+                    "7）デザイン戦略を描く",
+                    "8）要点を精錬する",
+                    "9）製品データと顧客転換データを測定する"
+                  ]
+                },
+                {
+                  "body": "サービス予約マーケティングツールを例に：",
+                  "muted": true
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "1）ツールの機能を定義する：",
+                    "ユーザーはオンラインで予約・チェックインし、オフラインでブランドサービス活動を体験する。"
+                  ]
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "2）事業目標を確定する：",
+                    "サービス予約ツールは、活動やサービスなどのブランド特典を消費者へ提供し、商品またはサービス体験の次元からブランドを認識・消費させ、転換を形成する力をブランドに与える。"
+                  ]
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "3）特典タイプを確定する：",
+                    "サービスまたはイベント資格。"
+                  ]
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "4）顧客群の転換層を狙う：",
+                    "I→P、未購入から購入へ。"
+                  ]
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "5）顧客群の特徴を記述する：",
+                    "顧客はブランド商品に関心を持つが、購入をトリガーする前にオフラインサービス体験を通じて購入意思決定を行う。例：美容ブランドの店頭試粧、自動車ブランドの試乗など。"
+                  ]
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "6）体験目標を設定する：",
+                    "顧客はブランドサービスの内容を迅速かつ直感的に理解できる。",
+                    "顧客は予約フォームの記入・閲覧・消込など全操作プロセスを効率的かつ便利に完了できる。"
+                  ]
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "7）デザイン戦略を描く：",
+                    "サービス内容表現と予約フォームモジュールの二部に分かれる。",
+                    "顧客は予約を許される前にブランド提供サービスの関心を持つ必要があり、ゆえにデザイン戦略はサービス内容の表現を優先する。",
+                    "リッチメディア・構造化情報・製品雰囲気などによりサービス内容情報の表現を優先し、情報知覚を高めつつ読解コストを下げる。標準化コントロールや一貫したインタラクション行動設計などでフォーム完了効率を高める。"
+                  ]
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "8）要点を精錬する：",
+                    "* ヘッダー動画・画像情報の強化表現",
+                    "* サービス内容基本情報の構造化表現",
+                    "* 製品マーケティング状態全体の雰囲気表現（画像色彩認識による背景雰囲気）",
+                    "* マルチタスク選択入力コントロールの標準化・モジュール化設計（サービス場所・時間選択、予約者情報入力など）",
+                    "* 予約注文情報の構造化表現。"
+                  ]
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "9）製品データと顧客転換データを測定する：",
+                    "* UV CTR",
+                    "* ページ滞在時間",
+                    "* 注文生成率",
+                    "* オフラインチェックイン率",
+                    "* I→P転換率",
+                    "* チェックイン後N日以内の来店率と注文率",
+                    "* その他階層の追加と転換"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -4,13 +4,15 @@ import { getDictionary, type Locale } from '@i18n/index';
 
 interface Props {
   locale: Locale;
+  /** Defaults to locale home. Pass e.g. home + `#research`. */
+  href?: string;
 }
 
-const { locale } = Astro.props;
+const { locale, href = getRelativeLocaleUrl(locale) } = Astro.props;
 const t = getDictionary(locale);
 ---
 
-<a class="close" href={getRelativeLocaleUrl(locale)} aria-label={t.project.close} data-astro-prefetch>
+<a class="close" href={href} aria-label={t.project.close} data-astro-prefetch>
   <svg
     class="close__icon"
     width="16"

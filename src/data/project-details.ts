@@ -109,6 +109,8 @@ export type DetailBlock =
         role: 'line_annotation' | 'line_img_annotation' | 'line_research_img';
         text?: string;
         media?: DetailMedia;
+        /** Stacked left-column media (research articles). */
+        medias?: DetailMedia[];
       };
       text: {
         h5?: string;
@@ -125,26 +127,39 @@ export interface DetailSection {
 export interface ProjectDetail {
   slug: string;
   meta: ProjectDetailMeta;
-  sections: DetailSection[];
+  /** Per-locale feed trees (media shared by copy; prose localized). */
+  sections: Record<Locale, DetailSection[]>;
 }
 
 const BLOB_COVER =
   'https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/taobaovp/cover.png';
 
+function localizeCover(sections: DetailSection[]): DetailSection[] {
+  return sections.map((section) => ({
+    ...section,
+    blocks: section.blocks.map((block) => {
+      if (block.type === 'detail_cover' && block.src === BLOB_COVER) {
+        return { ...block, src: coverLocal, alt: 'Taobao Vision spatial shopping cover' };
+      }
+      return block;
+    }),
+  }));
+}
+
 function asDetail(raw: ProjectDetail): ProjectDetail {
   if (raw.slug !== 'taobaovp') return raw;
   return {
     ...raw,
-    sections: raw.sections.map((section) => ({
-      ...section,
-      blocks: section.blocks.map((block) => {
-        if (block.type === 'detail_cover' && block.src === BLOB_COVER) {
-          return { ...block, src: coverLocal, alt: 'Taobao Vision spatial shopping cover' };
-        }
-        return block;
-      }),
-    })),
+    sections: {
+      en: localizeCover(raw.sections.en),
+      zh: localizeCover(raw.sections.zh),
+      ja: localizeCover(raw.sections.ja),
+    },
   };
+}
+
+export function getProjectSections(detail: ProjectDetail, locale: Locale): DetailSection[] {
+  return detail.sections[locale] ?? detail.sections.en ?? [];
 }
 
 export const projectDetails: ProjectDetail[] = [

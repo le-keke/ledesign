@@ -78,15 +78,31 @@ const { locale, route = '' } = Astro.props;
         { signal },
       );
 
+      /*
+       * Keep the reader on the same place when switching locale:
+       * home Work/Research lives in the hash (#work / #research), while
+       * detail pages already pass `route` into the href.
+       */
+      const withCurrentHash = (link: HTMLAnchorElement) => {
+        const url = new URL(link.getAttribute('href') || link.href, location.origin);
+        url.hash = location.hash;
+        const next = `${url.pathname}${url.search}${url.hash}`;
+        link.setAttribute('href', next);
+      };
+
       menu.querySelectorAll<HTMLAnchorElement>('[data-locale-switch]').forEach((link) => {
+        withCurrentHash(link);
+
         link.addEventListener(
           'click',
           () => {
+            withCurrentHash(link);
             const code = link.dataset.localeSwitch;
             if (isLocale(code)) localStorage.setItem(LOCALE_STORAGE_KEY, code);
             setOpen(false);
           },
-          { signal },
+          /* Capture so href includes hash before ClientRouter handles the click. */
+          { signal, capture: true },
         );
       });
 

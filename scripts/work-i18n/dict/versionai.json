@@ -1,0 +1,374 @@
+{
+  "Human-AI Co-design Product Interfaces as An Emerging Mode of Work": {
+    "zh": "人机协同设计产品界面：一种新兴的工作模式",
+    "ja": "ヒューマン—AI共創によるプロダクトUI——新興のワークモードとして"
+  },
+  "In the daily workflow of design teams, output targets generally fall into three categories: modules, single pages, and multi-page flows. Correspondingly, design approaches can be grouped into three modes: assembling existing components, modifying existing components, and creating new components. Among these, modifications to existing components can be further broken down into information adjustments, layout adjustments, and style adjustments.": {
+    "zh": "在设计团队的日常工作中，产出目标通常可分为三类：模块、单页与多页流程。相应地，设计方式也可归纳为三种模式：组装既有组件、修改既有组件，以及创建新组件。其中，对既有组件的修改又可进一步拆分为信息调整、布局调整与样式调整。",
+    "ja": "デザインチームの日常業務において、アウトプット目標は一般にモジュール、単一ページ、複数ページフローの三つに分かれます。これに対応し、デザイン手法も既存コンポーネントの組立、既存コンポーネントの改変、新規コンポーネントの作成という三つのモードに整理できます。うち既存コンポーネントの改変は、さらに情報調整、レイアウト調整、スタイル調整へと細分化されます。"
+  },
+  "When mapped to the five major demand scenarios—core user journeys, content discovery channels, interactive products, marketing events, and B-end experience—a year-round analysis reveals a consistent pattern: within core journeys, discovery channels, and B-end experience, design tasks involving assembling or modifying existing components at the module or single-page level account for nearly 48% of all requests.": {
+    "zh": "将其映射到五大需求场景——核心用户路径、内容发现渠道、互动产品、营销活动与 B 端体验——全年分析呈现出稳定规律：在核心路径、发现渠道与 B 端体验中，涉及在模块或单页层面组装或修改既有组件的设计任务，约占全部需求的近 48%。",
+    "ja": "これを五大需要シナリオ——コアユーザージャーニー、コンテンツ発見チャネル、インタラクティブプロダクト、マーケティング施策、B端体験——に対応づけると、通年分析は一貫した傾向を示します。コアジャーニー、発見チャネル、B端体験において、モジュールまたは単一ページ単位で既存コンポーネントを組立・改変するデザインタスクは、全リクエストの約48%を占めます。"
+  },
+  "This substantial volume of repetitive and structurally similar design work urgently calls for automated, AI-driven design-generation methods to significantly improve both efficiency and output quality. For enterprise design teams, the primary goal is to generate product interfaces that faithfully adhere to internal design standards, and this requires the same essential task: clarifying and constructing an AI-friendly design-knowledge system that can be connected to design tools or large models.": {
+    "zh": "如此大量、重复且结构相似的设计工作，迫切需要自动化、由 AI 驱动的设计生成方法，以显著提升效率与产出质量。对企业设计团队而言，首要目标是生成忠实遵循内部设计标准的产品界面；而这要求完成同一项关键任务：厘清并构建可连接设计工具或大模型的 AI 友好设计知识体系。",
+    "ja": "このように反復的で構造的に類似した大量のデザイン業務は、効率と成果品質を大幅に高める自動化・AI駆動のデザイン生成手法を強く求めます。企業のデザインチームにとって第一の目標は、社内デザイン標準に忠実に準拠したプロダクトUIを生成することであり、そのためには同じ本質的課題——デザインツールや大規模モデルに接続可能なAI親和のデザイン知識体系を明確化し構築すること——に取り組む必要があります。"
+  },
+  "The VersionAI Tmall solution presentation for GenUI ↑": {
+    "zh": "面向 GenUI 的 VersionAI Tmall 方案介绍 ↑",
+    "ja": "GenUI向け VersionAI Tmall ソリューション紹介 ↑"
+  },
+  "Introducing VersionAI Tmall": {
+    "zh": "VersionAI Tmall 简介",
+    "ja": "VersionAI Tmall の紹介"
+  },
+  "By constructing the Design System Specification Knowledge Base and the Interface Generation Multi-Agents Workflow, an integrated, AI-friendly enterprise design system is formed. The system can be flexibly applied in IDE-based environments and agent-mode design tools via MCP or context injection. This comprehensive set of theory and practice offers broad applicability and can be adopted by enterprise teams across industries. VersionAI Tmall has already been implemented in real-world projects, resulting in significant improvements in interface design efficiency.": {
+    "zh": "通过构建设计系统规范知识库与界面生成多智能体工作流，形成一体化、AI 友好的企业设计系统。该系统可经由 MCP 或上下文注入，灵活应用于基于 IDE 的环境与智能体模式设计工具。这一理论与实践的完整体系具备广泛适用性，可供各行业企业团队采用。VersionAI Tmall 已在真实项目中落地，显著提升了界面设计效率。",
+    "ja": "デザインシステム仕様ナレッジベースと界面生成マルチエージェント・ワークフローを構築することで、統合的かつAI親和の企業デザインシステムが形成されます。本システムは MCP またはコンテキスト注入を介し、IDE ベース環境やエージェントモードのデザインツールに柔軟に適用できます。この理論と実践の包括的体系は幅広い適用性を持ち、業種を問わず企業チームが採用可能です。VersionAI Tmall はすでに実プロジェクトで導入され、UIデザイン効率の大幅な向上をもたらしています。"
+  },
+  "Generative UI Agent Structure ↑": {
+    "zh": "生成式 UI 智能体结构 ↑",
+    "ja": "生成UIエージェント構造 ↑"
+  },
+  "Building Design System Knowledge for AI Understanding and Utilization": {
+    "zh": "构建可供 AI 理解与调用的设计系统知识",
+    "ja": "AIが理解・活用できるデザインシステム知識の構築"
+  },
+  "Interface generation is essentially a domain-specific intelligent system composed of multiple task-specific agents, operating within an enterprise-aligned design workflow, and driven by contextual reasoning and retrieval over Design System Specification Knowledge. These agents are organized into four primary task agents: intent recognition, knowledge retrieval, design synthesis and code generation.": {
+    "zh": "界面生成本质上是一个由多个任务专用智能体组成的领域智能系统：运行于与企业对齐的设计工作流中，并由对设计系统规范知识的上下文推理与检索所驱动。这些智能体组织为四个主要任务智能体：意图识别、知识检索、设计综合与代码生成。",
+    "ja": "界面生成は本質的に、複数のタスク特化エージェントからなるドメイン固有の知的システムであり、企業整合のデザインワークフロー内で動作し、デザインシステム仕様知識に対する文脈推論と検索によって駆動されます。これらのエージェントは、意図認識、知識検索、デザイン統合、コード生成という四つの主要タスクエージェントに組織されます。"
+  },
+  "Design System Specification Knowledge acts as externally retrieved factual knowledge: through a Design-to-Code (D2C) transformation, design assets are converted into rule-based semantic facts, code-level symbolic facts, and the structured mappings between them, forming a structured Design Knowledge Base that the model can read, retrieve, and extract from.": {
+    "zh": "设计系统规范知识充当外部检索的事实性知识：经由 Design-to-Code（D2C）转化，设计资产被转换为基于规则的语义事实、代码层符号事实，以及二者之间的结构化映射，从而形成模型可阅读、检索与抽取的结构化设计知识库。",
+    "ja": "デザインシステム仕様知識は、外部から検索される事実知識として機能します。Design-to-Code（D2C）変換を通じ、デザイン資産はルールベースの意味的事実、コードレベルの記号的事実、および両者間の構造化マッピングへと変換され、モデルが読み取り・検索・抽出できる構造化デザインナレッジベースを形成します。"
+  },
+  "Structural translation of design system specification knowledge ↑": {
+    "zh": "设计系统规范知识的结构化转译 ↑",
+    "ja": "デザインシステム仕様知識の構造的翻訳 ↑"
+  },
+  "Design System Specification Knowledge": {
+    "zh": "设计系统规范知识",
+    "ja": "デザインシステム仕様知識"
+  },
+  "Design System Specification Knowledge is composed of two categories of knowledge objects and three file types. The two categories of knowledge objects are Styles and Cases, where styles are further subdivided into four types: Elements, Layouts, Components, and Assets. Each category of knowledge object is associated with three file types: Semantic rules, Mapping schemas, and Code implementations.": {
+    "zh": "设计系统规范知识由两类知识对象与三种文件类型构成。两类知识对象为 Styles（样式）与 Cases（案例），其中样式进一步细分为四类：Elements（元素）、Layouts（布局）、Components（组件）与 Assets（资产）。每一类知识对象均对应三种文件类型：语义规则、映射模式与代码实现。",
+    "ja": "デザインシステム仕様知識は、二種類の知識オブジェクトと三種類のファイルタイプで構成されます。知識オブジェクトは Styles（スタイル）と Cases（ケース）であり、スタイルはさらに Elements（要素）、Layouts（レイアウト）、Components（コンポーネント）、Assets（アセット）の四種に細分されます。各知識オブジェクトは、セマンティックルール、マッピングスキーマ、コード実装という三つのファイルタイプと対応づけられます。"
+  },
+  "Semantic rules consist of textual descriptions covering an object's definition, styles, variables, usage, and constraints. They represent the foundational intellectual property that gives rise to experiential differentiation and are authored in Markdown format. Code implementations translate objects into executable and deployable symbolic facts, using the appropriate programming language as the representation format.": {
+    "zh": "语义规则由覆盖对象定义、样式、变量、用法与约束的文本描述构成。它们代表带来体验差异化的基础知识产权，并以 Markdown 格式撰写。代码实现则将对象转译为可执行、可部署的符号事实，以相应的编程语言作为表征格式。",
+    "ja": "セマンティックルールは、オブジェクトの定義、スタイル、変数、用法、制約を扱うテキスト記述からなります。それらは体験上の差異化をもたらす基盤的知的財産であり、Markdown 形式で記述されます。コード実装はオブジェクトを実行・デプロイ可能な記号的事実へと翻訳し、適切なプログラミング言語を表現形式とします。"
+  },
+  "Mapping schemas act as the central connective layer between semantic rules and code implementations. Rather than duplicating either, they provide object ID anchoring, constraint definitions, and precise code references. Within the workflow, they guide knowledge retrieval, solution construction, and code generation, enabling large language models to avoid traversing the entire knowledge corpus and reducing computational overhead.": {
+    "zh": "映射模式充当语义规则与代码实现之间的核心连接层。它们并不重复二者，而是提供对象 ID 锚定、约束定义与精确的代码引用。在工作流中，它们引导知识检索、方案构建与代码生成，使大语言模型无需遍历全部知识语料，从而降低计算开销。",
+    "ja": "マッピングスキーマは、セマンティックルールとコード実装のあいだの中核的な接続層として機能します。いずれかを複製するのではなく、オブジェクトIDのアンカリング、制約定義、精確なコード参照を提供します。ワークフロー内では知識検索、ソリューション構築、コード生成を導き、大規模言語モデルが知識コーパス全体を走査する必要をなくし、計算負荷を低減します。"
+  },
+  "Element interpertation example: Color ↑": {
+    "zh": "元素转译示例：Color ↑",
+    "ja": "要素の解釈例：Color ↑"
+  },
+  "Element knowledge is divided into four irreducible units: color, typography, corner radius, and motion, which serve as the foundational dependencies for all design styles.": {
+    "zh": "元素知识划分为四个不可再分单元：颜色、字体、圆角与动效，它们构成所有设计样式的基础依赖。",
+    "ja": "要素知識は、カラー、タイポグラフィ、角丸、モーションという四つの不可分ユニットに分かれ、あらゆるデザインスタイルの基盤依存となります。"
+  },
+  "Its semantic rules consist of element definitions, style composition, attribute variables (design tokens), mandatory rules, and functional usage.": {
+    "zh": "其语义规则包括元素定义、样式构成、属性变量（设计令牌）、强制规则与功能用法。",
+    "ja": "そのセマンティックルールは、要素定義、スタイル構成、属性変数（デザイントークン）、必須ルール、機能的用法からなります。"
+  },
+  "The mapping schema is composed of ID symbols, semantics (including name, definition, and description), rules_refs, implementations_refs, and constraints (such as usage scenarios, mandatory prohibitions, and other restrictions). This schema is automatically generated by AI in accordance with Schema-based prompting rules.": {
+    "zh": "映射模式由 ID 符号、语义（含名称、定义与描述）、rules_refs、implementations_refs 以及约束（如使用场景、强制禁令与其他限制）构成。该模式依据 Schema-based prompting 规则由 AI 自动生成。",
+    "ja": "マッピングスキーマは、ID記号、セマンティクス（名称・定義・説明を含む）、rules_refs、implementations_refs、および制約（利用シナリオ、必須禁止事項、その他制限など）で構成されます。本スキーマは Schema-based prompting 規則に従い、AIにより自動生成されます。"
+  },
+  "Code implementations take the form of global styles (SCSS); these are automatically reconstructed from design artifacts and generated as code by IDE tooling through calls to the design software's MCP services.": {
+    "zh": "代码实现采用全局样式（SCSS）形式；它们由设计产物自动还原，并由 IDE 工具通过调用设计软件的 MCP 服务生成代码。",
+    "ja": "コード実装はグローバルスタイル（SCSS）の形をとります。これらはデザイン成果物から自動的に再構成され、IDEツールがデザインソフトウェアの MCP サービスを呼び出してコードとして生成します。"
+  },
+  "Component interpertation example: Price ↑": {
+    "zh": "组件转译示例：Price ↑",
+    "ja": "コンポーネントの解釈例：Price ↑"
+  },
+  "Component knowledge is composed of units such as avatars, badges, asset slots, buttons, content streams, countdowns, coupons, filters, beacons, onboarding guides, carousels, inputs, messages, floating windows, dialogs, prices, product cards, progress bars, red packets, selectors, overlays, floating bars, switches, tab bars, tabs, text streams, tooltips, bubbles, and top bars. These components serve as critical reusable units for interface generation.": {
+    "zh": "组件知识由头像、徽标、资产槽、按钮、内容流、倒计时、优惠券、筛选器、信标、引导、轮播、输入、消息、浮层窗口、对话框、价格、商品卡、进度条、红包、选择器、遮罩、悬浮条、开关、标签栏、标签页、文本流、提示、气泡与顶栏等单元构成。这些组件是界面生成的关键可复用单元。",
+    "ja": "コンポーネント知識は、アバター、バッジ、アセットスロット、ボタン、コンテンツストリーム、カウントダウン、クーポン、フィルター、ビーコン、オンボーディングガイド、カルーセル、入力、メッセージ、フローティングウィンドウ、ダイアログ、価格、商品カード、プログレスバー、レッドパケット、セレクター、オーバーレイ、フローティングバー、スイッチ、タブバー、タブ、テキストストリーム、ツールチップ、バブル、トップバーなどのユニットで構成されます。これらは界面生成における重要な再利用単位です。"
+  },
+  "The semantic rules for components consist of component definitions, style composition, attribute variables, component states (interaction and visual), mandatory rules, and functional usage.": {
+    "zh": "组件的语义规则包括组件定义、样式构成、属性变量、组件状态（交互与视觉）、强制规则与功能用法。",
+    "ja": "コンポーネントのセマンティックルールは、コンポーネント定義、スタイル構成、属性変数、コンポーネント状態（インタラクションとビジュアル）、必須ルール、機能的用法からなります。"
+  },
+  "Building upon the existing mapping schema structure, component mapping schemas additionally introduce a properties schema (props schema), which corresponds to the attributes required by each component in the page-level component structure schema generated during the solution design stage.": {
+    "zh": "在既有映射模式结构基础上，组件映射模式额外引入属性模式（props schema），对应于方案设计阶段所生成的页面级组件结构模式中各组件所需的属性。",
+    "ja": "既存のマッピングスキーマ構造を踏まえ、コンポーネントのマッピングスキーマはさらにプロパティスキーマ（props schema）を導入します。これは、ソリューション設計段階で生成されるページレベル・コンポーネント構造スキーマにおいて、各コンポーネントが必要とする属性に対応します。"
+  },
+  "Code implementations are realized as component structures (TSX) and component styles (SCSS) within a React-based technology stack.": {
+    "zh": "代码实现以基于 React 技术栈的组件结构（TSX）与组件样式（SCSS）呈现。",
+    "ja": "コード実装は、React ベースの技術スタックにおけるコンポーネント構造（TSX）とコンポーネントスタイル（SCSS）として実現されます。"
+  },
+  "Asset interpertation example: Icon ↑": {
+    "zh": "资产转译示例：Icon ↑",
+    "ja": "アセットの解釈例：Icon ↑"
+  },
+  "Asset knowledge consists of units such as images, icons, logos, and tags, serving as the primary material sources for page content population.": {
+    "zh": "资产知识由图片、图标、标志与标签等单元构成，是页面内容填充的主要素材来源。",
+    "ja": "アセット知識は、画像、アイコン、ロゴ、タグなどのユニットからなり、ページコンテンツを充足するための主要な素材源となります。"
+  },
+  "The semantic rules for assets include asset definitions, attribute variables, mandatory rules, and functional usage.": {
+    "zh": "资产的语义规则包括资产定义、属性变量、强制规则与功能用法。",
+    "ja": "アセットのセマンティックルールには、アセット定義、属性変数、必須ルール、機能的用法が含まれます。"
+  },
+  "The mapping schema for assets follows the same template as that used for elements. Depending on the specific asset type, asset knowledge may or may not require code implementations. For example, icons do require code implementations, whereas images typically do not.": {
+    "zh": "资产的映射模式沿用与元素相同的模板。视具体资产类型而定，资产知识可能需要或不需要代码实现。例如，图标需要代码实现，而图片通常不需要。",
+    "ja": "アセットのマッピングスキーマは要素と同じテンプレートに従います。アセット種別によっては、コード実装を要する場合と要しない場合があります。たとえばアイコンはコード実装を必要としますが、画像は通常必要としません。"
+  },
+  "In such cases, the implementations take the form of source asset files (e.g., SVG or PNG) with naming conventions consistent with those defined in the semantic rules.": {
+    "zh": "在此类情形下，实现以源资产文件形式存在（如 SVG 或 PNG），其命名规范与语义规则中的定义保持一致。",
+    "ja": "そのような場合、実装はセマンティックルールで定義された命名規則に沿ったソースアセットファイル（例：SVG または PNG）の形をとります。"
+  },
+  "Page interpertation example: Shopping Feed Page ↑": {
+    "zh": "页面转译示例：Shopping Feed Page ↑",
+    "ja": "ページの解釈例：Shopping Feed Page ↑"
+  },
+  "Page semantic rules consist of page definition, target users, naming conventions, structural hierarchy, page states (interaction and visual), mandatory rules, and functional usage. Page knowledge does not require code implementations; instead, it is composed by the LLM through combining component, asset, and element code.": {
+    "zh": "页面语义规则包括页面定义、目标用户、命名规范、结构层级、页面状态（交互与视觉）、强制规则与功能用法。页面知识不要求代码实现；而是由大语言模型通过组合组件、资产与元素代码来构成。",
+    "ja": "ページのセマンティックルールは、ページ定義、ターゲットユーザー、命名規則、構造階層、ページ状態（インタラクションとビジュアル）、必須ルール、機能的用法からなります。ページ知識はコード実装を必要とせず、LLM がコンポーネント・アセット・要素のコードを組み合わせて構成します。"
+  },
+  "The mapping schema consists of ID symbols, semantics (name, definition, description), rules, structure, and constraints (usage scenarios, mandatory prohibitions, and others).": {
+    "zh": "映射模式由 ID 符号、语义（名称、定义、描述）、规则、结构与约束（使用场景、强制禁令及其他）构成。",
+    "ja": "マッピングスキーマは、ID記号、セマンティクス（名称・定義・説明）、ルール、構造、制約（利用シナリオ、必須禁止事項など）で構成されます。"
+  },
+  "Node orchestration ↑": {
+    "zh": "节点编排 ↑",
+    "ja": "ノードオーケストレーション ↑"
+  },
+  "Multi-agent Workflow": {
+    "zh": "多智能体工作流",
+    "ja": "マルチエージェント・ワークフロー"
+  },
+  "Next, the workflow for interface design and generation is engineeried. A multi-agent, upstream-to-downstream collaborative process is, in essence, the definition and configuration of each sub-agent and its chaining logic.": {
+    "zh": "接下来，对界面设计与生成的工作流进行工程化。多智能体、自上游至下游的协同过程，本质上是对各子智能体及其串联逻辑的定义与配置。",
+    "ja": "次に、界面のデザインと生成のためのワークフローをエンジニアリングします。上流から下流へと協働するマルチエージェント・プロセスは、本質的には各サブエージェントとその連鎖ロジックの定義・設定にほかなりません。"
+  },
+  "In this project, the workflow and agents are built within an IDE-based tool. The base model and memory use default settings; tools are either defaulted or require no configuration; the remaining items are defined explicitly. The prompt Markdown files include (but are not limited to) role definitions, task definitions, built-in workflow steps, input/output requirements, access and routing, and constraints.": {
+    "zh": "本项目中，工作流与智能体构建于基于 IDE 的工具之内。基础模型与记忆采用默认设置；工具或使用默认配置，或不需配置；其余项予以显式定义。提示词 Markdown 文件包括（但不限于）角色定义、任务定义、内置工作流步骤、输入／输出要求、访问与路由，以及约束条件。",
+    "ja": "本プロジェクトでは、ワークフローとエージェントを IDE ベースのツール内に構築します。ベースモデルとメモリはデフォルト設定を用い、ツールはデフォルトまたは設定不要とし、残りは明示的に定義します。プロンプトの Markdown ファイルには、役割定義、タスク定義、組み込みワークフロー手順、入出力要件、アクセスとルーティング、制約などが含まれます（これらに限りません）。"
+  },
+  "Agent configuration (excerpt) ↑": {
+    "zh": "智能体配置（节选）↑",
+    "ja": "エージェント設定（抜粋）↑"
+  },
+  "Agent template: Each agent includes upstream inputs, a base model, memory, system prompts (role and task), a knowledge base (or database), tools (MCP, plugins), and downstream outputs. It is critical to ensure that access paths, object naming, and input/output contracts referenced in sub-agent prompts remain coherent and consistent.": {
+    "zh": "智能体模板：每个智能体包含上游输入、基础模型、记忆、系统提示（角色与任务）、知识库（或数据库）、工具（MCP、插件）以及下游输出。关键在于确保子智能体提示中所引用的访问路径、对象命名与输入／输出契约保持连贯一致。",
+    "ja": "エージェントテンプレート：各エージェントは上流入力、ベースモデル、メモリ、システムプロンプト（役割とタスク）、ナレッジベース（またはデータベース）、ツール（MCP、プラグイン）、下流出力を含みます。サブエージェントのプロンプトで参照されるアクセスパス、オブジェクト命名、入出力契約の一貫性を保つことが極めて重要です。"
+  },
+  "The intent recognition agent takes the user's query string as input (e.g., “Generate a new-product shopping-guide channel”). It outputs a knowledge retrieval requirements checklist, such as “requirement type (compositional reuse of existing modules), page type (Shopping Guide page), information structure (product cards), interaction constraints (filterable or not), content requirements (benefit/offer information), etc.”, and routes it to the next agent.": {
+    "zh": "意图识别智能体以用户查询字符串为输入（例如：“生成一个新品导购频道”）。它输出知识检索需求清单，如“需求类型（既有模块的组合复用）、页面类型（导购页）、信息结构（商品卡）、交互约束（是否可筛选）、内容要求（利益点／优惠信息）等”，并路由至下一智能体。",
+    "ja": "意図認識エージェントは、ユーザーのクエリ文字列を入力とします（例：「新商品のショッピングガイドチャネルを生成」）。「要件タイプ（既存モジュールの組合せ再利用）、ページタイプ（ショッピングガイドページ）、情報構造（商品カード）、インタラクション制約（フィルタ可否）、コンテンツ要件（特典／オファー情報）など」といった知識検索要件チェックリストを出力し、次のエージェントへルーティングします。"
+  },
+  "The knowledge retrieval agent takes the requirements checklist file as input. It queries, filters, and retrieves the corresponding content from the Design System Specification Knowledge Base, and outputs a knowledge outline—i.e., it fills in the knowledge items referenced in the checklist—then routes to the next agent.": {
+    "zh": "知识检索智能体以需求清单文件为输入。它从设计系统规范知识库中查询、筛选并检索相应内容，输出知识大纲——即填补清单中所引用的知识项——再路由至下一智能体。",
+    "ja": "知識検索エージェントは要件チェックリストファイルを入力とします。デザインシステム仕様ナレッジベースから対応コンテンツを照会・フィルタ・検索し、知識アウトライン——すなわちチェックリストで参照される知識項目を充足したもの——を出力し、次のエージェントへルーティングします。"
+  },
+  "The design synthesis agent takes the knowledge outline file as input. It makes design decisions and produces outline instructions for page structure, component types and properties, style elements, interaction patterns, and data/content requirements. It outputs a solution design schema/outline and routes to the next agent.": {
+    "zh": "设计综合智能体以知识大纲文件为输入。它作出设计决策，并生成关于页面结构、组件类型与属性、样式元素、交互模式以及数据／内容要求的大纲指令；输出方案设计模式／大纲，并路由至下一智能体。",
+    "ja": "デザイン統合エージェントは知識アウトラインファイルを入力とします。デザイン判断を行い、ページ構造、コンポーネント種別とプロパティ、スタイル要素、インタラクションパターン、データ／コンテンツ要件に関するアウトライン指示を生成し、ソリューション設計スキーマ／アウトラインを出力して次のエージェントへルーティングします。"
+  },
+  "Design synthesis output (excerpt)": {
+    "zh": "设计综合输出（节选）",
+    "ja": "デザイン統合出力（抜粋）"
+  },
+  "The code generation agent takes the solution design outline as input. It maps to the outline files in the knowledge base and invokes the corresponding code, producing interface code files as output; users can preview the generated results.": {
+    "zh": "代码生成智能体以方案设计大纲为输入。它映射至知识库中的大纲文件并调用相应代码，输出界面代码文件；用户可预览生成结果。",
+    "ja": "コード生成エージェントはソリューション設計アウトラインを入力とします。ナレッジベース内のアウトラインファイルへマッピングし対応コードを呼び出し、界面コードファイルを出力します。ユーザーは生成結果をプレビューできます。"
+  },
+  "Final interface code generation output (excerpt)": {
+    "zh": "最终界面代码生成输出（节选）",
+    "ja": "最終界面コード生成出力（抜粋）"
+  },
+  "An integrated system package—combining a Design System Specification Knowledge Base with an interface generation workflow engineering pipeline—completes the construction of AI-friendly enterprise internal interface design knowledge. It can be flexibly applied to IDE-based generation environments and agent-mode environments in design tools, via MCP or via context injection.": {
+    "zh": "将设计系统规范知识库与界面生成工作流工程管线相结合的一体化系统包，完成了 AI 友好的企业内部界面设计知识构建。它可经由 MCP 或上下文注入，灵活应用于基于 IDE 的生成环境与设计工具中的智能体模式环境。",
+    "ja": "デザインシステム仕様ナレッジベースと界面生成ワークフローのエンジニアリング・パイプラインを組み合わせた統合システムパッケージにより、AI親和の企業内界面デザイン知識の構築が完了します。MCP またはコンテキスト注入を介し、IDE ベースの生成環境やデザインツール内のエージェントモード環境に柔軟に適用できます。"
+  },
+  "VersionAI Tmall official website ↑": {
+    "zh": "VersionAI Tmall 官网 ↑",
+    "ja": "VersionAI Tmall 公式サイト ↑"
+  },
+  "Interface generation in practice via the VersionAI Tmall website": {
+    "zh": "经由 VersionAI Tmall 网站的界面生成实践",
+    "ja": "VersionAI Tmall サイトによる界面生成の実践"
+  },
+  "VersionAI Tmall is an AI-oriented design specification website. It contains all the design knowledge described above and helps users generate user interfaces that conform to the Tmall design specification, conduct design reviews, and resolve Q&A. The site’s page structure is consistent with the design system knowledge structure, organized as a tree navigation of styles, cases, and their sub-unit knowledge modules.": {
+    "zh": "VersionAI Tmall 是面向 AI 的设计规范网站。它包含上述全部设计知识，帮助用户生成符合天猫设计规范的用户界面、开展设计评审并完成问答。站点的页面结构与设计系统知识结构一致，以样式、案例及其子单元知识模块的树状导航组织。",
+    "ja": "VersionAI Tmall はAI向けのデザイン仕様サイトです。上述のデザイン知識をすべて収録し、ユーザーが天猫デザイン仕様に準拠するUIを生成し、デザインレビューとQ&Aを行うことを支援します。サイトのページ構造はデザインシステム知識構造と一致し、スタイル、ケース、およびその下位知識モジュールのツリーナビゲーションとして組織されています。"
+  },
+  "Each knowledge module page can switch between rules for humans and rules for AI, and supports copying or downloading knowledge snippets. A deployment page guides users on how to invoke the specification for interface generation.": {
+    "zh": "每个知识模块页可在面向人类的规则与面向 AI 的规则之间切换，并支持复制或下载知识片段。部署页引导用户如何调用该规范以进行界面生成。",
+    "ja": "各知識モジュールページでは、人間向けルールとAI向けルールを切り替えられ、知識スニペットのコピーまたはダウンロードにも対応します。デプロイページでは、界面生成のために仕様を呼び出す方法を案内します。"
+  },
+  "Website homepage": {
+    "zh": "网站首页",
+    "ja": "ウェブサイト・ホームページ"
+  },
+  "Sidebar consistent with the design system knowledge structure": {
+    "zh": "与设计系统知识结构一致的侧边栏",
+    "ja": "デザインシステム知識構造と一致するサイドバー"
+  },
+  "Knowledge modules": {
+    "zh": "知识模块",
+    "ja": "知識モジュール"
+  },
+  "Switch to AI-facing rules": {
+    "zh": "切换至面向 AI 的规则",
+    "ja": "AI向けルールへ切り替え"
+  },
+  "Human-friendly semantic rules": {
+    "zh": "人类友好的语义规则",
+    "ja": "人間向けセマンティックルール"
+  },
+  "AI-friendly semantic rules": {
+    "zh": "AI 友好的语义规则",
+    "ja": "AI親和セマンティックルール"
+  },
+  "How it works ↑": {
+    "zh": "工作原理 ↑",
+    "ja": "仕組み ↑"
+  },
+  "This website provides two ways for users to invoke the Tmall design specification within AI tools: an MCP Server and context injection. By one-click configuring the MCP server in an IDE tool, the system automatically depends on the Tmall design knowledge base. The MCP-wrapped APIs perform automated processing and return results based on the user’s natural-language instructions; supported capabilities include (but are not limited to) Search and running workflows (runWorkflow).": {
+    "zh": "本网站为用户提供两种在 AI 工具中调用天猫设计规范的方式：MCP Server 与上下文注入。在 IDE 工具中一键配置 MCP 服务器后，系统即自动依赖天猫设计知识库。经 MCP 封装的 API 依据用户的自然语言指令自动处理并返回结果；支持的能力包括（但不限于）Search 与运行工作流（runWorkflow）。",
+    "ja": "本サイトは、AIツール内で天猫デザイン仕様を呼び出す二つの方法——MCP Server とコンテキスト注入——を提供します。IDEツールで MCP サーバーをワンクリック設定すると、システムは天猫デザインナレッジベースに自動依存します。MCP でラップされた API は、ユーザーの自然言語指示に基づき自動処理して結果を返します。対応機能には Search とワークフロー実行（runWorkflow）などが含まれます（これらに限りません）。"
+  },
+  "Alternatively, users can click Copy or Download on a specific knowledge module page to obtain a snippet package containing semantic rules, mapping schema, and code implementations, and paste it directly into the instruction input box for local edits and generation.": {
+    "zh": "或者，用户可在特定知识模块页点击 Copy 或 Download，获取包含语义规则、映射模式与代码实现的片段包，并直接粘贴至指令输入框，进行本地编辑与生成。",
+    "ja": "あるいは、特定の知識モジュールページで Copy または Download をクリックし、セマンティックルール、マッピングスキーマ、コード実装を含むスニペットパッケージを取得して、指示入力欄に直接貼り付け、ローカルで編集・生成することもできます。"
+  },
+  "Configure the tmall-design MCP in the IDE": {
+    "zh": "在 IDE 中配置 tmall-design MCP",
+    "ja": "IDE で tmall-design MCP を設定"
+  },
+  "Enter interface-generation instructions in natural language": {
+    "zh": "以自然语言输入界面生成指令",
+    "ja": "自然言語で界面生成の指示を入力"
+  },
+  "Copy or download a knowledge unit": {
+    "zh": "复制或下载知识单元",
+    "ja": "知識ユニットをコピーまたはダウンロード"
+  },
+  "Inject the unit into context": {
+    "zh": "将该单元注入上下文",
+    "ja": "ユニットをコンテキストへ注入"
+  },
+  "Project planning roadmap ↑": {
+    "zh": "项目规划路线图 ↑",
+    "ja": "プロジェクト計画ロードマップ ↑"
+  },
+  "A design engineering project created entirely by designers": {
+    "zh": "完全由设计师完成的设计工程项目",
+    "ja": "デザイナーのみで完遂したデザインエンジニアリング・プロジェクト"
+  },
+  "This project also marked our first deep adoption of AI coding tools to realize the translation of Tmall's design knowledge, the packaging of MCP services, and the creation of a brand-new AI-friendly design guideline website. In practice, the work was divided into three separate engineering packages:": {
+    "zh": "本项目也标志着我们首次深度采用 AI 编程工具，以实现天猫设计知识的转译、MCP 服务的封装，以及全新 AI 友好设计指南网站的创建。实践中，工作拆分为三个独立的工程包：",
+    "ja": "本プロジェクトはまた、天猫のデザイン知識の翻訳、MCP サービスのパッケージ化、そしてまったく新しいAI親和デザインガイドラインサイトの構築を実現するため、AIコーディングツールを初めて本格導入した取り組みでもあります。実務上、作業は三つの独立したエンジニアリング・パッケージに分かれました。"
+  },
+  "First, the design knowledge of VersionAI Tmall was reconstructed in Cursor through a Figma MCP-based workflow, restoring the original design language and component behaviors while systematically building a complete structured knowledge base.": {
+    "zh": "其一，经由基于 Figma MCP 的工作流，在 Cursor 中重建 VersionAI Tmall 的设计知识，还原原有设计语言与组件行为，并系统构建完整的结构化知识库。",
+    "ja": "第一に、Figma MCP ベースのワークフローを通じ、Cursor 上で VersionAI Tmall のデザイン知識を再構築し、本来のデザイン言語とコンポーネント挙動を復元しつつ、完全な構造化ナレッジベースを体系的に構築しました。"
+  },
+  "Second, the VersionAI Tmall package was encapsulated into an MCP service through Cursor, then published to the npm platform with generated invocation instructions for developers and AI workflows.": {
+    "zh": "其二，通过 Cursor 将 VersionAI Tmall 封装为 MCP 服务，并发布至 npm 平台，同时生成面向开发者与 AI 工作流的调用说明。",
+    "ja": "第二に、Cursor を通じて VersionAI Tmall パッケージを MCP サービスとしてカプセル化し、npm プラットフォームへ公開するとともに、開発者とAIワークフロー向けの呼び出し手順を生成しました。"
+  },
+  "Finally, a completely new design official website was designed in Figma, and again implemented in Cursor via the Figma MCP workflow. The project was then published to GitHub and deployed on Vercel.": {
+    "zh": "其三，在 Figma 中设计全新设计官网，并再次通过 Figma MCP 工作流在 Cursor 中实现；随后将项目发布至 GitHub 并部署于 Vercel。",
+    "ja": "最後に、まったく新しいデザイン公式サイトを Figma で設計し、再び Figma MCP ワークフローを介して Cursor で実装しました。その後、プロジェクトを GitHub に公開し、Vercel にデプロイしました。"
+  },
+  "Website design ↑": {
+    "zh": "网站设计 ↑",
+    "ja": "ウェブサイトデザイン ↑"
+  },
+  "In the age of AI, open access has become more valuable than ever before. If data and knowledge cannot be retrieved, invoked, or learned by AI systems, it is almost like remaining isolated in an era of globalization. Since Tmall has never had an official design guideline website like many of the world’s leading products and platforms, it has now become essential to create one. More importantly, this should be among the first generation of design websites built specifically for AI consumption.": {
+    "zh": "在 AI 时代，开放获取比以往任何时候都更有价值。若数据与知识无法被 AI 系统检索、调用或学习，几乎如同在全球化时代仍保持封闭。天猫此前从未拥有像众多世界领先产品与平台那样的官方设计指南网站，如今创建这样一个站点已属必要。更重要的是，它应跻身专为 AI 消费而构建的第一代设计网站之列。",
+    "ja": "AIの時代において、オープンアクセスはかつてないほど重要になっています。データと知識がAIシステムによって検索・呼び出し・学習できなければ、グローバル化の時代に孤立したままであるのに近い状態です。天猫には、世界の主要プロダクトやプラットフォームのような公式デザインガイドラインサイトがこれまで存在しなかったため、いまやその構築は不可欠です。さらに重要なのは、これがAIによる消費を前提に設計された第一世代のデザインサイトの一つであるべきだという点です。"
+  },
+  "The official website design of the Tmall app also follows its own design philosophy, “White Paper.”": {
+    "zh": "天猫 App 官网设计亦遵循其自身的设计哲学——“White Paper”。",
+    "ja": "天猫アプリ公式サイトのデザインもまた、独自のデザイン哲学「White Paper」に従います。"
+  },
+  "The system is shaped by the “White Paper” design philosophy, which emphasizes presenting content as if it leaps forth from a blank canvas, removing any elements that may cause distraction or confusion.": {
+    "zh": "该体系由“White Paper”设计哲学塑造：强调内容如同从空白画布中跃然而出，去除一切可能造成干扰或困惑的元素。",
+    "ja": "本システムは「White Paper」のデザイン哲学に形づくられ、コンテンツがあたかも白紙のキャンバスから立ち上がるように提示し、注意散漫や混乱を招きうる要素を取り除くことを重視します。"
+  },
+  "Responsive layouts ↑": {
+    "zh": "响应式布局 ↑",
+    "ja": "レスポンシブ・レイアウト ↑"
+  },
+  "The website structure consists of Home, Deploy, Style, Case, Blog, and About. Each subpage is composed of a sidebar navigation system, a specification operation panel (including rule and prompt switching, as well as copy and download controls for specifications), the main content area, and an index panel. Responsive layouts were also designed and implemented for different device screen sizes.": {
+    "zh": "网站结构包括 Home、Deploy、Style、Case、Blog 与 About。各子页由侧边栏导航系统、规范操作面板（含规则与提示切换，以及规范的复制与下载控件）、主内容区与索引面板构成。亦针对不同设备屏幕尺寸设计并实现了响应式布局。",
+    "ja": "サイト構造は Home、Deploy、Style、Case、Blog、About からなります。各サブページは、サイドバーナビゲーション、仕様操作パネル（ルール／プロンプト切替、ならびに仕様のコピーとダウンロード操作）、メインコンテンツ領域、インデックスパネルで構成されます。異なるデバイス画面サイズ向けのレスポンシブ・レイアウトも設計・実装しました。"
+  },
+  "AI-collaborative intro-video design ↑": {
+    "zh": "人机协同导览视频设计 ↑",
+    "ja": "AI協働イントロ動画デザイン ↑"
+  },
+  "Manifesto Video Concept": {
+    "zh": "宣言影片概念",
+    "ja": "マニフェスト映像コンセプト"
+  },
+  "From human design to machine generation, from a single subject to dual subjects: the computer screen serves both as the medium for interface design operations and as the surface of presentation — one screen, two sides. Inside the screen is the machine, outside the screen is the human. The machine draws, the human observes. The black-box process of AI-generated interfaces and the human-machine relationship are visualized across the thin boundary of the screen.": {
+    "zh": "从人类设计到机器生成，从单一主体到双重主体：电脑屏幕既是界面设计操作的媒介，也是呈现的表面——一屏两面。屏内是机器，屏外是人。机器绘制，人类观看。AI 生成界面的黑箱过程与人机关系，在屏幕这层薄边界上被可视化。",
+    "ja": "人間のデザインから機械の生成へ、単一主体から二重主体へ——コンピュータ画面は界面デザイン操作の媒体であると同時に提示の表面でもあり、一画面に二つの側があります。画面の内側は機械、外側は人間。機械が描き、人間が見守る。AI生成界面のブラックボックス過程と人間—機械の関係が、画面という薄い境界をまたいで可視化されます。"
+  },
+  "Designed the foundational mechanical pen form and created a white model in Blender, then used the NanoBanana image model to generate materials and refined visual details in Adobe Photoshop, producing the front-view asset.": {
+    "zh": "设计基础机械笔形态并在 Blender 中创建白模，随后使用 NanoBanana 图像模型生成材质，并在 Adobe Photoshop 中细化视觉细节，产出正视资产。",
+    "ja": "基礎となるメカニカルペン形態を設計し Blender でホワイトモデルを作成、続いて NanoBanana 画像モデルでマテリアルを生成し、Adobe Photoshop で視覚ディテールを洗練して正面ビューアセットを制作しました。"
+  },
+  "Rotated the mechanical pen forward along the X-axis in Blender and repeated the same workflow to produce the lifted-view asset.": {
+    "zh": "在 Blender 中沿 X 轴向前旋转机械笔，并重复相同工作流以产出抬起视角资产。",
+    "ja": "Blender でメカニカルペンを X 軸方向に前方へ回転させ、同じワークフローを繰り返し、持ち上げビューアセットを制作しました。"
+  },
+  "Used the front-view asset and lifted-view asset as the starting and ending keyframes respectively, then generated an animation with the Kling AI video model to create the lifting animation asset.": {
+    "zh": "分别以正视资产与抬起视角资产作为起止关键帧，借助 Kling AI 视频模型生成动画，制作抬起动画资产。",
+    "ja": "正面ビューアセットと持ち上げビューアセットをそれぞれ開始・終了キーフレームとし、Kling AI 動画モデルでアニメーションを生成して、持ち上げアニメーションアセットを作成しました。"
+  },
+  "Used the Kling AI video model to generate a 360-degree rotation animation from the lifted-view asset, producing the rotation animation asset.": {
+    "zh": "使用 Kling AI 视频模型基于抬起视角资产生成 360 度旋转动画，产出旋转动画资产。",
+    "ja": "Kling AI 動画モデルを用い、持ち上げビューアセットから360度回転アニメーションを生成し、回転アニメーションアセットを制作しました。"
+  },
+  "UI drawing trajectory capture ↑": {
+    "zh": "UI 绘制轨迹捕捉 ↑",
+    "ja": "UI描画軌跡のキャプチャ ↑"
+  },
+  "Selected three representative Tmall UI components in Figma.": {
+    "zh": "在 Figma 中选取三个代表性的天猫 UI 组件。",
+    "ja": "Figma で代表的な天猫 UI コンポーネントを三つ選定しました。"
+  },
+  "Created single-line vector paths for each component in Adobe Illustrator.": {
+    "zh": "在 Adobe Illustrator 中为各组件创建单线矢量路径。",
+    "ja": "Adobe Illustrator で各コンポーネントの単線ベクターパスを作成しました。"
+  },
+  "Imported the paths into the iDraw mechanical plotter and executed the trajectory-based drawing process.": {
+    "zh": "将路径导入 iDraw 机械绘图仪，并执行基于轨迹的绘制流程。",
+    "ja": "パスを iDraw メカニカルプロッターに取り込み、軌跡ベースの描画プロセスを実行しました。"
+  },
+  "Used an Apple iPhone to record the complete drawing process from a front-facing perspective aligned with the iDraw mechanical plotter.": {
+    "zh": "使用 Apple iPhone，以与 iDraw 机械绘图仪对齐的正视视角录制完整绘制过程。",
+    "ja": "Apple iPhone を用い、iDraw メカニカルプロッターと揃えた正面視点から描画プロセス全体を収録しました。"
+  },
+  "Compositing and post-production ↑": {
+    "zh": "合成与后期制作 ↑",
+    "ja": "合成とポストプロダクション ↑"
+  },
+  "Imported the recorded footage into Adobe After Effects and applied motion tracking to the pen tip. The previously generated front-view asset was bound to the drawing trajectory, the lifted-view asset was used for the pen-down and pen-lift animations of each UI stroke, and the rotation asset was used for large-scale translational movement animations of the mechanical pen.": {
+    "zh": "将录制素材导入 Adobe After Effects，并对笔尖进行运动跟踪。先前生成的正视资产绑定至绘制轨迹；抬起视角资产用于每一 UI 笔触的落笔与抬笔动画；旋转资产则用于机械笔的大尺度平移运动动画。",
+    "ja": "収録映像を Adobe After Effects に取り込み、ペン先にモーショントラッキングを適用しました。事前生成した正面ビューアセットを描画軌跡にバインドし、持ち上げビューアセットを各 UI ストロークのペンダウン／ペンリフトアニメーションに、回転アセットをメカニカルペンの大規模並進移動アニメーションに用いました。"
+  },
+  "Imported the single-line UI paths into Adobe After Effects, then aligned the keyframes of each Path Trim animation stroke with the motion-tracked trajectory from the previous step.": {
+    "zh": "将单线 UI 路径导入 Adobe After Effects，并将每一 Path Trim 动画笔触的关键帧与上一步的运动跟踪轨迹对齐。",
+    "ja": "単線 UI パスを Adobe After Effects に取り込み、各 Path Trim アニメーション・ストロークのキーフレームを、前工程のモーショントラッキング軌跡に揃えました。"
+  },
+  "Used Google Gemini to generate expressions for the randomized UI dissolution effect after the drawing sequence was completed.": {
+    "zh": "使用 Google Gemini 生成绘制序列完成后的随机化 UI 消解效果表达式。",
+    "ja": "描画シーケンス完了後のランダム化 UI ディゾルブ効果のエクスプレッションを、Google Gemini で生成しました。"
+  },
+  "Composited and rendered the final video output.": {
+    "zh": "合成并渲染最终视频输出。",
+    "ja": "最終映像出力を合成・レンダリングしました。"
+  }
+}

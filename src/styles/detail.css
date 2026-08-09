@@ -203,6 +203,12 @@
   color: #999999;
 }
 
+.line_research_img {
+  display: flex;
+  flex-direction: column;
+  gap: var(--grid-gutter);
+}
+
 .line_research_img img,
 .line_research_img video {
   display: block;

@@ -80,7 +80,10 @@
     "period": "Period",
     "category": "Category",
     "designLead": "Design Lead",
+    "designer": "Designer",
     "team": "Team",
-    "award": "Award"
+    "award": "Award",
+    "keywords": "Key Words",
+    "institution": "Institution"
   }
 }

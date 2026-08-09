@@ -119,6 +119,21 @@
 }
 
 /*
+ * Inter (Latin) at 300 reads close to system CJK at ~400.
+ * On zh/ja pages, bump both steps so mixed EN+CJK lines don’t look like
+ * thick Western glyphs next to thin Asian ones. Easy to revert.
+ *
+ * CJK glyphs also read denser at the same size, so loosen body leading
+ * (~1.2× EN) without changing Latin. Easy to revert / retune.
+ */
+html[lang='zh-CN'],
+html[lang='ja-JP'] {
+  --weight-light: 400;
+  --weight-regular: 500;
+  --leading-body: calc(1.2 * 1.03125 * var(--type-unit));
+}
+
+/*
  * Adaptive skeleton
  *
  * >1240: 12 cols · main 8 · cover-span 2 → 4 / row · right info on

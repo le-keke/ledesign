@@ -1,0 +1,1646 @@
+{
+  "slug": "effectiveness",
+  "meta": {
+    "displayTitle": {
+      "en": "Research on The Evolvement of Theory and Method of Design Effectiveness Evaluation",
+      "zh": "设计实效评价理论与方法演进研究",
+      "ja": "デザイン実効評価の理論と方法の展開研究"
+    },
+    "summary": {
+      "en": "",
+      "zh": "",
+      "ja": ""
+    },
+    "keywords": {
+      "en": "Design Effectiveness, Design Evaluation, Envolvoment Research, Design strategy and management",
+      "zh": "设计实效, 设计评价, 演进研究, 设计战略与管理",
+      "ja": "デザイン実効性, デザイン評価, 展開研究, デザイン戦略とマネジメント"
+    },
+    "period": {
+      "en": "2017.6",
+      "zh": "2017.6",
+      "ja": "2017.6"
+    },
+    "category": {
+      "en": "M.A. Dissertation (Excerpt)",
+      "zh": "硕士学位论文（节选）",
+      "ja": "修士論文（抜粋）"
+    },
+    "institution": {
+      "en": "Tongji University D&I",
+      "zh": "同济大学设计创意学院",
+      "ja": "同済大学デザイン創意学院"
+    },
+    "roles": [
+      {
+        "label": {
+          "en": "Researcher & Writer",
+          "zh": "研究者与作者",
+          "ja": "研究者・著者"
+        },
+        "value": {
+          "en": "Keke LE",
+          "zh": "乐可柯",
+          "ja": "樂可柯"
+        }
+      },
+      {
+        "label": {
+          "en": "Tutor",
+          "zh": "导师",
+          "ja": "指導教員"
+        },
+        "value": {
+          "en": "Prof. Siegfried Wu",
+          "zh": "Prof. Siegfried Wu",
+          "ja": "Prof. Siegfried Wu"
+        }
+      },
+      {
+        "label": {
+          "en": "Honor",
+          "zh": "荣誉",
+          "ja": "栄誉"
+        },
+        "value": {
+          "en": "Grade Double-A",
+          "zh": "双优",
+          "ja": "ダブルA"
+        }
+      }
+    ],
+    "disclaimer": {
+      "en": "Keke LE Design © All rights reserved.",
+      "zh": "乐可柯 Design © 版权所有。",
+      "ja": "樂可柯 Design © All rights reserved."
+    }
+  },
+  "sections": {
+    "en": [
+      {
+        "bg": "detail_bg_light",
+        "blocks": [
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_annotation",
+              "text": ""
+            },
+            "text": {
+              "h5": "Abstract",
+              "paragraphs": [
+                {
+                  "body": "Design evaluation is essentially value judgment which are divided into empirical theory and normative theory. The existing research on the theory of design evaluation is mainly concentrated in the category of \"normative theory\", and the research of \"empirical theory\" is relatively imperfect (theoretical demand). In the new context of design, it emphasizes the real problem of real world with the systematic solution to produce the actual value. So \"effectiveness\" evaluation of design is consistent with the proper meaning of the evaluation in this context (practical demand).",
+                  "muted": false
+                },
+                {
+                  "body": "Therefore, this research takes the \"design effectiveness evaluation\" as the object. Through systematically combing the evolvement of the theory and method of the design effectiveness evaluation, this paper summarizes the laws and characteristics behind it, and reveals the defination of the design effectiveness evaluation, the elements of the design value, the object of evaluation, the type and characteristics of the effectiveness evaluation theory and so on. All is to perfect the design effectiveness evaluation / design empirical theory in line with the new context of design and construct the conceptual application of the design effectiveness evaluation in practice model.",
+                  "muted": false
+                },
+                {
+                  "body": "First of all, this paper defines the concept of \"design effectiveness evaluation\": a qualitative judgment of \"presupposed\" value of design based on \"actual\" value of design by quantitative measurement of the \"effectiveness\" of design outcome or its elements. Then this paper defines the six \"effectiveness\" dimensions of the value of a design: functional effectiveness, usablility effectiveness, emotional effectiveness, transactional effectiveness, symbolical effectiveness, environmental effectiveness. And the design outcome types (form of value carrier) are proposed for hardware (P), software (I), service (S), bi-combination (P&I, P&S, I&S) and composite (P&I&S). Based on the logic and basic theory research, the \"evolvement table of design effectiveness evaluation theory and method\" is constructed.",
+                  "muted": false
+                },
+                {
+                  "body": "Secondly, through the literature research, data survey, sorting and other methods, those representative theories or methods of design effectiveness evaluation are selected and filled in the \"table\", and described and discussed respectively. Then the \"evolvement graph of design effectiveness evaluation theory and method \" is drawn.",
+                  "muted": false
+                },
+                {
+                  "body": "Based on the \"table\" and \"graph\", the law of the envolvement of the theory and method of design effectiveness evaluation is summarized. This paper puts forward the three dimensional attributes of design effectiveness: the quality dimension of \"subjective and objective\", the spatial dimension of \"individual and whole\", the time dimension of \"real-time and delay\", and constructs the attribute system of design effectiveness evaluation theory and method. Then, this paper summarizes the four aspects of design effectiveness evaluation characteristics in the new context of design: concept, subject and its purpose, object, methods and technical means.",
+                  "muted": false
+                },
+                {
+                  "body": "Finally, through logic deduction and case verification based on the theories of \"disruptive innovation\", \"demand life cycle\" and \"Kano model\", the paper puts forward the \"dynamic law of design value strategy\", and then the \"conceptual model of design effectiveness evaluation strategy\" is proposed.",
+                  "muted": false
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_md"
+            ],
+            "aside": {
+              "role": "line_annotation",
+              "text": ""
+            },
+            "text": {
+              "h5": "i. Concepts of Value, Effectiveness, and Evaluation and Their Logical Relations",
+              "paragraphs": [
+                {
+                  "body": "Evaluating the actual effect of an external element of a design is equivalent to evaluating a corresponding “ought-to-be” value of that design. Thus the design elements that represent “ought-to-be” value and the actual effects they produce form a one-to-one correspondence: “ought-to-be” value – “is” value; design element – actual effect.",
+                  "muted": false
+                },
+                {
+                  "body": "The concept and logical relations of “design effectiveness evaluation” are as follows: an evaluation that takes the “actual effect” of a design outcome or its elements as the quantitative basis of the design’s “is” value, and thereby makes a qualitative judgment of the design’s “ought-to-be” value, is called “design effectiveness evaluation.”",
+                  "muted": false
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_md"
+            ],
+            "aside": {
+              "role": "line_research_img",
+              "media": {
+                "kind": "image",
+                "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/effectiveness/pyramid.png"
+              }
+            },
+            "text": {
+              "h5": "ii. Six Layers of Design Effectiveness Value and the Dual-Pyramid Value Model",
+              "paragraphs": [
+                {
+                  "body": "A design’s “ought-to-be” value and its “is” value form a dialectical pair of contradictions. The direct object of evaluation is the actual effect of the design outcome or design element; in essence, one is indirectly evaluating the specific “ought-to-be” value that stands behind it.",
+                  "muted": false
+                },
+                {
+                  "body": "In the era of the global knowledge-network economy, design is undergoing a paradigm shift from “creating style” to “driving innovation”: (1) from making things to strategy; (2) from material design to immaterial design; (3) from specialization to interdisciplinarity; (4) from design to design thinking; (5) from creativity to innovation. Accordingly, any single mainstream value system and its standards from the past can no longer fully articulate design’s “ought-to-be” value today. In sum, a design outcome should be understood as a value complex. Drawing on the historical evolution of value concepts and the definitions and characteristics of the current paradigm shift, this paper proposes that design’s “ought-to-be” value covers six layers: (1) functional value; (2) usability value; (3) emotional value; (4) transactional (economic) value; (5) cultural (symbolic) value; (6) environmental value.",
+                  "muted": false
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "1) Functional Value — Practicality",
+                    "Function is the cornerstone—the most direct foundation on which design aims to solve real problems. In plain terms, functional effectiveness evaluation assesses whether a design is actually “useful.” User needs ascend layer by layer; the first pursuit is functionality. A design must fulfill a purpose, realize a function, and solve a problem."
+                  ]
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "2) Usability Value — Ease of Use",
+                    "Usability is the bridge—whether users can achieve purposes and needs through smooth use of the design outcome, and the most critical link by which design helps users fully redeem the presupposed functions to solve real problems. In plain terms, usability effectiveness evaluation assesses how “easy to use” a design actually is."
+                  ]
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "3) Emotional Value — Affectivity",
+                    "Affectivity is the catalyst—the emotional resonance gained beyond meeting basic functional needs and ease of use (in some cases without fully meeting these two foundations—e.g., Philippe Starck’s Juicy Salif, whose emotional value exceeds its functional and usability value)."
+                  ]
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "4) Transactional (Business) Value — Profitability",
+                    "Profitability is both the touchstone and the driving force—the realization, at the level of capital interest, of the user-side value of design (especially the three “ought-to-be” values of function, usability, and emotion above). It is also the basic impetus for design to continue operating and iterating among user groups, markets, and demand domains. Narrowly speaking, since the modernization of design, transactional (business) value has been an inherent attribute of design’s “ought-to-be” value."
+                  ]
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "5) Cultural (Symbolic) Value — Symbolism",
+                    "Symbolism is the weathervane—through tangible forms (products, systems, etc.) and intangible forms (service experiences, brands, etc.), and through accumulation and sustained dissemination across time and space, design gradually fosters cultural symbols of particular social or group ideologies. Culture is the sum of existing, inherited, created, and developing social phenomena and inner spirits of intelligent collectives. Design that possesses a certain cultural (symbolic) value gradually builds a population base that shares the same cultural value claims, giving rise to so-called “brand belonging,” “cultural worship,” “spiritual attachment,” “cognitive inertia,” and the like."
+                  ]
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "6) Environmental Value — Sustainability",
+                    "Sustainability is both the yardstick and the baseline—the foundation for the enduring development and iterative ascent of design outcomes, activities, or ecosystems. It concerns efficiency and, more importantly, the environmental responsibility or obligation value of survival. In plain terms, environmental-value effectiveness evaluation assesses how “friendly or damaging” a design actually is to living and ecological environments—its nature and degree."
+                  ]
+                },
+                {
+                  "body": "From the definitions and elaborations of the six layers of design effectiveness value, a further observation follows: the redeeming subjects of functional, usability, and emotional value are respectively users’ needs and expectations, users’ use behaviors, and users’ emotions—that is, these three design effectiveness values address the “user side” and embody “user-oriented” value thinking in design; effectiveness evaluation in this scope concerns the actual effects of the pure interactive relation between design and users. The redeeming subjects of profitability, symbolism, and sustainability are respectively product/service suppliers and stakeholders, social group ideologies, and the ecological (living) environment—that is, these three address the “economic, cultural, and environmental side” and embody “market-oriented, brand-oriented, and eco-oriented” value thinking; effectiveness evaluation here concerns the actual effects of the indirect influence relations among design, market, society (groups), and environment. Accordingly, “user-side” effectiveness value and “economic–cultural–environmental-side” effectiveness value may be summarized as (1) “front-end” value by which design acts directly on users, and (2) “back-end” value by which design acts indirectly on market, society, and environment. On this basis, this paper proposes the “dual-pyramid value model of design.”",
+                  "muted": false
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_md"
+            ],
+            "aside": {
+              "role": "line_research_img",
+              "media": {
+                "kind": "image",
+                "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/effectiveness/logic.png"
+              },
+              "medias": [
+                {
+                  "kind": "image",
+                  "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/effectiveness/logic.png"
+                },
+                {
+                  "kind": "image",
+                  "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/effectiveness/media_type.png"
+                }
+              ]
+            },
+            "text": {
+              "h5": "iii. A Narrow Interpretation of the “Three Elements of Design Outcomes” Based on the “Three Elements of Design Logic” Theory",
+              "paragraphs": [
+                {
+                  "body": "The latest international definition of industrial design states that design provides systemic solutions through “innovative products, systems, services and experiences (… through innovative products, systems, services and experiences… )” as forms of value carriers. Accordingly, we may equivalently call design’s output forms or value carriers “products.” This paper attempts a deeper narrow-sense deconstruction, subdividing the generic “product” of design outcomes into three types: (1) hardware products; (2) software systems; (3) service systems.",
+                  "muted": false
+                },
+                {
+                  "body": "In terms of attributes, behind these three types lie three basic modes of design logical thinking: “functional logic” (Funtional logic), “behavioural logic” (Behavioural logic), and “transactional logic” (Transactional logic). These three basic logics likewise emerged successively in time and became dominant modes of thinking in design activity:",
+                  "muted": false
+                },
+                {
+                  "body": "Functional logic. Mass standardized production methods and technologies, commodified market-economy models, and inquiries into hardware product design concerning the dialectical relation of form and function—as hallmarks of the industrial-economy period—made design more concerned with “making things,” or “making functions.” Designers tended to think from the object-attribute angle of “what this product can do or what efficacy it can provide to solve problems”—a leading mindset whose main purpose is to determine and realize functional needs. This is “functional logic,” also “object-oriented logic.”",
+                  "muted": false
+                },
+                {
+                  "body": "Behavioural logic. Digital automation and globalized communication technologies, the “black-boxing” of computer operations, and inquiries into software-system design concerning human–computer and information interaction—as hallmarks of the digital-economy period—made design more concerned with “making behaviors.” Designers tended to think from the behavior-attribute angle of “how users should conveniently use this product, or what the use process is”—a leading mindset whose main purpose is to determine and realize use flows. This is “behavioural logic,” also “human-oriented logic.”",
+                  "muted": false
+                },
+                {
+                  "body": "Transactional logic. The globalization of interconnected networks and highly open, symmetric information; new economic models that shift from incremental to stock-value re-amplification—represented by the long-tail theory, zero marginal cost, the sharing economy, and personalized demand market segmentation; and inquiries into service-system design grounded in human–human interaction atop human–object and information foundations—as hallmarks of the experience-economy period—made design more concerned with “making relations.” “Transaction” is essentially “trade/exchange”; value arises in trade and exchange. Designers thus tend to think from the business-attribute angle of “what the business needs of this product are, and how to set reasonable business rules and processes to implement a business model and obtain commercial benefits”—a leading mindset whose main purpose is to determine and realize business needs, rules, and processes. This is “transactional logic,” also “relation-oriented logic.”",
+                  "muted": false
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "Industrial Economy Era — Hardware Products (P)",
+                    "Hardware products were the primary output form of design value in the industrial-economy era—especially mechanized and electronic products assembled from material physical components and electronic parts (non-digital, non-system-intelligent products). The corresponding basic design logic is functional (object-oriented) logic. Their basic characteristic emphasizes practicality (Practical product); hence “P” is used as the symbol of this basic type of “hardware product.”"
+                  ]
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "Digital Economy Era — Software Systems (I)",
+                    "Software systems were the primary output form of design value in the digital-economy era—especially virtualized, digital products assembled from computer-driven processes and information coding. The corresponding basic design logic is behavioural (human-oriented) logic. Their basic characteristic emphasizes product use and information interactivity (Interactive information); hence “I” is used as the symbol of this basic type of “software system.”"
+                  ]
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "Experience Economy Era — Service Systems (S)",
+                    "Service systems are the primary output form of design value in the experience-economy era—especially organized, systemic products driven by user needs, supported by business models, and assembled from various media (servers, managers, tools, programs, etc.). Their basic characteristic emphasizes overall interest relations, business nature, and systemic character (Systemic service); hence “S” is used as the symbol of this basic type of “service system.”"
+                  ]
+                },
+                {
+                  "body": "Concrete design outputs are not always single, isolated basic forms of the “three elements of design outcomes,” but recombinations and compositions of the three basic forms. They are successive in time and additive in attributes. From the industrial-economy period’s single hardware product design, through the digital-economy period’s hardware product design combined with software systems, to the experience-economy period’s service-system design integrating hardware and software, design outcomes exhibit the pattern “single > combined > composite.”",
+                  "muted": false
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "1) Single-type design outcome system (–1960s). Includes the hardware product form (P); 1 class in total.",
+                    "2) Combined-type design outcome system (1960s–2000s). Includes hardware product form (P), software system form (I), and combined hardware–software product form (P&I); 3 classes in total.",
+                    "3) Composite-type design outcome system (2000s–). Includes hardware product form (P), software system form (I), service system form (S), combined hardware–software product form (P&I), service system integrating hardware products (P&S), service system integrating software systems (I&S), and service system integrating hardware products and software systems (P&I&S); 7 classes in total."
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_md"
+            ],
+            "aside": {
+              "role": "line_annotation",
+              "text": ""
+            },
+            "text": {
+              "h5": "iv. Evolvement Table and Graph of Design Effectiveness Evaluation Theory and Method",
+              "paragraphs": [
+                {
+                  "body": "In sum, starting from evaluating the actual effects of design, this paper defines and subdivides the hard-to-delimit design value and the objects under evaluation, thereby making feasible a micro-level, deconstructive logic of design effectiveness evaluation. The “horizontal axis column I,” “vertical axis column,” and “horizontal axis column II” obtained from discussions of the “concept and logic of design effectiveness evaluation,” the “value composition of design effectiveness,” and the “object of effectiveness evaluation (value carrier)” are jointly constructed into the “evolvement table of design effectiveness evaluation theory and method,” as shown below.",
+                  "muted": false
+                },
+                {
+                  "body": "Before researching the evolvement of design effectiveness evaluation theory and method, the following three rules are given as standards for selecting theories and methods of design effectiveness evaluation in this paper:",
+                  "muted": false
+                },
+                {
+                  "body": "1) The theory or method evaluates the concrete actual effects of a complete design outcome on the user side—that is, it excludes prototype testing at the early stage of scheme formulation, among other things. On the one hand, the main object of this research is design effectiveness, which sidewise refers to stages in which hardware products, software systems, or service systems have been put into use or tested under simulated real scenarios. On the other hand, even schemes that obtain excellent effectiveness in user-participatory prototype or concept tests often underperform in actual use upon delivery, because the test environment is not the most real and natural for users. This is likewise why this paper studies design effectiveness evaluation: only “the actual behavior (Real behavior) of a real user (Real user) interacting with real media (Real media) in a real context (Real context) with a clear real purpose (Real purpose) can truly reflect the actual effect (Effectiveness) of design.”",
+                  "muted": false
+                },
+                {
+                  "body": "2) The theory and method focus on evaluating the effectiveness value of a specific layer of design and do not include spillover-value evaluation. Taking the easily ambiguous evaluation of “usability effectiveness” as an example, only evaluation theories and methods concerning “ease of use” are analyzed here; “utility” and “satisfaction” within usability will be discussed under “functional effectiveness” and “emotional effectiveness,” respectively.",
+                  "muted": false
+                },
+                {
+                  "body": "3) The theory and method have a certain representativeness. Representative theories or methodologies are selected and plotted on a visualized lineage graph; theories or methods of the same kind that are derivative extensions will not be elaborated in detail.",
+                  "muted": false
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line_image",
+            "spacing": [],
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/effectiveness/table.png",
+            "layout": "content"
+          },
+          {
+            "type": "detail_line_image",
+            "spacing": [],
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/effectiveness/graph.png",
+            "layout": "content"
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_md"
+            ],
+            "aside": {
+              "role": "line_annotation",
+              "text": ""
+            },
+            "text": {
+              "h5": "v. Description of the “Graph” Based on the Six Layers of Design Effectiveness Value",
+              "paragraphs": [
+                {
+                  "body": "1) Functional effectiveness evaluation of design: a mode of thought and method that judges quality directly from phenomena in black-and-white, either/or, superior/inferior terms (there is no quantity, only quality—no sense of how good or how poor a function is, nor of how much users expect a function belonging to attractive needs, etc.). It is also an individual-level mindset that asks whether any single design outcome realizes its presupposed function, treating realization of the presupposed function as a necessary, basic baseline condition for overall excellent effectiveness. Evaluation theory and method at this layer began with hardware product evaluation and by now basically cover all design outcome categories including software systems and service systems.",
+                  "muted": false
+                },
+                {
+                  "body": "2) Usability effectiveness evaluation of design: continually seeking how to quantify and visualize users’ psychological cognitive activities (internal manifestations) and behavioral processes (external manifestations), in order to evaluate usability more precisely, quickly, and comprehensively (not only for single users but for overall use feedback of user groups), thereby providing objective decision grounds for optimizing ease of use of products or services—a mode of thought that quantifies analysis so as to determine quality (quality from quantity). Evaluation theory and method at this layer began with hardware products and software systems and by now basically cover all design outcome categories including service systems.",
+                  "muted": false
+                },
+                {
+                  "body": "3) Emotional effectiveness evaluation of design: continual breakthroughs against the former constraint that personal subjective emotion (e.g., aesthetic views) was hard to quantify and thus design was hard to evaluate. As with usability-value effectiveness evaluation, “quantifying emotion and quantifying subjective consciousness into objective data” has become key to emotional-value effectiveness evaluation—shifts from actively voiced subjective data (Aloud Data) to passively silent objective data (Silent Data); from an individual’s emotion to a group’s overall emotion; from stockpiled emotional feedback to real-time emotional feedback; and so on. Evaluation theory and method at this layer began with hardware products and software systems and by now basically cover all design outcome categories including service systems.",
+                  "muted": false
+                },
+                {
+                  "body": "4) Transactional effectiveness evaluation of design: ideas and methods develop in correspondence with the evolvement of economic models. Effectiveness evidence combines what is taken directly from the market with what is taken indirectly from users, yet “quantitative data” remains throughout the most reliable, direct, and authentic basis for evaluating the effectiveness of design’s transactional value. Evaluation theory and method at this layer began with hardware product evaluation (commodity-economy era) and by now basically cover all design outcome categories including software systems and service systems.",
+                  "muted": false
+                },
+                {
+                  "body": "5) Cultural-symbolic effectiveness evaluation of design: transforming intangible, immaterial, abstract, hard-to-evaluate ideas of consciousness into tangible, material, concrete, evaluable objective facts likewise embodies the dominant mindset of “quantifying effectiveness” in the evolvement of theory and method at this layer. Compared with emotion, which tends toward the individual, cultural-symbolic value effectiveness evaluation tends more toward the comprehensive views of groups: not only is the evaluating subject a group, but the evaluation object does not stay at the micro level of a single product or service detail; rather, it concerns the overall impression and user conception jointly shaped by all the fine-grained constituent elements of the design outcome—an holistic, quantitative mode of effectiveness evaluation. Evaluation theory and method at this layer began with hardware products and service systems and by now basically cover all design outcome categories including software systems.",
+                  "muted": false
+                },
+                {
+                  "body": "6) Environmental effectiveness evaluation of design: converting the effectiveness of impacts that the design process and outcomes exert on the environment into well-grounded, traceable objective data (carbon footprints, etc.)—a strict (clear resource categories and reference indicators), targeted (a certain phase or segment of the life cycle), quantitative mode of effectiveness evaluation. Evaluation theory and method at this layer apply only to the categories of hardware products and service systems and their combined outcomes.",
+                  "muted": false
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_md"
+            ],
+            "aside": {
+              "role": "line_research_img",
+              "media": {
+                "kind": "image",
+                "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/effectiveness/attribute.png"
+              }
+            },
+            "text": {
+              "h5": "vi. Three Attribute Dimensions of Design Effectiveness Evaluation Theory and Method",
+              "paragraphs": [
+                {
+                  "body": "Whether the effectiveness evidence of a design is captured instantaneously or requires temporal accumulation; whether it is taken from point-like individuals or surface-like groups; whether it belongs to subjective consciousness data or objective facts—and so on—ultimately all reduce to the three dimensions of “time, space, and quality,” jointly delineating the distinctive attributes of a given theory or method when evaluating the effectiveness of different types of design outcomes.",
+                  "muted": false
+                },
+                {
+                  "body": "1) Real-time vs. delayed — time dimension: design effectiveness under evaluation that possesses measuring validity (Measuring Validity – MV) within an instantaneous or extremely short period is real-time effectiveness. Design effectiveness under evaluation that possesses measuring validity only after accumulation over a certain period is delayed effectiveness.",
+                  "muted": false
+                },
+                {
+                  "body": "2) Individual vs. holistic — space dimension: design effectiveness under evaluation that possesses measuring validity within the scope of a single individual is individual effectiveness. Design effectiveness under evaluation that possesses measuring validity within the scope of a group or the whole is holistic effectiveness.",
+                  "muted": false
+                },
+                {
+                  "body": "3) Subjective vs. objective — quality dimension: design effectiveness under evaluation that possesses measuring validity on the basis of user-centered subjective, direct feedback is subjective effectiveness. Design effectiveness under evaluation that possesses measuring validity on the basis of non-user objective, indirect feedback is objective effectiveness.",
+                  "muted": false
+                },
+                {
+                  "body": "Further systematizing, an “attribute system of design effectiveness evaluation theory and method” is summarized for the seven types of design value carriers (P, I, S, P&I, P&S, I&S, P&I&S), standing on the six layers of design effectiveness value and belonging to the three attributes of design effectiveness. Following the logical order of which class of design effectiveness attribute a given effectiveness-value layer of a given design outcome type belongs to (design outcome type > effectiveness value layer > design effectiveness attribute), a corresponding visualized table of the “attribute system of design effectiveness evaluation theory and method” is established.",
+                  "muted": false
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_md"
+            ],
+            "aside": {
+              "role": "line_annotation",
+              "text": ""
+            },
+            "text": {
+              "h5": "vii. Four Basic Characteristics of Design Effectiveness Evaluation in the New Design Context",
+              "paragraphs": [
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "1) Conceptual characteristics of design effectiveness evaluation:",
+                    "a) Effectiveness concept: the “is” value of a design outcome is the sole objective basis for testing the “ought-to-be” value presupposed by the designer. Only evaluating the actual effects of design output is the sole path to judging whether design has solved real problems.",
+                    "b) Quantification concept: interdisciplinarily combining measurement science (as used in psychology, economics, etc.) with the design discipline to quantify the actual effects of design, and on the basis of objective data to make qualitative evaluations of design from a more persuasive empirical standpoint.",
+                    "c) Dynamic concept: as design outcome types and their corresponding actual effects continually develop and change, design effectiveness must be evaluated in a continuous, flexible, and dynamic manner."
+                  ]
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "2) Characteristics of the subjects of design effectiveness evaluation and of evaluation purposes:",
+                    "a) Users (demand side): the direct source of evidence for design effectiveness evaluation (the first subject of evaluation) is the user—the most direct demand object of product or service design. Precisely the accumulated group-level design effectiveness evaluations issued from users’ first-person perspectives (rather than designers or authoritative evaluators, etc.) form the most actual value visage of a given design outcome. The purpose is not only consumption decisions, but more often to convey to the outside world, in the posture of design cognitive surplus, one’s own value conceptions of design.",
+                    "b) Designers (supply side): designers are the other subject of design effectiveness evaluation, using evaluation of design effectiveness as an auxiliary means for design practice decisions."
+                  ]
+                },
+                {
+                  "body": "3) Characteristics of the object of design effectiveness evaluation: the complexity and compositeness of design effectiveness evaluation rise with the complexity and compositeness of its evaluation object—i.e., design outcome types. Because of the compositeness of its evaluation object, design effectiveness evaluation becomes a dialectical process from whole to individual and from individual back to whole, from structure to deconstruction and from deconstruction back to structure; it is a dialectical evaluation philosophy that, according to concrete evaluation needs, has both targeting and priority and totality and balance.",
+                  "muted": false
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "4) Characteristics of methods and technical means of design effectiveness evaluation:",
+                    "a) Breadth dimension: samples of effectiveness evidence are large and complete, with comprehensiveness yet without lacking diversity;",
+                    "b) Speed dimension: the time for acquiring, measuring, analyzing, and even qualitatively determining effectiveness evidence is short (or real-time)",
+                    "c) Depth dimension: possessing the capacity for automatic analysis and qualitative determination that deeply examines each individual sample and dissects the inner causes beneath effectiveness phenomena."
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_md"
+            ],
+            "aside": {
+              "role": "line_research_img",
+              "media": {
+                "kind": "image",
+                "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/effectiveness/ring.png"
+              }
+            },
+            "text": {
+              "h5": "viii. The Dynamic Strategic Cycle Law of Design Value",
+              "paragraphs": [
+                {
+                  "body": "Based on logical deduction and case verification of the theories of “disruptive innovation,” “demand life cycle,” and the “Kano model,” this paper derives the “dynamic strategic cycle law of design value”:",
+                  "muted": false
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "I) Excitement-need stage (E — G1)",
+                    "This stage is the disruptive-innovation stage in which old demand (market) leaps from a prior grade to a new grade of products or services; the appearance of new products or services “leads” new demand, and users are in an excitement stage of cognizing, learning, and adapting to new functions; correspondingly a new market appears, but with few competitors early innovators are monopolists and explorers; the old-grade market and the emerging market coexist in time, and the former still holds a large share; demand moves from emergence into accelerated growth, demand growth exceeds supply growth, and the supply–demand curve shows an accelerating upward trend; thus how new products or services can quickly convey their inner new value to users and educate them on what they are for and how to use them—i.e., “quickly seize first-mover cognition and enclose the first cohort of users”—is the strategic focus of designers (suppliers) at this stage; correspondingly, “functional and usability” values are the main strategic emphases of design value at this stage."
+                  ]
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "II) Performance-need stage (G1 — M)",
+                    "This stage is the incremental-innovation stage of products or services within the same-grade cycle of new demand (market); users already have relatively mature cognition of new products or services and gradually begin to raise expected requirements based on quality characteristics of existing products or services, while continually iterated products or services gradually shift to “catering to” demand; as more competitors enter the new market, the market gradually enters a stage of homogenized, diversified competition, and the old-grade market is gradually replaced by the new-grade market as old-grade demand declines; demand moves from decelerated growth to maturity, demand growth equals supply growth, and the demand curve shows a linear upward trend; thus as suppliers consider how their brand’s products or services can stand out in a homogenized competitive market, convey distinctive value conceptions, and make users already familiar with “what for and how to use” come to “like to use”—i.e., “build brand reputation and cultivate loyal users”—this is the strategic focus of designers (suppliers) at this stage; correspondingly, “emotional and cultural-symbolic” values are the main strategic emphases of design value at this stage."
+                  ]
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "III) Basic-need stage (M — D)",
+                    "This stage is when existing demand (market) enters a phase of exhausted incremental innovation and prepares for a pre-disruptive leap to the next grade of products or services; users’ cognition of existing products and services enters a normal (even fatigued) state; the quality characteristics users once expected gradually become basic requirements, and products or services “guarantee” the basic realization of needs; the market gradually saturates, competition weeds out the weak, a few occupy the main share and the majority the remainder; demand is in the late mature period (cut off before decline—decline of existing demand often means new demand has already appeared, i.e., a new round of disruptive innovation is complete, so the dynamic strategic emphasis of design value also enters the next cycle from this node rather than extending into decline); demand growth is less than supply growth, and the demand curve flattens; thus how products or services maintain stable, healthy (not price wars or resource-consuming expansionist iteration), sustainable development in a saturated demand (market)—i.e., “operate stable profitability and cut iteration costs”—is the strategic focus of designers (suppliers) at this stage; correspondingly, “transactional and environmental” values are the main strategic emphases of design value at this stage."
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_md"
+            ],
+            "aside": {
+              "role": "line_research_img",
+              "media": {
+                "kind": "image",
+                "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/effectiveness/level.png"
+              }
+            },
+            "text": {
+              "h5": "ix. Strategy Model of Design Effectiveness Evaluation",
+              "paragraphs": [
+                {
+                  "body": "Theoretically, strategies of design effectiveness evaluation should form a one-to-one correspondence with their (indirect) evaluation object—namely design’s “ought-to-be” value—along the timeline of demand life. Having established that design value, across the “excitement,” “performance,” and “basic” need stages within the same-grade demand (market) cycle, successively emphasizes “function and usability,” “emotion and cultural symbolism,” and “transaction and environment,” this paper correspondingly divides “design effectiveness evaluation strategy” into the following three strategy hypotheses:",
+                  "muted": false
+                },
+                {
+                  "body": "I) Dual-basic effectiveness evaluation strategy: in the excitement-need life stage whose strategic design-value emphasis is function and usability, a strategy that prioritizes effectiveness evaluation of the functional and usability values of design outcomes.",
+                  "muted": false
+                },
+                {
+                  "body": "II) T-shaped effectiveness evaluation strategy: in the performance-need life stage whose strategic design-value emphasis is emotion and cultural symbolism, a strategy that, on top of the dual-basic effectiveness evaluation, prioritizes effectiveness evaluation of the emotional and cultural-symbolic values of design outcomes (a T-shaped model formed by three “front-end” values + one “back-end” value).",
+                  "muted": false
+                },
+                {
+                  "body": "III) Comprehensive effectiveness evaluation strategy: in the basic-need life stage whose strategic design-value emphasis is transaction and environment, a strategy that, on top of T-shaped effectiveness evaluation, prioritizes effectiveness evaluation of the transactional and environmental values of design outcomes.",
+                  "muted": false
+                },
+                {
+                  "body": "Design’s “ought-to-be” value, across the “excitement,” “performance,” and “basic” need stages within the same-grade demand-market cycle, successively follows a dynamic strategy emphasizing “function and usability,” “emotion and cultural symbolism,” and “transaction and environment.” In practice, design effectiveness evaluation is a complex (primary/secondary among objects), dynamic (sequential in time), purpose- and need-responsive evaluation strategy: across the “excitement,” “performance,” and “basic” need stages within the same-grade demand (market) cycle, it successively prioritizes evaluating the effectiveness of design outcomes’ “functional and usability” values (dual-basic effectiveness evaluation strategy), “emotional and cultural-symbolic” values (T-shaped effectiveness evaluation strategy), and “transactional and environmental” values (comprehensive effectiveness evaluation strategy).",
+                  "muted": false
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "zh": [
+      {
+        "bg": "detail_bg_light",
+        "blocks": [
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_annotation",
+              "text": ""
+            },
+            "text": {
+              "h5": "摘要",
+              "paragraphs": [
+                {
+                  "body": "设计评价本质上是一种价值判断，可分为实证理论与规范理论。现有设计评价理论研究主要集中于“规范理论”范畴，而“实证理论”研究相对不完善（理论需求）。在新型设计语境下，强调以系统性方案解决真实世界的真实问题并产生实际价值。因此，设计的“实效”评价与该语境下评价的应有之义相一致（实践需求）。",
+                  "muted": false
+                },
+                {
+                  "body": "因此，本研究以“设计实效评价”为对象。通过系统梳理设计实效评价理论与方法的演进，本文总结其背后的规律与特征，并揭示设计实效评价的定义、设计价值要素、评价对象、实效评价理论的类型与特征等。旨在完善符合新型设计语境的设计实效评价／设计实证理论，并构建设计实效评价在实践模型中的概念性应用。",
+                  "muted": false
+                },
+                {
+                  "body": "首先，本文界定“设计实效评价”的概念：通过对设计产出或其要素“实效”的定量计量，以设计的“实然”价值为依据，对设计的“应然”价值作出定性判断。继而界定设计价值的六个“实效”维度：功能实效、可用性实效、情感实效、业务实效、符号实效、环境实效。并提出设计产出类型（价值载体形式）：硬件（P）、软件（I）、服务（S）、两两结合（P&I、P&S、I&S）以及复合（P&I&S）。在逻辑与基础理论研究基础上，构建“设计实效评价理论与方法演进表”。",
+                  "muted": false
+                },
+                {
+                  "body": "其次，通过文献研究、数据调研、整理等方法，选取具有代表性的设计实效评价理论或方法填入“演进表”，并分别加以描述与讨论。继而绘制“设计实效评价理论与方法演进图谱”。",
+                  "muted": false
+                },
+                {
+                  "body": "基于“表”与“图谱”，总结设计实效评价理论与方法演进的规律。本文提出设计实效的三维属性：“主观与客观”的质量维、“个体与整体”的空间维、“实时与延时”的时间维，并构建设计实效评价理论与方法的属性体系。继而从观念、主体及其目的、客体、方法与技术手段四个方面，总结新型设计语境下设计实效评价的特征。",
+                  "muted": false
+                },
+                {
+                  "body": "最后，基于“颠覆式创新”“需求生命周期”以及“Kano模型”等理论，通过逻辑推演与案例验证，提出“设计价值动态战略规律”，进而提出“设计实效评价策略概念模型”。",
+                  "muted": false
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_md"
+            ],
+            "aside": {
+              "role": "line_annotation",
+              "text": ""
+            },
+            "text": {
+              "h5": "i.价值、实效、评价三者概念及其逻辑关系",
+              "paragraphs": [
+                {
+                  "body": "评价某项设计外在元素的实际效果如何，就等同于在评价该设计的某项“应然”价值如何，那么表征“应然”价值的设计元素就和它们所产生的实际效果形成了可一一对应的关系：“应然”价值 - “实然”价值；设计元素 - 实际效果。",
+                  "muted": false
+                },
+                {
+                  "body": "“设计实效评价”的概念及逻辑关系如下：以设计产物或其元素的“实际效果”作为设计“实然”价值的计量依据，对设计的“应然”价值进行定性判断的评价，叫做“设计实效评价”。",
+                  "muted": false
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_md"
+            ],
+            "aside": {
+              "role": "line_research_img",
+              "media": {
+                "kind": "image",
+                "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/effectiveness/pyramid.png"
+              }
+            },
+            "text": {
+              "h5": "ii.设计实效价值六层面与双金字塔价值模型",
+              "paragraphs": [
+                {
+                  "body": "设计的“应然”价值和其“实然”价值是一对辨证矛盾体。评价的直接对象是设计产出物或设计元素的实际效果，本质上是间接地评价其背后所代表的具体某项“应然”价值。",
+                  "muted": false
+                },
+                {
+                  "body": "现处全球知识网络经济时代，设计正在经历从“创造风格”到“驱动创新”的范式转型：（1）从造物到战略；（2）从物质设计到非物质设计；（3）从专业到跨学科；（4）从设计到设计思维；（5）从创意到创新。由此可见，用过去任何一条单独的主流价值观和其标准已经无法完整地叙述当今设计的“应然”价值。那么综上，显然设计产出物应该是一个价值综合体，本文总结历史不同阶段的价值观念演变规律，结合当下新型设计范式转型的定义和特性，此文提出设计“应然”价值涵盖以下六个层面：（1）功能价值；（2）可用性价值；（3）情感价值；（4）业务（经济）价值；（5）文化（符号）价值；（6）环境价值。",
+                  "muted": false
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "1）功能价值 - 实用性",
+                    "功能是基石，是设计旨在解决实际问题的最直接依托。通俗地讲，功能性实效评价就是在评价设计实际“有没有用”的情况。用户需求呈层层递进，首先追求的就是功能性，一个设计必须完成一个目的、实现一个功能、解决一个问题。"
+                  ]
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "2）可用性价值 - 易用性",
+                    "可用性是桥梁，是用户能否通过设计产物的顺利使用达成目的和需求，是设计能否帮助用户完全兑现预设功能从而解决实际问题的最关键环节。通俗地讲，可用性实效评价就是在评价设计实际“好不好用”的程度。"
+                  ]
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "3）情感价值 - 情感性",
+                    "情感性是催化剂，是设计满足基本功能需求、易于使用等基础之上所增益的情感共鸣，（有些情况下甚至不用满足或完全满足此两个基础条件，比如P.斯塔克所设计的怪物榨汁机之情感价值大于功能与易用价值等案例）。"
+                  ]
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "4）业务（商业）价值 - 盈利性",
+                    "盈利性是试金石更是推动力，是设计的用户端价值（尤指上述功能、可用性、情感三项“应然”价值）在资本利益层面得到兑现的体现，同时更是设计在用户群、市场及需求领域得以继续运作和迭代的推动基本，狭义上讲，设计现代化以来，业务（商业）价值已经是设计“应然”价值的天然属性。"
+                  ]
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "5）文化（符号）价值 - 象征性",
+                    "象征性是风向标，是设计依托有形（如产品、系统等）、无形（如服务体验、品牌等）的方式，历经时间和空间的积累与持续传播，逐渐促成某种特定社会或群体意识形态的文化符号。文化是智慧群族的一切群族社会现象与群族内在精神的既有、传承、创造、发展的总和。具备一定文化（符号）价值的设计，会逐渐建立起具备同种文化价值诉求的人群基础，使其产生所谓的“品牌归属”、“文化崇拜”、“精神寄托”、“认知惯性”等。"
+                  ]
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "6）环境价值 - 可持续性",
+                    "可持续性是准绳，也是底线，是设计产物、活动或生态得以永续发展、往复上升的根本，关乎效率问题，更关乎生存的环保责任或义务价值。通俗地讲，设计的环境价值实效评价就是在评价设计实际对生活、生态环境“友不友好、损耗大不大”的性质和程度。"
+                  ]
+                },
+                {
+                  "body": "通过上述对六大层面的设计实效价值构成要素的定义和阐释，可以进一步发现：功能性、可用性以及情感性价值的兑现主体分别为用户的需求和期望、用户的使用行为以及用户的情感，也即此三项设计实效价值针对的是“用户端”，体现的是设计中“用户导向”的价值思维，这个范畴下设计实效评价的是设计与用户之间纯粹交互关系的实际效果；盈利性、象征性以及可持续性价值的兑现主体分别为产品或服务供应商及利益相关者、社会群体性意识形态以及生态（生活）环境，也即此三项设计实效评价针对的是“经济、文化、环境端”，体现的是设计中“市场导向、品牌导向、环保导向”的价值思维，这个范畴下设计实效评价的是设计与市场、社会（群体）、环境之间间接影响关系的实际效果。由此，将“用户端”实效价值与“经济、文化、环境端”实效价值归纳为（1）设计直接作用于用户的“前端”价值；（2）设计间接作用于市场、社会、环境的“后端”价值。在此基础上，本文提出“设计的双金字塔价值模型”，",
+                  "muted": false
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_md"
+            ],
+            "aside": {
+              "role": "line_research_img",
+              "media": {
+                "kind": "image",
+                "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/effectiveness/logic.png"
+              },
+              "medias": [
+                {
+                  "kind": "image",
+                  "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/effectiveness/logic.png"
+                },
+                {
+                  "kind": "image",
+                  "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/effectiveness/media_type.png"
+                }
+              ]
+            },
+            "text": {
+              "h5": "iii.基于“设计逻辑三元素”理论的“设计产物三元素”狭义阐释",
+              "paragraphs": [
+                {
+                  "body": "工业设计的国际最新定义中明确表示，设计是通过“创新产品、系统、服务以及体验（… through innovative products, systems, services and experiences… ）”等价值载体形式提供系统性解决方式。由此，我们可以等价地将设计的产出形式或价值载体统称为“产品”。本文则试图在狭义层面上进行更深一步的解构，将设计产物统称的“产品”具体细分为三种类型：（1）硬件产品（2）软件系统（3）服务体系。",
+                  "muted": false
+                },
+                {
+                  "body": "属性上，此三种类型的深层背后恰好对应了三种设计的基本逻辑思维，分别是“功能逻辑”（Funtional logic）、“行为逻辑”（Behavioural logic）以及“业务逻辑”（Transactional logic），而这三种设计的基本逻辑同样是在时间上相继产生并成为设计活动中主导思维的：",
+                  "muted": false
+                },
+                {
+                  "body": "功能逻辑。大批量标准化的生产方式与技术、商品化的市场经济模式、形式与功能辨证关系的硬件产品设计探究等作为工业经济时期的时代特征，使设计更关注于“造物”，也可以理解为“造功能”。设计者多以“这个产品能够做什么或者能够提供什么功效从而解决问题”等物体属性的角度思考，是以确定并实现功能需求为主要目的的先导思维，此谓“功能逻辑”，也可谓“物向逻辑”。",
+                  "muted": false
+                },
+                {
+                  "body": "行为逻辑。数字自动化与通讯全球化的技术、计算机运作过程的“黑箱化”、人与计算机、信息交互关系的软件系统设计探究等作为数字经济时期的时代特征，使设计更关注于“造行为”。设计者多以“用户应该如何方便地使用这个产品或者这个产品的使用流程是什么”等行为属性的角度思考，是以确定并实现使用流程为主要目的的先导思维，此谓“行为逻辑”，也可谓“人向逻辑”。",
+                  "muted": false
+                },
+                {
+                  "body": "业务逻辑。互联互通网络的全球化与信息的高度开放对称、以长尾理论、零边际成本、共享经济以及个性需求细分市场为一众代表的增量转为存量价值再增益的新型经济模式、建立在人与物、信息基础之上人与人交互关系的服务体系设计探究等作为体验经济时期的时代特征，使设计更关注于“造关系”。“业务（Transaction）”二字，本质上也就是“交易、交换”的概念，价值在“交易、交换”中产生，故设计者多以“这个产品的业务需求是什么、如何设定合理的业务规则和流程以实施商业模式从而获取商业利益”等业务属性的角度思考，是以确定并实现业务需求、规则和流程为主要目的的先导思维，此谓“业务逻辑”。也可谓“关系向逻辑”。",
+                  "muted": false
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "工业经济时代 - 硬件产品（P）",
+                    "硬件产品是工业经济时代下设计价值主要的产出形式，尤指由物质化的物理组件、电子元件等集合而成的机械化、电子化产品（非数字化、系统智能化产品）。对应的设计基本逻辑为功能（物向）逻辑。其基本特征强调产品的实用性（Practical product），故以“P”作为“硬件产品”这一基本型的符号。"
+                  ]
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "数字经济时代 - 软件系统（I）",
+                    "软件系统是数字经济时代下设计价值主要的产出形式，尤指由计算机驱动、信息编码等集合而成的虚拟化、数字化产品。对应的设计基本逻辑为行为（人向）逻辑。其基本特征强调产品的使用性、信息的交互性（Interactive information），故以“I”作为“软件系统”这一基本型的符号。"
+                  ]
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "体验经济时代 - 服务体系（S）",
+                    "服务体系是体验经济时代下设计价值主要的产出形式，尤指由用户需求驱动、商业模式支撑并由各种媒介（服务者、管理者、工具、程序等）集合而成的组织化、系统化产品。其基本特征强调产品的整体利益关系、业务性以及系统性（Systemic service），故以“S”作为“服务体系”这一基本型的符号。"
+                  ]
+                },
+                {
+                  "body": "设计具体产出的形式不会一味是单一、孤立的“设计产物三元素”基本形态，而应该是三种基本形态的重组和构成。在时间上有相继性，在属性上有叠加性。设计活动从工业经济时期，单一的硬件产品设计，到数字经济时期，结合软件系统的硬件产品设计，再到体验经济时期，集合硬件、软件于一体的服务体系设计，设计产物呈现出“单一 > 结合 > 复合”的规律。",
+                  "muted": false
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "1）单一型设计产物体系（-1960s）。包含硬件产品形态（P），共1类",
+                    "2）结合型设计产物体系（1960s - 2000s）。包含硬件产品形态（P）、软件系统形态（I）、软硬件结合产品形态（P&I），共3类",
+                    "3）复合型设计产物体系（2000s -）。包含硬件产品形态（P）、软件系统形态（I）、服务体系形态（S）、软硬件结合产品形态（P&I）、集合硬件产品的服务体系形态（P&S）、集合软件系统的服务体系形态（I&S）、集合硬件产品与软件系统的服务体系形态（P&I&S），共7类"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_md"
+            ],
+            "aside": {
+              "role": "line_annotation",
+              "text": ""
+            },
+            "text": {
+              "h5": "iv.设计实效评价理论与方法演进表与图谱",
+              "paragraphs": [
+                {
+                  "body": "综上，本文从评价设计的实际效果出发，将难以界定的设计价值和被评价对象进行了定义与细分，使得从微观、解构的层面对设计进行实效评价的逻辑拥有可行性。将通过对“设计实效评价概念与逻辑”、“设计实效的价值构成”、“实效评价的对象（价值载体）”等探讨所得的“横轴栏I”、“纵轴栏” 、“横轴栏II”一并构建为“设计实效评价理论与方法演进表”，如下表所示。",
+                  "muted": false
+                },
+                {
+                  "body": "在进行设计实效评价理论与方法演进研究之前，对本文选取设计实效评价理论与方法的标准给出了以下三点规则：",
+                  "muted": false
+                },
+                {
+                  "body": "1）该理论或方法是评价完整设计成果之于使用者端的具体实际效果，也就是说不包括设计方案制定初期的原型测试等。一方面是出于本文研究的主要对象是设计的实效研究，侧面即指硬件产品、软件系统或服务体系已投入使用或模拟真实场景下的测试使用等阶段；另一方面，也是因为即使在用户参与的原型测试或概念测试中得到优良实效的方案，往往在实际产出时的使用实效会不敬如人意，是因为测试环境对于用户而言不是最真实、自然的，这同样也是本文为何要研究设计实效评价的原因：“实际用户（Real user）在实际环境中（Real context）、有明确实际目的（Real purpose）地与实际媒介（Real media）发生交互的实际行为（Real behavior），才能真正反映设计的实际效果（Effectiveness）”。",
+                  "muted": false
+                },
+                {
+                  "body": "2）该理论与方法侧重评价设计特定某一层的实效价值，不包含外溢价值评价。以比较容易产生疑义的“可用性实效”评价为例，此处只剖析其中关于“易用性”实效的评价理论与方法，可用性中包含的“有用性（Utility）”以及“愉悦性（Satisfactory）”将分别并在“功能实效”和“情感实效”中探讨。",
+                  "muted": false
+                },
+                {
+                  "body": "3）该理论与方法具有一定的代表性。选取理论或方法论代表，并绘制在可视化脉络图谱中，同类引申的理论或方法将不做展开详述。",
+                  "muted": false
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line_image",
+            "spacing": [],
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/effectiveness/table.png",
+            "layout": "content"
+          },
+          {
+            "type": "detail_line_image",
+            "spacing": [],
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/effectiveness/graph.png",
+            "layout": "content"
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_md"
+            ],
+            "aside": {
+              "role": "line_annotation",
+              "text": ""
+            },
+            "text": {
+              "h5": "v.基于六大设计实效价值层面的“图谱”描述",
+              "paragraphs": [
+                {
+                  "body": "1）设计的功能性实效评价：是一种非黑即白、非此即彼、非优即劣（没有量、只有质的概念，即没有这个功能有多好或有多差，也没有这个属于期待型需求的功能，用户的期待程度有多少等）的直接根据现象判断性质的思维和方法，同时也是一种针对任意单个设计产物是否实现功能预设的个体思维，视实现功能预设为设计产物综合实效优良的必要、基本条件的底线思维。此层面的评价理论和方法始于硬件产品评价，至今也基本涵盖了软件系统以及服务体系等所有设计产物范畴。",
+                  "muted": false
+                },
+                {
+                  "body": "2）设计的可用性实效评价：不断寻求如何量化、可视化用户心理认知活动（内在表现）和行为流程（外在表现），以求更精准、快速、全面的（不仅针对单个用户，而是获取用户群的整体使用反馈）进行可用性评价，来为优化产品或服务的易用性提供客观决策依据，是一种量化分析从而定性（由量定质）的思维。此层面的评价理论和方法始于硬件产品和软件系统评价，至今基本涵盖了包括服务体系在内的所有设计产物范畴。",
+                  "muted": false
+                },
+                {
+                  "body": "3）设计的情感性实效评价：以往因个人主观情感（比如审美观念）难以被量化从而导致设计难以被评价的桎梏得到不断的突破，同设计的可用性价值实效评价思想一样，“量化情感、量化主观意识为客观数据”成为了设计情感性价值实效评价的关键，从获取主动发声的主观数据（Aloud Data）到被动沉默（Silent Data）的客观数据的转变、从获取一个人的个体情感到一群人的整体情感的转变、从获取囤积的情感反馈到获取实时的情感反馈的转变等等。此层面的评价理论和方法始于硬件产品和软件系统评价，至今基本涵盖了包括服务体系在内的所有设计产物范畴。",
+                  "muted": false
+                },
+                {
+                  "body": "4）设计的业务性实效评价：思想和方法是伴随经济模式的演进而相应发展的。实效依据直接取自市场到间接取自用户相结合，但是“量化数据”至始自终是评价设计业务价值实效时最可靠、直接、真实的依据。此层面的评价理论和方法始于硬件产品（商品经济时代）评价，至今基本涵盖了软件系统和服务体系在内的所有设计产物范畴。",
+                  "muted": false
+                },
+                {
+                  "body": "5）设计的文化符号性实效评价：将无形、非物质、抽象、难以评价的意识观念转变为有形、物质、具象、能够评价的客观事实，同样体现了该层面理论与方法演进过程中“量化实效”的主导思维。同时比起倾向于个体的情感性，文化符号性价值实效评价更倾向于群体的综合观念，不但评价主体为群体，而且评价对象也不只停留在微观层面的某个单独产品或服务细节，而是包含设计产物中所有细枝末节的组成要素共同塑造而成的整体印象和用户观念，是一种整体的、量化的实效评价思维。此层面的评价理论和方法始于硬件产品和服务体系评价，至今基本涵盖了包括软件系统在内的所有设计产物范畴。",
+                  "muted": false
+                },
+                {
+                  "body": "6）设计的环境性实效评价：将设计过程以及产物对环境产生的影响实效转化为有理可据、有源可溯的客观数据（碳足迹等），是一种严格的（清晰资源类目与对照指标）、有针对性的（生命周期的某一个或一段阶段）、量化的实效评价思维。此层面的评价理论和方法仅适于硬件产品与服务体系及其结合型产物范畴。",
+                  "muted": false
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_md"
+            ],
+            "aside": {
+              "role": "line_research_img",
+              "media": {
+                "kind": "image",
+                "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/effectiveness/attribute.png"
+              }
+            },
+            "text": {
+              "h5": "vi.设计实效评价理论与方法的三大属性维度",
+              "paragraphs": [
+                {
+                  "body": "一个设计的实效依据是瞬时抓取的还是需时间累积的、是取自于点式个体的还是面式群体的、是属于主观意识数据还是客观事实的等等，都将最终一一归结于“时间、空间、质量”三个维度，共同勾勒出一个特定理论或方法在评价不同类型设计产物实效时的特有属性。",
+                  "muted": false
+                },
+                {
+                  "body": "1）实时性与延时性 - 时间维度：待评价的设计实效在瞬时或极短的时间段内具备计量有效性（Measuring Validity - MV）的属性，为实时性实效。待评价的设计实效需在一定的时间段积累下具备计量有效性的属性，为延时性实效。",
+                  "muted": false
+                },
+                {
+                  "body": "2）个体性与整体性 - 空间维度：待评价的设计实效在单独个体的范畴下具备计量有效性的属性，为个体性实效。待评价的设计实效在群体或整体范畴下具备计量有效性的属性，为整体性实效。",
+                  "muted": false
+                },
+                {
+                  "body": "3）主观性与客观性 - 质量维度：待评价的设计实效在以用户为主的主观、直接反馈依据下具备计量有效性的属性，为主观性实效。待评价的设计实效在以非用户的客观、间接反馈依据下具备计量有效性的属性，为客观性实效。",
+                  "muted": false
+                },
+                {
+                  "body": "进一步系统性地总结出，针对七种设计价值载体类型（P, I, S, P&I, P&S, I&S, P&I&S）、立于六大设计实效价值层面、归于三大设计实效属性的“设计实效评价理论与方法的属性体系”。按照某个设计产物类型的某层实效价值层面属于哪一类设计实效属性的（设计产物类型 > 实效价值层面 > 设计实效属性）逻辑顺序，建立对应的“设计实效评价理论与方法的属性体系”可视化表格。",
+                  "muted": false
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_md"
+            ],
+            "aside": {
+              "role": "line_annotation",
+              "text": ""
+            },
+            "text": {
+              "h5": "vii.新型设计语境下的设计实效评价四大基本特征",
+              "paragraphs": [
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "1）设计实效评价观念特征：",
+                    "a）实效观念：设计产物的“实然”价值是检验设计者预设“应然”价值的唯一客观依据。只有评价设计产出的实际效果才是判断设计有没有解决实际问题的唯一途径。",
+                    "b）量化观念：跨学科结合计量科学（用于心理学、经济学等）与设计学科，量化设计的实际效果，基于客观数据从一个更具有说服力的实证角度对设计进行定性评价。",
+                    "c）动态观念：随设计产物类型及其对应实际效果不断发展变化，需对设计实效进行持续、灵活、动态的评价。"
+                  ]
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "2）设计实效评价主体及评价目的特征：",
+                    "a）用户（需求方）：设计实效评价的直接依据来源（评价的第一主体）是用户，是产品或服务设计最直接的需求对象。正是这些发自用户第一人称视角（而非设计者或权威评价者等）所累积的群体性设计实效评价，形成了一个特定设计产物最实际的价值面貌。目的不仅为消费决策，而更多地以设计认知盈余的姿态向外界传递自身对设计的价值观念。",
+                    "b）设计者（供应方）：设计者即设计实效评价的另一方主体，以评价设计实效作为设计实践决策的辅佐手段。"
+                  ]
+                },
+                {
+                  "body": "3）设计实效评价客体特征：设计实效评价的复杂性、复合性随着其评价客体对象，即设计产物类型的复杂性、复合性的提升而提升。设计实效评价由于其评价对象的复合性，使其成为一种从整体到个体、个体再到整体，从结构到解构、解构再到结构的辩证过程；是一种根据具体评价需求的，既有针对性、优先级，又有总体性、均衡性的辨证评价理念。",
+                  "muted": false
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "4）设计实效评价方法与技术手段特征：",
+                    "a） 广度层面：实效依据的样本量大而全，具有全面性又不乏多样性；",
+                    "b）速度层面：实效依据获取、计量、分析乃至定性的时间短（或实时）",
+                    "c）深度层面：具备深究每个个体样本、剖析实效现象下内在原因的自动解析与定性能力。"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_md"
+            ],
+            "aside": {
+              "role": "line_research_img",
+              "media": {
+                "kind": "image",
+                "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/effectiveness/ring.png"
+              }
+            },
+            "text": {
+              "h5": "viii.设计价值动态战略周期规律",
+              "paragraphs": [
+                {
+                  "body": "本文基于“颠覆式创新理论”、“需求生命周期理论”以及“Kano模型”的逻辑推演以及案例验证，得出了“设计价值动态战略周期规律”：",
+                  "muted": false
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "I）兴奋型需求阶段（E — G1）",
+                    "该阶段为旧有需求（市场）从上一等级跃迁到新等级的产品或服务颠覆式创新阶段；新产品或服务的出现 “引领”了新需求，用户对新产品或服务处在认知、学习、适应新功能的兴奋阶段；对应地，新市场出现，但此时由于竞争者少，故初期创新者即市场垄断者、探索者，旧有等级市场与新兴市场在时间并存，且依旧占有市场较大份额；需求从出现期到进入加速成长期，需求增速大于供应增速，供需曲线呈现加速上升趋势；所以新产品或服务如何尽快地向用户传达出其内在的新价值、教育用户其有何用、如何用——即“快速抢占先智，圈地首批用户”等是这个阶段设计者（供应者）的战略重点，那么对应地，“功能性、可用性”价值便是该阶段设计价值战略的主要侧重点。"
+                  ]
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "II）期待型需求阶段（G1 — M）",
+                    "该阶段为新需求（市场）在同等级周期内的产品或服务渐进式创新阶段；用户对新产品或服务已经具备较为成熟的认知，并逐渐开始基于现有产品或服务的质量特性提出期望的要求，而不断迭代更新的产品或服务则逐渐转为“迎合”需求；随着更多的竞争者涌入新市场，市场逐渐进入到同质化、多元化的竞争阶段，旧有等级市场也伴随着旧有等级需求的衰退逐渐被新等级市场取代；需求从减速成长期到成熟期，需求增速等于供应增速，需求曲线呈现线性上升趋势；所以作为供应者考虑自家品牌的产品或服务如何在同质化的竞争市场中脱颖而出、传递与众不同的价值观念、使已经熟悉“有何用、如何用”的用户“喜欢用”——即“建立品牌口碑，培养忠实用户”等是这个阶段设计者（供应者）的战略重点，那么对应地，“情感性、文化符号性”价值便是该阶段设计价值战略的主要侧重点。"
+                  ]
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "III）基本型需求阶段（M — D）",
+                    "该阶段为现存需求（市场）进入渐进式创新乏力阶段，准备跃迁至下一等级的产品或服务预颠覆式创新阶段；用户对现存产品和服务的认知进入常态（甚至疲态），用户所期望的产品或服务的质量特性逐渐转为基本要求，产品或服务“保障”需求的基本实现；市场逐渐饱和，竞争环境优胜劣汰，少数占据市场主要份额、多数占据剩余份额；需求处在成熟期后期（截取至衰退期前，现存需求的衰退往往意味着新需求已经出现，也就是新一轮颠覆式创新已完成，所以设计价值动态战略性侧重也从这个结点进入到下一个周期，而非在衰退期延伸），需求增速小于供应增速，需求曲线呈平缓趋势；所以产品或服务如何在饱和的需求（市场）中保持稳定、健康（非价格战或耗费资源的扩张迭代）、可持续的发展——即“运作稳定盈利，削减迭代成本”等是这个阶段设计者（供应者）的战略重点，那么对应地，“业务性、环境性”价值便是该阶段设计价值战略的主要侧重点。"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_md"
+            ],
+            "aside": {
+              "role": "line_research_img",
+              "media": {
+                "kind": "image",
+                "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/effectiveness/level.png"
+              }
+            },
+            "text": {
+              "h5": "ix.设计实效评价策略模型",
+              "paragraphs": [
+                {
+                  "body": "从理论上讲，设计实效评价的策略应该与其（间接）评价对象，也就是设计“应然”价值在需求生命的时间轴上，形成一一对应的关系。那么，我们已经知道了设计价值是随同一等级需求（市场）周期内的“兴奋型”、“期待型”、“基本型”需求阶段，依次呈“功能性、可用性”侧重、“情感性、文化符号性”侧重、“业务性、环境性”侧重的，所以本文将“设计实效评价策略”依次、对应地分为以下三种策略假设：",
+                  "muted": false
+                },
+                {
+                  "body": "I）二元基本型实效评价策略：指的是在以功能性、可用性为设计价值战略性侧重点的兴奋型需求生命阶段，设计产物的功能性、可用性价值实效评价优先的策略。",
+                  "muted": false
+                },
+                {
+                  "body": "II）T型实效评价策略：指的是在以情感性、文化符号性为设计价值战略性侧重点的期待型需求生命阶段，基于二元基本型实效评价之上，设计产物的情感性、文化符号性价值实效评价优先的策略（三项“前端”价值 + 一项“后端”价值所形成的T型模型）。",
+                  "muted": false
+                },
+                {
+                  "body": "III）全面型实效评价策略：指的是在以业务性、环境性为设计价值战略性侧重点的基本型需求生命阶段，基于T型实效评价之上，设计产物的业务性、环境性价值实效评价优先的策略。",
+                  "muted": false
+                },
+                {
+                  "body": "设计“应然”价值随同一等级需求市场周期内的“兴奋型”、“期待型”、“基本型”需求阶段，依次呈“功能性、可用性”侧重、“情感性、文化符号性”侧重、“业务性、环境性”侧重的动态战略。设计实效评价在实践中是一种复杂的（对象上有主次）、动态的（时间上有先后）、随评价目的和需求变化的评价策略，是随同一等级需求（市场）周期内的“兴奋型”、“期待型”、“基本型”需求阶段，依次优先评价设计产物“功能性、可用性”价值实效（二元基本型实效评价策略）、“情感性、文化符号性”价值实效（T型实效评价策略）、“业务性、环境性”价值实效（全面型实效评价策略）的动态策略。",
+                  "muted": false
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "ja": [
+      {
+        "bg": "detail_bg_light",
+        "blocks": [
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_annotation",
+              "text": ""
+            },
+            "text": {
+              "h5": "要旨",
+              "paragraphs": [
+                {
+                  "body": "デザイン評価は本質的に価値判断であり、実証理論と規範理論に区分される。既存のデザイン評価理論研究は主に「規範理論」の範疇に集中しており、「実証理論」の研究は相対的に不十分である（理論的要請）。新しいデザイン文脈では、実世界の実問題に対し体系的解決によって実際の価値を生み出すことが強調される。ゆえにデザインの「実効」評価は、この文脈における評価の本来の意味と一致する（実践的要請）。",
+                  "muted": false
+                },
+                {
+                  "body": "したがって本研究は「デザイン実効評価」を対象とする。デザイン実効評価の理論と方法の展開を体系的に整理することを通じて、その背後にある法則と特徴をまとめ、デザイン実効評価の定義、デザイン価値の要素、評価対象、実効評価理論の類型と特徴などを明らかにする。すべては新しいデザイン文脈に即したデザイン実効評価／デザイン実証理論を完善し、実践モデルにおけるデザイン実効評価の概念的応用を構築するためである。",
+                  "muted": false
+                },
+                {
+                  "body": "まず本稿は「デザイン実効評価」の概念を定義する：デザイン成果またはその要素の「実効」を定量計測することに基づき、デザインの「実然」価値を根拠として、デザインの「応然」価値に定性的判断を下すことである。次いでデザイン価値の六つの「実効」次元——機能実効、ユーザビリティ実効、感情実効、取引実効、記号実効、環境実効——を定義する。またデザイン成果の類型（価値担体の形態）として、ハードウェア（P）、ソフトウェア（I）、サービス（S）、二者結合（P&I、P&S、I&S）および複合（P&I&S）を提示する。論理と基礎理論研究に基づき、「デザイン実効評価の理論と方法の展開表」を構築する。",
+                  "muted": false
+                },
+                {
+                  "body": "次に、文献研究、データ調査、整理などの方法を通じ、代表的なデザイン実効評価の理論または方法を選定して「表」に記入し、それぞれ記述・議論する。次いで「デザイン実効評価の理論と方法の展開グラフ」を描く。",
+                  "muted": false
+                },
+                {
+                  "body": "「表」と「グラフ」に基づき、デザイン実効評価の理論と方法の展開法則をまとめる。本稿はデザイン実効の三次元属性——「主観と客観」の質的次元、「個体と全体」の空間次元、「リアルタイムと遅延」の時間次元——を提示し、デザイン実効評価の理論と方法の属性体系を構築する。次いで新しいデザイン文脈におけるデザイン実効評価の特徴を、概念、主体とその目的、客体、方法と技術手段の四側面からまとめる。",
+                  "muted": false
+                },
+                {
+                  "body": "最後に、「破壊的イノベーション」「需要ライフサイクル」「Kanoモデル」の理論に基づく論理演繹と事例検証を通じ、「デザイン価値戦略の動的法則」を提示し、さらに「デザイン実効評価戦略の概念モデル」を提案する。",
+                  "muted": false
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_md"
+            ],
+            "aside": {
+              "role": "line_annotation",
+              "text": ""
+            },
+            "text": {
+              "h5": "i. 価値・実効・評価の三概念とその論理関係",
+              "paragraphs": [
+                {
+                  "body": "あるデザインの外的要素の実際の効果を評価することは、そのデザインの対応する「応然」価値を評価することに等しい。ゆえに「応然」価値を表すデザイン要素と、それらが生み出す実際の効果は一対一対応をなす：「応然」価値－「実然」価値；デザイン要素－実際の効果。",
+                  "muted": false
+                },
+                {
+                  "body": "「デザイン実効評価」の概念と論理関係は次のとおりである：デザイン成果またはその要素の「実際の効果」をデザインの「実然」価値の計量根拠とし、デザインの「応然」価値に定性的判断を下す評価を「デザイン実効評価」という。",
+                  "muted": false
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_md"
+            ],
+            "aside": {
+              "role": "line_research_img",
+              "media": {
+                "kind": "image",
+                "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/effectiveness/pyramid.png"
+              }
+            },
+            "text": {
+              "h5": "ii. デザイン実効価値の六層と双ピラミッド価値モデル",
+              "paragraphs": [
+                {
+                  "body": "デザインの「応然」価値とその「実然」価値は一対の弁証的矛盾体である。評価の直接対象はデザイン成果物またはデザイン要素の実際の効果であり、本質的にはその背後に代表される具体的な「応然」価値を間接的に評価している。",
+                  "muted": false
+                },
+                {
+                  "body": "グローバルな知識ネットワーク経済の時代にあって、デザインは「スタイルの創造」から「イノベーションの駆動」へのパラダイム転換を経験している：（1）造物から戦略へ；（2）物質デザインから非物質デザインへ；（3）専門から学際へ；（4）デザインからデザイン思考へ；（5）創意からイノベーションへ。したがって、過去のいずれかの単独の主流価値観とその基準だけでは、今日のデザインの「応然」価値を完全に叙述できない。要するにデザイン成果物は価値の複合体であるべきである。歴史的な価値観の変遷法則をまとめ、現在の新しいデザインパラダイム転換の定義と特性を踏まえ、本稿はデザインの「応然」価値が次の六層を含むと提案する：（1）機能価値；（2）ユーザビリティ価値；（3）感情価値；（4）業務（経済）価値；（5）文化（記号）価値；（6）環境価値。",
+                  "muted": false
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "1）機能価値 — 実用性",
+                    "機能は礎石であり、デザインが実際の問題を解決しようとする最も直接的な依拠である。通俗的に言えば、機能的実効評価とはデザインが実際に「役に立つかどうか」を評価することである。ユーザー需要は層をなして累進し、まず追求されるのが機能性である。デザインは目的を果たし、機能を実現し、問題を解決しなければならない。"
+                  ]
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "2）ユーザビリティ価値 — 易用性",
+                    "ユーザビリティは橋であり、ユーザーがデザイン成果の円滑な使用を通じて目的と需要を達成できるか、デザインがユーザーが前提機能を完全に実現して実際の問題を解決するのを助ける最も重要な環である。通俗的に言えば、ユーザビリティ実効評価とはデザインが実際に「使いやすいかどうか」の程度を評価することである。"
+                  ]
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "3）感情価値 — 感情性",
+                    "感情性は触媒であり、基本的機能需要や使いやすさなどの基礎の上に付加される感情的共鳴である（場合によってはこの二つの基礎条件を満たさず、あるいは完全に満たさなくてもよい——例えばP.スタルクのモンスタージューサーのように、感情価値が機能・易用価値を上回る事例など）。"
+                  ]
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "4）業務（商業）価値 — 収益性",
+                    "収益性は試金石であり推進力でもある——デザインのユーザー側価値（とりわけ上記の機能・ユーザビリティ・感情の三つの「応然」価値）が資本利益の層で実現される現れであり、同時にデザインがユーザー群・市場・需要領域で引き続き作動・反復するための推進の基本でもある。狭義には、デザイン近代化以来、業務（商業）価値はデザインの「応然」価値の天然の属性である。"
+                  ]
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "5）文化（記号）価値 — 象徴性",
+                    "象徴性は風向計であり、有形（製品・システム等）・無形（サービス体験・ブランド等）の方式に依拠し、時間と空間の蓄積と持続的伝播を経て、特定の社会または集団のイデオロギーの文化記号を徐々に形成する。文化とは知的集団のあらゆる集団社会現象と集団内在精神の既存・継承・創造・発展の総和である。一定の文化（記号）価値を備えたデザインは、同種の文化価値訴求を持つ人々の基盤を徐々に築き、「ブランド帰属」「文化崇拝」「精神的寄託」「認知慣性」などを生じさせる。"
+                  ]
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "6）環境価値 — 持続可能性",
+                    "持続可能性は準則であり底線でもある——デザイン成果・活動または生態が永続的に発展し、往復して上昇し続ける根本であり、効率の問題に関わり、さらに生存の環境保護責任または義務価値に関わる。通俗的に言えば、デザインの環境価値実効評価とは、デザインが生活・生態環境に実際に「友好的か、損耗が大きいか」の性質と程度を評価することである。"
+                  ]
+                },
+                {
+                  "body": "上述の六大層のデザイン実効価値構成要素の定義と闡明を通じ、さらに次のことがわかる：機能性・ユーザビリティおよび感情性価値の実現主体はそれぞれユーザーの需要と期待、ユーザーの使用行動、ユーザーの感情であり、すなわちこの三項のデザイン実効価値は「ユーザー側」を対象とし、デザインにおける「ユーザー志向」の価値思考を体現する。この範疇でのデザイン実効評価はデザインとユーザーの純粋な相互作用関係の実際の効果である。収益性・象徴性および持続可能性価値の実現主体はそれぞれ製品またはサービス供給者とステークホルダー、社会集団的イデオロギー、生態（生活）環境であり、すなわちこの三項は「経済・文化・環境側」を対象とし、「市場志向・ブランド志向・環境志向」の価値思考を体現する。この範疇での評価はデザインと市場・社会（集団）・環境の間接的影響関係の実際の効果である。これにより「ユーザー側」実効価値と「経済・文化・環境側」実効価値を（1）デザインがユーザーに直接作用する「フロントエンド」価値、（2）デザインが市場・社会・環境に間接作用する「バックエンド」価値に帰納する。この上で本稿は「デザインの双ピラミッド価値モデル」を提案する。",
+                  "muted": false
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_md"
+            ],
+            "aside": {
+              "role": "line_research_img",
+              "media": {
+                "kind": "image",
+                "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/effectiveness/logic.png"
+              },
+              "medias": [
+                {
+                  "kind": "image",
+                  "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/effectiveness/logic.png"
+                },
+                {
+                  "kind": "image",
+                  "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/effectiveness/media_type.png"
+                }
+              ]
+            },
+            "text": {
+              "h5": "iii. 「デザイン論理三要素」理論に基づく「デザイン成果三要素」の狭義の闡明",
+              "paragraphs": [
+                {
+                  "body": "インダストリアルデザインの国際的最新定義は、デザインが「革新的な製品・システム・サービスおよび体験（… through innovative products, systems, services and experiences… ）」などの価値担体形態を通じ体系的解決を提供すると明示する。よってデザインの産出形態または価値担体を等価に「製品」と総称できる。本稿は狭義の層でさらに深く解体し、デザイン成果の総称「製品」を三類型に細分する：（1）ハードウェア製品（2）ソフトウェアシステム（3）サービス体系。",
+                  "muted": false
+                },
+                {
+                  "body": "属性上、この三類型の深層背後は三つのデザイン基本論理思考に対応する——「機能論理」（Funtional logic）、「行動論理」（Behavioural logic）、「業務論理」（Transactional logic）である。この三つの基本論理もまた時間上順次生じ、デザイン活動の主導思考となった：",
+                  "muted": false
+                },
+                {
+                  "body": "機能論理。大量標準化された生産方式と技術、商品化された市場経済モデル、形式と機能の弁証関係に関するハードウェア製品デザイン探究などが工業経済期の時代特徴として、デザインをより「造物」、すなわち「機能を造る」ことに向かわせた。設計者は「この製品は何ができ、あるいはどのような効能を提供して問題を解決するか」といった物体属性の角度から思考することが多く、機能需要の確定と実現を主目的とする先導思考である——これを「機能論理」、また「物向論理」ともいう。",
+                  "muted": false
+                },
+                {
+                  "body": "行動論理。デジタル自動化と通信のグローバル化技術、コンピュータ作動過程の「ブラックボックス化」、人とコンピュータ・情報の相互作用関係に関するソフトウェアシステムデザイン探究などがデジタル経済期の時代特徴として、デザインをより「行動を造る」ことに向かわせた。設計者は「ユーザーはこの製品をどう便利に使うべきか、あるいは使用フローは何か」といった行動属性の角度から思考することが多く、使用フローの確定と実現を主目的とする先導思考である——これを「行動論理」、また「人向論理」ともいう。",
+                  "muted": false
+                },
+                {
+                  "body": "業務論理。相互接続ネットワークのグローバル化と情報の高度な開放・対称、ロングテール理論・ゼロ限界費用・シェアリングエコノミーおよび個性需要の細分市場などに代表される増量から存量価値の再増益への新型経済モデル、人と物・情報の基礎上の人と人の相互作用関係に関するサービス体系デザイン探究などが体験経済期の時代特徴として、デザインをより「関係を造る」ことに向かわせた。「業務（Transaction）」とは本質的に「取引・交換」の概念であり、価値は「取引・交換」の中で生じる。ゆえに設計者は「この製品の業務需要は何か、商業モデルを実施して商業利益を得るために合理的な業務規則とフローをどう設定するか」といった業務属性の角度から思考することが多く、業務需要・規則・フローの確定と実現を主目的とする先導思考である——これを「業務論理」、また「関係向論理」ともいう。",
+                  "muted": false
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "工業経済時代 — ハードウェア製品（P）",
+                    "ハードウェア製品は工業経済時代におけるデザイン価値の主要な産出形態であり、とりわけ物質化された物理コンポーネント・電子素子などの集合からなる機械化・電子化製品（非デジタル・システム知能化製品ではない）を指す。対応するデザイン基本論理は機能（物向）論理である。基本特徴は製品の実用性（Practical product）を強調するため、「P」を「ハードウェア製品」という基本型の記号とする。"
+                  ]
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "デジタル経済時代 — ソフトウェアシステム（I）",
+                    "ソフトウェアシステムはデジタル経済時代におけるデザイン価値の主要な産出形態であり、とりわけコンピュータ駆動・情報符号化などの集合からなる仮想化・デジタル製品を指す。対応するデザイン基本論理は行動（人向）論理である。基本特徴は製品の使用性・情報の相互作用性（Interactive information）を強調するため、「I」を「ソフトウェアシステム」という基本型の記号とする。"
+                  ]
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "体験経済時代 — サービス体系（S）",
+                    "サービス体系は体験経済時代におけるデザイン価値の主要な産出形態であり、とりわけユーザー需要に駆動され、商業モデルに支えられ、各種媒介（サービス提供者・管理者・ツール・プログラム等）の集合からなる組織化・システム化製品を指す。基本特徴は製品の全体利益関係・業務性および体系性（Systemic service）を強調するため、「S」を「サービス体系」という基本型の記号とする。"
+                  ]
+                },
+                {
+                  "body": "デザインの具体的産出形態は、常に単一・孤立した「デザイン成果三要素」の基本形態ではなく、三つの基本形態の再編と構成であるべきである。時間上に相継性があり、属性上に重畳性がある。デザイン活動は工業経済期の単一のハードウェア製品デザインから、デジタル経済期のソフトウェアシステムと結合したハードウェア製品デザインへ、さらに体験経済期のハードウェアとソフトウェアを一体に集めたサービス体系デザインへと進み、デザイン成果は「単一＞結合＞複合」の法則を呈する。",
+                  "muted": false
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "1）単一型デザイン成果体系（–1960s）。ハードウェア製品形態（P）を含み、計1類。",
+                    "2）結合型デザイン成果体系（1960s–2000s）。ハードウェア製品形態（P）、ソフトウェアシステム形態（I）、ソフト・ハード結合製品形態（P&I）を含み、計3類。",
+                    "3）複合型デザイン成果体系（2000s–）。ハードウェア製品形態（P）、ソフトウェアシステム形態（I）、サービス体系形態（S）、ソフト・ハード結合製品形態（P&I）、ハードウェア製品を集めたサービス体系形態（P&S）、ソフトウェアシステムを集めたサービス体系形態（I&S）、ハードウェア製品とソフトウェアシステムを集めたサービス体系形態（P&I&S）を含み、計7類。"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_md"
+            ],
+            "aside": {
+              "role": "line_annotation",
+              "text": ""
+            },
+            "text": {
+              "h5": "iv. デザイン実効評価の理論と方法の展開表とグラフ",
+              "paragraphs": [
+                {
+                  "body": "要するに本稿はデザインの実際の効果の評価から出発し、界定しにくいデザイン価値と被評価対象を定義・細分し、ミクロ・解体の層でデザインを実効評価する論理に実行可能性を与える。「デザイン実効評価の概念と論理」「デザイン実効の価値構成」「実効評価の対象（価値担体）」などの検討から得た「横軸欄I」「縦軸欄」「横軸欄II」を併せて「デザイン実効評価の理論と方法の展開表」として構築する。下表のとおりである。",
+                  "muted": false
+                },
+                {
+                  "body": "デザイン実効評価の理論と方法の展開研究に入る前に、本稿がデザイン実効評価の理論と方法を選定する基準として次の三点の規則を示す：",
+                  "muted": false
+                },
+                {
+                  "body": "1）当該理論または方法は、完成したデザイン成果がユーザー側にもたらす具体的な実際の効果を評価するものであり、すなわち方案策定初期のプロトタイプテストなどは含まない。一方で本稿の主な研究対象はデザインの実効研究であり、側面的にはハードウェア製品・ソフトウェアシステムまたはサービス体系が既に投入使用され、あるいは実シーンを模したテスト使用等の段階を指す。他方、ユーザー参加のプロトタイプテストまたは概念テストで優れた実効を得た方案でも、実際の産出時の使用実効が思わしくないことが多い。テスト環境がユーザーにとって最も真実・自然ではないからであり、これも本稿がデザイン実効評価を研究する理由である：「実ユーザー（Real user）が実環境（Real context）で、明確な実目的（Real purpose）をもって実媒介（Real media）と相互作用する実行動（Real behavior）こそが、デザインの実際の効果（Effectiveness）を真に反映しうる」。",
+                  "muted": false
+                },
+                {
+                  "body": "2）当該理論と方法はデザインの特定の一層の実効価値の評価に重点を置き、外溢価値評価は含まない。疑義が生じやすい「ユーザビリティ実効」評価を例にとると、ここでは「易用性」実効に関する評価理論と方法のみを剖析し、ユーザビリティに含まれる「有用性（Utility）」および「愉悦性（Satisfactory）」はそれぞれ「機能実効」と「感情実効」で検討する。",
+                  "muted": false
+                },
+                {
+                  "body": "3）当該理論と方法は一定の代表性を有する。理論または方法論の代表を選定し可視化の脈絡グラフに描き、同類の派生理論または方法は詳述しない。",
+                  "muted": false
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line_image",
+            "spacing": [],
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/effectiveness/table.png",
+            "layout": "content"
+          },
+          {
+            "type": "detail_line_image",
+            "spacing": [],
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/effectiveness/graph.png",
+            "layout": "content"
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_md"
+            ],
+            "aside": {
+              "role": "line_annotation",
+              "text": ""
+            },
+            "text": {
+              "h5": "v. 六大デザイン実効価値層に基づく「グラフ」の記述",
+              "paragraphs": [
+                {
+                  "body": "1）デザインの機能的実効評価：白か黒か、此か彼か、優か劣か（量の概念はなく質のみ——この機能がどれほど良いか悪いか、あるいは期待型需要に属する機能へのユーザー期待の程度などもない）という、現象から直接性質を判断する思考と方法であり、同時に任意の単一デザイン成果が機能の前提を実現したかどうかという個体思考でもあり、機能前提の実現を総合実効が優良であるための必要・基本条件とする底線思考である。この層の評価理論と方法はハードウェア製品評価に始まり、今日ではソフトウェアシステムおよびサービス体系などすべてのデザイン成果範疇をほぼカバーする。",
+                  "muted": false
+                },
+                {
+                  "body": "2）デザインのユーザビリティ実効評価：ユーザーの心理認知活動（内的表現）と行動フロー（外的表現）をいかに定量化・可視化するかを不断に求め、より精確・迅速・全面的に（単一ユーザーだけでなくユーザー群全体の使用フィードバックを得る）ユーザビリティ評価を行い、製品またはサービスの易用性最適化に客観的意思決定根拠を提供する——定量分析によって定性する（量で質を定める）思考である。この層の評価理論と方法はハードウェア製品とソフトウェアシステム評価に始まり、今日ではサービス体系を含むすべてのデザイン成果範疇をほぼカバーする。",
+                  "muted": false
+                },
+                {
+                  "body": "3）デザインの感情的実効評価：個人の主観的感情（例えば審美観念）が定量化しにくくデザイン評価が困難だった従来の桎梏が不断に突破され、ユーザビリティ価値実効評価の思想と同様に、「感情を定量化し、主観意識を客観データとして定量化する」ことがデザイン感情価値実効評価の鍵となった——能動的に発声される主観データ（Aloud Data）から受動的沈黙（Silent Data）の客観データへの転換、一人の個体感情から一群の全体感情への転換、蓄積された感情フィードバックからリアルタイムの感情フィードバックへの転換など。この層の評価理論と方法はハードウェア製品とソフトウェアシステム評価に始まり、今日ではサービス体系を含むすべてのデザイン成果範疇をほぼカバーする。",
+                  "muted": false
+                },
+                {
+                  "body": "4）デザインの業務的実効評価：思想と方法は経済モデルの展開に伴って相応に発展する。実効根拠は市場から直接取るものからユーザーから間接に取るものとの結合へと進むが、「定量データ」は終始、デザイン業務価値実効を評価する際の最も信頼でき、直接的で真実の根拠である。この層の評価理論と方法はハードウェア製品（商品経済時代）評価に始まり、今日ではソフトウェアシステムとサービス体系を含むすべてのデザイン成果範疇をほぼカバーする。",
+                  "muted": false
+                },
+                {
+                  "body": "5）デザインの文化記号的実効評価：無形・非物質・抽象・評価困難な意識観念を有形・物質・具象・評価可能な客観事実へと転換することは、この層の理論と方法の展開過程における「実効の定量化」という主導思考を同じく体現する。個体に傾く感情性に比べ、文化記号価値の実効評価は集団の総合観念により傾く。評価主体が集団であるだけでなく、評価対象もミクロ層の単独製品またはサービス細部にとどまらず、デザイン成果のすべての細部構成要素が共同で形づくる全体印象とユーザー観念であり、全体的・定量的な実効評価思考である。この層の評価理論と方法はハードウェア製品とサービス体系評価に始まり、今日ではソフトウェアシステムを含むすべてのデザイン成果範疇をほぼカバーする。",
+                  "muted": false
+                },
+                {
+                  "body": "6）デザインの環境的実効評価：デザイン過程および成果が環境に及ぼす影響実効を、根拠があり源流を辿れる客観データ（カーボンフットプリント等）へと転換する——厳格（明確な資源類目と対照指標）、的を絞った（ライフサイクルのある段階または一区間）、定量的な実効評価思考である。この層の評価理論と方法はハードウェア製品とサービス体系およびその結合型成果の範疇にのみ適する。",
+                  "muted": false
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_md"
+            ],
+            "aside": {
+              "role": "line_research_img",
+              "media": {
+                "kind": "image",
+                "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/effectiveness/attribute.png"
+              }
+            },
+            "text": {
+              "h5": "vi. デザイン実効評価の理論と方法の三大属性次元",
+              "paragraphs": [
+                {
+                  "body": "あるデザインの実効根拠が瞬間捕捉か時間蓄積を要するか、点式の個体からか面式の集団からか、主観意識データか客観事実かなどは、最終的にすべて「時間・空間・質」の三次元に帰結し、特定の理論または方法が異なる類型のデザイン成果実効を評価する際の特有属性を共に描き出す。",
+                  "muted": false
+                },
+                {
+                  "body": "1）リアルタイム性と遅延性 — 時間次元：評価対象のデザイン実効が瞬間または極短の時間帯で計量有効性（Measuring Validity – MV）を備える属性をリアルタイム性実効とする。一定の時間帯の蓄積の下で計量有効性を備える属性を遅延性実効とする。",
+                  "muted": false
+                },
+                {
+                  "body": "2）個体性と全体性 — 空間次元：評価対象のデザイン実効が単独個体の範疇で計量有効性を備える属性を個体性実効とする。集団または全体範疇で計量有効性を備える属性を全体性実効とする。",
+                  "muted": false
+                },
+                {
+                  "body": "3）主観性と客観性 — 質次元：評価対象のデザイン実効がユーザーを主とする主観・直接フィードバック根拠の下で計量有効性を備える属性を主観性実効とする。非ユーザーの客観・間接フィードバック根拠の下で計量有効性を備える属性を客観性実効とする。",
+                  "muted": false
+                },
+                {
+                  "body": "さらに体系的にまとめ、七種のデザイン価値担体類型（P, I, S, P&I, P&S, I&S, P&I&S）を対象とし、六大デザイン実効価値層に立ち、三大デザイン実効属性に帰する「デザイン実効評価の理論と方法の属性体系」を提示する。あるデザイン成果類型のある層の実効価値層がどの類のデザイン実効属性に属するかに従う（デザイン成果類型＞実効価値層＞デザイン実効属性）論理順序で、対応する「デザイン実効評価の理論と方法の属性体系」可視化表を構築する。",
+                  "muted": false
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_md"
+            ],
+            "aside": {
+              "role": "line_annotation",
+              "text": ""
+            },
+            "text": {
+              "h5": "vii. 新しいデザイン文脈におけるデザイン実効評価の四大基本特徴",
+              "paragraphs": [
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "1）デザイン実効評価の観念特徴：",
+                    "a）実効観念：デザイン成果の「実然」価値は、設計者が前提とした「応然」価値を検証する唯一の客観根拠である。デザイン産出の実際の効果を評価することのみが、デザインが実際の問題を解決したかどうかを判断する唯一の経路である。",
+                    "b）定量化観念：計量科学（心理学・経済学等に用いられる）とデザイン学科を学際的に結合し、デザインの実際の効果を定量化し、客観データに基づきより説得力のある実証の角度からデザインに定性評価を行う。",
+                    "c）動的観念：デザイン成果類型とその対応する実際の効果の不断の発展変化に伴い、デザイン実効に対する持続的・柔軟・動的な評価が必要である。"
+                  ]
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "2）デザイン実効評価の主体および評価目的の特徴：",
+                    "a）ユーザー（需要側）：デザイン実効評価の直接根拠の源泉（評価の第一主体）はユーザーであり、製品またはサービスデザインの最も直接的な需要対象である。まさにユーザーの一人称視点（設計者や権威的評価者等ではなく）から発せられ蓄積された集団的デザイン実効評価が、特定デザイン成果の最も実際の価値の貌を形成する。目的は消費意思決定のみならず、より多くデザイン認知余剰の姿勢で外界に自身のデザイン価値観念を伝えることにある。",
+                    "b）設計者（供給側）：設計者はデザイン実効評価のもう一方の主体であり、デザイン実効の評価をデザイン実践意思決定の補助手段とする。"
+                  ]
+                },
+                {
+                  "body": "3）デザイン実効評価の客体特徴：デザイン実効評価の複雑性・複合性は、その評価客体対象すなわちデザイン成果類型の複雑性・複合性の向上に伴って向上する。評価対象の複合性ゆえに、デザイン実効評価は全体から個体へ、個体から再び全体へ、構造から解体へ、解体から再び構造へという弁証的過程となり、具体的な評価需要に応じ、的を絞った優先性もあれば全体性・均衡性もある弁証的評価理念である。",
+                  "muted": false
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "4）デザイン実効評価の方法と技術手段の特徴：",
+                    "a） 広度層面：実効根拠のサンプル量は大きくて網羅的であり、全面性を備えつつ多様性にも欠かない；",
+                    "b）速度層面：実効根拠の取得・計量・分析乃至定性の時間が短い（またはリアルタイム）",
+                    "c）深度層面：個々の個体サンプルを深究し、実効現象下の内在原因を剖析する自動解析と定性能力を備える。"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_md"
+            ],
+            "aside": {
+              "role": "line_research_img",
+              "media": {
+                "kind": "image",
+                "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/effectiveness/ring.png"
+              }
+            },
+            "text": {
+              "h5": "viii. デザイン価値の動的戦略周期法則",
+              "paragraphs": [
+                {
+                  "body": "本稿は「破壊的イノベーション理論」「需要ライフサイクル理論」および「Kanoモデル」の論理演繹と事例検証に基づき、「デザイン価値の動的戦略周期法則」を導出した：",
+                  "muted": false
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "I）興奮型需要段階（E — G1）",
+                    "この段階は旧来需要（市場）が前の等級から新等級の製品またはサービスへと躍遷する破壊的イノベーション段階である；新製品またはサービスの出現が新需要を「牽引」し、ユーザーは新機能の認知・学習・適応の興奮段階にある；対応して新市場が現れるが、競争者が少ないため初期イノベーターは市場独占者・探索者であり、旧等級市場と新興市場は時間上併存し、なお大きな市場シェアを占める；需要は出現期から加速成長期へ入り、需要増速は供給増速より大きく、需給曲線は加速上昇を呈する；ゆえに新製品またはサービスがいかに早くユーザーに内在の新価値を伝え、何に使うか・どう使うかを教育するか——すなわち「迅速に先智を占め、第一批ユーザーを囲い込む」などがこの段階の設計者（供給者）の戦略重点であり、対応して「機能性・ユーザビリティ」価値がこの段階のデザイン価値戦略の主な重点である。"
+                  ]
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "II）期待型需要段階（G1 — M）",
+                    "この段階は新需要（市場）が同等級周期内で製品またはサービスの漸進的イノベーションを行う段階である；ユーザーは新製品またはサービスに比較的成熟した認知を既に備え、既存製品またはサービスの品質特性に基づく期待要求を徐々に提起し始め、不断に反復更新される製品またはサービスは徐々に需要に「迎合」する側へ転じる；より多くの競争者が新市場に流入するにつれ、市場は徐々に同質化・多元化の競争段階に入り、旧等級市場も旧等級需要の衰退に伴い新等級市場に徐々に取って代わられる；需要は減速成長期から成熟期へ入り、需要増速は供給増速に等しく、需要曲線は線形上昇を呈する；ゆえに供給者として自ブランドの製品またはサービスが同質化した競争市場でいかに抜きん出て、異なる価値観念を伝え、「何に使うか・どう使うか」に既に慣れたユーザーに「使いたくなる」ようにするか——すなわち「ブランド口コミを築き、忠実ユーザーを育てる」などがこの段階の設計者（供給者）の戦略重点であり、対応して「感情性・文化記号性」価値がこの段階のデザイン価値戦略の主な重点である。"
+                  ]
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "III）基本型需要段階（M — D）",
+                    "この段階は既存需要（市場）が漸進的イノベーションの疲弊段階に入り、次等級の製品またはサービスへの予破壊的イノベーション段階に備える段階である；ユーザーの既存製品・サービス認知は常態（さらには疲態）に入り、期待していた品質特性は徐々に基本要求へと転じ、製品またはサービスは需要の基本実現を「保障」する；市場は徐々に飽和し、競争環境は適者生存となり、少数が主要シェア、多数が残余シェアを占める；需要は成熟期後期にある（衰退期前までを截取——既存需要の衰退は往々にして新需要の出現、すなわち新たな一巡の破壊的イノベーションの完了を意味するため、デザイン価値の動的戦略的重点もこの結節点から次の周期に入り、衰退期に延伸しない）；需要増速は供給増速より小さく、需要曲線は平緩な趨勢を呈する；ゆえに製品またはサービスが飽和した需要（市場）でいかに安定・健康（価格戦や資源を費やす拡張反復ではなく）・持続可能な発展を保つか——すなわち「安定収益を運営し、反復コストを削る」などがこの段階の設計者（供給者）の戦略重点であり、対応して「業務性・環境性」価値がこの段階のデザイン価値戦略の主な重点である。"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_md"
+            ],
+            "aside": {
+              "role": "line_research_img",
+              "media": {
+                "kind": "image",
+                "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/effectiveness/level.png"
+              }
+            },
+            "text": {
+              "h5": "ix. デザイン実効評価の戦略モデル",
+              "paragraphs": [
+                {
+                  "body": "理論上、デザイン実効評価の戦略は、その（間接）評価対象すなわちデザインの「応然」価値と、需要生命の時間軸上で一対一対応をなすべきである。デザイン価値が同等級需要（市場）周期内の「興奮型」「期待型」「基本型」需要段階に伴い、順に「機能性・ユーザビリティ」重点、「感情性・文化記号性」重点、「業務性・環境性」重点を呈することを既に知っているので、本稿は「デザイン実効評価戦略」を順に対応して次の三つの戦略仮説に分ける：",
+                  "muted": false
+                },
+                {
+                  "body": "I）二元基本型実効評価戦略：機能性・ユーザビリティをデザイン価値の戦略的重点とする興奮型需要生命段階において、デザイン成果の機能性・ユーザビリティ価値の実効評価を優先する戦略を指す。",
+                  "muted": false
+                },
+                {
+                  "body": "II）T型実効評価戦略：感情性・文化記号性をデザイン価値の戦略的重点とする期待型需要生命段階において、二元基本型実効評価の上に、デザイン成果の感情性・文化記号性価値の実効評価を優先する戦略を指す（三項の「フロントエンド」価値＋一項の「バックエンド」価値が形成するT型モデル）。",
+                  "muted": false
+                },
+                {
+                  "body": "III）全面型実効評価戦略：業務性・環境性をデザイン価値の戦略的重点とする基本型需要生命段階において、T型実効評価の上に、デザイン成果の業務性・環境性価値の実効評価を優先する戦略を指す。",
+                  "muted": false
+                },
+                {
+                  "body": "デザインの「応然」価値は同等級需要市場周期内の「興奮型」「期待型」「基本型」需要段階に伴い、順に「機能性・ユーザビリティ」重点、「感情性・文化記号性」重点、「業務性・環境性」重点の動的戦略を呈する。デザイン実効評価は実践において複雑（対象に主従あり）、動的（時間に先後あり）、評価目的と需要の変化に応じた評価戦略であり、同等級需要（市場）周期内の「興奮型」「期待型」「基本型」需要段階に伴い、順にデザイン成果の「機能性・ユーザビリティ」価値実効（二元基本型実効評価戦略）、「感情性・文化記号性」価値実効（T型実効評価戦略）、「業務性・環境性」価値実効（全面型実効評価戦略）を優先評価する動的戦略である。",
+                  "muted": false
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

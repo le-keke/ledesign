@@ -140,24 +140,27 @@ function spacingClass(spacing?: string[]) {
                 const asideRole = block.aside.role;
                 return (
                   <div class:list={['detail_line', spacingClass(block.spacing)]}>
-                    {asideRole === 'line_research_img' && block.aside.media ? (
+                    {asideRole === 'line_research_img' &&
+                    (block.aside.medias?.length || block.aside.media) ? (
                       <figure class="line_research_img">
-                        {block.aside.media.kind === 'video' ? (
-                          <video
-                            src={block.aside.media.src}
-                            autoplay
-                            muted
-                            loop
-                            playsinline
-                            preload="metadata"
-                          />
-                        ) : (
-                          <img
-                            src={block.aside.media.src}
-                            alt=""
-                            loading="lazy"
-                            decoding="async"
-                          />
+                        {(block.aside.medias?.length
+                          ? block.aside.medias
+                          : block.aside.media
+                            ? [block.aside.media]
+                            : []
+                        ).map((media) =>
+                          media.kind === 'video' ? (
+                            <video
+                              src={media.src}
+                              autoplay
+                              muted
+                              loop
+                              playsinline
+                              preload="metadata"
+                            />
+                          ) : (
+                            <img src={media.src} alt="" loading="lazy" decoding="async" />
+                          ),
                         )}
                       </figure>
                     ) : (

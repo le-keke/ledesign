@@ -3,13 +3,13 @@
   "meta": {
     "displayTitle": {
       "en": "Swap Web3 Chatting Brand",
-      "zh": "Swap Web3 Chatting Brand",
-      "ja": "Swap Web3 Chatting Brand"
+      "zh": "Swap Web3 聊天品牌",
+      "ja": "Swap Web3 チャットブランド"
     },
     "summary": {
-      "en": "Swap is a cross-platform chat messaging service designed to make user communication interoperable across different social platforms. Through its browser extension, users can conduct virtual asset and digital currency transactions directly within any Web3 trading platform. The brand identity is inspired by the evolution of communication technologies. From wired to wireless systems, and from telephone lines to internet networks, human information has always been transmitted through continuously evolving \"channels\" or \"pipelines.\" This concept serves as the foundation of the visual language, symbolizing the seamless flow of messages, assets, and value across platforms, networks, and ecosystems.",
-      "zh": "Swap is a cross-platform chat messaging service designed to make user communication interoperable across different social platforms. Through its browser extension, users can conduct virtual asset and digital currency transactions directly within any Web3 trading platform. The brand identity is inspired by the evolution of communication technologies. From wired to wireless systems, and from telephone lines to internet networks, human information has always been transmitted through continuously evolving \"channels\" or \"pipelines.\" This concept serves as the foundation of the visual language, symbolizing the seamless flow of messages, assets, and value across platforms, networks, and ecosystems.",
-      "ja": "Swap is a cross-platform chat messaging service designed to make user communication interoperable across different social platforms. Through its browser extension, users can conduct virtual asset and digital currency transactions directly within any Web3 trading platform. The brand identity is inspired by the evolution of communication technologies. From wired to wireless systems, and from telephone lines to internet networks, human information has always been transmitted through continuously evolving \"channels\" or \"pipelines.\" This concept serves as the foundation of the visual language, symbolizing the seamless flow of messages, assets, and value across platforms, networks, and ecosystems."
+      "en": "Swap is a cross-platform chat messaging service designed to make user communication interoperable across different social platforms. Through its browser extension, users can conduct virtual asset and digital currency transactions directly within any Web3 trading platform.\n\nThe brand identity is inspired by the evolution of communication technologies. From wired to wireless systems, and from telephone lines to internet networks, human information has always been transmitted through continuously evolving \"channels\" or \"pipelines.\" This concept serves as the foundation of the visual language, symbolizing the seamless flow of messages, assets, and value across platforms, networks, and ecosystems.",
+      "zh": "Swap 是一款跨平台即时通讯服务，旨在让用户沟通可在不同社交平台之间互通。通过浏览器扩展，用户可直接在任意 Web3 交易平台内完成虚拟资产与数字货币交易。\n\n品牌识别灵感来自通信技术的演进：从有线到无线，从电话线路到互联网络，人类信息始终经由不断演化的“信道”或“管道”传递。这一概念构成视觉语言的基础，象征信息、资产与价值在平台、网络与生态之间的无缝流动。",
+      "ja": "Swapは、異なるソーシャルプラットフォーム間でユーザーのコミュニケーションを相互運用可能にすることを目指したクロスプラットフォームのチャットメッセージングサービスです。ブラウザ拡張機能を通じて、ユーザーは任意のWeb3取引プラットフォーム内で仮想資産や暗号資産の取引を直接行えます。\n\nブランド・アイデンティティは通信技術の進化に着想を得ています。有線から無線へ、電話回線からインターネットへ——人の情報は、絶えず進化する「チャネル」や「パイプライン」を通じて伝達されてきました。この概念がビジュアル言語の基盤となり、メッセージ、資産、価値がプラットフォーム、ネットワーク、エコシステムをまたいで途切れなく流れることを象徴しています。"
     },
     "period": {
       "en": "2022",
@@ -18,13 +18,13 @@
     },
     "category": {
       "en": "Brand Design",
-      "zh": "Brand Design",
-      "ja": "Brand Design"
+      "zh": "品牌设计",
+      "ja": "ブランドデザイン"
     },
     "designLead": {
       "en": "Keke LE",
-      "zh": "Keke LE",
-      "ja": "Keke LE"
+      "zh": "乐可柯",
+      "ja": "樂可柯"
     },
     "team": {
       "en": "",
@@ -38,93 +38,265 @@
     },
     "disclaimer": {
       "en": "Swap © All rights reserved.",
-      "zh": "Swap © All rights reserved.",
+      "zh": "Swap © 版权所有。",
       "ja": "Swap © All rights reserved."
     }
   },
-  "sections": [
-    {
-      "bg": "detail_bg_light",
-      "blocks": [
-        {
-          "type": "detail_cover",
-          "kind": "image",
-          "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/swap/swap_cover.png",
-          "alt": ""
-        },
-        {
-          "type": "detail_line_image_double",
-          "spacing": [],
-          "left": {
+  "sections": {
+    "en": [
+      {
+        "bg": "detail_bg_light",
+        "blocks": [
+          {
+            "type": "detail_cover",
             "kind": "image",
-            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/swap/swap_1.png"
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/swap/swap_cover.png",
+            "alt": ""
           },
-          "right": {
-            "kind": "image",
-            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/swap/swap_2.png"
-          }
-        },
-        {
-          "type": "detail_line_image_double",
-          "spacing": [],
-          "left": {
-            "kind": "image",
-            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/swap/swap_3.png"
+          {
+            "type": "detail_line_image_double",
+            "spacing": [],
+            "left": {
+              "kind": "image",
+              "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/swap/swap_1.png"
+            },
+            "right": {
+              "kind": "image",
+              "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/swap/swap_2.png"
+            }
           },
-          "right": {
-            "kind": "image",
-            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/swap/swap_4.png"
-          }
-        },
-        {
-          "type": "detail_line_image_double",
-          "spacing": [],
-          "left": {
-            "kind": "image",
-            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/swap/swap_5.png"
+          {
+            "type": "detail_line_image_double",
+            "spacing": [],
+            "left": {
+              "kind": "image",
+              "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/swap/swap_3.png"
+            },
+            "right": {
+              "kind": "image",
+              "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/swap/swap_4.png"
+            }
           },
-          "right": {
-            "kind": "image",
-            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/swap/swap_7.png"
-          }
-        },
-        {
-          "type": "detail_line_image_double",
-          "spacing": [],
-          "left": {
-            "kind": "video",
-            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/swap/swap_6.mp4"
+          {
+            "type": "detail_line_image_double",
+            "spacing": [],
+            "left": {
+              "kind": "image",
+              "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/swap/swap_5.png"
+            },
+            "right": {
+              "kind": "image",
+              "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/swap/swap_7.png"
+            }
           },
-          "right": {
-            "kind": "image",
-            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/swap/swap_8.png"
-          }
-        },
-        {
-          "type": "detail_line_image_double",
-          "spacing": [],
-          "left": {
-            "kind": "image",
-            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/swap/swap_9.png"
+          {
+            "type": "detail_line_image_double",
+            "spacing": [],
+            "left": {
+              "kind": "video",
+              "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/swap/swap_6.mp4"
+            },
+            "right": {
+              "kind": "image",
+              "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/swap/swap_8.png"
+            }
           },
-          "right": {
-            "kind": "image",
-            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/swap/swap_12.png"
-          }
-        },
-        {
-          "type": "detail_line_image_double",
-          "spacing": [],
-          "left": {
-            "kind": "video",
-            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/swap/swap.mp4"
+          {
+            "type": "detail_line_image_double",
+            "spacing": [],
+            "left": {
+              "kind": "image",
+              "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/swap/swap_9.png"
+            },
+            "right": {
+              "kind": "image",
+              "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/swap/swap_12.png"
+            }
           },
-          "right": {
-            "kind": "image",
-            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/swap/teo.jpg"
+          {
+            "type": "detail_line_image_double",
+            "spacing": [],
+            "left": {
+              "kind": "video",
+              "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/swap/swap.mp4"
+            },
+            "right": {
+              "kind": "image",
+              "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/swap/teo.jpg"
+            }
           }
-        }
-      ]
-    }
-  ]
+        ]
+      }
+    ],
+    "zh": [
+      {
+        "bg": "detail_bg_light",
+        "blocks": [
+          {
+            "type": "detail_cover",
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/swap/swap_cover.png",
+            "alt": ""
+          },
+          {
+            "type": "detail_line_image_double",
+            "spacing": [],
+            "left": {
+              "kind": "image",
+              "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/swap/swap_1.png"
+            },
+            "right": {
+              "kind": "image",
+              "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/swap/swap_2.png"
+            }
+          },
+          {
+            "type": "detail_line_image_double",
+            "spacing": [],
+            "left": {
+              "kind": "image",
+              "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/swap/swap_3.png"
+            },
+            "right": {
+              "kind": "image",
+              "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/swap/swap_4.png"
+            }
+          },
+          {
+            "type": "detail_line_image_double",
+            "spacing": [],
+            "left": {
+              "kind": "image",
+              "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/swap/swap_5.png"
+            },
+            "right": {
+              "kind": "image",
+              "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/swap/swap_7.png"
+            }
+          },
+          {
+            "type": "detail_line_image_double",
+            "spacing": [],
+            "left": {
+              "kind": "video",
+              "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/swap/swap_6.mp4"
+            },
+            "right": {
+              "kind": "image",
+              "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/swap/swap_8.png"
+            }
+          },
+          {
+            "type": "detail_line_image_double",
+            "spacing": [],
+            "left": {
+              "kind": "image",
+              "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/swap/swap_9.png"
+            },
+            "right": {
+              "kind": "image",
+              "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/swap/swap_12.png"
+            }
+          },
+          {
+            "type": "detail_line_image_double",
+            "spacing": [],
+            "left": {
+              "kind": "video",
+              "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/swap/swap.mp4"
+            },
+            "right": {
+              "kind": "image",
+              "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/swap/teo.jpg"
+            }
+          }
+        ]
+      }
+    ],
+    "ja": [
+      {
+        "bg": "detail_bg_light",
+        "blocks": [
+          {
+            "type": "detail_cover",
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/swap/swap_cover.png",
+            "alt": ""
+          },
+          {
+            "type": "detail_line_image_double",
+            "spacing": [],
+            "left": {
+              "kind": "image",
+              "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/swap/swap_1.png"
+            },
+            "right": {
+              "kind": "image",
+              "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/swap/swap_2.png"
+            }
+          },
+          {
+            "type": "detail_line_image_double",
+            "spacing": [],
+            "left": {
+              "kind": "image",
+              "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/swap/swap_3.png"
+            },
+            "right": {
+              "kind": "image",
+              "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/swap/swap_4.png"
+            }
+          },
+          {
+            "type": "detail_line_image_double",
+            "spacing": [],
+            "left": {
+              "kind": "image",
+              "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/swap/swap_5.png"
+            },
+            "right": {
+              "kind": "image",
+              "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/swap/swap_7.png"
+            }
+          },
+          {
+            "type": "detail_line_image_double",
+            "spacing": [],
+            "left": {
+              "kind": "video",
+              "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/swap/swap_6.mp4"
+            },
+            "right": {
+              "kind": "image",
+              "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/swap/swap_8.png"
+            }
+          },
+          {
+            "type": "detail_line_image_double",
+            "spacing": [],
+            "left": {
+              "kind": "image",
+              "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/swap/swap_9.png"
+            },
+            "right": {
+              "kind": "image",
+              "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/swap/swap_12.png"
+            }
+          },
+          {
+            "type": "detail_line_image_double",
+            "spacing": [],
+            "left": {
+              "kind": "video",
+              "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/swap/swap.mp4"
+            },
+            "right": {
+              "kind": "image",
+              "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/swap/teo.jpg"
+            }
+          }
+        ]
+      }
+    ]
+  }
 }

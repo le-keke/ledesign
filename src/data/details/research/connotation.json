@@ -1,0 +1,451 @@
+{
+  "slug": "connotation",
+  "meta": {
+    "displayTitle": {
+      "en": "A Discussion on the Connotation of Design and Aesthetic Cognition",
+      "zh": "设计内涵与审美认知刍议",
+      "ja": "デザインの内包と美的認知についての考察"
+    },
+    "summary": {
+      "en": "",
+      "zh": "",
+      "ja": ""
+    },
+    "keywords": {
+      "en": "Connotation, Aesthetics, Semiotics",
+      "zh": "内涵、美学、符号学",
+      "ja": "内包、美学、記号論"
+    },
+    "period": {
+      "en": "2020.7",
+      "zh": "2020.7",
+      "ja": "2020.7"
+    },
+    "category": {
+      "en": "Article (Excerpt)",
+      "zh": "文章（节选）",
+      "ja": "記事（抜粋）"
+    },
+    "roles": [
+      {
+        "label": {
+          "en": "Writer",
+          "zh": "作者",
+          "ja": "執筆者"
+        },
+        "value": {
+          "en": "Keke LE",
+          "zh": "乐可柯",
+          "ja": "樂可柯"
+        }
+      },
+      {
+        "href": "https://mp.weixin.qq.com/s/RwXmZ_TGcy22hJsiCT8YOQ",
+        "label": {
+          "en": "Published",
+          "zh": "发表",
+          "ja": "掲載"
+        },
+        "value": {
+          "en": "Keke LE Design © Official Pubilc Subscription →",
+          "zh": "乐可柯 Design © 官方公众号 →",
+          "ja": "樂可柯 Design © 公式パブリック購読 →"
+        }
+      }
+    ],
+    "disclaimer": {
+      "en": "Keke LE Design © All rights reserved.",
+      "zh": "乐可柯 Design © 版权所有。",
+      "ja": "樂可柯 Design © All rights reserved."
+    }
+  },
+  "sections": {
+    "en": [
+      {
+        "bg": "detail_bg_light",
+        "blocks": [
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_research_img",
+              "media": {
+                "kind": "image",
+                "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/connotation/designer.png"
+              },
+              "medias": [
+                {
+                  "kind": "image",
+                  "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/connotation/designer.png"
+                },
+                {
+                  "kind": "image",
+                  "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/connotation/audience.png"
+                }
+              ]
+            },
+            "text": {
+              "h5": "Meaning, Connotation, and “Unexpected Relatedness”",
+              "paragraphs": [
+                {
+                  "body": "In a dialogic relation there are subject and object. Generally in art or design contexts, the subject is the public or observer (hereafter “the viewer”); the object is the concrete form produced by the creator or designer (hereafter “the author”). In communication, the viewer interprets the author’s intended meaning by perceiving the connotation of the language presented by the concrete form.",
+                  "muted": false
+                },
+                {
+                  "body": "Connotation refers to implied meaning beyond the denotative extension of literal sense. Meaning refers to significance—the relatively independent, originating sense. In dialogue, meaning may be expressed directly or wrapped in connotation and expressed indirectly. Between meaning and connotation, authors typically establish relations through rhetorical devices; art and design often use abstraction, metaphor, symbolism, exaggeration, and the like. Empty connotative expression without pointing to meaning is ornamental pile-up and formalism. Likewise, bare narration of meaning without connotative modulation appears shallow, bland, crude, and low.",
+                  "muted": false
+                },
+                {
+                  "body": "As the figure shows: in some contexts meaning must be expressed directly—the author literally translates meaning into the outward language of a concrete form, essentially seeking wording that fits recognized, universal, habitual, unconscious mass basic cognition. Viewers need only perceive the surface language of the concrete form to grasp the intent as a matter of course, without deliberation—common when expressing “functional meaning” in design.",
+                  "muted": false
+                },
+                {
+                  "body": "In other contexts, meaning must be expressed indirectly: the author free-translates meaning into the outward language of a concrete form, stripping away the conventional figurative form that basic cognition would associate with that meaning, and reassigning a new expressive language through rhetorical devices. In such cases, because the literal sense of the concrete form’s language no longer equals the author’s intent, the viewer must perceive one layer deeper the connotation carried by the language, and—based on subjective individual cognition and the objective scene-context—associate the meaning toward which that connotation points. What must be stressed is that the referential relations among the concrete form’s language, connotation, and meaning must be perceivable, associable, and interpretable—not illogical or forcibly imposed. Whether “empty green on a mountain path” or “double image on a side wall,” both can evoke association through contextual framing. If literal translation is expression within reason and expectation, free translation is unexpected in feeling yet reasoned within: an associational expression that is emotionally surprising yet consistent with real-world cognition—namely, “unexpected relatedness.” It is common in design when expressing “emotional meaning” and “cultural meaning.”",
+                  "muted": false
+                },
+                {
+                  "body": "Product, architecture, graphic, art… We gain a sense of the advanced from the foreshadowing of “unexpected relatedness” the author plants and from the “beauty” of the language presented.",
+                  "muted": false
+                },
+                {
+                  "body": "Annotation: It should be noted that advanced beauty need not always carry deep meaning or allusion; sometimes it is pure perceptual beauty. Regarding the late Greek sculpture “Laocoön and His Sons,” the German art historian Winckelmann held that Laocoön does not open his mouth wide in extreme bodily pain but only faintly moans because of the Greek moral image of self-restraint—spirit over flesh. The German thinker Lessing, by contrast, held that it was simply because a wide-open mouth would present a black hole on the face, making the sculpture ugly in direct visual terms.",
+                  "muted": true
+                },
+                {
+                  "body": "Beginning from the pure beauty of an object’s surface language, then understanding its deeper connotation, identifying and resonating with the author’s values in the situation of insight into meaning, and finally looking back to marvel at the ingenuity of the expressive means—this whole sensory process is the sense of the advanced.",
+                  "muted": false
+                },
+                {
+                  "body": "Taste tastes connotation. Aesthetics examines value.",
+                  "muted": false
+                },
+                {
+                  "body": "Most of the time we still talk about a sense of the advanced and of beauty on the surface—materials, styles, forms—equating simplicity or luxury with the advanced. Aesthetics sticks to the skin and delights in denotation; anything slightly hard to grasp is labeled “out of touch,” and amid today’s restless vanity, buildings of “fortune, prosperity, longevity” or “buds about to bloom” are hardly surprising.",
+                  "muted": false
+                },
+                {
+                  "body": "In fact, true “beauty,” in the words of the aesthetician Wang Guowei, is “the artistic conception that appears in my mind upon seeing outer things”—the values hidden behind schools and styles. A design’s sense of the advanced is always relative: if you admire the modern luxury of Art Deco, it is naturally advanced; nor need one scorn the sparse, deep quiet of the beauty of shadows.",
+                  "muted": false
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_annotation",
+              "text": ""
+            },
+            "text": {
+              "h5": "Cultivation of author and viewer",
+              "paragraphs": [
+                {
+                  "body": "In dialogue, the speaker’s witty language and the listener’s sympathetic understanding both require corresponding cultivation.",
+                  "muted": false
+                },
+                {
+                  "body": "How to endow an object with connotation, how to build relatedness between meaning and surface language, and how still to keep pure beauty in perception—these are professional capacities an author must cultivate. Designers often assume they hold a group aesthetic advantage; in the author’s view many do not, remaining largely superficial. Undeniably, guiding taste for good design, good work, and whether an object is beautiful does require the author to possess aesthetic sensibility or taste above the mass; yet it is not merely a sensory judgment of “pretty or not,” but more importantly long-term cognitive accumulation and cultivated depth regarding nature, humanities, and the social environment. To endow one’s own work with connotation, one must first learn to discern connotation in existing things—looking through surface to essence: observe, reflect, abstract from the concrete, then return from the abstract to the concrete.",
+                  "muted": false
+                },
+                {
+                  "body": "Aesthetics unifies subjectivity and sociality. For viewers, values and cognition are shaped by growth environment, personal background, era and culture, what one has seen and heard, and many other subjective and objective factors. Rather than expecting the public all to “sing along with high song,” perhaps more important is first an attitude of reverence and humility: fewer hasty, form-bound judgments; more dialectical observation and independent reading—whether one likes it or not is another matter.",
+                  "muted": false
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line",
+            "spacing": [],
+            "aside": {
+              "role": "line_annotation",
+              "text": ""
+            },
+            "text": {
+              "paragraphs": [
+                {
+                  "body": "References",
+                  "muted": false
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "1. Zong Baihua, Strolls in Aesthetics",
+                    "2. Hegel, Aesthetics",
+                    "3. Kenya Hara, Ex-formation"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "zh": [
+      {
+        "bg": "detail_bg_light",
+        "blocks": [
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_research_img",
+              "media": {
+                "kind": "image",
+                "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/connotation/designer.png"
+              },
+              "medias": [
+                {
+                  "kind": "image",
+                  "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/connotation/designer.png"
+                },
+                {
+                  "kind": "image",
+                  "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/connotation/audience.png"
+                }
+              ]
+            },
+            "text": {
+              "h5": "意思、意味与“意外的关联性”",
+              "paragraphs": [
+                {
+                  "body": "在一组对话关系中，存在主客体对象，一般在艺术或设计语境下，主体是大众或观察者后文以「观者」指代），客体则是创作者或设计者（后文以「作者」指代）产出的具象物。交流中，观者通过对具象物呈现语言的意味感知，来解读作者本来的意思。",
+                  "muted": false
+                },
+                {
+                  "body": "意味（Connotation）指字面意思外延基础上的隐含意义。意思（Meaning）指意义、相对独立存在的本源含义。在对话中，意思既可以被直接表达，也可以通过意味裹袱间接表达。而在意思与意味间，作者通常假以修辞表现手法建立关系，艺术或设计创作中常见有诸如抽象、借喻、象征、夸张等。脱离意思指向的空洞意味表达，是辞藻堆砌、形式主义。同样地，失去意味修饰的意思直叙，又显浅薄寡淡、粗陋低级。",
+                  "muted": false
+                },
+                {
+                  "body": "由图中可以看到：一些语境下，意思需要被直接表达，也即作者将意思直译为具象物的外在语言，本质上其实是在寻找一种迎合于公认的、普遍的、习惯性的、无意识的大众基础认知下的措辞。观者仅需通过感知具象物的表面语言就能理所当然地、不假思索地知会其本意，常见于设计中“功能意思”的表达。",
+                  "muted": false
+                },
+                {
+                  "body": "另一些语境下，意思则需要被间接表达，也即作者将意思意译为具象物的外在语言，剥去原本在基础认知下意思对应的固有具象形式，而以修辞手法重新赋予新的表达语言。这种情况下，由于具象物语言的字面意思不再等同于作者本意，观者便需要更深一层感知语言背后所蕴含的意味，基于主观的个体独立认知、客观的具体场景语境，去联想意味所指向的意思。需要强调的是，具象物语言、意味与意思间的指向关系，是要能被感知、联想和解释的，不是脱离逻辑、生搬硬套。不论是“山路空翠”还是“侧壁重影”，通过上下文语境皆是能发人联想的。如果说直译是情理之内的表达，那么意译则是情外理内，是一种情感意外的、但又合乎现实认知的、能触发联想的关联性表达 —— 即 “意外的关联性”。常见于设计中“情感意思、文化意思”的表达。",
+                  "muted": false
+                },
+                {
+                  "body": "产品、建筑、平面、艺术... 我们在作者埋下“意外关联性”的伏笔、及其呈现出来的语言“美”中获取高级感受。",
+                  "muted": false
+                },
+                {
+                  "body": "注解：需要指出的是，高级的美不是一定需要具备深意或暗指，有时就是纯粹的观感美。比如论希腊晚期雕像之一的“拉奥孔受难”，德国艺术史学家温克尔曼认为拉奥孔在身体承受极大痛苦时并没有张开大口而是微呻，是因为希腊人克己、精神胜于肉体的道德形象深意。而德国思想家莱辛则认为仅是因为大口所呈现在面部的黑洞会导致雕刻艺术直接表现出来的不美。",
+                  "muted": true
+                },
+                {
+                  "body": "始于对象表面语言的纯粹美，继而理解其蕴含的深层意味、在洞见意思的情境中与作者的价值观念产生认同和共鸣，终而回过头来感叹其表现手法巧妙性的整个感观过程，即高级感。",
+                  "muted": false
+                },
+                {
+                  "body": "品味，品的是意味。审美，审的是价值。",
+                  "muted": false
+                },
+                {
+                  "body": "大多时候我们仍旧停留在表面谈论高级感与美，材质、风格、形式，将简约或奢华等同于高级。审美于皮囊、乐见于表意，但凡些许费解，便扣以“不接地气”，加以当下之浮躁虚华，那些“福禄寿”、“荷苞待放”建筑的出现自然也就不足为奇了。",
+                  "muted": false
+                },
+                {
+                  "body": "实际上，真正的“美”，用美学大家王国维的话讲是“见诸外物而呈于吾心的意境”，是流派风格背后隐匿的价值观念。设计的高级感从来都是相对的，你若爱慕于装饰艺术的摩登奢靡，它自然就是高级的，当然也无须睥睨阴翳之美的简陋幽沉。",
+                  "muted": false
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_annotation",
+              "text": ""
+            },
+            "text": {
+              "h5": "作者与观者的素养",
+              "paragraphs": [
+                {
+                  "body": "对话中，言者妙语、听者知音，皆是需要相应素养的。",
+                  "muted": false
+                },
+                {
+                  "body": "如何赋予对象以意味、构建意思与表面语言的关联性、又能保持观感上的纯粹美都是作者需要沉淀和培养的专业素养。设计师常认为自己拥有群体性的审美优势，但在笔者看来很多都不具备，多数流于表面。不可否认的是好设计、好作品、一个对象美丑与否的审美引导，的确需要作者本身具有高于大众群体的审美或品味，但它不只是“美不美”的感性认识，更重要是对自然、人文、社会环境事物的长期认知积累和素养底蕴。而要在自己的作品中赋予意味，便需要先学会在现有事物中洞察意味，尝试透过表面问本质，也即观察、思辨，从具象中抽象，由抽象再具象。",
+                  "muted": false
+                },
+                {
+                  "body": "审美是主体性与社会性的统一。对于观者而言，其价值观念与认知都受成长环境、个人背景、时代文化、所见所闻等诸多主客观因素的影响。比起期许大众皆能“唱和高曲”，也许更重要的是先有敬畏与谦卑的态度，少一点不假思索、止于形式的妄断，多一点辩证观察、独立思考的品读，喜欢与否再另他说。",
+                  "muted": false
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line",
+            "spacing": [],
+            "aside": {
+              "role": "line_annotation",
+              "text": ""
+            },
+            "text": {
+              "paragraphs": [
+                {
+                  "body": "参考",
+                  "muted": false
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "1. 宗白华《美学散步》",
+                    "2. 黑格尔《美学》",
+                    "3. 原研哉《Ex-formation》"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "ja": [
+      {
+        "bg": "detail_bg_light",
+        "blocks": [
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_research_img",
+              "media": {
+                "kind": "image",
+                "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/connotation/designer.png"
+              },
+              "medias": [
+                {
+                  "kind": "image",
+                  "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/connotation/designer.png"
+                },
+                {
+                  "kind": "image",
+                  "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/connotation/audience.png"
+                }
+              ]
+            },
+            "text": {
+              "h5": "意味、内包と「意外の関連性」",
+              "paragraphs": [
+                {
+                  "body": "一組の対話関係には主客体が存在する。一般に芸術またはデザインの文脈では、主体は大衆または観察者（後文では「観者」と指す）であり、客体は創作者または設計者（後文では「作者」と指す）が産出した具象物である。交流において観者は、具象物が呈する言語の内包感知を通じて、作者本来の意味を解読する。",
+                  "muted": false
+                },
+                {
+                  "body": "内包（Connotation）とは、字面の意味の外延の上に立つ含意である。意味（Meaning）とは意義——相対的に独立して存在する本源的含意——を指す。対話において、意味は直接表現されることも、内包に包まれて間接表現されることもある。意味と内包のあいだで、作者は通常修辞的表現手法によって関係を築き、芸術やデザイン創作では抽象・比喩・象徴・誇張などがよく見られる。意味の指示を離れた空虚な内包表現は辞藻の積み重ね・形式主義である。同様に、内包による修飾を失った意味の直叙は浅薄寡淡・粗陋低級に見える。",
+                  "muted": false
+                },
+                {
+                  "body": "図から分かるように：ある文脈では意味は直接表現される必要がある。すなわち作者は意味を具象物の外的言語へ直訳し、本質的には公認・普遍・習慣的・無意識の大衆基礎認知に迎合する措辞を探している。観者は具象物の表面言語を感知するだけで、当然のように、熟考せずに本意を了解できる。デザインにおける「機能的意味」の表現に多く見られる。",
+                  "muted": false
+                },
+                {
+                  "body": "別の文脈では、意味は間接的に表現される必要がある。すなわち作者は意味を具象物の外的言語へ意訳し、基礎認知のもとで意味に対応する固有の具象形式を剥ぎ取り、修辞手法によって新たな表現言語を付与する。この場合、具象物言語の字面の意味はもはや作者の本意と等しくないため、観者は言語の背後に込められた内包（コノテーション）をより深い層で感知し、主観的な個人認知と客観的な具体的場面文脈に基づき、その内包が指し示す意味を連想する必要がある。強調すべきは、具象物言語・内包・意味の間の指示関係は、感知・連想・解釈可能でなければならず、論理を離れ無理に当てはめるものではないということである。「山路の空翠」であれ「側壁の重影」であれ、文脈を通じて連想を喚起しうる。直訳が情理の内の表現だとすれば、意訳は情外にして理内であり、感情的には意外でありながら現実認知にかない、連想を誘発する連関的表現——すなわち「意外の関連性」である。デザインにおける「感情的意味・文化的意味」の表現に多く見られる。",
+                  "muted": false
+                },
+                {
+                  "body": "プロダクト、建築、平面、芸術… われわれは作者が埋めた「意外の関連性」の伏線と、呈された言語の「美」の中に高級な感受を得る。",
+                  "muted": false
+                },
+                {
+                  "body": "注解：指摘すべきは、高度な美が必ずしも深意や暗喩を要するわけではなく、時には純粋な観感美であるということである。たとえばギリシア後期彫刻の一つ「ラオコーンの受難」について、ドイツの美術史家ヴィンケルマンは、身体が極大の苦痛を受ける際にラオコーンが大口を開けず微かな呻きにとどまるのは、ギリシア人の克己——精神が肉体に勝る——という道徳的形象の深意だとみなした。ドイツの思想家レッシングは、大口が顔に現す黒い空洞が彫刻芸術の直接的表現として美しくないからにすぎないと考えた。",
+                  "muted": true
+                },
+                {
+                  "body": "対象の表面言語の純粋美に始まり、次いでその深層の内包を理解し、意味を洞見する状況の中で作者の価値観と同一・共鳴し、終に振り返ってその表現手法の巧妙さに感嘆する——この感官過程全体がすなわち高級感である。",
+                  "muted": false
+                },
+                {
+                  "body": "品味とは内包を品すること。審美とは価値を審ること。",
+                  "muted": false
+                },
+                {
+                  "body": "多くの場合われわれはなお表面で高級感と美を語り、材質・スタイル・形式を論じ、簡約や豪華を高級と同一視する。審美は皮相にあり表意を喜び、少々難解であれば「地に足がつかない」と決めつけ、当代の浮躁虚華と相まって、「福禄寿」や「つぼみ待放」建築の出現も自然と不思議ではなくなる。",
+                  "muted": false
+                },
+                {
+                  "body": "実際、真の「美」は、美学大家・王国維の言葉で言えば「外物に見えてわが心に呈する意境」であり、流派スタイルの背後に隠れた価値観である。デザインの高級感は常に相対的であり、アール・デコのモダンな奢靡を慕えばそれ自然に高級であり、陰翳の美の簡陋幽沈を睥睨する必要もない。",
+                  "muted": false
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_annotation",
+              "text": ""
+            },
+            "text": {
+              "h5": "作者と観者の素養",
+              "paragraphs": [
+                {
+                  "body": "対話において、言者の妙語と聴者の知音は、いずれも相応の素養を要する。",
+                  "muted": false
+                },
+                {
+                  "body": "対象に内包を与え、意味と表面言語の連関を構築し、なお観感上の純粋な美を保つこと——これらは作者が研鑽・涵養すべき専門的素養である。デザイナーはしばしば集団的な審美上の優位を自らに帰すが、筆者から見れば多くは具備しておらず、大半は表面に流れる。良いデザイン・良い作品・対象の美醜に対する審美的誘導には、確かに作者自身が大衆より高い審美や趣味を持つ必要があることは否めない。しかしそれは「美しいかどうか」という感性認識にとどまらず、より重要なのは自然・人文・社会環境の事物に対する長期の認知蓄積と素養の底力である。自作に内包を与えるには、まず既存の事物の中に内包を見抜くことを学び、表面を透かして本質を問い、すなわち観察し思弁し、具象から抽象へ、抽象から再び具象へ至る必要がある。",
+                  "muted": false
+                },
+                {
+                  "body": "審美は主体性と社会性の統一である。観者にとって、価値観と認知は成長環境・個人背景・時代文化・見聞など多くの主客要因の影響を受ける。「高き曲に唱和できる」ことを大衆に期するより、おそらくより重要なのはまず敬畏と謙卑の態度であり、熟考せず形式に止まる妄断を減らし、弁証的観察と独立思考の品読を増やし、好き嫌いはまた別論とすることである。",
+                  "muted": false
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line",
+            "spacing": [],
+            "aside": {
+              "role": "line_annotation",
+              "text": ""
+            },
+            "text": {
+              "paragraphs": [
+                {
+                  "body": "参考文献",
+                  "muted": false
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": true,
+                  "muted": false,
+                  "items": [
+                    "1. 宗白華『美学散步』",
+                    "2. ヘーゲル『美学』",
+                    "3. 原研哉『Ex-formation』"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

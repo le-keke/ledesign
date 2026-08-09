@@ -1,0 +1,246 @@
+{
+  "Status Quo of Targeted Group's Driving Experience ↑": {
+    "zh": "目标人群驾驶体验现状 ↑",
+    "ja": "ターゲット層の運転体験の現状 ↑"
+  },
+  "Fully-Occupied Planning, Navigating, Driving": {
+    "zh": "规划、导航、驾驶全程占满",
+    "ja": "計画・ナビ・運転で常に手一杯"
+  },
+  "In this concept topic for Volvo's autonomous driving experience, people who run tight schedules and are used to acting on them are defined as the target users (elites, professors, executives, etc.). With manual driving, they need to clarify the next destination, simulate the route in their minds and then hold and steer for driving, which make them exhausted for schedules and suffered with poor driving experiences below:": {
+    "zh": "在沃尔沃自动驾驶体验这一概念课题中，我们将日程紧张、习惯按计划行动的人群定义为目标用户（如精英、教授、高管等）。在手动驾驶下，他们需要明确下一目的地，在脑中预演路线，再握持方向盘驾驶，因而在紧凑日程中精疲力竭，并承受如下不佳的驾驶体验：",
+    "ja": "Volvoの自動運転体験というコンセプト課題では、タイトなスケジュールをこなし、それに沿って行動する人々（エリート、教授、エグゼクティブなど）をターゲットユーザーと定義します。手動運転では、次の目的地を明確にし、頭の中でルートをシミュレーションし、ハンドルを握って運転しなければならず、スケジュールに疲れ、以下のような劣悪な運転体験に苦しんでいます。"
+  },
+  "Seamed Connection between Driving & Life": {
+    "zh": "驾驶与生活之间的割裂连接",
+    "ja": "運転と生活の継ぎ目だらけの接続"
+  },
+  "Physical and Mental Occupied": {
+    "zh": "身心被占满",
+    "ja": "心身が占有されている"
+  },
+  "Tangible Scenery Missed": {
+    "zh": "错过可感的沿途风景",
+    "ja": "手触りのある景色を逃す"
+  },
+  "Places of Information Missed": {
+    "zh": "错过信息所在的场所",
+    "ja": "情報のある場所を逃す"
+  },
+  "Insight ↑": {
+    "zh": "洞察 ↑",
+    "ja": "インサイト ↑"
+  },
+  "Fully-Autonomous Connection Between Point A and B": {
+    "zh": "A 点与 B 点之间的全自动连接",
+    "ja": "地点AとBの完全自動接続"
+  },
+  "To connect people's life points in a real seamless way is that the automation of planning besides navigation and driving in driver-car interaction makes personal cars as rather a proactive moving life-assistant beyond an automated transportation tool. \"Personal car is no longer a tool just to transport people from A to B based on a single order before stepped on, but rather a mobility property attached life assistance which always knows the next destination whenever.\"": {
+    "zh": "真正无缝连接人们的生活节点，意味着在驾乘交互中，除导航与驾驶外，规划本身也实现自动化，使个人汽车超越自动化交通工具，成为主动的移动生活助手。“个人汽车不再只是上车前下达单一指令、把人从 A 点运到 B 点的工具，而更像附着于生活辅助的出行资产——随时知晓下一目的地。”",
+    "ja": "人々の生活の結節点を真にシームレスにつなぐとは、ドライバーと車のインタラクションにおいて、ナビと運転に加え計画そのものを自動化し、個人の車を自動化された移動手段を超えた、能動的な移動生活アシスタントにすることです。「個人の車は、乗車前の単一指示に基づき人をAからBへ運ぶだけの道具ではなく、次の目的地を常に知る、生活支援に結び付いたモビリティ資産である。」"
+  },
+  "Concepts of Front-Steering System ↑": {
+    "zh": "前转向系统概念 ↑",
+    "ja": "フロントステアリングシステムのコンセプト ↑"
+  },
+  "PV-Assistant System and Front-Steering Interface": {
+    "zh": "个人车辆助手系统与前转向界面",
+    "ja": "PVアシスタントシステムとフロントステアリング・インターフェース"
+  },
+  "A personal vehicle's assistant system that syncing customised and potential informationized life events, based on that a PV system could momently estimate the next destination in the most seamless way without any mechanical input.": {
+    "zh": "一套个人车辆助手系统，同步定制化与潜在信息化的生活事件；据此，PV 系统可在无需机械输入的情况下，以最无缝的方式即时估算下一目的地。",
+    "ja": "カスタマイズされた、潜在的に情報化された生活イベントを同期する個人車両アシスタントシステム。それに基づき、PVシステムは機械的入力なしで、最もシームレスな形で次の目的地を即座に推定できます。"
+  },
+  "Interaction terminal is re-settled and combined with the steering wheel thanks to autonomous driving so that people could interact with assistant system more directly and comfortably in regardless of eye-distraction. Meanwhile manual and auto-driving switching is kept for those driving lovers and special cases.": {
+    "zh": "得益于自动驾驶，交互终端被重新安置并与方向盘结合，使人能更直接、舒适地与助手系统互动，并减少视线分心。同时保留手动与自动驾驶切换，以满足驾驶爱好者与特殊场景。",
+    "ja": "自動運転のおかげでインタラクション端末は再配置されハンドルと一体となり、視線散漫を抑えつつ、より直接的で快適にアシスタントと対話できます。同時に、運転愛好家や特殊状況のために手動／自動運転の切り替えも維持します。"
+  },
+  "Main features introduction:": {
+    "zh": "主要功能介绍：",
+    "ja": "主な機能紹介："
+  },
+  "Schedule Sync": {
+    "zh": "日程同步",
+    "ja": "スケジュール同期"
+  },
+  "Generate route plan based on synced personal schedule information on the tools like calendar app etc.": {
+    "zh": "基于日历等工具中同步的个人日程信息生成路线规划。",
+    "ja": "カレンダーアプリ等で同期した個人スケジュール情報に基づきルート計画を生成。"
+  },
+  "Auto push notification to pick up according to schedule.": {
+    "zh": "按日程自动推送接送通知。",
+    "ja": "スケジュールに応じて送迎通知を自動プッシュ。"
+  },
+  "Direct Input": {
+    "zh": "直接输入",
+    "ja": "直接入力"
+  },
+  "Launching after simply destination information input on the FSS in car or FSS App wherever.": {
+    "zh": "在车内 FSS 或任意位置的 FSS App 上简单输入目的地信息即可启动。",
+    "ja": "車内FSSまたはどこからでもFSSアプリに目的地情報を簡潔に入力して起動。"
+  },
+  "Any information attached by location property from the third-party platform could be sent directly to the FSS.": {
+    "zh": "来自第三方平台、带有位置属性的任何信息，均可直接发送至 FSS。",
+    "ja": "位置属性を持つ第三者プラットフォームの情報は、FSSへ直接送信可能。"
+  },
+  "Wander mode": {
+    "zh": "漫游模式",
+    "ja": "ワンダリングモード"
+  },
+  "Thanks to autonomous driving, car will be moving along certain random routines by path or zone set on the FSS in advanced.": {
+    "zh": "得益于自动驾驶，车辆可沿事先在 FSS 上设定的路径或区域按一定随机路线行驶。",
+    "ja": "自動運転により、事前にFSSで設定した経路またはゾーンに沿い、一定のランダムさで走行。"
+  },
+  "Wander has three speed mode: rush, normal and of course leisure.": {
+    "zh": "漫游具备三种速度模式：赶路、常规，以及当然的悠闲。",
+    "ja": "ワンダリングには三つの速度モード：急ぎ、通常、そしてもちろんゆったり。"
+  },
+  "System Equipped Steering Interaction Design ↑": {
+    "zh": "系统搭载的转向交互设计 ↑",
+    "ja": "システム搭載ステアリング・インタラクション設計 ↑"
+  },
+  "Direct Front-set Interface and Hold-Touch Mode Switching": {
+    "zh": "正前方界面与握持—触控模式切换",
+    "ja": "正面インターフェースとホールド／タッチモード切替"
+  },
+  "Assistant system directly implanted in the steering wheel, software and hardware integration continues the steering wheel area as the interaction core of the driver control and dialogue car. And considering safety when hosting and takeover under partly-autonoums level, two toggle modes of steering wheel is designed that Hold for driving and Touch for dialogue.": {
+    "zh": "助手系统直接植入方向盘，软硬件一体延续方向盘区域作为驾驶控制与车机对话的交互核心。并考虑部分自动驾驶等级下接管与托管的安全，设计两种切换模式：握持用于驾驶，触控用于对话。",
+    "ja": "アシスタントをハンドルに直接埋め込み、ソフトとハードの統合によりハンドル周辺を運転操作と対話のコアに据えます。部分自動運転レベルでのホスト／テイクオーバー安全を考慮し、運転用ホールドと対話用タッチの二モードを設計。"
+  },
+  "Hold Mode": {
+    "zh": "握持模式",
+    "ja": "ホールドモード"
+  },
+  "During manual driving period, the front-set interface would be moved inside the steering wheel for easy-holding.": {
+    "zh": "手动驾驶期间，前置界面收入方向盘内侧，便于握持。",
+    "ja": "手動運転中、正面インターフェースは握りやすいようハンドル内側へ収納。"
+  },
+  "Touch Mode": {
+    "zh": "触控模式",
+    "ja": "タッチモード"
+  },
+  "During autonomous driving period, the front-set interface would be moved outside the steering wheel with a certain angel rotation for easy-touching.": {
+    "zh": "自动驾驶期间，前置界面移出方向盘并以一定角度旋转，便于触控。",
+    "ja": "自動運転中、正面インターフェースは触れやすい角度でハンドル外側へ展開。"
+  },
+  "Steering Wheel Sketch and Design ↑": {
+    "zh": "方向盘草图与设计 ↑",
+    "ja": "ステアリングホイールのスケッチとデザイン ↑"
+  },
+  "Split Design with 7\" Screen and Two-Multifunctional Buttons": {
+    "zh": "分体设计：7 英寸屏幕与双多功能按键",
+    "ja": "7インチ画面と二つの多機能ボタンによる分割設計"
+  },
+  "Design the steering wheel wity two-mode toggle and front touch screen to express a sense of simplicity, quality and luxury. Half-half seperation design makes mid-screen fixed and independent to steer-rotation while steering wheel hold part moving in and out freely and smoothly. As less buttons as possible makes control behavior simple which Double-holding to switch mode, single-tapping to sign turn.": {
+    "zh": "以双模式切换与前置触控屏设计方向盘，表达简洁、品质与奢华感。对半分离使中屏固定、独立于转向旋转，握持部分可自由顺滑地进出。尽可能减少按键：双手握持切换模式，单击示意转向。",
+    "ja": "二モード切替と正面タッチスクリーンで、簡潔・品質・ラグジュアリーを表現。半々分割により中央画面は固定で操舵回転から独立し、握り部は滑らかに出入り。ボタンは最小限：両手保持でモード切替、単タップで合図。"
+  },
+  "Features Mapping and Using Flow ↑": {
+    "zh": "功能映射与使用流程 ↑",
+    "ja": "機能マッピングと利用フロー ↑"
+  },
+  "Step-on, Start, Moving, Parking, Get-off": {
+    "zh": "上车、启动、行驶、泊车、下车",
+    "ja": "乗車、始動、走行、駐車、降車"
+  },
+  "Designing the complete behavioral path of the driver using the Front-Steering System through the journey from beginning to ending. Car-users comlete tasks below in co-using with FSS App terminal out of car and FSS in car:": {
+    "zh": "设计驾驶者使用前转向系统从开始到结束的完整行为路径。车主与车外 FSS App、车内 FSS 协同完成以下任务：",
+    "ja": "フロントステアリングシステム利用の開始から終了までの行動パスを設計。車外FSSアプリと車内FSSの併用で、ユーザーは以下を完遂します。"
+  },
+  "Account system": {
+    "zh": "账户体系",
+    "ja": "アカウント体系"
+  },
+  "Personal account, shared account, guest account.": {
+    "zh": "个人账户、共享账户、访客账户。",
+    "ja": "個人アカウント、共有アカウント、ゲストアカウント。"
+  },
+  "Schedule sync": {
+    "zh": "日程同步",
+    "ja": "スケジュール同期"
+  },
+  "Auto-operate daily regular journey agenda without destination input one more time.": {
+    "zh": "自动执行日常规律行程议程，无需再次输入目的地。",
+    "ja": "日常の定型旅程を目的地再入力なしで自動運用。"
+  },
+  "Express input": {
+    "zh": "快捷输入",
+    "ja": "クイック入力"
+  },
+  "Change route anytime with only inputing a new destination.": {
+    "zh": "随时仅输入新目的地即可改道。",
+    "ja": "新しい目的地を入力するだけでいつでもルート変更。"
+  },
+  "LBS": {
+    "zh": "基于位置的服务（LBS）",
+    "ja": "LBS"
+  },
+  "Explore service and information with filter and customizing then explore service and information with filter and customizing then set a new destinationset a new destination.": {
+    "zh": "通过筛选与定制探索服务与信息，并设定新的目的地。",
+    "ja": "フィルタとカスタマイズでサービス・情報を探索し、新しい目的地を設定。"
+  },
+  "Car control": {
+    "zh": "车辆控制",
+    "ja": "車両制御"
+  },
+  "In-car terminal connected with cell phone": {
+    "zh": "车内终端与手机互联",
+    "ja": "車内端末とスマートフォンの接続"
+  },
+  "Music, movie, social software, weather, etc.": {
+    "zh": "音乐、影视、社交软件、天气等。",
+    "ja": "音楽、映像、ソーシャル、天気など。"
+  },
+  "Information Architecture of FSS ↑": {
+    "zh": "FSS 信息架构 ↑",
+    "ja": "FSSの情報アーキテクチャ ↑"
+  },
+  "Flat Nagivation": {
+    "zh": "扁平导航",
+    "ja": "フラット・ナビゲーション"
+  },
+  "Draw the info-architecture to build mobile terminal and car information linkage including account management, schedule sync, in-car trip intervention, roaming mode and center control. And ensure that the information hierarchy does not exceed three layers.": {
+    "zh": "绘制信息架构，建立移动端与车机的信息联动，涵盖账户管理、日程同步、车内行程干预、漫游模式与中控；并确保信息层级不超过三层。",
+    "ja": "アカウント管理、スケジュール同期、車内旅程介入、ローミング、センターコントロールを含む、モバイルと車載の情報連携IAを描き、階層は三層以内に抑えます。"
+  },
+  "Wireframe of FSS ↑": {
+    "zh": "FSS 线框 ↑",
+    "ja": "FSSのワイヤーフレーム ↑"
+  },
+  "Low-cost Interaction Behavior as Smart Phone": {
+    "zh": "与智能手机相当的低成本交互行为",
+    "ja": "スマートフォン並みの低コスト操作"
+  },
+  "Visualize the IA into MVP to make interaction effortless and information readable during autonomous driving. And keep the interaction and information consistency between the phone and the car like synced schedule as home page with seconadry function as buttons layouting on top or bottom bar.": {
+    "zh": "将信息架构可视化为 MVP，使自动驾驶期间交互轻松、信息可读；并保持手机与车机在交互与信息上的一致性，例如以同步日程为首页，次级功能以顶栏或底栏按钮排布。",
+    "ja": "IAをMVPとして可視化し、自動運転中も負担少なく読みやすく。同期スケジュールをホームにし、二次機能を上下バーのボタン配置とするなど、スマホと車の一貫性を保ちます。"
+  },
+  "GUI of FSS ↑": {
+    "zh": "FSS 图形界面 ↑",
+    "ja": "FSSのGUI ↑"
+  },
+  "Visual Harmony with The Steering Wheel": {
+    "zh": "与方向盘的视觉和谐",
+    "ja": "ステアリングとの視覚的調和"
+  },
+  "Considering the distance between the screen and the driver's eyes, the appropriate font and font size scale is set to ensure the readability of information. At the same time, because the screen is directly in front of the user's line of sight, unlike the central control screen without much interference at the edge of the line of sight, the FSS screen GUI uses darkmode as the main color system to minimize the interference to the driver.": {
+    "zh": "考虑屏幕与驾驶者眼睛的距离，设定合适字体与字号比例以保证可读性。同时，因屏幕正对视线（不同于边缘干扰较少的中控屏），FSS 屏幕 GUI 以深色模式为主色系，尽量降低对驾驶者的干扰。",
+    "ja": "画面と目の距離を考慮し、可読なフォントとスケールを設定。視線正面にあるため（周辺の中控画面と異なり）、FSS GUIはダークモードを主色とし、運転への干渉を最小化します。"
+  },
+  "Animated Demo →": {
+    "zh": "动态演示 →",
+    "ja": "アニメーションデモ →"
+  },
+  "GUI of FSS App ↑": {
+    "zh": "FSS App 图形界面 ↑",
+    "ja": "FSSアプリのGUI ↑"
+  },
+  "Consistant Visualisation": {
+    "zh": "一致的视觉表达",
+    "ja": "一貫したビジュアル"
+  },
+  "The mobile interface uses a unified set of fonts, color specifications, and icon kit to ensure that the mobile visual experience is consistent with the steering wheel hardware (color, material, and shape) and the system interface it carries.": {
+    "zh": "移动端界面采用统一字体、色彩规范与图标套件，确保移动视觉体验与方向盘硬件（色彩、材质、造型）及其所承载系统界面保持一致。",
+    "ja": "モバイルは統一フォント、カラー仕様、アイコンキットを用い、ハンドル硬件（色・材質・形状）と搭載UIとの視覚体験の一貫性を確保します。"
+  }
+}

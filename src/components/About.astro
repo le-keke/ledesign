@@ -33,7 +33,12 @@ const panelIds = ['1', '2', '3'] as const;
               {lead ? <span class="about__lead">{lead}</span> : null}
               <button class="about__trigger" type="button" data-about-trigger={id}>
                 {t.about.triggers[id]}
-                {/* Footnote 2 sits tight against “engagements” — give it a little air. */}
+                {/*
+                  Marker air (match EN):
+                  1 — tight to the name/comma (no extra spaces)
+                  2 — space before the digit (after the hit word)
+                  3 — tight to the hit word; outer gaps come from intro copy
+                */}
                 {id === '2' ? ' ' : null}
                 <span class="about__marker">{id}</span>
               </button>

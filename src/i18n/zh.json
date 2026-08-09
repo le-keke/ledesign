@@ -1,18 +1,18 @@
 {
   "meta": {
-    "title": "Keke LE Design",
-    "description": "UX 设计师乐可可的作品集——产品、空间与品牌实践。"
+    "title": "乐可柯 Design",
+    "description": "UX 设计师乐可柯的作品集——产品、空间与品牌实践。"
   },
   "categories": {
     "work": "作品",
     "research": "研究"
   },
   "about": {
-    "intro": "{1}一名用户体验设计师，通过跨学科实践追求美好而轻松的体验；其工作通过{2}分享，并获得{3}认可。",
+    "intro": "{1} 一名用户体验设计师，通过跨学科实践追求美好而轻松的体验。其工作通过{2} 分享，并获得{3} 认可。",
     "triggers": {
-      "1": "乐可可，",
+      "1": "乐可柯 ",
       "2": "演讲",
-      "3": "奖项"
+      "3": "奖项 "
     },
     "triggerLeads": {
       "1": "",
@@ -24,50 +24,50 @@
     "phone": "86-183-2178-5026",
     "panels": {
       "1": [
-        { "year": "2023-26", "text": "Head of Design, Alibaba Group" },
-        { "year": "2025-26", "text": "Council Member, Tongji University Alumni Association" },
-        { "year": "2023-25", "text": "Visiting Lecture, China Academy of Art" },
-        { "year": "2022-23", "text": "Visiting Lecture, Tongji University" },
-        { "year": "", "text": "Visiting Lecture, Zhejiang University" },
-        { "year": "2019-22", "text": "UX Designer Lead, Alibaba Group" },
-        { "year": "2018", "text": "Senior UX Designer, Alibaba Group" },
-        { "year": "2017", "text": "UX Designer, Alibaba Group" },
-        { "year": "2016", "text": "Exchange Program Student, Hfg Offenbach am Main" },
+        { "year": "2023-26", "text": "设计负责人，阿里巴巴集团" },
+        { "year": "2025-26", "text": "理事，同济大学校友会" },
+        { "year": "2023-25", "text": "客座讲师，中国美术学院" },
+        { "year": "2022-23", "text": "客座讲师，同济大学" },
+        { "year": "", "text": "客座讲师，浙江大学" },
+        { "year": "2019-22", "text": "用户体验设计主管，阿里巴巴集团" },
+        { "year": "2018", "text": "高级用户体验设计师，阿里巴巴集团" },
+        { "year": "2017", "text": "用户体验设计师，阿里巴巴集团" },
+        { "year": "2016", "text": "交换生，奥芬巴赫设计学院（HfG Offenbach）" },
         {
           "year": "2014-17",
-          "text": "M.A. Design Strategy and Management, College of Design and Innovation, Tongji University"
+          "text": "设计战略与管理硕士，同济大学设计创意学院"
         }
       ],
       "2": [
-        { "year": "2025", "text": "Speaker, D20 Global Design Institutes Deans' Summit" },
-        { "year": "", "text": "Representative, Apple Design Award, Apple WWDC" },
-        { "year": "", "text": "Speaker, Let's Vision Shanghai" },
-        { "year": "2024", "text": "Speaker, Case study, Apple Developer Online Session" },
-        { "year": "", "text": "Speaker, Media Day, Apple WWDC" },
-        { "year": "2023", "text": "Interaction Course Lecturer, China Academy of Art" },
-        { "year": "2022", "text": "UX Management Course Lecturer, Tongji University" },
-        { "year": "", "text": "Interaction Course Lecturer, Zhejiang University" },
-        { "year": "", "text": "Speaker, UCAN Alibaba Design Week" },
-        { "year": "2021", "text": "Interview Host, Alibaba Design Week" },
-        { "year": "2020", "text": "Host & Organizer, Alibaba Design Day × Tongji University" },
-        { "year": "2018", "text": "Guest Speaker, Yineng.FM Podcast Vol.28" },
-        { "year": "2017", "text": "Interaction Course Lecturer, Tongji University D&I" },
-        { "year": "", "text": "HMI Topic Speecher, Shanghai Dribbble Meetup" }
+        { "year": "2025", "text": "演讲嘉宾，D20 全球设计学院院长峰会" },
+        { "year": "", "text": "代表，Apple Design Award，Apple WWDC" },
+        { "year": "", "text": "演讲嘉宾，Let's Vision 上海" },
+        { "year": "2024", "text": "演讲嘉宾，案例分享，Apple 开发者在线分享会" },
+        { "year": "", "text": "演讲嘉宾，Media Day，Apple WWDC" },
+        { "year": "2023", "text": "交互课程讲师，中国美术学院" },
+        { "year": "2022", "text": "用户体验管理课程讲师，同济大学" },
+        { "year": "", "text": "交互课程讲师，浙江大学" },
+        { "year": "", "text": "演讲嘉宾，UCAN 阿里巴巴设计周" },
+        { "year": "2021", "text": "访谈主持，阿里巴巴设计周" },
+        { "year": "2020", "text": "主持与策划，阿里巴巴设计日 × 同济大学" },
+        { "year": "2018", "text": "特邀嘉宾，壹能.FM 播客 Vol.28" },
+        { "year": "2017", "text": "交互课程讲师，同济大学设计创意学院" },
+        { "year": "", "text": "HMI 主题演讲，上海 Dribbble Meetup" }
       ],
       "3": [
-        { "year": "2026", "text": "Reddot Award, VersionAI Tmall" },
-        { "year": "2025", "text": "Apple Design Award, Taobao Vision" },
-        { "year": "", "text": "Reddot Award, Taobao Vision" },
-        { "year": "", "text": "IF Design Award, Taobao Vision" },
-        { "year": "2023", "text": "Best Lecturer, College-Enterprise Course, Alibaba Group" },
-        { "year": "2022", "text": "IF Design Award, Multi-modal Product System" },
-        { "year": "", "text": "Tech-Star, Annual Team Award, Alibaba Group" },
-        { "year": "", "text": "Best PM, Alibaba Design Week Organization" },
-        { "year": "2021", "text": "Best Innovation, Annual Team Award, Alibaba Design" },
-        { "year": "2019", "text": "Best Innovation, Annual Individual Award, Alibaba Design" },
-        { "year": "2018", "text": "Best New Designer, Annual Individual Award, Alibaba Design" },
-        { "year": "2017", "text": "Best New Designer, Alibaba Design" },
-        { "year": "2013", "text": "Best Top 20 Apps, FreshboxTM, IXDC" }
+        { "year": "2026", "text": "红点奖，VersionAI Tmall" },
+        { "year": "2025", "text": "Apple Design Award，淘宝 Vision" },
+        { "year": "", "text": "红点奖，淘宝 Vision" },
+        { "year": "", "text": "iF 设计奖，淘宝 Vision" },
+        { "year": "2023", "text": "最佳讲师，校企课程，阿里巴巴集团" },
+        { "year": "2022", "text": "iF 设计奖，多模态产品系统" },
+        { "year": "", "text": "Tech-Star，年度团队奖，阿里巴巴集团" },
+        { "year": "", "text": "最佳 PM，阿里巴巴设计周组织" },
+        { "year": "2021", "text": "最佳创新，年度团队奖，阿里巴巴设计" },
+        { "year": "2019", "text": "最佳创新，年度个人奖，阿里巴巴设计" },
+        { "year": "2018", "text": "最佳新人设计师，年度个人奖，阿里巴巴设计" },
+        { "year": "2017", "text": "最佳新人设计师，阿里巴巴设计" },
+        { "year": "2013", "text": "最佳 Top 20 Apps，FreshboxTM，IXDC" }
       ]
     }
   },
@@ -77,10 +77,13 @@
   "project": {
     "close": "关闭",
     "back": "返回",
-    "period": "Period",
-    "category": "Category",
-    "designLead": "Design Lead",
-    "team": "Team",
-    "award": "Award"
+    "period": "时间",
+    "category": "类别",
+    "designLead": "设计负责人",
+    "designer": "设计师",
+    "team": "团队",
+    "award": "奖项",
+    "keywords": "关键词",
+    "institution": "机构"
   }
 }

@@ -1,73 +1,73 @@
 {
   "meta": {
-    "title": "Keke LE Design",
-    "description": "UXデザイナー LE Keke のポートフォリオ。"
+    "title": "樂可柯 Design",
+    "description": "UXデザイナー 樂可柯 のポートフォリオ。"
   },
   "categories": {
     "work": "作品",
     "research": "リサーチ"
   },
   "about": {
-    "intro": "{1}は UX デザイナーとして、分野横断の実践を通じて美しく無理のない体験をつくり、その仕事を{2}で共有し、{3}で評価されています。",
+    "intro": "{1} は UX デザイナーとして、分野横断の実践を通じて美しく無理のない体験をつくり、その仕事を{2} で共有し、{3} で評価されています。",
     "triggers": {
-      "1": "LE Keke、",
+      "1": "樂可柯 ",
       "2": "講演",
-      "3": "受賞"
+      "3": "受賞 "
     },
     "triggerLeads": {
       "1": "",
       "2": "",
       "3": ""
     },
-    "contactLabel": "Contact",
+    "contactLabel": "連絡先",
     "email": "le.keke@foxmail.com",
     "phone": "86-183-2178-5026",
     "panels": {
       "1": [
-        { "year": "2023-26", "text": "Head of Design, Alibaba Group" },
-        { "year": "2025-26", "text": "Council Member, Tongji University Alumni Association" },
-        { "year": "2023-25", "text": "Visiting Lecture, China Academy of Art" },
-        { "year": "2022-23", "text": "Visiting Lecture, Tongji University" },
-        { "year": "", "text": "Visiting Lecture, Zhejiang University" },
-        { "year": "2019-22", "text": "UX Designer Lead, Alibaba Group" },
-        { "year": "2018", "text": "Senior UX Designer, Alibaba Group" },
-        { "year": "2017", "text": "UX Designer, Alibaba Group" },
-        { "year": "2016", "text": "Exchange Program Student, Hfg Offenbach am Main" },
+        { "year": "2023-26", "text": "デザイン責任者、アリババグループ" },
+        { "year": "2025-26", "text": "理事、同済大学校友会" },
+        { "year": "2023-25", "text": "客員講師、中国美術学院" },
+        { "year": "2022-23", "text": "客員講師、同済大学" },
+        { "year": "", "text": "客員講師、浙江大学" },
+        { "year": "2019-22", "text": "UXデザインリード、アリババグループ" },
+        { "year": "2018", "text": "シニアUXデザイナー、アリババグループ" },
+        { "year": "2017", "text": "UXデザイナー、アリババグループ" },
+        { "year": "2016", "text": "交換留学生、HfG Offenbach am Main" },
         {
           "year": "2014-17",
-          "text": "M.A. Design Strategy and Management, College of Design and Innovation, Tongji University"
+          "text": "デザイン戦略・マネジメント修士、同済大学デザイン創意学院"
         }
       ],
       "2": [
-        { "year": "2025", "text": "Speaker, D20 Global Design Institutes Deans' Summit" },
-        { "year": "", "text": "Representative, Apple Design Award, Apple WWDC" },
-        { "year": "", "text": "Speaker, Let's Vision Shanghai" },
-        { "year": "2024", "text": "Speaker, Case study, Apple Developer Online Session" },
-        { "year": "", "text": "Speaker, Media Day, Apple WWDC" },
-        { "year": "2023", "text": "Interaction Course Lecturer, China Academy of Art" },
-        { "year": "2022", "text": "UX Management Course Lecturer, Tongji University" },
-        { "year": "", "text": "Interaction Course Lecturer, Zhejiang University" },
-        { "year": "", "text": "Speaker, UCAN Alibaba Design Week" },
-        { "year": "2021", "text": "Interview Host, Alibaba Design Week" },
-        { "year": "2020", "text": "Host & Organizer, Alibaba Design Day × Tongji University" },
-        { "year": "2018", "text": "Guest Speaker, Yineng.FM Podcast Vol.28" },
-        { "year": "2017", "text": "Interaction Course Lecturer, Tongji University D&I" },
-        { "year": "", "text": "HMI Topic Speecher, Shanghai Dribbble Meetup" }
+        { "year": "2025", "text": "スピーカー、D20 Global Design Institutes Deans' Summit" },
+        { "year": "", "text": "代表、Apple Design Award、Apple WWDC" },
+        { "year": "", "text": "スピーカー、Let's Vision Shanghai" },
+        { "year": "2024", "text": "スピーカー、ケーススタディ、Apple Developer Online Session" },
+        { "year": "", "text": "スピーカー、Media Day、Apple WWDC" },
+        { "year": "2023", "text": "インタラクション科目講師、中国美術学院" },
+        { "year": "2022", "text": "UXマネジメント科目講師、同済大学" },
+        { "year": "", "text": "インタラクション科目講師、浙江大学" },
+        { "year": "", "text": "スピーカー、UCAN Alibaba Design Week" },
+        { "year": "2021", "text": "インタビュアー、Alibaba Design Week" },
+        { "year": "2020", "text": "司会・企画、Alibaba Design Day × 同済大学" },
+        { "year": "2018", "text": "ゲストスピーカー、Yineng.FM Podcast Vol.28" },
+        { "year": "2017", "text": "インタラクション科目講師、同済大学デザイン創意学院" },
+        { "year": "", "text": "HMIトピックスピーカー、Shanghai Dribbble Meetup" }
       ],
       "3": [
-        { "year": "2026", "text": "Reddot Award, VersionAI Tmall" },
-        { "year": "2025", "text": "Apple Design Award, Taobao Vision" },
-        { "year": "", "text": "Reddot Award, Taobao Vision" },
-        { "year": "", "text": "IF Design Award, Taobao Vision" },
-        { "year": "2023", "text": "Best Lecturer, College-Enterprise Course, Alibaba Group" },
-        { "year": "2022", "text": "IF Design Award, Multi-modal Product System" },
-        { "year": "", "text": "Tech-Star, Annual Team Award, Alibaba Group" },
-        { "year": "", "text": "Best PM, Alibaba Design Week Organization" },
-        { "year": "2021", "text": "Best Innovation, Annual Team Award, Alibaba Design" },
-        { "year": "2019", "text": "Best Innovation, Annual Individual Award, Alibaba Design" },
-        { "year": "2018", "text": "Best New Designer, Annual Individual Award, Alibaba Design" },
-        { "year": "2017", "text": "Best New Designer, Alibaba Design" },
-        { "year": "2013", "text": "Best Top 20 Apps, FreshboxTM, IXDC" }
+        { "year": "2026", "text": "Red Dot Award、VersionAI Tmall" },
+        { "year": "2025", "text": "Apple Design Award、Taobao Vision" },
+        { "year": "", "text": "Red Dot Award、Taobao Vision" },
+        { "year": "", "text": "iF Design Award、Taobao Vision" },
+        { "year": "2023", "text": "Best Lecturer、産学連携コース、アリババグループ" },
+        { "year": "2022", "text": "iF Design Award、マルチモーダルプロダクトシステム" },
+        { "year": "", "text": "Tech-Star、年間チーム賞、アリババグループ" },
+        { "year": "", "text": "Best PM、Alibaba Design Week 運営" },
+        { "year": "2021", "text": "Best Innovation、年間チーム賞、Alibaba Design" },
+        { "year": "2019", "text": "Best Innovation、年間個人賞、Alibaba Design" },
+        { "year": "2018", "text": "Best New Designer、年間個人賞、Alibaba Design" },
+        { "year": "2017", "text": "Best New Designer、Alibaba Design" },
+        { "year": "2013", "text": "Best Top 20 Apps、FreshboxTM、IXDC" }
       ]
     }
   },
@@ -77,10 +77,13 @@
   "project": {
     "close": "閉じる",
     "back": "戻る",
-    "period": "Period",
-    "category": "Category",
-    "designLead": "Design Lead",
-    "team": "Team",
-    "award": "Award"
+    "period": "期間",
+    "category": "カテゴリー",
+    "designLead": "デザインリード",
+    "designer": "デザイナー",
+    "team": "チーム",
+    "award": "受賞",
+    "keywords": "キーワード",
+    "institution": "機関"
   }
 }
