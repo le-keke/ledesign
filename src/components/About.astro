@@ -1,8 +1,7 @@
 ---
 /**
- * Home intro + footnote panels (1 CV · 2 speaking engagements · 3 awards).
- * For {2}, only “engagements” (+ marker) is the hover hit; “speaking ” is inert
- * so scrolling the CV panel is less likely to switch footnotes by accident.
+ * Home intro + footnote panels (1 CV · 2 speakings · 3 awards).
+ * Marker air for {2}: space before and after the digit (after “speakings”).
  */
 import { getDictionary, splitFootnotes, type Locale } from '@i18n/index';
 
@@ -36,7 +35,7 @@ const panelIds = ['1', '2', '3'] as const;
                 {/*
                   Marker air (match EN):
                   1 — tight to the name/comma (no extra spaces)
-                  2 — space before the digit (after the hit word)
+                  2 — space before the digit; space after comes from intro (“ and”)
                   3 — tight to the hit word; outer gaps come from intro copy
                 */}
                 {id === '2' ? ' ' : null}

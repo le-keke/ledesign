@@ -11,12 +11,12 @@
     "intro": "{1} as a ux designer, strives to create beautiful and effortless experiences through interdisciplinary practice, with his work shared through {2} and recognized with {3}",
     "triggers": {
       "1": "LE Keke,",
-      "2": "engagements",
+      "2": "speakings",
       "3": "awards."
     },
     "triggerLeads": {
       "1": "",
-      "2": "speaking ",
+      "2": "",
       "3": ""
     },
     "contactLabel": "Contact",
