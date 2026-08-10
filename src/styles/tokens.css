@@ -13,18 +13,21 @@
  *   ≤750 Work: 1 / row; side margin grows with phone-cover-max
  *   ≤750 Research + detail: 1 / row; fixed 40px side margin
  *
- * Layout sizes in rem (follow --scale-layout up to 2560).
- * Type / logo use --scale-type (same curve, hard cap 1.2×).
+ * Layout sizes in rem (html font-size fluid 1440→2560 in global.css).
+ * Type / logo use --type-unit (hard cap 1.2× above 1728px).
  */
 
 :root {
   /*
-   * Layout scale → 2560 (≈1.778×). Type/logo scale shares the curve but caps at 1.2×.
-   * Defined here so type tokens can reference them safely.
+   * Fluid scale is applied on `html { font-size }` in global.css using only
+   * length÷number math (works in older Safari/Chrome). Do NOT use
+   * `100vw / 1440px` here — typed length÷length is missing on many browsers
+   * and invalidates the whole token chain (margins, type, markers).
+   *
+   * --type-unit: 1rem below the 1.2× type cap (1728px); above that it shrinks
+   * relative to layout rem so glyphs freeze at 1.2× while the grid keeps growing.
    */
-  /* 100vw / 1440px → unitless ratio (bare 1440 is invalid / ignored). */
-  --scale-layout: clamp(1, 100vw / 1440px, 2560 / 1440);
-  --scale-type: min(var(--scale-layout), 1.2);
+  --type-unit: 1rem;
 
   /* ---------- Palette ---------- */
   --color-black: #000000;
@@ -46,15 +49,12 @@
   /*
    * Figma body is 10 / 15 leading. Review preferred ~+10% (not Safari’s 115%
    * first zoom step). Type + text rhythm are ×1.10 at 1440; above 1440 they
-   * follow --scale-type (≤1.2) while layout rem keeps growing.
+   * follow --type-unit (≤1.2×) while layout rem keeps growing.
    */
   --font-display: 'Aboreto', 'Times New Roman', serif;
   --font-sans:
     'Inter Variable', 'Inter', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'PingFang SC',
     'Hiragino Sans', 'Microsoft YaHei', sans-serif;
-
-  /* 1rem of “type space” = layout rem × type/layout scale ratio */
-  --type-unit: calc(1rem * var(--scale-type) / var(--scale-layout));
 
   --text-micro: calc(0.4434375 * var(--type-unit)); /* 7.095px @1× */
   --text-body: calc(0.6875 * var(--type-unit)); /* 11px @1× */

@@ -4,11 +4,37 @@
 @import './transitions.css';
 
 /**
- * Root rem follows --scale-layout (covers / gutters / page width → 2560).
- * Glyph size + logo use --scale-type (same curve, hard cap 1.2×) via tokens.
+ * Root rem: 16px below 1440; fluid to 2560; freeze above.
+ * Uses `100vw / 90` (length ÷ number) — NOT `100vw / 1440px` (typed division),
+ * which older Safari/Chrome drop, breaking every rem/type token on the page.
  */
 html {
-  font-size: calc(16px * var(--scale-layout));
+  font-size: 16px;
+}
+
+@media (min-width: 1440px) {
+  html {
+    font-size: calc(100vw / 90); /* 16px @1440 → ~28.44px @2560 */
+  }
+}
+
+@media (min-width: 2560px) {
+  html {
+    font-size: 28.444444px; /* 2560 / 90 */
+  }
+}
+
+/* Type/logo cap at 1.2× (1728px): freeze glyph rem while layout rem still grows. */
+@media (min-width: 1728px) {
+  :root {
+    --type-unit: calc(1rem * 1728 / 100vw);
+  }
+}
+
+@media (min-width: 2560px) {
+  :root {
+    --type-unit: calc(1rem * 1728 / 2560);
+  }
 }
 
 * {
