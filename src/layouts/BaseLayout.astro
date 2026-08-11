@@ -5,16 +5,13 @@ import { getRelativeLocaleUrl } from 'astro:i18n';
 import { getDictionary, localeTags, locales, type Locale } from '@i18n/index';
 import MediaHydration from '@components/MediaHydration.astro';
 
-// Dev review tools (grid + settings window). Production builds omit these.
-const ENABLE_DEV_TOOLS = true;
-const GridOverlay =
-  import.meta.env.DEV && ENABLE_DEV_TOOLS
-    ? (await import('@components/GridOverlay.astro')).default
-    : null;
-const DevSettings =
-  import.meta.env.DEV && ENABLE_DEV_TOOLS
-    ? (await import('@components/DevSettings.astro')).default
-    : null;
+// Dev-only: grid overlay + research cover marks. Never ship — gated on DEV.
+const GridOverlay = import.meta.env.DEV
+  ? (await import('@components/GridOverlay.astro')).default
+  : null;
+const DevSettings = import.meta.env.DEV
+  ? (await import('@components/DevSettings.astro')).default
+  : null;
 
 interface Props {
   locale: Locale;

@@ -24,8 +24,9 @@
    * `100vw / 1440px` here — typed length÷length is missing on many browsers
    * and invalidates the whole token chain (margins, type, markers).
    *
-   * --type-unit: 1rem below the 1.2× type cap (1728px); above that it shrinks
-   * relative to layout rem so glyphs freeze at 1.2× while the grid keeps growing.
+   * --type-unit: 1rem below the 1.2× type cap (1728px); above that
+   * `calc(1rem * 1728px / 100vw)` in global.css (must stay a length — never
+   * `1728 / 100vw` without the px unit on 1728).
    */
   --type-unit: 1rem;
 
