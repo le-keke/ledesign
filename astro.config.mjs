@@ -18,6 +18,8 @@ export default defineConfig({
   devToolbar: { enabled: false },
   vite: {
     server: {
+      // Phone / LAN preview (same Wi-Fi). Dev only — production is static.
+      allowedHosts: true,
       // Safari/Chrome otherwise keep stale CSS across HMR; force revalidate in dev.
       headers: {
         'Cache-Control': 'no-store',

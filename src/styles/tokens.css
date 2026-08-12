@@ -10,7 +10,7 @@
  *   1350–1241: Research 3 / row (Work still 4); right info on
  *   ≤1240 → >900: full-width 4 / row; pad chrome (nav/close + logo → info panel)
  *   900–751: Research 3 / row (Work still 4); same pad chrome
- *   ≤750 Work: 1 / row; side margin grows with phone-cover-max
+ *   ≤750 Work: 1 / row; cover caps at 360, 20vw sides below ~600 (home only)
  *   ≤750 Research + detail: 1 / row; fixed 40px side margin
  *
  * Layout sizes in rem (html font-size fluid 1440→2560 in global.css).
@@ -144,7 +144,7 @@ html[lang='ja-JP'] {
  * ≤1240 → >900: 4 cols · cover-span 1 → 4 / row · pad info panel via logo
  * 900–751: Research feed uses 3 cols → 3 / row; Work unchanged
  *   At 1240: margin 60 · gutter 60 → cover ≈ 235
- * ≤750 Work: 1-col · growing side margin
+ * ≤750 Work home: 1-col · cover 360 until ~600, then 20vw sides (not on detail)
  * ≤750 Research / detail: 1-col · 40px side margin; panel pushes feed off-screen
  */
 
@@ -168,21 +168,27 @@ html[lang='ja-JP'] {
 
 @media (max-width: 750px) {
   :root {
-    /*
-     * Phone list: cap cover so ≤750 doesn’t stay near-full-bleed.
-     * Old site used 90vw (always ~full); we keep 5vw as a floor inset, but
-     * once the viewport is wider, cover maxes at 360 and side margin grows —
-     * so resizing actually changes the composition. Row gap = side margin.
-     */
+    /* Phone default = Research / detail / chrome: 40px. Work home overrides below. */
     --phone-cover-max: 22.5rem; /* 360px */
-    /* Feed can loosen; chrome stays on the fixed 40 edge. */
-    --page-margin: max(5vw, calc((100vw - var(--phone-cover-max)) / 2));
+    --page-margin: 2.5rem; /* 40px */
     --chrome-margin: 2.5rem; /* 40px — logo / menu / footer */
     --grid-columns: 1;
     --main-columns: 1;
     --cover-span: 1;
-    --grid-gutter: var(--page-margin);
+    --grid-gutter: 2.5rem;
     --feed-gap-top: 1.5rem; /* room under top bar (logo / menu) */
     --research-row-gap: 1.25rem; /* 20px — single-column Research list */
+  }
+
+  /*
+   * Work feed only — never :root, or project/research details inherit 20vw
+   * after ClientRouter (html[data-home-category=work] can linger on detail).
+   * 750→~600: cover 360, sides = (vw − 360) / 2.
+   * <~600: sides 20vw; cover = 60vw and follows the window.
+   */
+  html[data-home-category='work'] [data-home],
+  [data-home][data-active-category='work'] {
+    --page-margin: max(20vw, calc((100vw - var(--phone-cover-max)) / 2));
+    --grid-gutter: var(--page-margin);
   }
 }

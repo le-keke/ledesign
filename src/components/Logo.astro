@@ -112,7 +112,14 @@ const t = getDictionary(locale);
   /*
    * Drive swap from aria-expanded on the control itself so home + detail
    * both work (does not depend on [data-home]/[data-detail] ancestors).
+   * Open: left-align the 16px glyph in the 32px hit target so the shaft
+   * lines up with About / meta copy (centering left 8px of dead space).
    */
+  .logo--toggle[aria-expanded='true'] {
+    justify-items: start;
+    align-items: center;
+  }
+
   .logo--toggle[aria-expanded='true'] .logo__mark {
     display: none;
   }
