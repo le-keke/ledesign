@@ -25,21 +25,17 @@ html {
 }
 
 /*
- * Type/logo cap at 1.2× (1728px): freeze glyph rem while layout rem still grows.
- * MUST stay a <length>. `1rem * 1728 / 100vw` is length÷length → unitless number,
- * which invalidates every `calc(…rem + var(--leading-flat))` / type token on
- * viewports ≥1728 (wide monitors). Use `1728px` so the ratio stays dimensionless
- * and the product remains a length: 1rem @1728 → 0.9rem @1920 → 0.675rem @2560.
+ * Type/logo cap at 1.2× (1728px): freeze glyphs while layout rem still grows.
+ *
+ * Absolute size at the cap = 1.2 × 16px = 19.2px. Do NOT express this as
+ * `1rem * 1728px / 100vw` — that needs CSS typed arithmetic (Chrome 140+ /
+ * Safari 26+). Older browsers drop the whole declaration, so --type-unit,
+ * logo size, body type, and padding that mixes rem + type all collapse on
+ * wide monitors. A plain px length works everywhere.
  */
 @media (min-width: 1728px) {
   :root {
-    --type-unit: calc(1rem * 1728px / 100vw);
-  }
-}
-
-@media (min-width: 2560px) {
-  :root {
-    --type-unit: calc(1rem * 1728 / 2560);
+    --type-unit: 19.2px;
   }
 }
 
