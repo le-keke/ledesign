@@ -25,17 +25,22 @@ html {
 }
 
 /*
- * Type/logo cap at 1.2× (1728px): freeze glyphs while layout rem still grows.
+ * Type/logo cap at 1.2× (viewport 1728 = 1440 × 1.2):
  *
- * Absolute size at the cap = 1.2 × 16px = 19.2px. Do NOT express this as
- * `1rem * 1728px / 100vw` — that needs CSS typed arithmetic (Chrome 140+ /
- * Safari 26+). Older browsers drop the whole declaration, so --type-unit,
- * logo size, body type, and padding that mixes rem + type all collapse on
- * wide monitors. A plain px length works everywhere.
+ * Same rule as before — NOT a new design:
+ *   <1728: --type-unit: 1rem  → type scales with layout (grows after 1440)
+ *   ≥1728: freeze glyphs at 1.2× the 16px baseline while layout rem keeps growing
+ *
+ * Old formula `1rem * 1728 / 100vw` (or `* 1728px / 100vw`) always evaluates to
+ * the same absolute size at every width ≥1728:
+ *   @1728: rem=19.2px → 1.0×19.2 = 19.2px
+ *   @1920: rem=21.33 → 0.9×21.33 = 19.2px
+ *   @2560: rem=28.44 → 0.675×28.44 = 19.2px
+ * Writing `calc(16px * 1.2)` is that result, without px÷vw (breaks older browsers).
  */
 @media (min-width: 1728px) {
   :root {
-    --type-unit: 19.2px;
+    --type-unit: calc(16px * 1.2); /* ≡ former 1728/viewport ratio, capped */
   }
 }
 

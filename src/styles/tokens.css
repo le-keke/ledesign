@@ -24,8 +24,8 @@
    * `100vw / 1440px` here — typed length÷length is missing on many browsers
    * and invalidates the whole token chain (margins, type, markers).
    *
-   * --type-unit: 1rem below the 1.2× type cap (1728px); above that a fixed
-   * 19.2px in global.css (1.2×16) — no vw/px division (typed arithmetic).
+   * --type-unit: 1rem until the 1.2× cap (1728); then calc(16px * 1.2) —
+   * same freeze as the old 1728/viewport ratio, without typed px÷vw math.
    */
   --type-unit: 1rem;
 
