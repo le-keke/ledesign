@@ -3,6 +3,7 @@ import '@styles/global.css';
 import { ClientRouter } from 'astro:transitions';
 import { getRelativeLocaleUrl } from 'astro:i18n';
 import { getDictionary, localeTags, locales, type Locale } from '@i18n/index';
+import Analytics from '@vercel/analytics/astro';
 import MediaHydration from '@components/MediaHydration.astro';
 
 // Dev-only: grid overlay + research cover marks. Never ship — gated on DEV.
@@ -64,6 +65,7 @@ const canonical = new URL(getRelativeLocaleUrl(locale, route), Astro.site);
     <meta property="og:url" content={canonical} />
 
     <slot name="head" />
+    <Analytics />
     {/* Instant swap (no fade); keep client router so session cache can reuse pages. */}
     <ClientRouter fallback="swap" />
   </head>
