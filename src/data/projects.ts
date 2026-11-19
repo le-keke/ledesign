@@ -22,6 +22,8 @@ export interface Project {
   category: ProjectCategory;
   /** When true, listed but not linkable (matches old-site locked cards). */
   locked?: boolean;
+  /** Keep the entry, but omit it from the home feed until it has a page. */
+  hidden?: boolean;
   title: Record<Locale, string>;
   cover: string;
   coverKind: CoverKind;
@@ -30,12 +32,24 @@ export interface Project {
 /**
  * Home feed — reading order from Figma `home-work` (1294:3), row by row L→R.
  *
- * 1 avp · 2 versionai · 3 360 · 4 zermattern
+ * 1 tdc · 2 avp · 3 versionai · 4 zermattern
+ * (360 / vr-video stays in data, hidden from the feed)
  * 5 taoweb · 6 tisland · 7 fss · 8 swap
  * 9 automarket · 10 dscafe · 11 br · 12 wine
  * 13 sgimf
  */
 export const projects: Project[] = [
+  {
+    slug: 'tdc',
+    category: 'work',
+    title: {
+      en: 'TTC×TDC TAO Thinking Canvas & Design Consultant',
+      zh: 'TTC×TDC TAO Thinking Canvas & Design Consultant',
+      ja: 'TTC×TDC TAO Thinking Canvas & Design Consultant',
+    },
+    cover: 'https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/tdc/tdc_cover.png',
+    coverKind: 'image',
+  },
   {
     slug: 'taobaovp',
     category: 'work',
@@ -62,6 +76,7 @@ export const projects: Project[] = [
     slug: 'vr-video',
     category: 'work',
     locked: true,
+    hidden: true,
     title: {
       en: 'VR-Video UX for Spatial Commodity Shopping',
       zh: '空间商品购物 VR 视频体验',

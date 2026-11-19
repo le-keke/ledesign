@@ -1,0 +1,1774 @@
+{
+  "slug": "tdc",
+  "meta": {
+    "displayTitle": {
+      "en": "TTC×TDC TAO Thinking Canvas & Design Consultant",
+      "zh": "TTC×TDC TAO Thinking Canvas & Design Consultant",
+      "ja": "TTC×TDC TAO Thinking Canvas & Design Consultant"
+    },
+    "summary": {
+      "en": "TDC (Taobao Design Consultant) is an integrated design knowledge platform that consolidates the collective knowledge, methodologies, experience, case studies and skills of a 200 members design team. It addresses everyday consultation needs across the UX design process, supporting research, ideation and design execution.\n\nTTC (TAO Thinking Canvas) introduces a canvas-based interaction paradigm that visualizes the inputs, processes and outcomes of thinking. Designers extract value signals from multimodal fragments and raise parallel questions, developing their own understanding while building personal knowledge bases for retrieval and reuse.",
+      "zh": "TDC (Taobao Design Consultant) is an integrated design knowledge platform that consolidates the collective knowledge, methodologies, experience, case studies and skills of a 200 members design team. It addresses everyday consultation needs across the UX design process, supporting research, ideation and design execution.\n\nTTC (TAO Thinking Canvas) introduces a canvas-based interaction paradigm that visualizes the inputs, processes and outcomes of thinking. Designers extract value signals from multimodal fragments and raise parallel questions, developing their own understanding while building personal knowledge bases for retrieval and reuse.",
+      "ja": "TDC (Taobao Design Consultant) is an integrated design knowledge platform that consolidates the collective knowledge, methodologies, experience, case studies and skills of a 200 members design team. It addresses everyday consultation needs across the UX design process, supporting research, ideation and design execution.\n\nTTC (TAO Thinking Canvas) introduces a canvas-based interaction paradigm that visualizes the inputs, processes and outcomes of thinking. Designers extract value signals from multimodal fragments and raise parallel questions, developing their own understanding while building personal knowledge bases for retrieval and reuse."
+    },
+    "period": {
+      "en": "2026",
+      "zh": "2026",
+      "ja": "2026"
+    },
+    "category": {
+      "en": "Knowledge Base UX",
+      "zh": "Knowledge Base UX",
+      "ja": "Knowledge Base UX"
+    },
+    "designLead": {
+      "en": "Keke LE",
+      "zh": "Keke LE",
+      "ja": "Keke LE"
+    },
+    "roleLabel": {
+      "en": "Product and Design Leader",
+      "zh": "Product and Design Leader",
+      "ja": "Product and Design Leader"
+    },
+    "team": {
+      "en": "MPID Multi-platform Innovation Design\nTaobao Design Sub-unit",
+      "zh": "MPID Multi-platform Innovation Design\nTaobao Design Sub-unit",
+      "ja": "MPID Multi-platform Innovation Design\nTaobao Design Sub-unit"
+    },
+    "award": {
+      "en": "",
+      "zh": "",
+      "ja": ""
+    },
+    "disclaimer": {
+      "en": "",
+      "zh": "",
+      "ja": ""
+    }
+  },
+  "sections": {
+    "en": [
+      {
+        "bg": "detail_bg_tdc_cover",
+        "blocks": [
+          {
+            "type": "detail_cover",
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/tdc/1-cover.png",
+            "alt": "TTC×TDC cover"
+          }
+        ]
+      },
+      {
+        "bg": "detail_bg_light",
+        "blocks": [
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_img_annotation",
+              "text": ""
+            },
+            "text": {
+              "h5": "TTC Thinking Canvas",
+              "paragraphs": [
+                {
+                  "body": "Linear, turn-by-turn conversation poses several problems for the thinking habits of design and creative workers:",
+                  "muted": false
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": false,
+                  "muted": false,
+                  "items": [
+                    "Sequential Q&A makes it awkward to trace earlier information or branch off mid-conversation.",
+                    "There is no place to park intent or valuable information temporarily (questions and insights often emerge while information accumulates).",
+                    "It is hard to form an observable body of knowledge.",
+                    "Outsourcing thinking entirely leads to repeated questioning and wasted compute."
+                  ]
+                },
+                {
+                  "body": "TTC (TAO Thinking Canvas) was created to address these issues. TTC uses a canvas interaction paradigm to visualize the inputs, processes and outcomes of human-AI collaborative thinking. From capturing spontaneous ideas and fragments of inspiration without predefined intentions to revisiting them through purposeful inquiry, TTC enables designers to extract meaningful signals from noisy sources and progressively incorporate fragmented insights into coherent design and observable knowledge outcomes.",
+                  "muted": false
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line_image",
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/tdc/2-idea-piece.png",
+            "layout": "content"
+          },
+          {
+            "type": "detail_line_image",
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/tdc/3-img-piece.png",
+            "layout": "content"
+          },
+          {
+            "type": "detail_line_image",
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/tdc/4-link-piece.png",
+            "layout": "content"
+          },
+          {
+            "type": "detail_line_image",
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/tdc/5-doc-piece.png",
+            "layout": "content"
+          },
+          {
+            "type": "detail_line_image",
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/tdc/6-vid-piece.png",
+            "layout": "content"
+          },
+          {
+            "type": "detail_line_image",
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/tdc/7-aud-piece.png",
+            "layout": "content"
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_img_annotation",
+              "text": "fig1. Question and idea fragments.\nfig2. Image fragment and region cropping.\nfig3. Link fragment.\nfig4. File fragment and text selection.\nfig5. Video fragment and frame capture.\nfig6. Audio fragment and clips (with TTS transcription)."
+            },
+            "text": {
+              "h5": "Multimodal Knowledge Fragments and Extraction of Value Signals",
+              "paragraphs": [
+                {
+                  "body": "TTC allows users to create or insert multimodal knowledge fragments on the canvas: Q&A, text, images, links, files, video and audio. All fragment modalities can be previewed directly on the canvas, and the description area beneath each fragment can carry supplementary information.",
+                  "muted": false
+                },
+                {
+                  "body": "Users can extract the value signals from a fragment - the parts that are important, citable, or ready to be questioned: cropping a region of an image, selecting text in a file, capturing a frame from a video, trimming a segment of audio, and so on.",
+                  "muted": false
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line_image",
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/tdc/8-co-ask.png",
+            "layout": "content"
+          },
+          {
+            "type": "detail_line_image",
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/tdc/10-multi-objects-ask.png",
+            "layout": "content"
+          },
+          {
+            "type": "detail_line_image",
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/tdc/9-single-object-ask.png",
+            "layout": "content"
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_img_annotation",
+              "text": "fig1. Freely designating knowledge fragments to question.\nfig2. Parallel Q&A — Multiple intents across multiple objects.\nfig3. Parallel Q&A — Multiple intents on the same object."
+            },
+            "text": {
+              "h5": "Free Extension of Thought",
+              "paragraphs": [
+                {
+                  "body": "TTC supports grouping related knowledge fragments and asking questions in parallel, at the same time, about one or several objects. Operationally, besides selecting objects first and then asking, a user can create a question card directly and use the @ command to freely designate knowledge fragments on the canvas. Answer cards are rendered as streaming text cards or multimodal artifact cards.",
+                  "muted": false
+                },
+                {
+                  "body": "Connector lines between referenced fragments and question cards visualize the thread of thought. Note, however, that connectors are not something the user operates — they are only a display of interaction state. TTC is not fundamentally a workflow: tasks are not fixed by arranging nodes and wires so that one input process yields one locked result.",
+                  "muted": false
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line_image_double",
+            "left": {
+              "kind": "image",
+              "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/tdc/11-L-mcp.png"
+            },
+            "right": {
+              "kind": "image",
+              "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/tdc/12-R-kb-select.png"
+            }
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_img_annotation",
+              "text": "fig1. Enabling the MCP of a TTC private knowledge base.\nfig2. Both public and private knowledge bases selectable in TDC."
+            },
+            "text": {
+              "h5": "Invocation, Download and Sharing of the Private Knowledge Base",
+              "paragraphs": [
+                {
+                  "body": "Every TTC is itself a private knowledge base. All knowledge, relationships and the like are automatically converted into vectors and a relationship tree, and exposed via MCP so that they participate in retrieval in TDC streaming Q&A. In other words, inside TDC a user can retrieve not only the public design knowledge base but also self-built and privately retrievable knowledge, extending the boundary of knowledge while keeping private knowledge private. Once a user enables sharing, recipients of the link can co-create within the same thinking canvas.",
+                  "muted": false
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line_image",
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/tdc/13-save-back.png",
+            "layout": "content"
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_img_annotation",
+              "text": "Extracting value signals from TDC answer into a TTC."
+            },
+            "text": {
+              "paragraphs": [
+                {
+                  "body": "Conversely, in TDC (tab1) a user can extract valuable signals from an answer — text responses as well as multimodal artifacts — into a relevant TTC (tab2), continuously enriching the private knowledge base. In this way TDC Q&A and TTC canvas form a production–consumption cycle.",
+                  "muted": false
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "bg": "detail_bg_tdc_cover",
+        "blocks": [
+          {
+            "type": "detail_line_image",
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/tdc/14-tab1.png",
+            "layout": "content"
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_img_annotation",
+              "text": "TDC streaming Q&A (tab1)"
+            },
+            "text": {
+              "h5": "TDC (TAO Design Consultant)",
+              "paragraphs": [
+                {
+                  "body": "TDC positioned as a product for design thinking and consultation, it supports the daily work of user-experience designers with answering enquiries, assisting thinking and aiding design execution. The product consists of three core modules: tab1 — Streaming Q&A, tab2 — Thinking Canvas, tab3 — public knowledge base management.",
+                  "muted": false
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line_image",
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/tdc/15-tab3.png",
+            "layout": "content"
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_img_annotation",
+              "text": "TKB public knowledge-base management (tab3)"
+            },
+            "text": {
+              "paragraphs": [
+                {
+                  "body": "TKB (TDC Knowledge Base) tree structures are co-built by design leads and maintained by team administrators — managing branches, adding and removing knowledge, cleaning and ingesting data, and reviewing. It provides both list and graph views for display and operation.",
+                  "muted": false
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "bg": "detail_bg_tdc_soft",
+        "blocks": [
+          {
+            "type": "detail_line_image",
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/tdc/16-tech-structure.png",
+            "layout": "content"
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_img_annotation",
+              "text": "TDC agent architecture."
+            },
+            "text": {
+              "paragraphs": [
+                {
+                  "body": "On the technical side, TDC is built on a team-wide public knowledge base and design skills developed in-house by domain experts, and driven by the Qwen model as a single agent that handles requirement intake, clarification, autonomous reasoning and task routing, knowledge-base retrieval, skill and tool invocation, answering, and the automatic generation of interactive UI for multimodal output.",
+                  "muted": false
+                },
+                {
+                  "body": "TDC accepts requirement input via natural language, explicit skill selection, multimodal content and voice. Based on multi-round comparative testing, we discarded the Multiple Sub-Agents pattern in favor of a Single Agent complemented by system and role definitions such as \"design consultation expert\". There are two reasons:",
+                  "muted": false
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": false,
+                  "muted": false,
+                  "items": [
+                    "Questions in the design domain are multi-dimensional and cross-cutting, so exhaustively enumerating sub-agents for every possible design task makes answers rigid, one-sided and off-target.",
+                    "As large language and multimodal models mature, it is entirely feasible to let the model itself perform judgement, planning and execution, which yields more comprehensive and flexible answers."
+                  ]
+                },
+                {
+                  "body": "Once intent is judged by the single agent, a requirement branches into three execution paths:",
+                  "muted": false
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": false,
+                  "muted": false,
+                  "items": [
+                    "Ambiguous intent triggers a clarification response.",
+                    "Chit-chat intent is answered directly by the LLM.",
+                    "Clear and professional intent enters the \"reason-then-act\" cycle (ReAct Loop), where the execution stage fills in evidence through team knowledge-base retrieval, expert skill invocation, application tool invocation and full-web search, and then outputs as streaming text or multimodal artifacts."
+                  ]
+                },
+                {
+                  "body": "Notably, it is precisely the knowledge base, skills, applications and memory management that make TDC distinct from a general-purpose agent — giving it specificity, domain focus and relevance. Each is described below.",
+                  "muted": false
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line_image",
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/tdc/17-memo.png",
+            "layout": "content"
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_img_annotation",
+              "text": "Memory mechanism for a single, infinite-stream conversation window."
+            },
+            "text": {
+              "h5": "Three-Layer Memory",
+              "paragraphs": [
+                {
+                  "body": "The TDC memory system is managed in three layers: system-level memory, long-term conversational memory, and short-term conversational memory.",
+                  "muted": false
+                },
+                {
+                  "body": "System-level memory holds team members' basic information, usage habits and explicitly stated preferences. Unlike mainstream conversation products, which offer \"new chat\" and multiple parallel chat windows, TDC keeps exactly one single, infinite stream conversation window: the user never needs to open a new session and can ask immediately at the end of the stream. In effect this is a pseudo-infinite context, achieved by retaining the short-term context and progressively compressing historical context by recency, so that session memory is split transparently, unrelated topics do not pollute each other, and related topics can be recalled.",
+                  "muted": false
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line_image",
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/tdc/18-rag.png",
+            "layout": "content"
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_img_annotation",
+              "text": "Knowledge ingestion pipeline."
+            },
+            "text": {
+              "h5": "Public Knowledge Base Production",
+              "paragraphs": [
+                {
+                  "body": "TKB sources its knowledge from automatic document reading via bots in the office communication tool, MCP-readable synchronization from design tools, browser-extension saving, and manual local upload. It supports documents, spreadsheets, images, links, video, audio, presentations and source files, among other knowledge formats. After upload, data is automatically processed through multimodal parsing, format conversion, cleaning, chunking, vector embedding, and MCP construction and update — closing the loop between knowledge production in tab3 and consumption in tab1.",
+                  "muted": false
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line_image",
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/tdc/19-skills.png",
+            "layout": "content"
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_img_annotation",
+              "text": "Full-cycle design skills."
+            },
+            "text": {
+              "h5": "Skills Across the Full Design Cycle",
+              "paragraphs": [
+                {
+                  "body": "Design experts on the team have developed skills covering the full design cycle, including requirement insight, user research, competitive analysis, problem definition, design strategy, design output, review and critique, case consolidation, and personal growth.",
+                  "muted": false
+                },
+                {
+                  "body": "The difference between in-house skills and third-party open-source skills is that the pain points addressed, the guiding methodology, the boundary conditions, and the required assets or references are fully customised to the real design scenarios of the team.",
+                  "muted": false
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line_image",
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/tdc/20-skill-sidebar.png",
+            "layout": "content"
+          },
+          {
+            "type": "detail_line_image",
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/tdc/21-skill-cover.png",
+            "layout": "content"
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_img_annotation",
+              "text": "fig1. Skill sidebar in tab1.\nfig2. Stylized skill covers."
+            },
+            "text": {
+              "paragraphs": [
+                {
+                  "body": "In streaming Q&A and in Thinking Canvas, users can invoke skills through natural language or explicit commands. TDC clarifies the need and calls the appropriate skill to solve the problem.",
+                  "muted": false
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "bg": "detail_bg_tdc_cover",
+        "blocks": [
+          {
+            "type": "detail_line_image",
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/tdc/22-artifact-1.png",
+            "layout": "content"
+          },
+          {
+            "type": "detail_line_image",
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/tdc/23-artifact-2.png",
+            "layout": "content"
+          },
+          {
+            "type": "detail_line_image",
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/tdc/24-artifact-3.png",
+            "layout": "content"
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_img_annotation",
+              "text": "fig1. Document and PDF artifacts.\nfig2. Web-page artifacts.\nfig3. Canvas artifacts."
+            },
+            "text": {
+              "paragraphs": [
+                {
+                  "body": "Skill output is not limited to text — it takes more intuitive multimodal forms, for example user-research reports based on synthetic virtual users, team case PDFs, design-specification web pages, data-visualization interfaces for eye-tracking evaluation of a proposal, vector canvas windows for icon generation, and raster canvas windows for image generation.",
+                  "muted": false
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line_image",
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/tdc/25-skill-creator.png",
+            "layout": "content"
+          },
+          {
+            "type": "detail_line_image",
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/tdc/26-skill-ui.png",
+            "layout": "content"
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_img_annotation",
+              "text": "fig1. TDC design style specification.\nfig2. Intelligent UI generation for a skill artifact (e.g. experience-data prediction)."
+            },
+            "text": {
+              "paragraphs": [
+                {
+                  "body": "To ensure that skills developed locally by different experts work correctly once integrated into TDC and remain consistent in interaction and visual language, the platform provides a skill-creator-skill that standardizes version, environment, format and style. With TDC element tokens and the component-library specification built in, it can intelligently generate the UI of skill outputs.",
+                  "muted": false
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "bg": "detail_bg_tdc_soft",
+        "blocks": [
+          {
+            "type": "detail_line_image",
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/tdc/27-app-tech.png",
+            "layout": "content"
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_img_annotation",
+              "text": "Application architecture."
+            },
+            "text": {
+              "h5": "Application Infrastructure and Ecosystem",
+              "paragraphs": [
+                {
+                  "body": "Some design tasks only need a single skill call to produce a one-off standalone result — One-shot Artifact, such as research or review. Others require a real-time editable artifact with continuous editing, interaction and state updates — Live Editable Artifact, such as image generation. TDC therefore introduces application capability, providing a complete infrastructure — front end and back end, data storage, and built-in agent integration — for any self-developed tool by any individual.",
+                  "muted": false
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "bg": "detail_bg_tdc_cover",
+        "blocks": [
+          {
+            "type": "detail_line_image",
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/tdc/28-app.png",
+            "layout": "content"
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_img_annotation",
+              "text": "Example: icon drawing application."
+            },
+            "text": {
+              "paragraphs": [
+                {
+                  "body": "When execution hits an application, its output modality can be presented as a middleware-like state of the application, exposing part of the result preview and light-weight editing. If the user needs deeper involvement, they can enter the application directly for further operations.",
+                  "muted": false
+                },
+                {
+                  "body": "Taking the icon-drawing application developed by one of our design experts as an example: in ordinary streaming Q&A a user can request and launch a concrete icon-drawing task. The drawing result appears in the artifact window on the right, offering quick actions such as download and copy. Clicking \"edit in app\" at the top right enters the application fully, enabling vector-level refinement, specification settings and additional operations.",
+                  "muted": true
+                },
+                {
+                  "body": "To date, TDC has accumulated 4,250 sessions, with a peak adoption rate of 63%. The platform now offers 26 skills with 1,747 invocations and 10 applications, alongside 290 TTC canvases created, 198 knowledge-base branches, 2,725 indexed files, and 280 million characters of content in total. It is also a full-stack practice in which the design team owns the entire lifecycle — product, design, development, and operations.",
+                  "muted": false
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "zh": [
+      {
+        "bg": "detail_bg_tdc_cover",
+        "blocks": [
+          {
+            "type": "detail_cover",
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/tdc/1-cover.png",
+            "alt": "TTC×TDC cover"
+          }
+        ]
+      },
+      {
+        "bg": "detail_bg_light",
+        "blocks": [
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_img_annotation",
+              "text": ""
+            },
+            "text": {
+              "h5": "TTC Thinking Canvas",
+              "paragraphs": [
+                {
+                  "body": "Linear, turn-by-turn conversation poses several problems for the thinking habits of design and creative workers:",
+                  "muted": false
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": false,
+                  "muted": false,
+                  "items": [
+                    "Sequential Q&A makes it awkward to trace earlier information or branch off mid-conversation.",
+                    "There is no place to park intent or valuable information temporarily (questions and insights often emerge while information accumulates).",
+                    "It is hard to form an observable body of knowledge.",
+                    "Outsourcing thinking entirely leads to repeated questioning and wasted compute."
+                  ]
+                },
+                {
+                  "body": "TTC (TAO Thinking Canvas) was created to address these issues. TTC uses a canvas interaction paradigm to visualize the inputs, processes and outcomes of human-AI collaborative thinking. From capturing spontaneous ideas and fragments of inspiration without predefined intentions to revisiting them through purposeful inquiry, TTC enables designers to extract meaningful signals from noisy sources and progressively incorporate fragmented insights into coherent design and observable knowledge outcomes.",
+                  "muted": false
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line_image",
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/tdc/2-idea-piece.png",
+            "layout": "content"
+          },
+          {
+            "type": "detail_line_image",
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/tdc/3-img-piece.png",
+            "layout": "content"
+          },
+          {
+            "type": "detail_line_image",
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/tdc/4-link-piece.png",
+            "layout": "content"
+          },
+          {
+            "type": "detail_line_image",
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/tdc/5-doc-piece.png",
+            "layout": "content"
+          },
+          {
+            "type": "detail_line_image",
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/tdc/6-vid-piece.png",
+            "layout": "content"
+          },
+          {
+            "type": "detail_line_image",
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/tdc/7-aud-piece.png",
+            "layout": "content"
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_img_annotation",
+              "text": "fig1. Question and idea fragments.\nfig2. Image fragment and region cropping.\nfig3. Link fragment.\nfig4. File fragment and text selection.\nfig5. Video fragment and frame capture.\nfig6. Audio fragment and clips (with TTS transcription)."
+            },
+            "text": {
+              "h5": "Multimodal Knowledge Fragments and Extraction of Value Signals",
+              "paragraphs": [
+                {
+                  "body": "TTC allows users to create or insert multimodal knowledge fragments on the canvas: Q&A, text, images, links, files, video and audio. All fragment modalities can be previewed directly on the canvas, and the description area beneath each fragment can carry supplementary information.",
+                  "muted": false
+                },
+                {
+                  "body": "Users can extract the value signals from a fragment — the parts that are important, citable, or ready to be questioned: cropping a region of an image, selecting text in a file, capturing a frame from a video, trimming a segment of audio, and so on.",
+                  "muted": false
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line_image",
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/tdc/8-co-ask.png",
+            "layout": "content"
+          },
+          {
+            "type": "detail_line_image",
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/tdc/10-multi-objects-ask.png",
+            "layout": "content"
+          },
+          {
+            "type": "detail_line_image",
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/tdc/9-single-object-ask.png",
+            "layout": "content"
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_img_annotation",
+              "text": "fig1. Freely designating knowledge fragments to question.\nfig2. Parallel Q&A — Multiple intents across multiple objects.\nfig3. Parallel Q&A — Multiple intents on the same object."
+            },
+            "text": {
+              "h5": "Free Extension of Thought",
+              "paragraphs": [
+                {
+                  "body": "TTC supports grouping related knowledge fragments and asking questions in parallel, at the same time, about one or several objects. Operationally, besides selecting objects first and then asking, a user can create a question card directly and use the @ command to freely designate knowledge fragments on the canvas. Answer cards are rendered as streaming text cards or multimodal artifact cards.",
+                  "muted": false
+                },
+                {
+                  "body": "Connector lines between referenced fragments and question cards visualize the thread of thought. Note, however, that connectors are not something the user operates — they are only a display of interaction state. TTC is not fundamentally a workflow: tasks are not fixed by arranging nodes and wires so that one input process yields one locked result.",
+                  "muted": false
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line_image_double",
+            "left": {
+              "kind": "image",
+              "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/tdc/11-L-mcp.png"
+            },
+            "right": {
+              "kind": "image",
+              "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/tdc/12-R-kb-select.png"
+            }
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_img_annotation",
+              "text": "fig1. Enabling the MCP of a TTC private knowledge base.\nfig2. Both public and private knowledge bases selectable in TDC."
+            },
+            "text": {
+              "h5": "Invocation, Download and Sharing of the Private Knowledge Base",
+              "paragraphs": [
+                {
+                  "body": "Every TTC is itself a private knowledge base. All knowledge, relationships and the like are automatically converted into vectors and a relationship tree, and exposed via MCP so that they participate in retrieval in TDC streaming Q&A. In other words, inside TDC a user can retrieve not only the public design knowledge base but also self-built and privately retrievable knowledge, extending the boundary of knowledge while keeping private knowledge private. Once a user enables sharing, recipients of the link can co-create within the same thinking canvas.",
+                  "muted": false
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line_image",
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/tdc/13-save-back.png",
+            "layout": "content"
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_img_annotation",
+              "text": "Extracting value signals from TDC answer into a TTC."
+            },
+            "text": {
+              "paragraphs": [
+                {
+                  "body": "Conversely, in TDC (tab1) a user can extract valuable signals from an answer — text responses as well as multimodal artifacts — into a relevant TTC (tab2), continuously enriching the private knowledge base. In this way TDC Q&A and TTC canvas form a production–consumption cycle.",
+                  "muted": false
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "bg": "detail_bg_tdc_cover",
+        "blocks": [
+          {
+            "type": "detail_line_image",
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/tdc/14-tab1.png",
+            "layout": "content"
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_img_annotation",
+              "text": "TDC streaming Q&A (tab1)"
+            },
+            "text": {
+              "h5": "TDC (TAO Design Consultant)",
+              "paragraphs": [
+                {
+                  "body": "TDC positioned as a product for design thinking and consultation, it supports the daily work of user-experience designers with answering enquiries, assisting thinking and aiding design execution. The product consists of three core modules: tab1 — Streaming Q&A, tab2 — Thinking Canvas, tab3 — public knowledge base management.",
+                  "muted": false
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line_image",
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/tdc/15-tab3.png",
+            "layout": "content"
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_img_annotation",
+              "text": "TKB public knowledge-base management (tab3)"
+            },
+            "text": {
+              "paragraphs": [
+                {
+                  "body": "TKB (TDC Knowledge Base) tree structures are co-built by design leads and maintained by team administrators — managing branches, adding and removing knowledge, cleaning and ingesting data, and reviewing. It provides both list and graph views for display and operation.",
+                  "muted": false
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "bg": "detail_bg_tdc_soft",
+        "blocks": [
+          {
+            "type": "detail_line_image",
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/tdc/16-tech-structure.png",
+            "layout": "content"
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_img_annotation",
+              "text": "TDC agent architecture."
+            },
+            "text": {
+              "paragraphs": [
+                {
+                  "body": "On the technical side, TDC is built on a team-wide public knowledge base and design skills developed in-house by domain experts, and driven by the Qwen model as a single agent that handles requirement intake, clarification, autonomous reasoning and task routing, knowledge-base retrieval, skill and tool invocation, answering, and the automatic generation of interactive UI for multimodal output.",
+                  "muted": false
+                },
+                {
+                  "body": "TDC accepts requirement input via natural language, explicit skill selection, multimodal content and voice. Based on multi-round comparative testing, we discarded the Multiple Sub-Agents pattern in favor of a Single Agent complemented by system and role definitions such as \"design consultation expert\". There are two reasons:",
+                  "muted": false
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": false,
+                  "muted": false,
+                  "items": [
+                    "Questions in the design domain are multi-dimensional and cross-cutting, so exhaustively enumerating sub-agents for every possible design task makes answers rigid, one-sided and off-target.",
+                    "As large language and multimodal models mature, it is entirely feasible to let the model itself perform judgement, planning and execution, which yields more comprehensive and flexible answers."
+                  ]
+                },
+                {
+                  "body": "Once intent is judged by the single agent, a requirement branches into three execution paths:",
+                  "muted": false
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": false,
+                  "muted": false,
+                  "items": [
+                    "Ambiguous intent triggers a clarification response.",
+                    "Chit-chat intent is answered directly by the LLM.",
+                    "Clear and professional intent enters the \"reason-then-act\" cycle (ReAct Loop), where the execution stage fills in evidence through team knowledge-base retrieval, expert skill invocation, application tool invocation and full-web search, and then outputs as streaming text or multimodal artifacts."
+                  ]
+                },
+                {
+                  "body": "Notably, it is precisely the knowledge base, skills, applications and memory management that make TDC distinct from a general-purpose agent — giving it specificity, domain focus and relevance. Each is described below.",
+                  "muted": false
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line_image",
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/tdc/17-memo.png",
+            "layout": "content"
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_img_annotation",
+              "text": "Memory mechanism for a single, infinite-stream conversation window."
+            },
+            "text": {
+              "h5": "Three-Layer Memory",
+              "paragraphs": [
+                {
+                  "body": "The TDC memory system is managed in three layers: system-level memory, long-term conversational memory, and short-term conversational memory.",
+                  "muted": false
+                },
+                {
+                  "body": "System-level memory holds team members' basic information, usage habits and explicitly stated preferences. Unlike mainstream conversation products, which offer \"new chat\" and multiple parallel chat windows, TDC keeps exactly one single, infinite stream conversation window: the user never needs to open a new session and can ask immediately at the end of the stream. In effect this is a pseudo-infinite context, achieved by retaining the short-term context and progressively compressing historical context by recency, so that session memory is split transparently, unrelated topics do not pollute each other, and related topics can be recalled.",
+                  "muted": false
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line_image",
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/tdc/18-rag.png",
+            "layout": "content"
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_img_annotation",
+              "text": "Knowledge ingestion pipeline."
+            },
+            "text": {
+              "h5": "Public Knowledge Base",
+              "paragraphs": [
+                {
+                  "body": "TKB sources its knowledge from automatic document reading via bots in the office communication tool, MCP-readable synchronization from design tools, browser-extension saving, and manual local upload. It supports documents, spreadsheets, images, links, video, audio, presentations and source files, among other knowledge formats. After upload, data is automatically processed through multimodal parsing, format conversion, cleaning, chunking, vector embedding, and MCP construction and update — closing the loop between knowledge production in tab3 and consumption in tab1.",
+                  "muted": false
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line_image",
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/tdc/19-skills.png",
+            "layout": "content"
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_img_annotation",
+              "text": "Full-cycle design skills."
+            },
+            "text": {
+              "h5": "Skills Across the Full Design Cycle",
+              "paragraphs": [
+                {
+                  "body": "Design experts on the team have developed skills covering the full design cycle, including requirement insight, user research, competitive analysis, problem definition, design strategy, design output, review and critique, case consolidation, and personal growth.",
+                  "muted": false
+                },
+                {
+                  "body": "The difference between in-house skills and third-party open-source skills is that the pain points addressed, the guiding methodology, the boundary conditions, and the required assets or references are fully customised to the real design scenarios of the team.",
+                  "muted": false
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line_image",
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/tdc/20-skill-sidebar.png",
+            "layout": "content"
+          },
+          {
+            "type": "detail_line_image",
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/tdc/21-skill-cover.png",
+            "layout": "content"
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_img_annotation",
+              "text": "fig1. Skill sidebar in tab1.\nfig2. Stylized skill covers."
+            },
+            "text": {
+              "paragraphs": [
+                {
+                  "body": "In streaming Q&A and in Thinking Canvas, users can invoke skills through natural language or explicit commands. TDC clarifies the need and calls the appropriate skill to solve the problem.",
+                  "muted": false
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "bg": "detail_bg_tdc_cover",
+        "blocks": [
+          {
+            "type": "detail_line_image",
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/tdc/22-artifact-1.png",
+            "layout": "content"
+          },
+          {
+            "type": "detail_line_image",
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/tdc/23-artifact-2.png",
+            "layout": "content"
+          },
+          {
+            "type": "detail_line_image",
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/tdc/24-artifact-3.png",
+            "layout": "content"
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_img_annotation",
+              "text": "fig1. Document and PDF artifacts.\nfig2. Web-page artifacts.\nfig3. Canvas artifacts."
+            },
+            "text": {
+              "paragraphs": [
+                {
+                  "body": "Skill output is not limited to text — it takes more intuitive multimodal forms, for example user-research reports based on synthetic virtual users, team case PDFs, design-specification web pages, data-visualization interfaces for eye-tracking evaluation of a proposal, vector canvas windows for icon generation, and raster canvas windows for image generation.",
+                  "muted": false
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line_image",
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/tdc/25-skill-creator.png",
+            "layout": "content"
+          },
+          {
+            "type": "detail_line_image",
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/tdc/26-skill-ui.png",
+            "layout": "content"
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_img_annotation",
+              "text": "fig1. TDC design style specification.\nfig2. Intelligent UI generation for a skill artifact (e.g. experience-data prediction)."
+            },
+            "text": {
+              "paragraphs": [
+                {
+                  "body": "To ensure that skills developed locally by different experts work correctly once integrated into TDC and remain consistent in interaction and visual language, the platform provides a skill-creator-skill that standardizes version, environment, format and style. With TDC element tokens and the component-library specification built in, it can intelligently generate the UI of skill outputs.",
+                  "muted": false
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "bg": "detail_bg_tdc_soft",
+        "blocks": [
+          {
+            "type": "detail_line_image",
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/tdc/27-app-tech.png",
+            "layout": "content"
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_img_annotation",
+              "text": "Application architecture."
+            },
+            "text": {
+              "h5": "Application Infrastructure and Ecosystem",
+              "paragraphs": [
+                {
+                  "body": "Some design tasks only need a single skill call to produce a one-off standalone result — One-shot Artifact, such as research or review. Others require a real-time editable artifact with continuous editing, interaction and state updates — Live Editable Artifact, such as image generation. TDC therefore introduces application capability, providing a complete infrastructure — front end and back end, data storage, and built-in agent integration — for any self-developed tool by any individual.",
+                  "muted": false
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "bg": "detail_bg_tdc_cover",
+        "blocks": [
+          {
+            "type": "detail_line_image",
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/tdc/28-app.png",
+            "layout": "content"
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_img_annotation",
+              "text": "Example: icon drawing application."
+            },
+            "text": {
+              "paragraphs": [
+                {
+                  "body": "When execution hits an application, its output modality can be presented as a middleware-like state of the application, exposing part of the result preview and light-weight editing. If the user needs deeper involvement, they can enter the application directly for further operations.",
+                  "muted": false
+                },
+                {
+                  "body": "Taking the icon-drawing application developed by one of our design experts as an example: in ordinary streaming Q&A a user can request and launch a concrete icon-drawing task. The drawing result appears in the artifact window on the right, offering quick actions such as download and copy. Clicking \"edit in app\" at the top right enters the application fully, enabling vector-level refinement, specification settings and additional operations.",
+                  "muted": true
+                },
+                {
+                  "body": "To date, TDC has accumulated 4,250 sessions, with a peak adoption rate of 63%. The platform now offers 26 skills with 1,747 invocations and 10 applications, alongside 290 TTC canvases created, 198 knowledge-base branches, 2,725 indexed files, and 280 million characters of content in total. It is also a full-stack practice in which the design team owns the entire lifecycle — product, design, development, and operations.",
+                  "muted": false
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "ja": [
+      {
+        "bg": "detail_bg_tdc_cover",
+        "blocks": [
+          {
+            "type": "detail_cover",
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/tdc/1-cover.png",
+            "alt": "TTC×TDC cover"
+          }
+        ]
+      },
+      {
+        "bg": "detail_bg_light",
+        "blocks": [
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_img_annotation",
+              "text": ""
+            },
+            "text": {
+              "h5": "TTC Thinking Canvas",
+              "paragraphs": [
+                {
+                  "body": "Linear, turn-by-turn conversation poses several problems for the thinking habits of design and creative workers:",
+                  "muted": false
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": false,
+                  "muted": false,
+                  "items": [
+                    "Sequential Q&A makes it awkward to trace earlier information or branch off mid-conversation.",
+                    "There is no place to park intent or valuable information temporarily (questions and insights often emerge while information accumulates).",
+                    "It is hard to form an observable body of knowledge.",
+                    "Outsourcing thinking entirely leads to repeated questioning and wasted compute."
+                  ]
+                },
+                {
+                  "body": "TTC (TAO Thinking Canvas) was created to address these issues. TTC uses a canvas interaction paradigm to visualize the inputs, processes and outcomes of human-AI collaborative thinking. From capturing spontaneous ideas and fragments of inspiration without predefined intentions to revisiting them through purposeful inquiry, TTC enables designers to extract meaningful signals from noisy sources and progressively incorporate fragmented insights into coherent design and observable knowledge outcomes.",
+                  "muted": false
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line_image",
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/tdc/2-idea-piece.png",
+            "layout": "content"
+          },
+          {
+            "type": "detail_line_image",
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/tdc/3-img-piece.png",
+            "layout": "content"
+          },
+          {
+            "type": "detail_line_image",
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/tdc/4-link-piece.png",
+            "layout": "content"
+          },
+          {
+            "type": "detail_line_image",
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/tdc/5-doc-piece.png",
+            "layout": "content"
+          },
+          {
+            "type": "detail_line_image",
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/tdc/6-vid-piece.png",
+            "layout": "content"
+          },
+          {
+            "type": "detail_line_image",
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/tdc/7-aud-piece.png",
+            "layout": "content"
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_img_annotation",
+              "text": "fig1. Question and idea fragments.\nfig2. Image fragment and region cropping.\nfig3. Link fragment.\nfig4. File fragment and text selection.\nfig5. Video fragment and frame capture.\nfig6. Audio fragment and clips (with TTS transcription)."
+            },
+            "text": {
+              "h5": "Multimodal Knowledge Fragments and Extraction of Value Signals",
+              "paragraphs": [
+                {
+                  "body": "TTC allows users to create or insert multimodal knowledge fragments on the canvas: Q&A, text, images, links, files, video and audio. All fragment modalities can be previewed directly on the canvas, and the description area beneath each fragment can carry supplementary information.",
+                  "muted": false
+                },
+                {
+                  "body": "Users can extract the value signals from a fragment — the parts that are important, citable, or ready to be questioned: cropping a region of an image, selecting text in a file, capturing a frame from a video, trimming a segment of audio, and so on.",
+                  "muted": false
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line_image",
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/tdc/8-co-ask.png",
+            "layout": "content"
+          },
+          {
+            "type": "detail_line_image",
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/tdc/10-multi-objects-ask.png",
+            "layout": "content"
+          },
+          {
+            "type": "detail_line_image",
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/tdc/9-single-object-ask.png",
+            "layout": "content"
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_img_annotation",
+              "text": "fig1. Freely designating knowledge fragments to question.\nfig2. Parallel Q&A — Multiple intents across multiple objects.\nfig3. Parallel Q&A — Multiple intents on the same object."
+            },
+            "text": {
+              "h5": "Free Extension of Thought",
+              "paragraphs": [
+                {
+                  "body": "TTC supports grouping related knowledge fragments and asking questions in parallel, at the same time, about one or several objects. Operationally, besides selecting objects first and then asking, a user can create a question card directly and use the @ command to freely designate knowledge fragments on the canvas. Answer cards are rendered as streaming text cards or multimodal artifact cards.",
+                  "muted": false
+                },
+                {
+                  "body": "Connector lines between referenced fragments and question cards visualize the thread of thought. Note, however, that connectors are not something the user operates — they are only a display of interaction state. TTC is not fundamentally a workflow: tasks are not fixed by arranging nodes and wires so that one input process yields one locked result.",
+                  "muted": false
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line_image_double",
+            "left": {
+              "kind": "image",
+              "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/tdc/11-L-mcp.png"
+            },
+            "right": {
+              "kind": "image",
+              "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/tdc/12-R-kb-select.png"
+            }
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_img_annotation",
+              "text": "fig1. Enabling the MCP of a TTC private knowledge base.\nfig2. Both public and private knowledge bases selectable in TDC."
+            },
+            "text": {
+              "h5": "Invocation, Download and Sharing of the Private Knowledge Base",
+              "paragraphs": [
+                {
+                  "body": "Every TTC is itself a private knowledge base. All knowledge, relationships and the like are automatically converted into vectors and a relationship tree, and exposed via MCP so that they participate in retrieval in TDC streaming Q&A. In other words, inside TDC a user can retrieve not only the public design knowledge base but also self-built and privately retrievable knowledge, extending the boundary of knowledge while keeping private knowledge private. Once a user enables sharing, recipients of the link can co-create within the same thinking canvas.",
+                  "muted": false
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line_image",
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/tdc/13-save-back.png",
+            "layout": "content"
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_img_annotation",
+              "text": "Extracting value signals from TDC answer into a TTC."
+            },
+            "text": {
+              "paragraphs": [
+                {
+                  "body": "Conversely, in TDC (tab1) a user can extract valuable signals from an answer — text responses as well as multimodal artifacts — into a relevant TTC (tab2), continuously enriching the private knowledge base. In this way TDC Q&A and TTC canvas form a production–consumption cycle.",
+                  "muted": false
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "bg": "detail_bg_tdc_cover",
+        "blocks": [
+          {
+            "type": "detail_line_image",
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/tdc/14-tab1.png",
+            "layout": "content"
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_img_annotation",
+              "text": "TDC streaming Q&A (tab1)"
+            },
+            "text": {
+              "h5": "TDC (TAO Design Consultant)",
+              "paragraphs": [
+                {
+                  "body": "TDC positioned as a product for design thinking and consultation, it supports the daily work of user-experience designers with answering enquiries, assisting thinking and aiding design execution. The product consists of three core modules: tab1 — Streaming Q&A, tab2 — Thinking Canvas, tab3 — public knowledge base management.",
+                  "muted": false
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line_image",
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/tdc/15-tab3.png",
+            "layout": "content"
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_img_annotation",
+              "text": "TKB public knowledge-base management (tab3)"
+            },
+            "text": {
+              "paragraphs": [
+                {
+                  "body": "TKB (TDC Knowledge Base) tree structures are co-built by design leads and maintained by team administrators — managing branches, adding and removing knowledge, cleaning and ingesting data, and reviewing. It provides both list and graph views for display and operation.",
+                  "muted": false
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "bg": "detail_bg_tdc_soft",
+        "blocks": [
+          {
+            "type": "detail_line_image",
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/tdc/16-tech-structure.png",
+            "layout": "content"
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_img_annotation",
+              "text": "TDC agent architecture."
+            },
+            "text": {
+              "paragraphs": [
+                {
+                  "body": "On the technical side, TDC is built on a team-wide public knowledge base and design skills developed in-house by domain experts, and driven by the Qwen model as a single agent that handles requirement intake, clarification, autonomous reasoning and task routing, knowledge-base retrieval, skill and tool invocation, answering, and the automatic generation of interactive UI for multimodal output.",
+                  "muted": false
+                },
+                {
+                  "body": "TDC accepts requirement input via natural language, explicit skill selection, multimodal content and voice. Based on multi-round comparative testing, we discarded the Multiple Sub-Agents pattern in favor of a Single Agent complemented by system and role definitions such as \"design consultation expert\". There are two reasons:",
+                  "muted": false
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": false,
+                  "muted": false,
+                  "items": [
+                    "Questions in the design domain are multi-dimensional and cross-cutting, so exhaustively enumerating sub-agents for every possible design task makes answers rigid, one-sided and off-target.",
+                    "As large language and multimodal models mature, it is entirely feasible to let the model itself perform judgement, planning and execution, which yields more comprehensive and flexible answers."
+                  ]
+                },
+                {
+                  "body": "Once intent is judged by the single agent, a requirement branches into three execution paths:",
+                  "muted": false
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": false,
+                  "muted": false,
+                  "items": [
+                    "Ambiguous intent triggers a clarification response.",
+                    "Chit-chat intent is answered directly by the LLM.",
+                    "Clear and professional intent enters the \"reason-then-act\" cycle (ReAct Loop), where the execution stage fills in evidence through team knowledge-base retrieval, expert skill invocation, application tool invocation and full-web search, and then outputs as streaming text or multimodal artifacts."
+                  ]
+                },
+                {
+                  "body": "Notably, it is precisely the knowledge base, skills, applications and memory management that make TDC distinct from a general-purpose agent — giving it specificity, domain focus and relevance. Each is described below.",
+                  "muted": false
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line_image",
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/tdc/17-memo.png",
+            "layout": "content"
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_img_annotation",
+              "text": "Memory mechanism for a single, infinite-stream conversation window."
+            },
+            "text": {
+              "h5": "Three-Layer Memory",
+              "paragraphs": [
+                {
+                  "body": "The TDC memory system is managed in three layers: system-level memory, long-term conversational memory, and short-term conversational memory.",
+                  "muted": false
+                },
+                {
+                  "body": "System-level memory holds team members' basic information, usage habits and explicitly stated preferences. Unlike mainstream conversation products, which offer \"new chat\" and multiple parallel chat windows, TDC keeps exactly one single, infinite stream conversation window: the user never needs to open a new session and can ask immediately at the end of the stream. In effect this is a pseudo-infinite context, achieved by retaining the short-term context and progressively compressing historical context by recency, so that session memory is split transparently, unrelated topics do not pollute each other, and related topics can be recalled.",
+                  "muted": false
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line_image",
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/tdc/18-rag.png",
+            "layout": "content"
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_img_annotation",
+              "text": "Knowledge ingestion pipeline."
+            },
+            "text": {
+              "h5": "Public Knowledge Base",
+              "paragraphs": [
+                {
+                  "body": "TKB sources its knowledge from automatic document reading via bots in the office communication tool, MCP-readable synchronization from design tools, browser-extension saving, and manual local upload. It supports documents, spreadsheets, images, links, video, audio, presentations and source files, among other knowledge formats. After upload, data is automatically processed through multimodal parsing, format conversion, cleaning, chunking, vector embedding, and MCP construction and update — closing the loop between knowledge production in tab3 and consumption in tab1.",
+                  "muted": false
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line_image",
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/tdc/19-skills.png",
+            "layout": "content"
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_img_annotation",
+              "text": "Full-cycle design skills."
+            },
+            "text": {
+              "h5": "Skills Across the Full Design Cycle",
+              "paragraphs": [
+                {
+                  "body": "Design experts on the team have developed skills covering the full design cycle, including requirement insight, user research, competitive analysis, problem definition, design strategy, design output, review and critique, case consolidation, and personal growth.",
+                  "muted": false
+                },
+                {
+                  "body": "The difference between in-house skills and third-party open-source skills is that the pain points addressed, the guiding methodology, the boundary conditions, and the required assets or references are fully customised to the real design scenarios of the team.",
+                  "muted": false
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line_image",
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/tdc/20-skill-sidebar.png",
+            "layout": "content"
+          },
+          {
+            "type": "detail_line_image",
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/tdc/21-skill-cover.png",
+            "layout": "content"
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_img_annotation",
+              "text": "fig1. Skill sidebar in tab1.\nfig2. Stylized skill covers."
+            },
+            "text": {
+              "paragraphs": [
+                {
+                  "body": "In streaming Q&A and in Thinking Canvas, users can invoke skills through natural language or explicit commands. TDC clarifies the need and calls the appropriate skill to solve the problem.",
+                  "muted": false
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "bg": "detail_bg_tdc_cover",
+        "blocks": [
+          {
+            "type": "detail_line_image",
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/tdc/22-artifact-1.png",
+            "layout": "content"
+          },
+          {
+            "type": "detail_line_image",
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/tdc/23-artifact-2.png",
+            "layout": "content"
+          },
+          {
+            "type": "detail_line_image",
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/tdc/24-artifact-3.png",
+            "layout": "content"
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_img_annotation",
+              "text": "fig1. Document and PDF artifacts.\nfig2. Web-page artifacts.\nfig3. Canvas artifacts."
+            },
+            "text": {
+              "paragraphs": [
+                {
+                  "body": "Skill output is not limited to text — it takes more intuitive multimodal forms, for example user-research reports based on synthetic virtual users, team case PDFs, design-specification web pages, data-visualization interfaces for eye-tracking evaluation of a proposal, vector canvas windows for icon generation, and raster canvas windows for image generation.",
+                  "muted": false
+                }
+              ]
+            }
+          },
+          {
+            "type": "detail_line_image",
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/tdc/25-skill-creator.png",
+            "layout": "content"
+          },
+          {
+            "type": "detail_line_image",
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/tdc/26-skill-ui.png",
+            "layout": "content"
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_img_annotation",
+              "text": "fig1. TDC design style specification.\nfig2. Intelligent UI generation for a skill artifact (e.g. experience-data prediction)."
+            },
+            "text": {
+              "paragraphs": [
+                {
+                  "body": "To ensure that skills developed locally by different experts work correctly once integrated into TDC and remain consistent in interaction and visual language, the platform provides a skill-creator-skill that standardizes version, environment, format and style. With TDC element tokens and the component-library specification built in, it can intelligently generate the UI of skill outputs.",
+                  "muted": false
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "bg": "detail_bg_tdc_soft",
+        "blocks": [
+          {
+            "type": "detail_line_image",
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/tdc/27-app-tech.png",
+            "layout": "content"
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_img_annotation",
+              "text": "Application architecture."
+            },
+            "text": {
+              "h5": "Application Infrastructure and Ecosystem",
+              "paragraphs": [
+                {
+                  "body": "Some design tasks only need a single skill call to produce a one-off standalone result — One-shot Artifact, such as research or review. Others require a real-time editable artifact with continuous editing, interaction and state updates — Live Editable Artifact, such as image generation. TDC therefore introduces application capability, providing a complete infrastructure — front end and back end, data storage, and built-in agent integration — for any self-developed tool by any individual.",
+                  "muted": false
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "bg": "detail_bg_tdc_cover",
+        "blocks": [
+          {
+            "type": "detail_line_image",
+            "kind": "image",
+            "src": "https://fwzntx71hl6v6inl.public.blob.vercel-storage.com/tdc/28-app.png",
+            "layout": "content"
+          },
+          {
+            "type": "detail_line",
+            "spacing": [
+              "spacing_bottom_lg"
+            ],
+            "aside": {
+              "role": "line_img_annotation",
+              "text": "Example: icon drawing application."
+            },
+            "text": {
+              "paragraphs": [
+                {
+                  "body": "When execution hits an application, its output modality can be presented as a middleware-like state of the application, exposing part of the result preview and light-weight editing. If the user needs deeper involvement, they can enter the application directly for further operations.",
+                  "muted": false
+                },
+                {
+                  "body": "Taking the icon-drawing application developed by one of our design experts as an example: in ordinary streaming Q&A a user can request and launch a concrete icon-drawing task. The drawing result appears in the artifact window on the right, offering quick actions such as download and copy. Clicking \"edit in app\" at the top right enters the application fully, enabling vector-level refinement, specification settings and additional operations.",
+                  "muted": true
+                },
+                {
+                  "body": "To date, TDC has accumulated 4,250 sessions, with a peak adoption rate of 63%. The platform now offers 26 skills with 1,747 invocations and 10 applications, alongside 290 TTC canvases created, 198 knowledge-base branches, 2,725 indexed files, and 280 million characters of content in total. It is also a full-stack practice in which the design team owns the entire lifecycle — product, design, development, and operations.",
+                  "muted": false
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

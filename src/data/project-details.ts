@@ -9,6 +9,7 @@ import sgimf from './details/sgimf.json';
 import sgmc from './details/sgmc.json';
 import swap from './details/swap.json';
 import taobaovp from './details/taobaovp.json';
+import tdc from './details/tdc.json';
 import taoweb from './details/taoweb.json';
 import tisland from './details/tisland.json';
 import versionai from './details/versionai.json';
@@ -25,7 +26,9 @@ export type DetailBg =
   | 'detail_bg_tbvp_dark'
   | 'detail_bg_tbvp_grey'
   | 'detail_bg_versionai_grey'
-  | 'detail_bg_tbweb_grey';
+  | 'detail_bg_tbweb_grey'
+  | 'detail_bg_tdc_cover'
+  | 'detail_bg_tdc_soft';
 
 export type DetailSpacing =
   | 'spacing_bottom_lg'
@@ -45,6 +48,8 @@ export interface ProjectDetailMeta {
   period: Record<Locale, string>;
   category: Record<Locale, string>;
   designLead: Record<Locale, string>;
+  /** Right-rail role label. Defaults to Design Lead / Designer. */
+  roleLabel?: Record<Locale, string>;
   team: Record<Locale, string>;
   /** Plain award lines (fallback when no links). */
   award: Record<Locale, string>;
@@ -163,6 +168,7 @@ export function getProjectSections(detail: ProjectDetail, locale: Locale): Detai
 }
 
 export const projectDetails: ProjectDetail[] = [
+  tdc,
   taobaovp,
   versionai,
   taoweb,

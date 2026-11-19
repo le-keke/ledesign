@@ -41,6 +41,16 @@
   color: var(--color-fg);
 }
 
+.detail_bg_tdc_cover {
+  background: #e3e3e3;
+  color: var(--color-fg);
+}
+
+.detail_bg_tdc_soft {
+  background: #f9f9f9;
+  color: var(--color-fg);
+}
+
 .detail_container {
   width: 100%;
 }
@@ -204,6 +214,7 @@
   line-height: var(--leading-body);
   letter-spacing: var(--tracking-body);
   color: var(--color-fg-muted);
+  white-space: pre-line;
 }
 
 .detail_bg_dark .line_annotation,

@@ -30,7 +30,9 @@ const sections = detail ? getProjectSections(detail, locale) : [];
 
 const awardLinks = detail?.meta.awardLinks ?? [];
 const hasTeam = Boolean(detail?.meta.team[locale]?.trim());
-const designRoleLabel = hasTeam ? t.project.designLead : t.project.designer;
+const designRoleLabel =
+  detail?.meta.roleLabel?.[locale]?.trim() ||
+  (hasTeam ? t.project.designLead : t.project.designer);
 
 const metaRows = detail
   ? (

@@ -33,7 +33,7 @@ const locale = Astro.params.lang as Locale;
         <div class="grid__main">
           <div class="grid feed" data-feed="work">
             {
-              projects.map((project) => {
+              projects.filter((project) => !project.hidden).map((project) => {
                 const media =
                   project.coverKind === 'video' ? (
                     <video
