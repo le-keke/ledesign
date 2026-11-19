@@ -59,10 +59,15 @@ function hydrateVideos(root: ParentNode = document) {
 
 function hydrateImages(root: ParentNode = document) {
   root.querySelectorAll('img').forEach((img) => {
-    if (img.loading === 'lazy') img.loading = 'eager';
-    if (img.complete && img.naturalWidth > 0) return;
+    if (img.dataset.mediaHydrated === '1') return;
+    img.dataset.mediaHydrated = '1';
+    // A new <img> is still loading after a ClientRouter swap. Resetting src
+    // aborts that request and the cover flashes blank. Only recover an image
+    // that already finished with no pixels.
+    if (!img.complete || img.naturalWidth > 0) return;
     const src = img.getAttribute('src');
     if (!src) return;
+    img.loading = 'eager';
     img.setAttribute('src', src);
   });
 }

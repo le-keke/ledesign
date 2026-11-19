@@ -8,8 +8,8 @@
     },
     "summary": {
       "en": "TDC (Taobao Design Consultant) is an integrated design knowledge platform that consolidates the collective knowledge, methodologies, experience, case studies and skills of a 200 members design team. It addresses everyday consultation needs across the UX design process, supporting research, ideation and design execution.\n\nTTC (TAO Thinking Canvas) introduces a canvas-based interaction paradigm that visualizes the inputs, processes and outcomes of thinking. Designers extract value signals from multimodal fragments and raise parallel questions, developing their own understanding while building personal knowledge bases for retrieval and reuse.",
-      "zh": "TDC (Taobao Design Consultant) is an integrated design knowledge platform that consolidates the collective knowledge, methodologies, experience, case studies and skills of a 200 members design team. It addresses everyday consultation needs across the UX design process, supporting research, ideation and design execution.\n\nTTC (TAO Thinking Canvas) introduces a canvas-based interaction paradigm that visualizes the inputs, processes and outcomes of thinking. Designers extract value signals from multimodal fragments and raise parallel questions, developing their own understanding while building personal knowledge bases for retrieval and reuse.",
-      "ja": "TDC (Taobao Design Consultant) is an integrated design knowledge platform that consolidates the collective knowledge, methodologies, experience, case studies and skills of a 200 members design team. It addresses everyday consultation needs across the UX design process, supporting research, ideation and design execution.\n\nTTC (TAO Thinking Canvas) introduces a canvas-based interaction paradigm that visualizes the inputs, processes and outcomes of thinking. Designers extract value signals from multimodal fragments and raise parallel questions, developing their own understanding while building personal knowledge bases for retrieval and reuse."
+      "zh": "TDC（Taobao Design Consultant）是一套整合的设计知识平台，汇集一支 200 人设计团队的集体知识、方法、经验、案例与技能。它回应体验设计过程中日常的咨询需求，支持研究、构思与设计执行。\n\nTTC（TAO Thinking Canvas）引入基于画布的交互范式，把思考的输入、过程和结果可视化。设计师从多模态碎片中提取价值信号，提出并行的问题，在形成自己理解的同时，建立可供检索和复用的个人知识库。",
+      "ja": "TDC（Taobao Design Consultant）は、200 人のデザインチームが持つ集合的な知識、方法論、経験、事例、スキルを一つにまとめたデザイン知識のプラットフォームです。UX デザインの過程で日々生まれる相談に応え、リサーチ、発想、デザインの実行を支えます。\n\nTTC（TAO Thinking Canvas）は、思考の入力、過程、成果を可視化するキャンバス型のインタラクションを導入します。デザイナーはマルチモーダルな断片から価値シグナルを取り出し、並列に問いを立て、自らの理解を深めながら、検索と再利用のための個人のナレッジベースを築きます。"
     },
     "period": {
       "en": "2026",
@@ -18,23 +18,23 @@
     },
     "category": {
       "en": "Knowledge Base UX",
-      "zh": "Knowledge Base UX",
-      "ja": "Knowledge Base UX"
+      "zh": "知识库体验",
+      "ja": "ナレッジベース UX"
     },
     "designLead": {
       "en": "Keke LE",
-      "zh": "Keke LE",
-      "ja": "Keke LE"
+      "zh": "乐可柯",
+      "ja": "樂可柯"
     },
     "roleLabel": {
       "en": "Product and Design Leader",
-      "zh": "Product and Design Leader",
-      "ja": "Product and Design Leader"
+      "zh": "产品与设计负责人",
+      "ja": "プロダクト＆デザインリード"
     },
     "team": {
       "en": "MPID Multi-platform Innovation Design\nTaobao Design Sub-unit",
-      "zh": "MPID Multi-platform Innovation Design\nTaobao Design Sub-unit",
-      "ja": "MPID Multi-platform Innovation Design\nTaobao Design Sub-unit"
+      "zh": "MPID 多端创新设计\n淘宝设计子团队",
+      "ja": "MPID マルチプラットフォーム・イノベーションデザイン\n淘宝デザイン・サブユニット"
     },
     "award": {
       "en": "",
@@ -647,10 +647,10 @@
               "text": ""
             },
             "text": {
-              "h5": "TTC Thinking Canvas",
+              "h5": "TTC 思维画布",
               "paragraphs": [
                 {
-                  "body": "Linear, turn-by-turn conversation poses several problems for the thinking habits of design and creative workers:",
+                  "body": "线性、一轮一轮的对话，给设计和创意工作者的思考习惯带来了几个问题：",
                   "muted": false
                 },
                 {
@@ -659,14 +659,14 @@
                   "bare": false,
                   "muted": false,
                   "items": [
-                    "Sequential Q&A makes it awkward to trace earlier information or branch off mid-conversation.",
-                    "There is no place to park intent or valuable information temporarily (questions and insights often emerge while information accumulates).",
-                    "It is hard to form an observable body of knowledge.",
-                    "Outsourcing thinking entirely leads to repeated questioning and wasted compute."
+                    "顺序问答让人很难回看更早的信息，也难以在对话中途分出支线。",
+                    "没有地方暂时搁置意图或有价值的信息（问题和洞察往往是在信息累积的过程中出现的）。",
+                    "很难形成一套可被看见的知识体。",
+                    "把思考全部外包出去，会导致反复提问，也浪费算力。"
                   ]
                 },
                 {
-                  "body": "TTC (TAO Thinking Canvas) was created to address these issues. TTC uses a canvas interaction paradigm to visualize the inputs, processes and outcomes of human-AI collaborative thinking. From capturing spontaneous ideas and fragments of inspiration without predefined intentions to revisiting them through purposeful inquiry, TTC enables designers to extract meaningful signals from noisy sources and progressively incorporate fragmented insights into coherent design and observable knowledge outcomes.",
+                  "body": "TTC（TAO Thinking Canvas）正是为了回应这些问题。它用画布交互，把人与 AI 协作思考的输入、过程和结果可视化。从没有预设意图地捕捉即兴想法和灵感碎片，到带着目的重新追问，TTC 让设计师从嘈杂的材料里抽出有意义的信号，再把零散洞察逐步收成连贯的设计，以及可被看见的知识结果。",
                   "muted": false
                 }
               ]
@@ -715,17 +715,17 @@
             ],
             "aside": {
               "role": "line_img_annotation",
-              "text": "fig1. Question and idea fragments.\nfig2. Image fragment and region cropping.\nfig3. Link fragment.\nfig4. File fragment and text selection.\nfig5. Video fragment and frame capture.\nfig6. Audio fragment and clips (with TTS transcription)."
+              "text": "fig1. 问题与想法碎片。\nfig2. 图片碎片与区域裁切。\nfig3. 链接碎片。\nfig4. 文件碎片与文本选取。\nfig5. 视频碎片与帧截取。\nfig6. 音频碎片与片段（含 TTS 转写）。"
             },
             "text": {
-              "h5": "Multimodal Knowledge Fragments and Extraction of Value Signals",
+              "h5": "多模态知识碎片与价值信号提取",
               "paragraphs": [
                 {
-                  "body": "TTC allows users to create or insert multimodal knowledge fragments on the canvas: Q&A, text, images, links, files, video and audio. All fragment modalities can be previewed directly on the canvas, and the description area beneath each fragment can carry supplementary information.",
+                  "body": "TTC 允许用户在画布上创建或插入多模态知识碎片：问答、文本、图片、链接、文件、视频和音频。所有形态都可以直接在画布上预览，每张碎片下方的描述区也可以写下补充信息。",
                   "muted": false
                 },
                 {
-                  "body": "Users can extract the value signals from a fragment — the parts that are important, citable, or ready to be questioned: cropping a region of an image, selecting text in a file, capturing a frame from a video, trimming a segment of audio, and so on.",
+                  "body": "用户可以从一块碎片里提取价值信号，也就是重要、可引用、或准备拿来提问的部分：裁切图片区域、选取文件中的文字、截取视频中的一帧、修剪一段音频，等等。",
                   "muted": false
                 }
               ]
@@ -756,17 +756,17 @@
             ],
             "aside": {
               "role": "line_img_annotation",
-              "text": "fig1. Freely designating knowledge fragments to question.\nfig2. Parallel Q&A — Multiple intents across multiple objects.\nfig3. Parallel Q&A — Multiple intents on the same object."
+              "text": "fig1. 自由指定知识碎片来提问。\nfig2. 并行问答 — 多个意图指向多个对象。\nfig3. 并行问答 — 多个意图指向同一个对象。"
             },
             "text": {
-              "h5": "Free Extension of Thought",
+              "h5": "思考的自由延展",
               "paragraphs": [
                 {
-                  "body": "TTC supports grouping related knowledge fragments and asking questions in parallel, at the same time, about one or several objects. Operationally, besides selecting objects first and then asking, a user can create a question card directly and use the @ command to freely designate knowledge fragments on the canvas. Answer cards are rendered as streaming text cards or multimodal artifact cards.",
+                  "body": "TTC 支持把相关的知识碎片编成一组，并同时、并行地对一个或几个对象提问。操作上，除了先选对象再提问，用户也可以直接创建一张问题卡，用 @ 指令自由指定画布上的知识碎片。回答卡会渲染成流式文本卡，或多模态产物卡。",
                   "muted": false
                 },
                 {
-                  "body": "Connector lines between referenced fragments and question cards visualize the thread of thought. Note, however, that connectors are not something the user operates — they are only a display of interaction state. TTC is not fundamentally a workflow: tasks are not fixed by arranging nodes and wires so that one input process yields one locked result.",
+                  "body": "被引用的碎片和问题卡之间的连线，把思路可视化。需要说明的是，连线并不是用户去操作的对象，它只是交互状态的呈现。TTC 本质上不是工作流：任务并不是靠排列节点和连线，让一次输入过程得到一个锁死的结果。",
                   "muted": false
                 }
               ]
@@ -790,13 +790,13 @@
             ],
             "aside": {
               "role": "line_img_annotation",
-              "text": "fig1. Enabling the MCP of a TTC private knowledge base.\nfig2. Both public and private knowledge bases selectable in TDC."
+              "text": "fig1. 开启 TTC 私人知识库的 MCP。\nfig2. 在 TDC 中可同时选择公共知识库与私人知识库。"
             },
             "text": {
-              "h5": "Invocation, Download and Sharing of the Private Knowledge Base",
+              "h5": "私人知识库的调用、下载与共享",
               "paragraphs": [
                 {
-                  "body": "Every TTC is itself a private knowledge base. All knowledge, relationships and the like are automatically converted into vectors and a relationship tree, and exposed via MCP so that they participate in retrieval in TDC streaming Q&A. In other words, inside TDC a user can retrieve not only the public design knowledge base but also self-built and privately retrievable knowledge, extending the boundary of knowledge while keeping private knowledge private. Once a user enables sharing, recipients of the link can co-create within the same thinking canvas.",
+                  "body": "每一个 TTC 本身就是一座私人知识库。所有知识、关系等都会自动转成向量和关系树，并通过 MCP 暴露出来，从而参与 TDC 流式问答中的检索。也就是说，在 TDC 里，用户检索到的不只是公共设计知识库，还有自己搭建、仅自己可检索的知识，在守住私人知识的同时扩展知识边界。用户一旦开启共享，拿到链接的人就可以在同一张思维画布里共同创作。",
                   "muted": false
                 }
               ]
@@ -815,12 +815,12 @@
             ],
             "aside": {
               "role": "line_img_annotation",
-              "text": "Extracting value signals from TDC answer into a TTC."
+              "text": "从 TDC 的回答中提取价值信号，放进 TTC。"
             },
             "text": {
               "paragraphs": [
                 {
-                  "body": "Conversely, in TDC (tab1) a user can extract valuable signals from an answer — text responses as well as multimodal artifacts — into a relevant TTC (tab2), continuously enriching the private knowledge base. In this way TDC Q&A and TTC canvas form a production–consumption cycle.",
+                  "body": "反过来，在 TDC（tab1）里，用户也可以从一条回答中提取有价值的信号——文本回复以及多模态产物——放进相关的 TTC（tab2），持续充实私人知识库。这样一来，TDC 问答和 TTC 画布就形成了生产与消费的循环。",
                   "muted": false
                 }
               ]
@@ -844,13 +844,13 @@
             ],
             "aside": {
               "role": "line_img_annotation",
-              "text": "TDC streaming Q&A (tab1)"
+              "text": "TDC 流式问答（tab1）"
             },
             "text": {
-              "h5": "TDC (TAO Design Consultant)",
+              "h5": "TDC（TAO Design Consultant）",
               "paragraphs": [
                 {
-                  "body": "TDC positioned as a product for design thinking and consultation, it supports the daily work of user-experience designers with answering enquiries, assisting thinking and aiding design execution. The product consists of three core modules: tab1 — Streaming Q&A, tab2 — Thinking Canvas, tab3 — public knowledge base management.",
+                  "body": "TDC 被定位为面向设计思考与咨询的产品，用回答询问、辅助思考和协助设计执行，来支持用户体验设计师的日常工作。产品由三个核心模块组成：tab1 — 流式问答，tab2 — 思维画布，tab3 — 公共知识库管理。",
                   "muted": false
                 }
               ]
@@ -869,12 +869,12 @@
             ],
             "aside": {
               "role": "line_img_annotation",
-              "text": "TKB public knowledge-base management (tab3)"
+              "text": "TKB 公共知识库管理（tab3）"
             },
             "text": {
               "paragraphs": [
                 {
-                  "body": "TKB (TDC Knowledge Base) tree structures are co-built by design leads and maintained by team administrators — managing branches, adding and removing knowledge, cleaning and ingesting data, and reviewing. It provides both list and graph views for display and operation.",
+                  "body": "TKB（TDC Knowledge Base）的树状结构由设计负责人共同搭建，并由团队管理员维护——管理分支、增删知识、清洗与入库、以及审核。它同时提供列表视图和图谱视图，用来展示和操作。",
                   "muted": false
                 }
               ]
@@ -898,30 +898,16 @@
             ],
             "aside": {
               "role": "line_img_annotation",
-              "text": "TDC agent architecture."
+              "text": "TDC 智能体架构。"
             },
             "text": {
               "paragraphs": [
                 {
-                  "body": "On the technical side, TDC is built on a team-wide public knowledge base and design skills developed in-house by domain experts, and driven by the Qwen model as a single agent that handles requirement intake, clarification, autonomous reasoning and task routing, knowledge-base retrieval, skill and tool invocation, answering, and the automatic generation of interactive UI for multimodal output.",
+                  "body": "技术上，TDC 建立在全团队的公共知识库，以及领域专家在内部开发的设计技能之上，并由 Qwen 模型驱动的单一智能体来完成需求接收、澄清、自主推理与任务路由、知识库检索、技能与工具调用、回答，以及为多模态输出自动生成可交互的界面。",
                   "muted": false
                 },
                 {
-                  "body": "TDC accepts requirement input via natural language, explicit skill selection, multimodal content and voice. Based on multi-round comparative testing, we discarded the Multiple Sub-Agents pattern in favor of a Single Agent complemented by system and role definitions such as \"design consultation expert\". There are two reasons:",
-                  "muted": false
-                },
-                {
-                  "type": "list",
-                  "ordered": true,
-                  "bare": false,
-                  "muted": false,
-                  "items": [
-                    "Questions in the design domain are multi-dimensional and cross-cutting, so exhaustively enumerating sub-agents for every possible design task makes answers rigid, one-sided and off-target.",
-                    "As large language and multimodal models mature, it is entirely feasible to let the model itself perform judgement, planning and execution, which yields more comprehensive and flexible answers."
-                  ]
-                },
-                {
-                  "body": "Once intent is judged by the single agent, a requirement branches into three execution paths:",
+                  "body": "TDC 接受自然语言、显式技能选择、多模态内容和语音作为需求输入。经过多轮对比测试，我们放弃了 Multiple Sub-Agents 模式，改用单一智能体，并辅以「设计咨询专家」这类系统和角色定义。原因有两个：",
                   "muted": false
                 },
                 {
@@ -930,13 +916,27 @@
                   "bare": false,
                   "muted": false,
                   "items": [
-                    "Ambiguous intent triggers a clarification response.",
-                    "Chit-chat intent is answered directly by the LLM.",
-                    "Clear and professional intent enters the \"reason-then-act\" cycle (ReAct Loop), where the execution stage fills in evidence through team knowledge-base retrieval, expert skill invocation, application tool invocation and full-web search, and then outputs as streaming text or multimodal artifacts."
+                    "设计领域的问题是多维且交叉的，若为每一种可能的设计任务穷举子智能体，回答会变得僵硬、片面、偏离目标。",
+                    "随着大语言和多模态模型成熟，完全可以让模型自己做判断、规划和执行，从而得到更全面、更灵活的回答。"
                   ]
                 },
                 {
-                  "body": "Notably, it is precisely the knowledge base, skills, applications and memory management that make TDC distinct from a general-purpose agent — giving it specificity, domain focus and relevance. Each is described below.",
+                  "body": "一旦意图由单一智能体判断完成，需求会分进三条执行路径：",
+                  "muted": false
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": false,
+                  "muted": false,
+                  "items": [
+                    "意图含糊时，触发澄清式回应。",
+                    "闲聊意图由大模型直接回答。",
+                    "意图清晰且专业时，进入「先推理再行动」的循环（ReAct Loop）。执行阶段通过团队知识库检索、专家技能调用、应用工具调用和全网搜索补齐证据，再以流式文本或多模态产物输出。"
+                  ]
+                },
+                {
+                  "body": "值得注意的是，正是知识库、技能、应用和记忆管理，让 TDC 区别于通用智能体——它因此具备针对性、领域聚焦和相关性。下面逐一说明。",
                   "muted": false
                 }
               ]
@@ -955,17 +955,17 @@
             ],
             "aside": {
               "role": "line_img_annotation",
-              "text": "Memory mechanism for a single, infinite-stream conversation window."
+              "text": "单一、无限流对话窗口的记忆机制。"
             },
             "text": {
-              "h5": "Three-Layer Memory",
+              "h5": "三层记忆",
               "paragraphs": [
                 {
-                  "body": "The TDC memory system is managed in three layers: system-level memory, long-term conversational memory, and short-term conversational memory.",
+                  "body": "TDC 的记忆系统分三层管理：系统级记忆、长期对话记忆，以及短期对话记忆。",
                   "muted": false
                 },
                 {
-                  "body": "System-level memory holds team members' basic information, usage habits and explicitly stated preferences. Unlike mainstream conversation products, which offer \"new chat\" and multiple parallel chat windows, TDC keeps exactly one single, infinite stream conversation window: the user never needs to open a new session and can ask immediately at the end of the stream. In effect this is a pseudo-infinite context, achieved by retaining the short-term context and progressively compressing historical context by recency, so that session memory is split transparently, unrelated topics do not pollute each other, and related topics can be recalled.",
+                  "body": "系统级记忆保存团队成员的基本信息、使用习惯和明确表达的偏好。和主流对话产品提供「新对话」以及多个并行窗口不同，TDC 只保留一个单一、无限流的对话窗口：用户不需要新开一轮，可以在流的末尾直接接着问。这实际上是一种伪无限上下文，做法是保留短期上下文，并按时间远近逐步压缩历史上下文，从而让会话记忆被透明地拆开，无关话题不会互相污染，相关话题仍然可以被召回。",
                   "muted": false
                 }
               ]
@@ -984,13 +984,13 @@
             ],
             "aside": {
               "role": "line_img_annotation",
-              "text": "Knowledge ingestion pipeline."
+              "text": "知识入库流程。"
             },
             "text": {
-              "h5": "Public Knowledge Base",
+              "h5": "公共知识库的生产",
               "paragraphs": [
                 {
-                  "body": "TKB sources its knowledge from automatic document reading via bots in the office communication tool, MCP-readable synchronization from design tools, browser-extension saving, and manual local upload. It supports documents, spreadsheets, images, links, video, audio, presentations and source files, among other knowledge formats. After upload, data is automatically processed through multimodal parsing, format conversion, cleaning, chunking, vector embedding, and MCP construction and update — closing the loop between knowledge production in tab3 and consumption in tab1.",
+                  "body": "TKB 的知识来源包括：办公沟通工具中由机器人自动读取文档、设计工具经 MCP 可读的同步、浏览器扩展保存，以及手动本地上传。它支持文档、表格、图片、链接、视频、音频、演示文稿和源文件等多种知识格式。上传之后，数据会自动经过多模态解析、格式转换、清洗、分块、向量嵌入，以及 MCP 的构建与更新——把 tab3 的知识生产和 tab1 的消费接成闭环。",
                   "muted": false
                 }
               ]
@@ -1009,17 +1009,17 @@
             ],
             "aside": {
               "role": "line_img_annotation",
-              "text": "Full-cycle design skills."
+              "text": "覆盖全周期的设计技能。"
             },
             "text": {
-              "h5": "Skills Across the Full Design Cycle",
+              "h5": "贯穿完整设计周期的技能",
               "paragraphs": [
                 {
-                  "body": "Design experts on the team have developed skills covering the full design cycle, including requirement insight, user research, competitive analysis, problem definition, design strategy, design output, review and critique, case consolidation, and personal growth.",
+                  "body": "团队里的设计专家开发了覆盖完整设计周期的技能，包括需求洞察、用户研究、竞品分析、问题定义、设计策略、设计产出、评审与批判、案例沉淀，以及个人成长。",
                   "muted": false
                 },
                 {
-                  "body": "The difference between in-house skills and third-party open-source skills is that the pain points addressed, the guiding methodology, the boundary conditions, and the required assets or references are fully customised to the real design scenarios of the team.",
+                  "body": "内部技能和第三方开源技能的差别在于：要解决的痛点、指导方法、边界条件，以及所需的素材或参考，都完全按团队真实的设计场景定制。",
                   "muted": false
                 }
               ]
@@ -1044,12 +1044,12 @@
             ],
             "aside": {
               "role": "line_img_annotation",
-              "text": "fig1. Skill sidebar in tab1.\nfig2. Stylized skill covers."
+              "text": "fig1. tab1 中的技能侧栏。\nfig2. 风格化的技能封面。"
             },
             "text": {
               "paragraphs": [
                 {
-                  "body": "In streaming Q&A and in Thinking Canvas, users can invoke skills through natural language or explicit commands. TDC clarifies the need and calls the appropriate skill to solve the problem.",
+                  "body": "在流式问答和思维画布里，用户可以用自然语言或显式指令调用技能。TDC 会澄清需求，并调用合适的技能来解决问题。",
                   "muted": false
                 }
               ]
@@ -1085,12 +1085,12 @@
             ],
             "aside": {
               "role": "line_img_annotation",
-              "text": "fig1. Document and PDF artifacts.\nfig2. Web-page artifacts.\nfig3. Canvas artifacts."
+              "text": "fig1. 文档与 PDF 产物。\nfig2. 网页产物。\nfig3. 画布产物。"
             },
             "text": {
               "paragraphs": [
                 {
-                  "body": "Skill output is not limited to text — it takes more intuitive multimodal forms, for example user-research reports based on synthetic virtual users, team case PDFs, design-specification web pages, data-visualization interfaces for eye-tracking evaluation of a proposal, vector canvas windows for icon generation, and raster canvas windows for image generation.",
+                  "body": "技能的输出不限于文本，它会采用更直观的多模态形式。例如基于合成虚拟用户的用户研究报告、团队案例 PDF、设计规范网页、用于方案眼动评估的数据可视化界面、图标生成的矢量画布窗口，以及图像生成的位图画布窗口。",
                   "muted": false
                 }
               ]
@@ -1115,12 +1115,12 @@
             ],
             "aside": {
               "role": "line_img_annotation",
-              "text": "fig1. TDC design style specification.\nfig2. Intelligent UI generation for a skill artifact (e.g. experience-data prediction)."
+              "text": "fig1. TDC 设计风格规范。\nfig2. 为技能产物智能生成界面（例如体验数据预测）。"
             },
             "text": {
               "paragraphs": [
                 {
-                  "body": "To ensure that skills developed locally by different experts work correctly once integrated into TDC and remain consistent in interaction and visual language, the platform provides a skill-creator-skill that standardizes version, environment, format and style. With TDC element tokens and the component-library specification built in, it can intelligently generate the UI of skill outputs.",
+                  "body": "为了让不同专家在本地开发的技能接入 TDC 后仍能正确工作，并在交互和视觉语言上保持一致，平台提供了一个 skill-creator-skill，用来统一版本、环境、格式和风格。它内置了 TDC 的元素 token 和组件库规范，可以智能生成技能输出的界面。",
                   "muted": false
                 }
               ]
@@ -1144,13 +1144,13 @@
             ],
             "aside": {
               "role": "line_img_annotation",
-              "text": "Application architecture."
+              "text": "应用架构。"
             },
             "text": {
-              "h5": "Application Infrastructure and Ecosystem",
+              "h5": "应用基础设施与生态",
               "paragraphs": [
                 {
-                  "body": "Some design tasks only need a single skill call to produce a one-off standalone result — One-shot Artifact, such as research or review. Others require a real-time editable artifact with continuous editing, interaction and state updates — Live Editable Artifact, such as image generation. TDC therefore introduces application capability, providing a complete infrastructure — front end and back end, data storage, and built-in agent integration — for any self-developed tool by any individual.",
+                  "body": "有些设计任务只需要调用一次技能，就能得到一次性的独立结果——One-shot Artifact，例如研究或评审。另一些则需要可实时编辑的产物，持续进行编辑、交互和状态更新——Live Editable Artifact，例如图像生成。因此 TDC 引入了应用能力，为任何人自研的工具提供完整的基础设施：前端与后端、数据存储，以及内置的智能体集成。",
                   "muted": false
                 }
               ]
@@ -1174,20 +1174,20 @@
             ],
             "aside": {
               "role": "line_img_annotation",
-              "text": "Example: icon drawing application."
+              "text": "示例：图标绘制应用。"
             },
             "text": {
               "paragraphs": [
                 {
-                  "body": "When execution hits an application, its output modality can be presented as a middleware-like state of the application, exposing part of the result preview and light-weight editing. If the user needs deeper involvement, they can enter the application directly for further operations.",
+                  "body": "当执行命中一个应用时，它的输出形态可以呈现为应用的一种中间件式状态，露出一部分结果预览和轻量编辑。如果用户需要更深地介入，可以直接进入应用继续操作。",
                   "muted": false
                 },
                 {
-                  "body": "Taking the icon-drawing application developed by one of our design experts as an example: in ordinary streaming Q&A a user can request and launch a concrete icon-drawing task. The drawing result appears in the artifact window on the right, offering quick actions such as download and copy. Clicking \"edit in app\" at the top right enters the application fully, enabling vector-level refinement, specification settings and additional operations.",
+                  "body": "以我们一位设计专家开发的图标绘制应用为例：在普通的流式问答里，用户可以发起并启动一个具体的图标绘制任务。绘制结果出现在右侧的产物窗口，提供下载、复制等快捷操作。点击右上角的「edit in app」，就会完整进入应用，进行矢量级细化、规范设置和其他操作。",
                   "muted": true
                 },
                 {
-                  "body": "To date, TDC has accumulated 4,250 sessions, with a peak adoption rate of 63%. The platform now offers 26 skills with 1,747 invocations and 10 applications, alongside 290 TTC canvases created, 198 knowledge-base branches, 2,725 indexed files, and 280 million characters of content in total. It is also a full-stack practice in which the design team owns the entire lifecycle — product, design, development, and operations.",
+                  "body": "截至目前，TDC 累计 4,250 次会话，采用率峰值达到 63%。平台现有 26 项技能、1,747 次调用和 10 个应用，同时创建了 290 个 TTC 画布、198 个知识库分支、2,725 个已索引文件，内容总量 2.8 亿字符。这也是一次由设计团队掌握完整生命周期的全栈实践——产品、设计、开发与运营。",
                   "muted": false
                 }
               ]
@@ -1221,10 +1221,10 @@
               "text": ""
             },
             "text": {
-              "h5": "TTC Thinking Canvas",
+              "h5": "TTC シンキングキャンバス",
               "paragraphs": [
                 {
-                  "body": "Linear, turn-by-turn conversation poses several problems for the thinking habits of design and creative workers:",
+                  "body": "線形で、一問一答を繰り返す会話は、デザインやクリエイティブの仕事における思考の習慣に、いくつかの問題をもたらします。",
                   "muted": false
                 },
                 {
@@ -1233,14 +1233,14 @@
                   "bare": false,
                   "muted": false,
                   "items": [
-                    "Sequential Q&A makes it awkward to trace earlier information or branch off mid-conversation.",
-                    "There is no place to park intent or valuable information temporarily (questions and insights often emerge while information accumulates).",
-                    "It is hard to form an observable body of knowledge.",
-                    "Outsourcing thinking entirely leads to repeated questioning and wasted compute."
+                    "順番に質問と回答を重ねると、以前の情報をたどったり、会話の途中で枝分かれしたりしにくい。",
+                    "意図や価値のある情報を一時的に置いておく場所がない（問いと洞察は、情報が積み重なる途中で生まれることが多い）。",
+                    "観察できる知識のまとまりをつくりにくい。",
+                    "思考をすべて外注すると、同じ問いを繰り返し、計算資源も浪費する。"
                   ]
                 },
                 {
-                  "body": "TTC (TAO Thinking Canvas) was created to address these issues. TTC uses a canvas interaction paradigm to visualize the inputs, processes and outcomes of human-AI collaborative thinking. From capturing spontaneous ideas and fragments of inspiration without predefined intentions to revisiting them through purposeful inquiry, TTC enables designers to extract meaningful signals from noisy sources and progressively incorporate fragmented insights into coherent design and observable knowledge outcomes.",
+                  "body": "TTC（TAO Thinking Canvas）は、これらの問題に応えるために生まれました。人と AI が協働して考えるときの入力、過程、結果を、キャンバスというインタラクションで可視化します。あらかじめ意図を決めずに、ふとしたアイデアや着想の断片を捉え、あとから目的を持って問い直す。TTC によってデザイナーは、ノイズの多い素材から意味のあるシグナルを取り出し、断片的な洞察を、一貫したデザインと、観察できる知識の成果へと少しずつ組み上げていきます。",
                   "muted": false
                 }
               ]
@@ -1289,17 +1289,17 @@
             ],
             "aside": {
               "role": "line_img_annotation",
-              "text": "fig1. Question and idea fragments.\nfig2. Image fragment and region cropping.\nfig3. Link fragment.\nfig4. File fragment and text selection.\nfig5. Video fragment and frame capture.\nfig6. Audio fragment and clips (with TTS transcription)."
+              "text": "fig1. 問いとアイデアの断片。\nfig2. 画像の断片と領域クロップ。\nfig3. リンクの断片。\nfig4. ファイルの断片とテキスト選択。\nfig5. 動画の断片とフレームの切り出し。\nfig6. 音声の断片とクリップ（TTS による文字起こしを含む）。"
             },
             "text": {
-              "h5": "Multimodal Knowledge Fragments and Extraction of Value Signals",
+              "h5": "マルチモーダルな知識の断片と、価値シグナルの抽出",
               "paragraphs": [
                 {
-                  "body": "TTC allows users to create or insert multimodal knowledge fragments on the canvas: Q&A, text, images, links, files, video and audio. All fragment modalities can be previewed directly on the canvas, and the description area beneath each fragment can carry supplementary information.",
+                  "body": "TTC では、キャンバス上にマルチモーダルな知識の断片を作成したり挿入したりできます。質疑応答、テキスト、画像、リンク、ファイル、動画、音声です。どのモーダリティもキャンバス上で直接プレビューでき、各断片の下にある説明欄には補足を書けます。",
                   "muted": false
                 },
                 {
-                  "body": "Users can extract the value signals from a fragment — the parts that are important, citable, or ready to be questioned: cropping a region of an image, selecting text in a file, capturing a frame from a video, trimming a segment of audio, and so on.",
+                  "body": "ユーザーは断片から価値シグナル、つまり重要で、引用でき、問いの対象にできる部分を取り出せます。画像の一部を切り抜く、ファイル内のテキストを選択する、動画からフレームを切り出す、音声の一部をトリミングする、といった操作です。",
                   "muted": false
                 }
               ]
@@ -1330,17 +1330,17 @@
             ],
             "aside": {
               "role": "line_img_annotation",
-              "text": "fig1. Freely designating knowledge fragments to question.\nfig2. Parallel Q&A — Multiple intents across multiple objects.\nfig3. Parallel Q&A — Multiple intents on the same object."
+              "text": "fig1. 知識の断片を自由に指定して問う。\nfig2. 並列 Q&A — 複数の意図を、複数の対象に向ける。\nfig3. 並列 Q&A — 複数の意図を、同じ対象に向ける。"
             },
             "text": {
-              "h5": "Free Extension of Thought",
+              "h5": "思考の自由な拡張",
               "paragraphs": [
                 {
-                  "body": "TTC supports grouping related knowledge fragments and asking questions in parallel, at the same time, about one or several objects. Operationally, besides selecting objects first and then asking, a user can create a question card directly and use the @ command to freely designate knowledge fragments on the canvas. Answer cards are rendered as streaming text cards or multimodal artifact cards.",
+                  "body": "TTC は、関連する知識の断片をまとめ、一つまたは複数の対象について、同時に並列で質問できます。操作としては、対象を選んでから問うだけでなく、質問カードを直接つくり、@ コマンドでキャンバス上の知識の断片を自由に指定することもできます。回答カードは、ストリーミングのテキストカード、またはマルチモーダルなアーティファクトカードとして描画されます。",
                   "muted": false
                 },
                 {
-                  "body": "Connector lines between referenced fragments and question cards visualize the thread of thought. Note, however, that connectors are not something the user operates — they are only a display of interaction state. TTC is not fundamentally a workflow: tasks are not fixed by arranging nodes and wires so that one input process yields one locked result.",
+                  "body": "参照された断片と質問カードをつなぐ線は、思考の筋道を可視化します。ただしコネクタはユーザーが操作するものではなく、インタラクションの状態を表示しているだけです。TTC は本質的にワークフローではありません。ノードと線を組んで、一つの入力プロセスから一つの固定された結果を出す、という仕組みではないのです。",
                   "muted": false
                 }
               ]
@@ -1364,13 +1364,13 @@
             ],
             "aside": {
               "role": "line_img_annotation",
-              "text": "fig1. Enabling the MCP of a TTC private knowledge base.\nfig2. Both public and private knowledge bases selectable in TDC."
+              "text": "fig1. TTC のプライベートナレッジベースの MCP を有効にする。\nfig2. TDC ではパブリックとプライベートの両方のナレッジベースを選べる。"
             },
             "text": {
-              "h5": "Invocation, Download and Sharing of the Private Knowledge Base",
+              "h5": "プライベートナレッジベースの呼び出し、ダウンロード、共有",
               "paragraphs": [
                 {
-                  "body": "Every TTC is itself a private knowledge base. All knowledge, relationships and the like are automatically converted into vectors and a relationship tree, and exposed via MCP so that they participate in retrieval in TDC streaming Q&A. In other words, inside TDC a user can retrieve not only the public design knowledge base but also self-built and privately retrievable knowledge, extending the boundary of knowledge while keeping private knowledge private. Once a user enables sharing, recipients of the link can co-create within the same thinking canvas.",
+                  "body": "それぞれの TTC は、それ自体がプライベートなナレッジベースです。知識や関係性などは自動的にベクトルと関係ツリーへ変換され、MCP を通じて公開されることで、TDC のストリーミング Q&A における検索に参加します。つまり TDC の中では、パブリックなデザインのナレッジベースだけでなく、自分で構築し、自分だけが検索できる知識も引き出せます。プライベートな知識はプライベートなまま、知識の境界を広げられます。共有を有効にすると、リンクを受け取った人は同じシンキングキャンバスの中で共同制作できます。",
                   "muted": false
                 }
               ]
@@ -1389,12 +1389,12 @@
             ],
             "aside": {
               "role": "line_img_annotation",
-              "text": "Extracting value signals from TDC answer into a TTC."
+              "text": "TDC の回答から価値シグナルを取り出し、TTC へ入れる。"
             },
             "text": {
               "paragraphs": [
                 {
-                  "body": "Conversely, in TDC (tab1) a user can extract valuable signals from an answer — text responses as well as multimodal artifacts — into a relevant TTC (tab2), continuously enriching the private knowledge base. In this way TDC Q&A and TTC canvas form a production–consumption cycle.",
+                  "body": "逆に、TDC（tab1）では、回答から価値のあるシグナル——テキストの返答とマルチモーダルなアーティファクトの両方——を、関連する TTC（tab2）へ取り込めます。プライベートなナレッジベースはこうして継続的に豊かになります。TDC の Q&A と TTC のキャンバスは、生産と消費の循環を形づくります。",
                   "muted": false
                 }
               ]
@@ -1418,13 +1418,13 @@
             ],
             "aside": {
               "role": "line_img_annotation",
-              "text": "TDC streaming Q&A (tab1)"
+              "text": "TDC ストリーミング Q&A（tab1）"
             },
             "text": {
-              "h5": "TDC (TAO Design Consultant)",
+              "h5": "TDC（TAO Design Consultant）",
               "paragraphs": [
                 {
-                  "body": "TDC positioned as a product for design thinking and consultation, it supports the daily work of user-experience designers with answering enquiries, assisting thinking and aiding design execution. The product consists of three core modules: tab1 — Streaming Q&A, tab2 — Thinking Canvas, tab3 — public knowledge base management.",
+                  "body": "TDC は、デザインの思考とコンサルテーションのためのプロダクトとして位置づけられています。問い合わせへの回答、思考の補助、デザイン実行の支援を通じて、UX デザイナーの日常の仕事を支えます。プロダクトは三つの中核モジュールで構成されます。tab1 — ストリーミング Q&A、tab2 — シンキングキャンバス、tab3 — パブリックナレッジベースの管理です。",
                   "muted": false
                 }
               ]
@@ -1443,12 +1443,12 @@
             ],
             "aside": {
               "role": "line_img_annotation",
-              "text": "TKB public knowledge-base management (tab3)"
+              "text": "TKB パブリックナレッジベースの管理（tab3）"
             },
             "text": {
               "paragraphs": [
                 {
-                  "body": "TKB (TDC Knowledge Base) tree structures are co-built by design leads and maintained by team administrators — managing branches, adding and removing knowledge, cleaning and ingesting data, and reviewing. It provides both list and graph views for display and operation.",
+                  "body": "TKB（TDC Knowledge Base）のツリー構造はデザインリードが共同で構築し、チームの管理者が維持します。ブランチの管理、知識の追加と削除、データのクリーニングと取り込み、レビューを担います。表示と操作のために、リストビューとグラフビューの両方を備えています。",
                   "muted": false
                 }
               ]
@@ -1472,30 +1472,16 @@
             ],
             "aside": {
               "role": "line_img_annotation",
-              "text": "TDC agent architecture."
+              "text": "TDC のエージェントアーキテクチャ。"
             },
             "text": {
               "paragraphs": [
                 {
-                  "body": "On the technical side, TDC is built on a team-wide public knowledge base and design skills developed in-house by domain experts, and driven by the Qwen model as a single agent that handles requirement intake, clarification, autonomous reasoning and task routing, knowledge-base retrieval, skill and tool invocation, answering, and the automatic generation of interactive UI for multimodal output.",
+                  "body": "技術面では、TDC はチーム全体のパブリックナレッジベースと、ドメインの専門家が社内で開発したデザインスキルの上に構築されています。Qwen モデルによる単一エージェントが、要件の受付、明確化、自律的な推論とタスクの振り分け、ナレッジベース検索、スキルとツールの呼び出し、回答、そしてマルチモーダル出力のためのインタラクティブ UI の自動生成を担います。",
                   "muted": false
                 },
                 {
-                  "body": "TDC accepts requirement input via natural language, explicit skill selection, multimodal content and voice. Based on multi-round comparative testing, we discarded the Multiple Sub-Agents pattern in favor of a Single Agent complemented by system and role definitions such as \"design consultation expert\". There are two reasons:",
-                  "muted": false
-                },
-                {
-                  "type": "list",
-                  "ordered": true,
-                  "bare": false,
-                  "muted": false,
-                  "items": [
-                    "Questions in the design domain are multi-dimensional and cross-cutting, so exhaustively enumerating sub-agents for every possible design task makes answers rigid, one-sided and off-target.",
-                    "As large language and multimodal models mature, it is entirely feasible to let the model itself perform judgement, planning and execution, which yields more comprehensive and flexible answers."
-                  ]
-                },
-                {
-                  "body": "Once intent is judged by the single agent, a requirement branches into three execution paths:",
+                  "body": "TDC は、自然言語、明示的なスキル選択、マルチモーダルなコンテンツ、音声で要件を受け取ります。複数回の比較検証の結果、Multiple Sub-Agents のパターンは採用せず、単一エージェントに、「デザインコンサルテーションの専門家」のようなシステムおよびロール定義を組み合わせることにしました。理由は二つあります。",
                   "muted": false
                 },
                 {
@@ -1504,13 +1490,27 @@
                   "bare": false,
                   "muted": false,
                   "items": [
-                    "Ambiguous intent triggers a clarification response.",
-                    "Chit-chat intent is answered directly by the LLM.",
-                    "Clear and professional intent enters the \"reason-then-act\" cycle (ReAct Loop), where the execution stage fills in evidence through team knowledge-base retrieval, expert skill invocation, application tool invocation and full-web search, and then outputs as streaming text or multimodal artifacts."
+                    "デザイン領域の問いは多次元で横断的であり、あり得るデザインタスクごとにサブエージェントを網羅しようとすると、回答は硬直し、一面的で、的を外します。",
+                    "大規模言語モデルとマルチモーダルモデルが成熟した今、判断、計画、実行をモデル自身に委ねることは十分に可能であり、その方がより包括的で柔軟な回答が得られます。"
                   ]
                 },
                 {
-                  "body": "Notably, it is precisely the knowledge base, skills, applications and memory management that make TDC distinct from a general-purpose agent — giving it specificity, domain focus and relevance. Each is described below.",
+                  "body": "意図が単一エージェントによって判断されると、要件は三つの実行パスに分かれます。",
+                  "muted": false
+                },
+                {
+                  "type": "list",
+                  "ordered": true,
+                  "bare": false,
+                  "muted": false,
+                  "items": [
+                    "意図が曖昧な場合は、明確化のための応答を返します。",
+                    "雑談の意図は、LLM が直接答えます。",
+                    "意図が明確で専門的な場合は、「考えてから動く」循環（ReAct Loop）に入ります。実行段階では、チームのナレッジベース検索、専門家スキルの呼び出し、アプリケーションツールの呼び出し、ウェブ全体の検索によって根拠を補い、ストリーミングテキストまたはマルチモーダルなアーティファクトとして出力します。"
+                  ]
+                },
+                {
+                  "body": "注目すべきは、ナレッジベース、スキル、アプリケーション、メモリ管理こそが、TDC を汎用エージェントと分けている点です。それによって具体性、領域への焦点、関連性が生まれます。以下でそれぞれを説明します。",
                   "muted": false
                 }
               ]
@@ -1529,17 +1529,17 @@
             ],
             "aside": {
               "role": "line_img_annotation",
-              "text": "Memory mechanism for a single, infinite-stream conversation window."
+              "text": "単一の、無限ストリームの会話ウィンドウにおけるメモリの仕組み。"
             },
             "text": {
-              "h5": "Three-Layer Memory",
+              "h5": "三層のメモリ",
               "paragraphs": [
                 {
-                  "body": "The TDC memory system is managed in three layers: system-level memory, long-term conversational memory, and short-term conversational memory.",
+                  "body": "TDC のメモリシステムは三層で管理されます。システムレベルのメモリ、長期の会話メモリ、短期の会話メモリです。",
                   "muted": false
                 },
                 {
-                  "body": "System-level memory holds team members' basic information, usage habits and explicitly stated preferences. Unlike mainstream conversation products, which offer \"new chat\" and multiple parallel chat windows, TDC keeps exactly one single, infinite stream conversation window: the user never needs to open a new session and can ask immediately at the end of the stream. In effect this is a pseudo-infinite context, achieved by retaining the short-term context and progressively compressing historical context by recency, so that session memory is split transparently, unrelated topics do not pollute each other, and related topics can be recalled.",
+                  "body": "システムレベルのメモリには、チームメンバーの基本情報、利用の習慣、明示された好みが入ります。主流の会話プロダクトが「新規チャット」と複数の並行ウィンドウを用意するのとは異なり、TDC が保つのは、ただ一つの、無限に続く会話ウィンドウだけです。ユーザーは新しいセッションを開く必要がなく、ストリームの末尾ですぐに質問できます。実質的には疑似的な無限コンテキストであり、短期のコンテキストを保持しつつ、歴史的なコンテキストを新しさに応じて段階的に圧縮することで実現しています。セッションのメモリは透過的に分割され、無関係な話題は互いに汚染せず、関連する話題は呼び戻せます。",
                   "muted": false
                 }
               ]
@@ -1558,13 +1558,13 @@
             ],
             "aside": {
               "role": "line_img_annotation",
-              "text": "Knowledge ingestion pipeline."
+              "text": "知識の取り込みパイプライン。"
             },
             "text": {
-              "h5": "Public Knowledge Base",
+              "h5": "パブリックナレッジベースの生産",
               "paragraphs": [
                 {
-                  "body": "TKB sources its knowledge from automatic document reading via bots in the office communication tool, MCP-readable synchronization from design tools, browser-extension saving, and manual local upload. It supports documents, spreadsheets, images, links, video, audio, presentations and source files, among other knowledge formats. After upload, data is automatically processed through multimodal parsing, format conversion, cleaning, chunking, vector embedding, and MCP construction and update — closing the loop between knowledge production in tab3 and consumption in tab1.",
+                  "body": "TKB の知識は、オフィスのコミュニケーションツール上のボットによる文書の自動読み取り、デザインツールからの MCP で読める同期、ブラウザ拡張による保存、手動のローカルアップロードから得られます。文書、スプレッドシート、画像、リンク、動画、音声、プレゼンテーション、ソースファイルなど、複数の知識フォーマットに対応します。アップロード後、データはマルチモーダル解析、フォーマット変換、クリーニング、チャンク分割、ベクトル埋め込み、MCP の構築と更新を自動で経て、tab3 での知識の生産と tab1 での消費が一つのループになります。",
                   "muted": false
                 }
               ]
@@ -1583,17 +1583,17 @@
             ],
             "aside": {
               "role": "line_img_annotation",
-              "text": "Full-cycle design skills."
+              "text": "デザインの全工程を覆うスキル。"
             },
             "text": {
-              "h5": "Skills Across the Full Design Cycle",
+              "h5": "デザインの全工程にわたるスキル",
               "paragraphs": [
                 {
-                  "body": "Design experts on the team have developed skills covering the full design cycle, including requirement insight, user research, competitive analysis, problem definition, design strategy, design output, review and critique, case consolidation, and personal growth.",
+                  "body": "チームのデザイン専門家は、デザインの全工程を覆うスキルを開発しています。要件の洞察、ユーザーリサーチ、競合分析、問題定義、デザイン戦略、デザインアウトプット、レビューと批評、事例の整理、個人の成長が含まれます。",
                   "muted": false
                 },
                 {
-                  "body": "The difference between in-house skills and third-party open-source skills is that the pain points addressed, the guiding methodology, the boundary conditions, and the required assets or references are fully customised to the real design scenarios of the team.",
+                  "body": "社内スキルとサードパーティのオープンソーススキルの違いは、扱う課題、導く方法論、境界条件、必要となる素材や参照が、チームの実際のデザイン場面に合わせて完全にカスタマイズされていることです。",
                   "muted": false
                 }
               ]
@@ -1618,12 +1618,12 @@
             ],
             "aside": {
               "role": "line_img_annotation",
-              "text": "fig1. Skill sidebar in tab1.\nfig2. Stylized skill covers."
+              "text": "fig1. tab1 のスキルスライドバー。\nfig2. スタイルを施したスキルカバー。"
             },
             "text": {
               "paragraphs": [
                 {
-                  "body": "In streaming Q&A and in Thinking Canvas, users can invoke skills through natural language or explicit commands. TDC clarifies the need and calls the appropriate skill to solve the problem.",
+                  "body": "ストリーミング Q&A とシンキングキャンバスでは、自然言語または明示的なコマンドでスキルを呼び出せます。TDC はニーズを明確にし、適切なスキルを呼び出して問題を解きます。",
                   "muted": false
                 }
               ]
@@ -1659,12 +1659,12 @@
             ],
             "aside": {
               "role": "line_img_annotation",
-              "text": "fig1. Document and PDF artifacts.\nfig2. Web-page artifacts.\nfig3. Canvas artifacts."
+              "text": "fig1. 文書と PDF のアーティファクト。\nfig2. ウェブページのアーティファクト。\nfig3. キャンバスのアーティファクト。"
             },
             "text": {
               "paragraphs": [
                 {
-                  "body": "Skill output is not limited to text — it takes more intuitive multimodal forms, for example user-research reports based on synthetic virtual users, team case PDFs, design-specification web pages, data-visualization interfaces for eye-tracking evaluation of a proposal, vector canvas windows for icon generation, and raster canvas windows for image generation.",
+                  "body": "スキルの出力はテキストに限りません。より直感的なマルチモーダルの形をとります。たとえば、合成されたバーチャルユーザーに基づくユーザーリサーチレポート、チーム事例の PDF、デザイン仕様のウェブページ、提案のアイトラッキング評価のためのデータ可視化インターフェース、アイコン生成用のベクターキャンバス、画像生成用のラスターキャンバスです。",
                   "muted": false
                 }
               ]
@@ -1689,12 +1689,12 @@
             ],
             "aside": {
               "role": "line_img_annotation",
-              "text": "fig1. TDC design style specification.\nfig2. Intelligent UI generation for a skill artifact (e.g. experience-data prediction)."
+              "text": "fig1. TDC のデザインスタイル仕様。\nfig2. スキルのアーティファクトに対する知的な UI 生成（例：体験データの予測）。"
             },
             "text": {
               "paragraphs": [
                 {
-                  "body": "To ensure that skills developed locally by different experts work correctly once integrated into TDC and remain consistent in interaction and visual language, the platform provides a skill-creator-skill that standardizes version, environment, format and style. With TDC element tokens and the component-library specification built in, it can intelligently generate the UI of skill outputs.",
+                  "body": "異なる専門家がローカルで開発したスキルが TDC に統合されたあとも正しく動き、インタラクションとビジュアル言語が一貫するよう、プラットフォームは skill-creator-skill を提供します。バージョン、環境、フォーマット、スタイルを標準化します。TDC のエレメントトークンとコンポーネントライブラリの仕様を内蔵しているため、スキル出力の UI を知的に生成できます。",
                   "muted": false
                 }
               ]
@@ -1718,13 +1718,13 @@
             ],
             "aside": {
               "role": "line_img_annotation",
-              "text": "Application architecture."
+              "text": "アプリケーションアーキテクチャ。"
             },
             "text": {
-              "h5": "Application Infrastructure and Ecosystem",
+              "h5": "アプリケーションの基盤とエコシステム",
               "paragraphs": [
                 {
-                  "body": "Some design tasks only need a single skill call to produce a one-off standalone result — One-shot Artifact, such as research or review. Others require a real-time editable artifact with continuous editing, interaction and state updates — Live Editable Artifact, such as image generation. TDC therefore introduces application capability, providing a complete infrastructure — front end and back end, data storage, and built-in agent integration — for any self-developed tool by any individual.",
+                  "body": "デザインのタスクには、スキルを一度呼ぶだけで一回きりの独立した結果が得られるものがあります。One-shot Artifact です。リサーチやレビューがこれにあたります。一方で、継続的な編集、インタラクション、状態更新が可能な、リアルタイムに編集できるアーティファクトを必要とするものもあります。Live Editable Artifact です。画像生成がこれにあたります。そこで TDC はアプリケーション機能を導入し、個人が自作したあらゆるツールのために、フロントエンドとバックエンド、データストレージ、組み込みのエージェント統合を含む完全な基盤を提供します。",
                   "muted": false
                 }
               ]
@@ -1748,20 +1748,20 @@
             ],
             "aside": {
               "role": "line_img_annotation",
-              "text": "Example: icon drawing application."
+              "text": "例：アイコン描画アプリケーション。"
             },
             "text": {
               "paragraphs": [
                 {
-                  "body": "When execution hits an application, its output modality can be presented as a middleware-like state of the application, exposing part of the result preview and light-weight editing. If the user needs deeper involvement, they can enter the application directly for further operations.",
+                  "body": "実行がアプリケーションに当たると、その出力モダリティは、アプリケーションのミドルウェアのような状態として提示できます。結果プレビューの一部と、軽い編集が表に出ます。より深く関わる必要がある場合は、アプリケーションに直接入り、さらに操作できます。",
                   "muted": false
                 },
                 {
-                  "body": "Taking the icon-drawing application developed by one of our design experts as an example: in ordinary streaming Q&A a user can request and launch a concrete icon-drawing task. The drawing result appears in the artifact window on the right, offering quick actions such as download and copy. Clicking \"edit in app\" at the top right enters the application fully, enabling vector-level refinement, specification settings and additional operations.",
+                  "body": "チームのデザイン専門家が開発したアイコン描画アプリケーションを例にします。通常のストリーミング Q&A で、ユーザーは具体的なアイコン描画タスクを依頼し、起動できます。描画結果は右側のアーティファクトウィンドウに現れ、ダウンロードやコピーなどのクイックアクションを提供します。右上の「edit in app」をクリックするとアプリケーションに完全に入り、ベクターレベルの調整、仕様の設定、その他の操作ができます。",
                   "muted": true
                 },
                 {
-                  "body": "To date, TDC has accumulated 4,250 sessions, with a peak adoption rate of 63%. The platform now offers 26 skills with 1,747 invocations and 10 applications, alongside 290 TTC canvases created, 198 knowledge-base branches, 2,725 indexed files, and 280 million characters of content in total. It is also a full-stack practice in which the design team owns the entire lifecycle — product, design, development, and operations.",
+                  "body": "現時点で TDC は 4,250 セッションを積み重ね、採用率のピークは 63% です。プラットフォームは現在 26 のスキル、1,747 回の呼び出し、10 のアプリケーションを提供し、作成された TTC キャンバスは 290、ナレッジベースのブランチは 198、インデックス済みファイルは 2,725、コンテンツの総量は 2 億 8,000 万文字です。プロダクト、デザイン、開発、運用まで、デザインチームがライフサイクル全体を担うフルスタックの実践でもあります。",
                   "muted": false
                 }
               ]

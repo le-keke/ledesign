@@ -1,7 +1,7 @@
 /**
  * Session navigation cache for Astro ClientRouter:
  * - Reuse already-fetched HTML when revisiting a URL in this tab
- * - In production, register a SW that cache-firsts Vercel Blob images
+ * - In production, register a SW that cache-firsts images (Blob and same-origin covers)
  */
 
 declare global {

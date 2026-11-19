@@ -1,8 +1,9 @@
 /**
- * Cache-first for Vercel Blob images during (and across) visits.
+ * Cache-first for images during (and across) visits.
+ * Vercel Blob detail images, and same-origin covers (hashed /_astro assets).
  * Videos are left alone — Range requests break if a full response is cached.
  */
-const CACHE = 'lede-blob-images-v1';
+const CACHE = 'lede-images-v2';
 const BLOB_HOST_RE = /\.public\.blob\.vercel-storage\.com$/i;
 const IMAGE_RE = /\.(png|jpe?g|gif|webp|avif|svg)$/i;
 
@@ -11,7 +12,12 @@ self.addEventListener('install', (event) => {
 });
 
 self.addEventListener('activate', (event) => {
-  event.waitUntil(self.clients.claim());
+  event.waitUntil(
+    caches
+      .keys()
+      .then((keys) => Promise.all(keys.filter((key) => key !== CACHE).map((key) => caches.delete(key))))
+      .then(() => self.clients.claim()),
+  );
 });
 
 self.addEventListener('fetch', (event) => {
@@ -25,7 +31,10 @@ self.addEventListener('fetch', (event) => {
     return;
   }
 
-  if (!BLOB_HOST_RE.test(url.hostname) || !IMAGE_RE.test(url.pathname)) return;
+  const isImage = IMAGE_RE.test(url.pathname);
+  const isBlob = BLOB_HOST_RE.test(url.hostname);
+  const isSameOrigin = url.origin === self.location.origin;
+  if (!isImage || (!isBlob && !isSameOrigin)) return;
 
   event.respondWith(
     caches.open(CACHE).then(async (cache) => {
