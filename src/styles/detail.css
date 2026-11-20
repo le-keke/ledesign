@@ -85,9 +85,10 @@
 }
 
 @media (max-width: 1240px) {
-  .detail_container > .page,
-  .detail_container--bleed-pad > .page {
-    padding-block-start: 6.25rem; /* 100px — clear Close / logo */
+  /* Only the first band clears the fixed Close / logo. Later bands keep
+     the same 40px top pad as their bottom pad. */
+  .stream > .detail_container:first-child > .page {
+    padding-block-start: 6.25rem; /* 100px */
   }
 }
 
