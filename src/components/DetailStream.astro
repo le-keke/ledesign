@@ -66,8 +66,8 @@ function spacingClass(spacing?: string[]) {
                         <img
                           src={block.src}
                           alt={block.alt || ''}
-                          width="1686"
-                          height="948"
+                          width={block.width ?? 1686}
+                          height={block.height ?? 948}
                           fetchpriority="high"
                           decoding="async"
                         />

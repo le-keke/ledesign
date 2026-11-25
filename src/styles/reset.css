@@ -27,6 +27,9 @@ canvas,
 svg {
   display: block;
   max-width: 100%;
+  /* Width/height attributes only reserve ratio. Without this, a late
+     stylesheet leaves height locked and the bitmap stretches. */
+  height: auto;
 }
 
 input,

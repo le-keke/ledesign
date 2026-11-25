@@ -93,6 +93,9 @@ export type DetailBlock =
       kind?: 'image' | 'video';
       src: string;
       alt?: string;
+      /** Intrinsic pixels. Keeps the reserved box in ratio with the file. */
+      width?: number;
+      height?: number;
     }
   | {
       type: 'detail_line_image';
